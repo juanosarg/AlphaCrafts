@@ -1,0 +1,4 @@
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.5\Assemblies\AlphaCrafts.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.5\Source\AlphaCrafts\AlphaCrafts\obj\Debug\AlphaCrafts.csproj.AssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.5\Source\AlphaCrafts\AlphaCrafts\obj\Debug\AlphaCrafts.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.5\Source\AlphaCrafts\AlphaCrafts\obj\Debug\AlphaCrafts.dll

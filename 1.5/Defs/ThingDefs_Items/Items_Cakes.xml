@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="MealCooked">
+		<defName>VCE_FondantCake</defName>
+		<label>cupcake</label>
+		<description>This is a cake.</description>
+		<graphicData>
+			<texPath>Things/Meals/VCE_Cakes/Bases/VCE_BaseBrown</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>450</WorkToMake>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<rotatable>false</rotatable>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought>AteFineMeal</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="GraphicCustomization.CompProperties_GraphicCustomization">
+				<customizable>true</customizable>
+				<customizationTitle>Cake Customization</customizationTitle>
+				<graphics>
+					<li>
+						<name>Base</name>
+						<texVariants>
+							<li>
+								<texName>Blue and Green</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BaseBlueGreen</texture>
+							</li>
+							<li>
+								<texName>Brown</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BaseBrown</texture>
+								<chanceOverride>10</chanceOverride>
+							</li>
+							<li>
+								<texName>Pale Green</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BasePaleGreen</texture>
+								<chanceOverride>10</chanceOverride>
+							</li>
+							<li>
+								<texName>Pale Red</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BasePaleRed</texture>
+								<chanceOverride>10</chanceOverride>
+							</li>
+							<li>
+								<texName>Chocolate</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BaseChocolate</texture>
+								<chanceOverride>10</chanceOverride>
+							</li>
+							<li>
+								<texName>Cream</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BaseCream</texture>
+							</li>
+							<li>
+								<texName>Cyan</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BaseCyan</texture>
+							</li>
+							<li>
+								<texName>Lime</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BaseLime</texture>
+							</li>
+							<li>
+								<texName>Ochre</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BaseOchre</texture>
+							</li>
+							<li>
+								<texName>Orange-Pink</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BaseOrangePink</texture>
+							</li>
+							<li>
+								<texName>Pink</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BasePink</texture>
+							</li>
+							<li>
+								<texName>Purple</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BasePurple</texture>
+							</li>
+							<li>
+								<texName>Red</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BaseRed</texture>
+							</li>
+							<li>
+								<texName>White</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BaseWhite</texture>
+								<chanceOverride>10</chanceOverride>
+							</li>
+							<li>
+								<texName>Yellow</texName>
+								<outline>Things/Meals/VCE_Cakes/Bases/VCE_Base_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Bases/VCE_BaseYellow</texture>
+							</li>
+						</texVariants>
+					</li>
+					<li>
+						<name>Trim</name>
+						<texVariants>
+							<li>
+								<texName>Black Bands</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_TrimBands_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimBandsBlack</texture>
+							</li>
+							<li>
+								<texName>Red Bands</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_TrimBands_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimBandsRed</texture>
+							</li>
+							<li>
+								<texName>White Bands</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_TrimBands_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimBandsWhite</texture>
+							</li>
+							<li>
+								<texName>Blue Trim</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_Trim_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimBlue</texture>
+							</li>
+							<li>
+								<texName>Orange Trim</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_Trim_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimOrange</texture>
+							</li>
+							<li>
+								<texName>Pink Trim</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_Trim_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimPink</texture>
+							</li>
+							<li>
+								<texName>Purple Trim</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_Trim_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimPurple</texture>
+							</li>
+							<li>
+								<texName>Grass Trim</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_TrimGrass_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimGrass</texture>
+							</li>
+							<li>
+								<texName>White Balls</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_TrimBalls_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimWhiteBalls</texture>
+							</li>
+							<li>
+								<texName>Brown Balls</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_TrimBalls_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimBrownBalls</texture>
+							</li>
+							<li>
+								<texName>Red Bows</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_TrimBow_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimBowRed</texture>
+							</li>
+							<li>
+								<texName>Cyan Bows</texName>
+								<outline>Things/Meals/VCE_Cakes/Trims/VCE_TrimBow_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Trims/VCE_TrimBowCyan</texture>
+							</li>
+						</texVariants>
+					</li>
+					<li>
+						<name>Topper</name>
+						<texVariants>
+							<li>
+								<texName>Stripped candles</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperCandlesStripped_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperCandlesStripped</texture>
+							</li>
+							<li>
+								<texName>Cherries</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperCherries_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperCherries</texture>
+							</li>
+							<li>
+								<texName>Cream</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperCream_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperCream</texture>
+							</li>
+							<li>
+								<texName>Chocolate cream</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperCreamChocolate_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperCreamChocolate</texture>
+							</li>
+							<li>
+								<texName>Cream with red dots</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperCreamRedDots_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperCreamRedDots</texture>
+							</li>
+							<li>
+								<texName>Red Dots</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperDots_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperDotsRed</texture>
+							</li>
+							<li>
+								<texName>White Hearts</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperHearts_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperHeartsWhite</texture>
+							</li>
+							<li>
+								<texName>Lion</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperLion_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperLion</texture>
+							</li>
+							<li>
+								<texName>Rainbow</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperRainbow_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperRainbow</texture>
+							</li>
+							<li>
+								<texName>Teapot</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperTeapot_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperTeapot</texture>
+							</li>
+							<li>
+								<texName>Trees</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperTrees_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperTrees</texture>
+							</li>
+							<li>
+								<texName>Zebra</texName>
+								<outline>Things/Meals/VCE_Cakes/Toppers/VCE_TopperZebra_Outline</outline>
+								<texture>Things/Meals/VCE_Cakes/Toppers/VCE_TopperZebra</texture>
+							</li>
+						</texVariants>
+					</li>
+				</graphics>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,11 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.1\Assemblies\VanillaBakeryExpanded.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.1\Source\VanillaBakeryExpanded\VanillaBakeryExpanded\obj\Debug\VanillaBakeryExpanded.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.1\Source\VanillaBakeryExpanded\VanillaBakeryExpanded\obj\Debug\VanillaBakeryExpanded.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.1\Source\VanillaBakeryExpanded\VanillaBakeryExpanded\obj\Debug\VanillaBakeryExpanded.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.2\Assemblies\VanillaBakeryExpanded.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.2\Source\VanillaBakeryExpanded\VanillaBakeryExpanded\obj\Debug\VanillaBakeryExpanded.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.2\Source\VanillaBakeryExpanded\VanillaBakeryExpanded\obj\Debug\VanillaBakeryExpanded.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.4\Assemblies\VanillaBakeryExpanded.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.4\Source\VanillaBakeryExpanded\VanillaBakeryExpanded\obj\Debug\VanillaBakeryExpanded.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.4\Source\VanillaBakeryExpanded\VanillaBakeryExpanded\obj\Debug\VanillaBakeryExpanded.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaCookingExpanded-Bakery\1.4\Source\VanillaBakeryExpanded\VanillaBakeryExpanded\obj\Debug\VanillaBakeryExpanded.dll
