@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef Name="VCE_YoghurtMealBase" Abstract="True">
+		<fixedIngredientFilter>			
+			<thingDefs>
+				<li>RawBerries</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>			
+			<thingDefs>
+				<li>RawBerries</li>
+			</thingDefs>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>			
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+
+
+
+	<RecipeDef ParentName="VCE_YoghurtMealBase">
+		<defName>VCE_CookYoghurt</defName>
+		<label>cook yoghurt</label>
+		<description>Cook a yoghurt from a few fruits and other ingredients.</description>
+		<jobString>Cooking yoghurt.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>ElectricStove</li>	
+			<li>FueledStove</li>			
+		</recipeUsers>
+
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+
+		</ingredients>
+		<products>
+			<VCE_Yoghurt>1</VCE_Yoghurt>
+		</products>
+
+	</RecipeDef>
+
+	
+
+
+
+
+
+</Defs>

@@ -5,17 +5,16 @@
 
 
 	
-	<!-- Fine sushi: uramaki and nigiri -->	
 
 	<ThingDef ParentName="MealCooked">
-		<defName>VCE_Cupcake</defName>
-		<label>cupcake</label>
+		<defName>VCE_Yoghurt</defName>
+		<label>yoghurt</label>
 		
-		<description>This is a cupcake.</description>
+		<description>todo.</description>
 		
 		<graphicData>
-			<texPath>Things/Meals/VCE_Cupcake</texPath>
-			<graphicClass>AlphaCrafts.Graphic_RandomStackCount</graphicClass>
+			<texPath>Things/Item/VCE_Yoghurt</texPath>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients</graphicClass>
 		</graphicData>
 		<statBases>
 			<MarketValue>20</MarketValue>
