@@ -6,10 +6,8 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-				
-				<!-- Adding Fruits to Dessert Recipes -->
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[@Name = "VCE_YoghurtMealBase"]/fixedIngredientFilter</xpath>
+					<xpath>Defs/RecipeDef[@Name = "VCE_YoghurtMealBase"]/fixedIngredientFilter</xpath>
 					<value>
 						<categories>
 							<li>VCE_Fruit</li>
@@ -17,7 +15,7 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[@Name = "VCE_YoghurtMealBase"]/defaultIngredientFilter</xpath>
+					<xpath>Defs/RecipeDef[@Name = "VCE_YoghurtMealBase"]/defaultIngredientFilter</xpath>
 					<value>
 						<categories>
 							<li>VCE_Fruit</li>
@@ -25,17 +23,84 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/RecipeDef[defName = "VCE_CookYoghurt"]/ingredients/li/filter</xpath>
+					<xpath>Defs/RecipeDef[defName = "VCE_CookYoghurt"]/ingredients/li/filter</xpath>
 					<value>
 						<categories>
 							<li>VCE_Fruit</li>
 						</categories>
 					</value>
 				</li>
-				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<AlphaCrafts.FruitOffsets>
+							<defName>AC_FruitOffsets_Plants</defName>
+							<fruitAndOffsetList>
+								<li>
+									<key>VCE_RawApple</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawPeach</key>
+									<value>3</value>
+								</li>
+								<li>
+									<key>VCE_RawCherry</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawPlum</key>
+									<value>4</value>
+								</li>
+								<li>
+									<key>VCE_RawPrunes</key>
+									<value>4</value>
+								</li>
+								<li>
+									<key>VCE_RawPear</key>
+									<value>5</value>
+								</li>
+								<li>
+									<key>VCE_RawPricklyPear</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_Bearberry</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawBanana</key>
+									<value>2</value>
+								</li>
+								<li>
+									<key>VCE_RawOrange</key>
+									<value>3</value>
+								</li>
+							</fruitAndOffsetList>
+						</AlphaCrafts.FruitOffsets>
+					</value>
+				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Brewing Expanded - Coffees and Teas</li>
+					</mods>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs</xpath>
+						<value>
+							<AlphaCrafts.FruitOffsets>
+								<defName>AC_FruitOffsets_CoffeeAndTea</defName>
+								<fruitAndOffsetList>
+									<li>
+										<key>VCE_RawLemon</key>
+										<value>2</value>
+									</li>
+								</fruitAndOffsetList>
+							</AlphaCrafts.FruitOffsets>
+						</value>
+					</match>
+				</li>
 			</operations>
 		</match>
-		
 	</Operation>
 </Patch>
 

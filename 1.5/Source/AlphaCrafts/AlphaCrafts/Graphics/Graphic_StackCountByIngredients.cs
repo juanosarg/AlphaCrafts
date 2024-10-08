@@ -8,9 +8,10 @@ using UnityEngine.Diagnostics;
 
 namespace AlphaCrafts
 {
-    public class Graphic_StackCountByIngredients : Graphic_Collection
+    public class Graphic_StackCountByIngredients_Fruits : Graphic_Collection
     {
 
+        public int cachedOffset = -1;
 
         public override Material MatSingle => subGraphics[subGraphics.Length - 1].MatSingle;
 
@@ -50,9 +51,12 @@ namespace AlphaCrafts
 
         public Graphic SubGraphicForStackCount(int stackCount, ThingDef def, Thing thing)
         {
-
-            int offsetToAdd = Utils.GetGraphicNumberOffsetForFruit(thing);
-
+            int offsetToAdd = cachedOffset;
+            if (offsetToAdd == -1)
+            {
+                offsetToAdd = Utils.GetGraphicNumberOffsetForFruit(thing);
+            }
+            
             if (stackCount == 1)
             {
                 return subGraphics[0 + offsetToAdd * 3];
