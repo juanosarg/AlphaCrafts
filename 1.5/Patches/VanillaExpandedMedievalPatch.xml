@@ -9,15 +9,15 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<AlphaCrafts.FruitOffsets>
-							<defName>AC_FruitOffsets_Medieval</defName>
+						<AlphaCrafts.YogurtOffsets>
+							<defName>AC_YogurtFruitOffsets_Medieval</defName>
 							<fruitAndOffsetList>
 								<li>
 									<key>VFEM2_RawGrapes</key>
 									<value>4</value>
 								</li>
 							</fruitAndOffsetList>
-						</AlphaCrafts.FruitOffsets>
+						</AlphaCrafts.YogurtOffsets>
 					</value>
 				</li>
 			</operations>

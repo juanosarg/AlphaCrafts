@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Oil</defName>
+		<label>oil</label>
+		<description>A versatile, high-quality liquid used for cooking, crafting, and various artisan processes. Extracted from natural sources, it plays a crucial role in both culinary and industrial applications.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Oil</texPath>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Oil</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>2</Flammability>
+			<Mass>0.3</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>120</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
+				<overrides>
+					<li>
+						<key>SmokeleafLeaves</key>
+						<value>Hemp</value>
+					</li>
+				</overrides>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+</Defs>

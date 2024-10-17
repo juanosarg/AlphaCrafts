@@ -9,8 +9,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<AlphaCrafts.FruitOffsets>
-							<defName>AC_FruitOffsets_MorePlants</defName>
+						<AlphaCrafts.YogurtOffsets>
+							<defName>AC_YogurtFruitOffsets_MorePlants</defName>
 							<fruitAndOffsetList>
 								<li>
 									<key>VCE_RawAvocado</key>
@@ -37,7 +37,100 @@
 									<value>6</value>
 								</li>
 							</fruitAndOffsetList>
-						</AlphaCrafts.FruitOffsets>
+						</AlphaCrafts.YogurtOffsets>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<AlphaCrafts.OilOffsets>
+							<defName>AC_OilOffsets_MorePlants</defName>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VCE_RawAvocado</key>
+									<value>7</value>
+								</li>
+								<li>
+									<key>VCE_RawSunflower</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawOlives</key>
+									<value>6</value>
+								</li>
+								<li>
+									<key>VCE_RawPeanut</key>
+									<value>4</value>
+								</li>
+								<li>
+									<key>VCE_RawCoconut</key>
+									<value>2</value>
+								</li>								
+								
+							</ingredientsAndOffsetList>
+						</AlphaCrafts.OilOffsets>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_PressOil"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>VCE_RawAvocado</li>
+						<li>VCE_RawOlives</li>
+						<li>VCE_RawSunflower</li>
+						<li>VCE_RawPeanut</li>
+						<li>VCE_RawCoconut</li>
+						<li>VCE_RawCanola</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AC_Oil"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+					<value>
+						<li>
+							<key>VCE_RawAvocado</key>
+							<value>Avocado</value>
+						</li>
+						<li>
+							<key>VCE_RawOlives</key>
+							<value>Olive</value>
+						</li>
+						<li>
+							<key>VCE_RawSunflower</key>
+							<value>Sunflower</value>
+						</li>
+						<li>
+							<key>VCE_RawPeanut</key>
+							<value>Peanut</value>
+						</li>
+						<li>
+							<key>VCE_RawCoconut</key>
+							<value>Coconut</value>
+						</li>
+						<li>
+							<key>VCE_RawCanola</key>
+							<value>Canola</value>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_PressOil"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>VCE_RawAvocado</li>
+						<li>VCE_RawOlives</li>
+						<li>VCE_RawSunflower</li>
+						<li>VCE_RawPeanut</li>
+						<li>VCE_RawCoconut</li>
+						<li>VCE_RawCanola</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_PressOil"]/defaultIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>VCE_RawAvocado</li>
+						<li>VCE_RawOlives</li>
+						<li>VCE_RawSunflower</li>
+						<li>VCE_RawPeanut</li>
+						<li>VCE_RawCoconut</li>
+						<li>VCE_RawCanola</li>
 					</value>
 				</li>
 			</operations>

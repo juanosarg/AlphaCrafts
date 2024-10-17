@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+
+	<WorkGiverDef>
+		<defName>AC_DoBillsOilPressWorkshop</defName>
+		<label>press oil</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Cooking</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>AC_OilPressWorkshop</li>   
+		</fixedBillGiverDefs>
+		<verb>pressing oil</verb>
+		<gerund>pressing oil at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+	
+
+
+
+
+
+
+
+</Defs>

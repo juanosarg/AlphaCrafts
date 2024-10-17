@@ -33,8 +33,8 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<AlphaCrafts.FruitOffsets>
-							<defName>AC_FruitOffsets_Plants</defName>
+						<AlphaCrafts.YogurtOffsets>
+							<defName>AC_YogurtFruitOffsets_Plants</defName>
 							<fruitAndOffsetList>
 								<li>
 									<key>VCE_RawApple</key>
@@ -77,7 +77,7 @@
 									<value>3</value>
 								</li>
 							</fruitAndOffsetList>
-						</AlphaCrafts.FruitOffsets>
+						</AlphaCrafts.YogurtOffsets>
 					</value>
 				</li>
 				<li Class="PatchOperationFindMod">
@@ -87,15 +87,15 @@
 					<match Class="PatchOperationAdd">
 						<xpath>Defs</xpath>
 						<value>
-							<AlphaCrafts.FruitOffsets>
-								<defName>AC_FruitOffsets_CoffeeAndTea</defName>
+							<AlphaCrafts.YogurtOffsets>
+								<defName>AC_YogurtFruitOffsets_CoffeeAndTea</defName>
 								<fruitAndOffsetList>
 									<li>
 										<key>VCE_RawLemon</key>
 										<value>2</value>
 									</li>
 								</fruitAndOffsetList>
-							</AlphaCrafts.FruitOffsets>
+							</AlphaCrafts.YogurtOffsets>
 						</value>
 					</match>
 				</li>

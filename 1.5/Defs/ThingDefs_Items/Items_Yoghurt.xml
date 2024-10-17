@@ -14,7 +14,7 @@
 		
 		<graphicData>
 			<texPath>Things/Item/VCE_Yoghurt</texPath>
-			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Fruits</graphicClass>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Yogurt</graphicClass>
 		</graphicData>
 		<statBases>
 			<MarketValue>20</MarketValue>

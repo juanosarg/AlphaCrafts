@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.3.3\lib\net472\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -292,12 +296,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Defs\FruitOffsets.cs" />
+    <Compile Include="Comps\CompLabelByIngredients.cs" />
+    <Compile Include="Comps\Properties\CompProperties_LabelByIngredients.cs" />
+    <Compile Include="DefModExtension\VariableOutputByIngredient.cs" />
+    <Compile Include="Defs\OilOffsets.cs" />
+    <Compile Include="Defs\YogurtOffsets.cs" />
     <Compile Include="Graphics\Graphic_RandomStackCount.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients.cs" />
+    <Compile Include="Graphics\Graphic_StackCountByIngredients_Oil.cs" />
+    <Compile Include="Graphics\Graphic_StackCountByIngredients_Yogurt.cs" />
+    <Compile Include="Harmony\GenRecipe_PostProcessProduct.cs" />
+    <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticCollections\StaticCollectionsClass.cs" />
     <Compile Include="Utils\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

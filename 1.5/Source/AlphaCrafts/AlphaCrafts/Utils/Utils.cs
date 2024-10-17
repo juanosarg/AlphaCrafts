@@ -10,16 +10,34 @@ namespace AlphaCrafts
     public static class Utils
     {
 
-        public static int GetGraphicNumberOffsetForFruit(Thing thing)
+
+        public static int GetGraphicNumberOffsetForYogurt(Thing thing)
         {
             CompIngredients compIngredients = thing.TryGetComp<CompIngredients>();
             if (compIngredients != null)
             {
                 foreach (ThingDef ingredient in compIngredients.ingredients)
                 {
-                    if (StaticCollections.fruitOffsets.ContainsKey(ingredient))
+                    if (StaticCollections.yogurtOffsets.ContainsKey(ingredient))
                     {
-                        return StaticCollections.fruitOffsets[ingredient];
+                        return StaticCollections.yogurtOffsets[ingredient];
+                    }
+                }
+
+            }
+            return 0;
+        }
+
+        public static int GetGraphicNumberOffsetForOil(Thing thing)
+        {
+            CompIngredients compIngredients = thing.TryGetComp<CompIngredients>();
+            if (compIngredients != null)
+            {
+                foreach (ThingDef ingredient in compIngredients.ingredients)
+                {
+                    if (StaticCollections.oilOffsets.ContainsKey(ingredient))
+                    {
+                        return StaticCollections.oilOffsets[ingredient];
                     }
                 }
 

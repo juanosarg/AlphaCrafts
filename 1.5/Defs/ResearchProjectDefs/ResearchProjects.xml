@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>AC_OilExtraction</defName>
+		<label>oil extraction</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Unlocks techniques for extracting oils from a variety of plants and seeds, enabling the production of valuable artisan oils.</description>
+		<baseCost>300</baseCost>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	
+
+
+</Defs>

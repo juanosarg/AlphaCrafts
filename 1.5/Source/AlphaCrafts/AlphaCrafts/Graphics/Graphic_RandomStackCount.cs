@@ -9,7 +9,7 @@ namespace AlphaCrafts
 {
     public class Graphic_RandomStackCount : Graphic_Collection
     {
-        
+        public int cachedOffset = -1;
 
         public override Material MatSingle => subGraphics[subGraphics.Length - 1].MatSingle;
 
@@ -49,8 +49,12 @@ namespace AlphaCrafts
 
         public Graphic SubGraphicForStackCount(int stackCount, ThingDef def, Thing thing)
         {
-            
-            int randomToAdd = thing.thingIDNumber % (subGraphics.Length/3);
+            int randomToAdd = cachedOffset;
+            if (randomToAdd == -1)
+            {
+                randomToAdd = thing.thingIDNumber % (subGraphics.Length / 3);
+            }
+         
            
                     if (stackCount == 1)
                     {

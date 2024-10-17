@@ -12,15 +12,24 @@ namespace AlphaCrafts
     public static class StaticCollections
     {
 
-       public static Dictionary<ThingDef,int> fruitOffsets = new Dictionary<ThingDef, int>();
+       public static Dictionary<ThingDef,int> yogurtOffsets = new Dictionary<ThingDef, int>();
+       public static Dictionary<ThingDef, int> oilOffsets = new Dictionary<ThingDef, int>();
+
 
         static StaticCollections()
         {
-            List<FruitOffsets> allFruitLists = DefDatabase<FruitOffsets>.AllDefsListForReading.ToList();
-            foreach (FruitOffsets individualList in allFruitLists)
-            {    
-              
-                fruitOffsets.AddRange(individualList.fruitAndOffsetList);                                          
+            List<YogurtOffsets> allYogurtLists = DefDatabase<YogurtOffsets>.AllDefsListForReading.ToList();
+            foreach (YogurtOffsets individualList in allYogurtLists)
+            {
+
+                yogurtOffsets.AddRange(individualList.fruitAndOffsetList);                                          
+            }
+
+            List<OilOffsets> allOilLists = DefDatabase<OilOffsets>.AllDefsListForReading.ToList();
+            foreach (OilOffsets individualList in allOilLists)
+            {
+
+                oilOffsets.AddRange(individualList.ingredientsAndOffsetList);
             }
         }
 

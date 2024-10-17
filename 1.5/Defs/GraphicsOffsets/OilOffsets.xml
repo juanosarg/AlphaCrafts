@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.OilOffsets>
+		<defName>AC_OilOffsets</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>RawCorn</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>SmokeleafLeaves</key>
+				<value>5</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.OilOffsets>
+</Defs>

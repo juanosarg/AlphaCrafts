@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>AC_ArtisanProducts</defName>
+		<label>artisan products</label>
+		<parent>Foods</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+		<iconPath>Things/Item/AC_Oil/AC_OilA_c</iconPath>
+	</ThingCategoryDef>
+</Defs>
