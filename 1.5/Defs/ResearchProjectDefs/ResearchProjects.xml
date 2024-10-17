@@ -11,11 +11,27 @@
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
-	
+	<ResearchProjectDef>
+		<defName>AC_ArtisanDairyProcessing</defName>
+		<label>artisan dairy processing</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Unlocks techniques for transforming raw milk into a variety of dairy products, such as yogurt, cream, and condensed milk.</description>
+		<baseCost>300</baseCost>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
 
 
 </Defs>
