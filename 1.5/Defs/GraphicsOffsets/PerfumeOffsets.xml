@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.PerfumeOffsets>
+		<defName>AC_PerfumeOffsets</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>RawBerries</key>
+				<value>0</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.PerfumeOffsets>
+	
+	
+</Defs>

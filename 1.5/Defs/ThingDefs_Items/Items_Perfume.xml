@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AC_Perfume</defName>
+		<label>perfume</label>
+		<description>A luxurious blend of aromatic compounds and essential oils derived from flowers and botanicals, used to create delightful and captivating scents for personal use and ambiance. Each perfume is crafted to evoke emotions and memories, enhancing everyday experiences.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Perfume</texPath>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Perfume</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>6</MarketValue>
+			<Flammability>1</Flammability>
+			<Mass>0.05</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
+				<overrides>
+					<li>
+						<key>RawBerries</key>
+						<value>Strawberry</value>
+					</li>
+				</overrides>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+</Defs>

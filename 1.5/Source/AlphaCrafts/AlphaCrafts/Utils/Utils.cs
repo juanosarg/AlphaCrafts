@@ -45,6 +45,23 @@ namespace AlphaCrafts
             return 0;
         }
 
+        public static int GetGraphicNumberOffsetForPerfume(Thing thing)
+        {
+            CompIngredients compIngredients = thing.TryGetComp<CompIngredients>();
+            if (compIngredients != null)
+            {
+                foreach (ThingDef ingredient in compIngredients.ingredients)
+                {
+                    if (StaticCollections.perfumeOffsets.ContainsKey(ingredient))
+                    {
+                        return StaticCollections.perfumeOffsets[ingredient];
+                    }
+                }
+
+            }
+            return 0;
+        }
+
     }
 }
 

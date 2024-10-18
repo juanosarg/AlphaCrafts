@@ -14,6 +14,7 @@
 			<Flammability>2</Flammability>
 			<Mass>0.3</Mass>
 		</statBases>
+		<tradeability>Sellable</tradeability>
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>120</daysToRotStart>

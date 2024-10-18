@@ -31,15 +31,23 @@ namespace AlphaCrafts
 
         public override string TransformLabel(string label)
         {
-            if (!Props.overrides.NullOrEmpty())
+            if (ingredients != null && !ingredients.ingredients.NullOrEmpty())
             {
-                ThingDef thingDef = ingredients.ingredients.First();
-                if (Props.overrides.ContainsKey(thingDef))
+                if (!Props.overrides.NullOrEmpty())
                 {
-                    return Props.overrides[thingDef] + " " + label;
+                    ThingDef thingDef = ingredients.ingredients.First();
+                    if (thingDef!=null && Props.overrides.ContainsKey(thingDef))
+                    {
+                        return Props.overrides[thingDef] + " " + label;
+                    }
+                    return ingredients.ingredients.First().LabelCap + " " + label;
+                }
+                else
+                {
+                    return ingredients.ingredients.First().LabelCap + " " + label;
                 }
             }
-            return ingredients.ingredients.First().LabelCap + " " + label;
+            return label;
 
         }
 

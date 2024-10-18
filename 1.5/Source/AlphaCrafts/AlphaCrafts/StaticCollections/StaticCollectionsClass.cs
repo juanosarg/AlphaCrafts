@@ -14,6 +14,8 @@ namespace AlphaCrafts
 
        public static Dictionary<ThingDef,int> yogurtOffsets = new Dictionary<ThingDef, int>();
        public static Dictionary<ThingDef, int> oilOffsets = new Dictionary<ThingDef, int>();
+       public static Dictionary<ThingDef, int> perfumeOffsets = new Dictionary<ThingDef, int>();
+
 
 
         static StaticCollections()
@@ -30,6 +32,13 @@ namespace AlphaCrafts
             {
 
                 oilOffsets.AddRange(individualList.ingredientsAndOffsetList);
+            }
+
+            List<PerfumeOffsets> allPerfumeLists = DefDatabase<PerfumeOffsets>.AllDefsListForReading.ToList();
+            foreach (PerfumeOffsets individualList in allPerfumeLists)
+            {
+
+                perfumeOffsets.AddRange(individualList.ingredientsAndOffsetList);
             }
         }
 
