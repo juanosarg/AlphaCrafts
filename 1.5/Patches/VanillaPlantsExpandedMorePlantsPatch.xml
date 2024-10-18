@@ -234,6 +234,7 @@
 						<li>AC_Vanilla</li>
 						<li>AC_Violet</li>
 						<li>AC_YlangYlang</li>
+						<li>VCE_RawCoconut</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -250,6 +251,7 @@
 						<li>AC_Vanilla</li>
 						<li>AC_Violet</li>
 						<li>AC_YlangYlang</li>
+						<li>VCE_RawCoconut</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -266,6 +268,7 @@
 						<li>AC_Vanilla</li>
 						<li>AC_Violet</li>
 						<li>AC_YlangYlang</li>
+						<li>VCE_RawCoconut</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -274,6 +277,10 @@
 						<li>
 							<key>AC_FragrantbloomRose</key>
 							<value>Rose</value>
+						</li>
+						<li>
+							<key>VCE_RawCoconut</key>
+							<value>Coconut</value>
 						</li>
 					</value>
 				</li>
@@ -326,6 +333,10 @@
 								<li>
 									<key>AC_YlangYlang</key>
 									<value>3</value>
+								</li>
+								<li>
+									<key>VCE_RawCoconut</key>
+									<value>6</value>
 								</li>
 							</ingredientsAndOffsetList>
 						</AlphaCrafts.PerfumeOffsets>
