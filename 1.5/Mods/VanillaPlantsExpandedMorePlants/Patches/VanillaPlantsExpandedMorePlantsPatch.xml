@@ -214,5 +214,41 @@
 			</li>
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ChurnButter"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawPeanut</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ChurnButter"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawPeanut</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ChurnButter"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawPeanut</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Butter"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawCoconut</key>
+				<value>Coconut butter</value>
+			</li>
+			<li>
+				<key>VCE_RawPeanut</key>
+				<value>Peanut butter</value>
+			</li>
+		</value>
+	</Operation>
 </Patch>
 
