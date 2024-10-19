@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Oil"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawAvocado</key>
+				<value>Avocado</value>
+			</li>
+			<li>
+				<key>VCE_RawOlives</key>
+				<value>Olive</value>
+			</li>
+			<li>
+				<key>VCE_RawSunflower</key>
+				<value>Sunflower</value>
+			</li>
+			<li>
+				<key>VCE_RawPeanut</key>
+				<value>Peanut</value>
+			</li>
+			<li>
+				<key>VCE_RawCoconut</key>
+				<value>Coconut</value>
+			</li>
+			<li>
+				<key>VCE_RawCanola</key>
+				<value>Canola</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PressOil"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_RawOlives</li>
+			<li>VCE_RawSunflower</li>
+			<li>VCE_RawPeanut</li>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawCanola</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PressOil"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_RawOlives</li>
+			<li>VCE_RawSunflower</li>
+			<li>VCE_RawPeanut</li>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawCanola</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PressOil"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_RawOlives</li>
+			<li>VCE_RawSunflower</li>
+			<li>VCE_RawPeanut</li>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawCanola</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Lavender"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Lavender</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_FragrantbloomRose"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_FragrantbloomRose</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Hyacinth"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Hyacinth</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Jasmine"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Jasmine</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Lily"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Lily</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Orchid"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Orchid</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Plumeria"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Plumeria</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Tulip"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Tulip</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Vanilla"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Vanilla</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Violet"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Violet</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_YlangYlang"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_YlangYlang</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ExtractPerfume"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>AC_Lavender</li>
+			<li>AC_FragrantbloomRose</li>
+			<li>AC_Hyacinth</li>
+			<li>AC_Jasmine</li>
+			<li>AC_Lily</li>
+			<li>AC_Orchid</li>
+			<li>AC_Plumeria</li>
+			<li>AC_Tulip</li>
+			<li>AC_Vanilla</li>
+			<li>AC_Violet</li>
+			<li>AC_YlangYlang</li>
+			<li>VCE_RawCoconut</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ExtractPerfume"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AC_Lavender</li>
+			<li>AC_FragrantbloomRose</li>
+			<li>AC_Hyacinth</li>
+			<li>AC_Jasmine</li>
+			<li>AC_Lily</li>
+			<li>AC_Orchid</li>
+			<li>AC_Plumeria</li>
+			<li>AC_Tulip</li>
+			<li>AC_Vanilla</li>
+			<li>AC_Violet</li>
+			<li>AC_YlangYlang</li>
+			<li>VCE_RawCoconut</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ExtractPerfume"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AC_Lavender</li>
+			<li>AC_FragrantbloomRose</li>
+			<li>AC_Hyacinth</li>
+			<li>AC_Jasmine</li>
+			<li>AC_Lily</li>
+			<li>AC_Orchid</li>
+			<li>AC_Plumeria</li>
+			<li>AC_Tulip</li>
+			<li>AC_Vanilla</li>
+			<li>AC_Violet</li>
+			<li>AC_YlangYlang</li>
+			<li>VCE_RawCoconut</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Perfume"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>AC_FragrantbloomRose</key>
+				<value>Rose</value>
+			</li>
+			<li>
+				<key>VCE_RawCoconut</key>
+				<value>Coconut</value>
+			</li>
+		</value>
+	</Operation>
+</Patch>
+

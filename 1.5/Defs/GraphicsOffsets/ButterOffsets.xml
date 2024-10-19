@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.ButterOffsets>
+		<defName>AC_ButterOffsets</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>Milk</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>RawCorn</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Chocolate</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>SmokeleafLeaves</key>
+				<value>3</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.ButterOffsets>
+</Defs>

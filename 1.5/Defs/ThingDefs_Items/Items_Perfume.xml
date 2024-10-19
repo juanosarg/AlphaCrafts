@@ -24,6 +24,14 @@
 						<key>RawBerries</key>
 						<value>Strawberry</value>
 					</li>
+					<li>
+						<key>Ambrosia</key>
+						<value>Eau d'ambroisie</value>
+					</li>
+					<li>
+						<key>Dye</key>
+						<value>Rainbow</value>
+					</li>
 				</overrides>
 			</li>
 		</comps>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.YogurtOffsets>
+		<defName>AC_YogurtFruitOffsets_CoffeeAndTea</defName>
+		<fruitAndOffsetList>
+			<li>
+				<key>VCE_RawLemon</key>
+				<value>2</value>
+			</li>
+		</fruitAndOffsetList>
+	</AlphaCrafts.YogurtOffsets>
+</Defs>

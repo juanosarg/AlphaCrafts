@@ -7,6 +7,14 @@
 				<key>RawBerries</key>
 				<value>0</value>
 			</li>
+			<li>
+				<key>Ambrosia</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Dye</key>
+				<value>8</value>
+			</li>
 		</ingredientsAndOffsetList>
 	</AlphaCrafts.PerfumeOffsets>
 	

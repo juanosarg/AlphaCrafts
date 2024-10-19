@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[@Name = "VCE_YoghurtMealBase"]/fixedIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[@Name = "VCE_YoghurtMealBase"]/defaultIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "VCE_CookYoghurt"]/ingredients/li/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "VCE_CookYoghurt_Bulk"]/ingredients/li/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	
+</Patch>
+

@@ -6,22 +6,37 @@
 
 	<WorkGiverDef>
 		<defName>AC_DoBillsOilPressWorkshop</defName>
-		<label>press oil</label>
+		<label>press produce</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Cooking</workType>
 		<priorityInType>100</priorityInType>
 		<fixedBillGiverDefs>
 			<li>AC_OilPressWorkshop</li>   
 		</fixedBillGiverDefs>
-		<verb>pressing oil</verb>
-		<gerund>pressing oil at</gerund>
+		<verb>pressing produce</verb>
+		<gerund>pressing produce at</gerund>
 		<requiredCapacities>
 			<li>Manipulation</li>
 		</requiredCapacities>
 		<prioritizeSustains>true</prioritizeSustains>
 	</WorkGiverDef>
 
-	
+	<WorkGiverDef>
+		<defName>AC_DoBillsDairyProcessingStation</defName>
+		<label>process dairy</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Cooking</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>AC_DairyProcessingStation</li>   
+		</fixedBillGiverDefs>
+		<verb>processing dairy</verb>
+		<gerund>processing dairy at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
 
 
 

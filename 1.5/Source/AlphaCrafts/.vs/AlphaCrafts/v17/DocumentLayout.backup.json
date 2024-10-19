@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\comps\\complabelbyingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\comps\\complabelbyingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\stockgenerators\\stockgenerator_buycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\stockgenerators\\stockgenerator_buycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\harmony\\compingredients_getfoodkindinspectstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\harmony\\compingredients_getfoodkindinspectstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\harmony\\genrecipe_postprocessproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\harmony\\genrecipe_postprocessproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\defs\\perfumeoffsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\defs\\perfumeoffsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\defs\\butteroffsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\defs\\butteroffsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\defs\\yogurtoffsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\defs\\yogurtoffsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\graphics\\graphic_stackcountbyingredients_perfume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\graphics\\graphic_stackcountbyingredients_perfume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\staticcollections\\staticcollectionsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\staticcollections\\staticcollectionsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\graphics\\graphic_stackcountbyingredients_oil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\graphics\\graphic_stackcountbyingredients_oil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\comps\\complabelbyingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\comps\\complabelbyingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\defmodextension\\variableoutputbyingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,6 +21,42 @@
     {
       "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\comps\\properties\\compproperties_labelbyingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\comps\\properties\\compproperties_labelbyingredients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\graphics\\graphic_stackcountbyingredients_butter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\graphics\\graphic_stackcountbyingredients_butter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\graphics\\graphic_stackcountbyingredients_oil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\graphics\\graphic_stackcountbyingredients_oil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\stockgenerators\\stockgenerator_buycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\stockgenerators\\stockgenerator_buycategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\staticcollections\\staticcollectionsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\staticcollections\\staticcollectionsclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\defs\\perfumeoffsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\defs\\perfumeoffsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\defs\\yogurtoffsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\defs\\yogurtoffsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\harmony\\compingredients_getfoodkindinspectstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\harmony\\compingredients_getfoodkindinspectstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\graphics\\graphic_stackcountbyingredients_perfume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\graphics\\graphic_stackcountbyingredients_perfume.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\harmony\\harmonyinstance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,11 +85,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Graphic_StackCountByIngredients_Butter.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Butter.cs",
+              "RelativeDocumentMoniker": "AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Butter.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Butter.cs",
+              "RelativeToolTip": "AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Butter.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:21:06.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompLabelByIngredients.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Comps\\CompLabelByIngredients.cs",
+              "RelativeDocumentMoniker": "AlphaCrafts\\Comps\\CompLabelByIngredients.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Comps\\CompLabelByIngredients.cs",
+              "RelativeToolTip": "AlphaCrafts\\Comps\\CompLabelByIngredients.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T13:49:12.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompProperties_LabelByIngredients.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Comps\\Properties\\CompProperties_LabelByIngredients.cs",
+              "RelativeDocumentMoniker": "AlphaCrafts\\Comps\\Properties\\CompProperties_LabelByIngredients.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Comps\\Properties\\CompProperties_LabelByIngredients.cs",
+              "RelativeToolTip": "AlphaCrafts\\Comps\\Properties\\CompProperties_LabelByIngredients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T13:48:28.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VariableOutputByIngredient.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\DefModExtension\\VariableOutputByIngredient.cs",
+              "RelativeDocumentMoniker": "AlphaCrafts\\DefModExtension\\VariableOutputByIngredient.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\DefModExtension\\VariableOutputByIngredient.cs",
+              "RelativeToolTip": "AlphaCrafts\\DefModExtension\\VariableOutputByIngredient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T13:07:06.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenRecipe_PostProcessProduct.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Harmony\\GenRecipe_PostProcessProduct.cs",
+              "RelativeDocumentMoniker": "AlphaCrafts\\Harmony\\GenRecipe_PostProcessProduct.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Harmony\\GenRecipe_PostProcessProduct.cs*",
+              "RelativeToolTip": "AlphaCrafts\\Harmony\\GenRecipe_PostProcessProduct.cs*",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvzcAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T13:08:31.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ButterOffsets.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Defs\\ButterOffsets.cs",
+              "RelativeDocumentMoniker": "AlphaCrafts\\Defs\\ButterOffsets.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Defs\\ButterOffsets.cs",
+              "RelativeToolTip": "AlphaCrafts\\Defs\\ButterOffsets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T14:21:37.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Graphic_StackCountByIngredients_Oil.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Oil.cs",
+              "RelativeDocumentMoniker": "AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Oil.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Oil.cs",
+              "RelativeToolTip": "AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Oil.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:47:56.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Utils\\Utils.cs",
+              "RelativeDocumentMoniker": "AlphaCrafts\\Utils\\Utils.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Utils\\Utils.cs",
+              "RelativeToolTip": "AlphaCrafts\\Utils\\Utils.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:44:25.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "StockGenerator_BuyCategory.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\StockGenerators\\StockGenerator_BuyCategory.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\StockGenerators\\StockGenerator_BuyCategory.cs",
@@ -94,33 +206,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CompIngredients_GetFoodKindInspectString.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Harmony\\CompIngredients_GetFoodKindInspectString.cs",
-              "RelativeDocumentMoniker": "AlphaCrafts\\Harmony\\CompIngredients_GetFoodKindInspectString.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Harmony\\CompIngredients_GetFoodKindInspectString.cs",
-              "RelativeToolTip": "AlphaCrafts\\Harmony\\CompIngredients_GetFoodKindInspectString.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "StaticCollectionsClass.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\StaticCollections\\StaticCollectionsClass.cs",
+              "RelativeDocumentMoniker": "AlphaCrafts\\StaticCollections\\StaticCollectionsClass.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\StaticCollections\\StaticCollectionsClass.cs",
+              "RelativeToolTip": "AlphaCrafts\\StaticCollections\\StaticCollectionsClass.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:52:40.906Z",
+              "WhenOpened": "2024-10-17T08:44:25.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "PerfumeOffsets.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Defs\\PerfumeOffsets.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\Defs\\PerfumeOffsets.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Defs\\PerfumeOffsets.cs",
               "RelativeToolTip": "AlphaCrafts\\Defs\\PerfumeOffsets.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T12:05:07.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Graphic_StackCountByIngredients_Perfume.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Perfume.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Perfume.cs",
@@ -128,77 +240,11 @@
               "RelativeToolTip": "AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Perfume.cs",
               "ViewState": "AgIAACMAAAAAAAAAAADwvzkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:04:59.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T12:04:59.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StaticCollectionsClass.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\StaticCollections\\StaticCollectionsClass.cs",
-              "RelativeDocumentMoniker": "AlphaCrafts\\StaticCollections\\StaticCollectionsClass.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\StaticCollections\\StaticCollectionsClass.cs",
-              "RelativeToolTip": "AlphaCrafts\\StaticCollections\\StaticCollectionsClass.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADwvygAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:44:25.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CompLabelByIngredients.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Comps\\CompLabelByIngredients.cs",
-              "RelativeDocumentMoniker": "AlphaCrafts\\Comps\\CompLabelByIngredients.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Comps\\CompLabelByIngredients.cs*",
-              "RelativeToolTip": "AlphaCrafts\\Comps\\CompLabelByIngredients.cs*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T13:49:12.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Graphic_StackCountByIngredients_Oil.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Oil.cs",
-              "RelativeDocumentMoniker": "AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Oil.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Oil.cs",
-              "RelativeToolTip": "AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Oil.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAADwv1AAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:47:56.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenRecipe_PostProcessProduct.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Harmony\\GenRecipe_PostProcessProduct.cs",
-              "RelativeDocumentMoniker": "AlphaCrafts\\Harmony\\GenRecipe_PostProcessProduct.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Harmony\\GenRecipe_PostProcessProduct.cs",
-              "RelativeToolTip": "AlphaCrafts\\Harmony\\GenRecipe_PostProcessProduct.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAADwvzsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T13:08:31.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Utils\\Utils.cs",
-              "RelativeDocumentMoniker": "AlphaCrafts\\Utils\\Utils.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Utils\\Utils.cs",
-              "RelativeToolTip": "AlphaCrafts\\Utils\\Utils.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAADwvzgAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:44:25.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "YogurtOffsets.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Defs\\YogurtOffsets.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\Defs\\YogurtOffsets.cs",
@@ -211,19 +257,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CompProperties_LabelByIngredients.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Comps\\Properties\\CompProperties_LabelByIngredients.cs",
-              "RelativeDocumentMoniker": "AlphaCrafts\\Comps\\Properties\\CompProperties_LabelByIngredients.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Comps\\Properties\\CompProperties_LabelByIngredients.cs",
-              "RelativeToolTip": "AlphaCrafts\\Comps\\Properties\\CompProperties_LabelByIngredients.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "CompIngredients_GetFoodKindInspectString.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Harmony\\CompIngredients_GetFoodKindInspectString.cs",
+              "RelativeDocumentMoniker": "AlphaCrafts\\Harmony\\CompIngredients_GetFoodKindInspectString.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Harmony\\CompIngredients_GetFoodKindInspectString.cs",
+              "RelativeToolTip": "AlphaCrafts\\Harmony\\CompIngredients_GetFoodKindInspectString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T13:48:28.674Z"
+              "WhenOpened": "2024-10-18T12:52:40.906Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "HarmonyInstance.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Harmony\\HarmonyInstance.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\Harmony\\HarmonyInstance.cs",
@@ -234,24 +284,8 @@
               "WhenOpened": "2024-10-17T13:55:59.815Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VariableOutputByIngredient.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\DefModExtension\\VariableOutputByIngredient.cs",
-              "RelativeDocumentMoniker": "AlphaCrafts\\DefModExtension\\VariableOutputByIngredient.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\DefModExtension\\VariableOutputByIngredient.cs",
-              "RelativeToolTip": "AlphaCrafts\\DefModExtension\\VariableOutputByIngredient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T13:07:06.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "OilOffsets.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Defs\\OilOffsets.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\Defs\\OilOffsets.cs",
@@ -263,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "AlphaCrafts",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\AlphaCrafts.csproj",
               "RelativeDocumentMoniker": "AlphaCrafts\\AlphaCrafts.csproj",
@@ -274,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Graphic_StackCountByIngredients_Yogurt.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Yogurt.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\Graphics\\Graphic_StackCountByIngredients_Yogurt.cs",
@@ -286,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Graphic_RandomStackCount.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Graphics\\Graphic_RandomStackCount.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\Graphics\\Graphic_RandomStackCount.cs",

@@ -1,39 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
-
-	
-
 	<ThingDef ParentName="MealCooked">
 		<defName>VCE_Yoghurt</defName>
 		<label>yoghurt</label>
-		
-		<description>todo.</description>
-		
+		<description>A creamy, tangy dairy product made by fermenting milk, often enjoyed on its own or used in cooking and baking.</description>
 		<graphicData>
 			<texPath>Things/Item/VCE_Yoghurt</texPath>
 			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Yogurt</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>20</MarketValue>
-			<WorkToMake>450</WorkToMake>
-			<Nutrition>1</Nutrition>
+			<MarketValue>30</MarketValue>
+			<Nutrition>0.9</Nutrition>
+			<Mass>0.2</Mass>
 		</statBases>
 		<rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
 		<ingestible>
 			<preferability>MealFine</preferability>
 			<tasteThought>AteFineMeal</tasteThought>
 			<ingestEffect>EatVegetarian</ingestEffect>
 			<ingestSound>Meal_Eat</ingestSound>
 		</ingestible>
-		
+		<comps>
+			<li Class="CompProperties_Ingredients">
+				<splitTransferableFoodKind>true</splitTransferableFoodKind>
+			</li>
+			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
+				
+			</li>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
 	</ThingDef>
-	
-	
-	
-	
-
-
 </Defs>

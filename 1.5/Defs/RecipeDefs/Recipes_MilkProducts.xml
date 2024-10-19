@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef Name="VCE_YoghurtMealBase" Abstract="True">
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>Milk</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>Milk</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+	<RecipeDef ParentName="VCE_YoghurtMealBase">
+		<defName>VCE_CookYoghurt</defName>
+		<label>cook yoghurt</label>
+		<description>Cook a yoghurt from milk and fruit.</description>
+		<jobString>Cooking yoghurt.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>450</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>AC_DairyProcessingStation</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				
+				<filter>
+					<customSummary>fruit</customSummary>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>0.25</count>
+			</li>
+			<li>
+				<filter>
+				<customSummary>milk</customSummary>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>0.25</count>
+			</li>
+		</ingredients>
+		<products>
+			<VCE_Yoghurt>1</VCE_Yoghurt>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="VCE_YoghurtMealBase">
+		<defName>VCE_CookYoghurt_Bulk</defName>
+		<label>cook yoghurt x4</label>
+		<description>Cook 4 yoghurt from milk and fruit.</description>
+		<jobString>Cooking 4 yoghurt.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>1800</workAmount>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>AC_DairyProcessingStation</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				
+				<filter>
+					<customSummary>fruit</customSummary>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+				<customSummary>milk</customSummary>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<VCE_Yoghurt>4</VCE_Yoghurt>
+		</products>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>VCE_MakeRicotta</defName>
+		<label>make ricotta</label>
+		<description>Turn milk into ricotta.</description>
+		<jobString>Turning milk into ricotta.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>100</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<recipeUsers>
+			<li>AC_DairyProcessingStation</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>0.25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Ricotta>5</AC_Ricotta>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>AC_ChurnButter</defName>
+		<label>churn butter</label>
+		<description>A recipe for transforming cream or other produce into rich, flavorful butter. Yield of the recipe will depend on the produce being used to get the butter.</description>
+		<jobString>Churning butter.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>5000</workAmount>
+		<recipeUsers>
+			<li>AC_DairyProcessingStation</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCorn</li>
+						<li>SmokeleafLeaves</li>
+						<li>Chocolate</li>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				<li>SmokeleafLeaves</li>
+				<li>Chocolate</li>
+				<li>Milk</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				<li>SmokeleafLeaves</li>
+				<li>Chocolate</li>
+				<li>Milk</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Butter>20</AC_Butter>
+		</products>
+		
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>RawCorn</baseline>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+</Defs>

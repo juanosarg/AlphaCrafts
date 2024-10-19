@@ -18,6 +18,8 @@
 				<filter>
 					<thingDefs>
 						<li>RawBerries</li>
+						<li>Ambrosia</li>
+						<li>Dye</li>
 						
 					</thingDefs>
 				</filter>
@@ -27,13 +29,15 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>RawBerries</li>
-			
+				<li>Ambrosia</li>
+				<li>Dye</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>RawBerries</li>
-				
+				<li>Ambrosia</li>
+				<li>Dye</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<workSkill>Crafting</workSkill>

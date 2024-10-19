@@ -19,28 +19,45 @@ namespace AlphaCrafts
                
                 ThingDef baseline = recipeDef.GetModExtension<VariableOutputByIngredient>().baseline;
            
-                ThingDef baselinePlant = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => x.plant?.harvestedThingDef == baseline).First();
-              
+                ThingDef baselinePlant = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => x.plant?.harvestedThingDef == baseline).FirstOrFallback(null);
+
+                ThingDef productIngredient = null;
                 ThingDef productIngredientPlant = null;
+
                 CompIngredients compIngredients = product.TryGetComp<CompIngredients>();
                 if (compIngredients != null)
                 {
-                    ThingDef productIngredient = compIngredients.ingredients.First();
-                    productIngredientPlant = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => x.plant?.harvestedThingDef == productIngredient).First();
-                   
+                    productIngredient = compIngredients.ingredients.First();
+                    productIngredientPlant = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => x.plant?.harvestedThingDef == productIngredient).FirstOrFallback(null);
+
                 }
 
 
-                if (baselinePlant != null && productIngredientPlant != null)
+                if (baselinePlant != null)
                 {
-                    float baselineTime = baselinePlant.plant.growDays;
-                    float baselineYield = baselinePlant.plant.harvestYield;
+                    int resultingStack = __result.stackCount;
 
-                    float ingredientTime = productIngredientPlant.plant.growDays;
-                    float ingredientYield = productIngredientPlant.plant.harvestYield;
+                    float basePrice = baseline.BaseMarketValue;
+                    float ingredientPrice = productIngredient.BaseMarketValue;
+
+                    if (productIngredientPlant != null)
+                    {
+                        float baselineTime = baselinePlant.plant.growDays;
+                        float baselineYield = baselinePlant.plant.harvestYield;
+
+                        float ingredientTime = productIngredientPlant.plant.growDays;
+                        float ingredientYield = productIngredientPlant.plant.harvestYield;
 
 
-                    int resultingStack = (int)(__result.stackCount * ((baselineYield / baselineTime) / (ingredientYield / ingredientTime)));
+                        resultingStack = (int)(__result.stackCount * (ingredientPrice/ basePrice) * ((baselineYield / baselineTime) / (ingredientYield / ingredientTime)));
+                    }
+                    else
+                    {
+                        resultingStack = (int)(__result.stackCount * (ingredientPrice / basePrice));
+
+
+                    }
+
                     if (resultingStack == 0)
                     {
                         resultingStack = 1;

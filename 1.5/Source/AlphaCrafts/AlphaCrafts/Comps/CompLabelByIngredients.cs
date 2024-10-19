@@ -38,7 +38,12 @@ namespace AlphaCrafts
                     ThingDef thingDef = ingredients.ingredients.First();
                     if (thingDef!=null && Props.overrides.ContainsKey(thingDef))
                     {
-                        return Props.overrides[thingDef] + " " + label;
+                        if (Props.fullReplace)
+                        {
+                            return Props.overrides[thingDef];
+                        }
+                        else { return Props.overrides[thingDef] + " " + label; }
+                        
                     }
                     return ingredients.ingredients.First().LabelCap + " " + label;
                 }

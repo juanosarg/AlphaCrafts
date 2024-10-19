@@ -301,8 +301,10 @@
     <Compile Include="DefModExtension\VariableOutputByIngredient.cs" />
     <Compile Include="Defs\PerfumeOffsets.cs" />
     <Compile Include="Defs\OilOffsets.cs" />
+    <Compile Include="Defs\ButterOffsets.cs" />
     <Compile Include="Defs\YogurtOffsets.cs" />
     <Compile Include="Graphics\Graphic_RandomStackCount.cs" />
+    <Compile Include="Graphics\Graphic_StackCountByIngredients_Butter.cs" />
     <Compile Include="Graphics\Graphic_StackCountByIngredients_Oil.cs" />
     <Compile Include="Graphics\Graphic_StackCountByIngredients_Perfume.cs" />
     <Compile Include="Graphics\Graphic_StackCountByIngredients_Yogurt.cs" />
