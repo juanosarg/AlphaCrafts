@@ -8,20 +8,17 @@ using UnityEngine.Diagnostics;
 
 namespace AlphaCrafts
 {
-    public class Graphic_StackCountByIngredients_Oil
-        : Graphic_StackCountByIngredient
+    public class Graphic_StackCountByIngredients_Vinegar: Graphic_StackCountByIngredient
     {
 
         public int cachedOffset = -1;
-
-      
 
         public override Graphic SubGraphicForStackCount(int stackCount, ThingDef def, Thing thing)
         {
             int offsetToAdd = cachedOffset;
             if (offsetToAdd == -1)
             {
-                offsetToAdd = Utils.GetGraphicNumberOffsetForOil(thing);
+                offsetToAdd = Utils.GetGraphicNumberOffsetForVinegar(thing);
             }
 
             if (stackCount == 1)
@@ -36,7 +33,6 @@ namespace AlphaCrafts
 
         }
 
-      
     }
 }
 

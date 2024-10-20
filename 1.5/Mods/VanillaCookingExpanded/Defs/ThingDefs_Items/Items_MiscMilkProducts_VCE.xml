@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="MealBase">
-		<defName>AC_Ricotta</defName>
-		<label>ricotta</label>
-		<description>A soft, creamy cheese with a mild flavor, often used in both savory and sweet dishes like pasta, pastries, and desserts. Very quick to make from milk, and a fast, easy way to make a profit from it.</description>
+		<defName>AC_CondensedMilk</defName>
+		<label>condensed milk</label>
+		<description>A thick, sweetened dairy product made by reducing milk, commonly used in desserts, baking, or as a long-lasting ingredient for various recipes.</description>
 		<graphicData>
-			<texPath>Things/Item/AC_Ricotta</texPath>
+			<texPath>Things/Item/AC_CondensedMilk</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>18</MarketValue>
+			<MarketValue>12</MarketValue>
 			<Nutrition>0.15</Nutrition>
-			<Mass>0.1</Mass>
+			<Mass>0.3</Mass>
 		</statBases>
 		<rotatable>false</rotatable>
 		<tradeability>Sellable</tradeability>
@@ -23,7 +23,7 @@
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Rottable">
-				<daysToRotStart>120</daysToRotStart>
+				<daysToRotStart>240</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>

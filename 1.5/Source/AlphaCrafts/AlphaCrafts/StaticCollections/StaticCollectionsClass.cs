@@ -12,10 +12,11 @@ namespace AlphaCrafts
     public static class StaticCollections
     {
 
-       public static Dictionary<ThingDef,int> yogurtOffsets = new Dictionary<ThingDef, int>();
-       public static Dictionary<ThingDef, int> oilOffsets = new Dictionary<ThingDef, int>();
-       public static Dictionary<ThingDef, int> perfumeOffsets = new Dictionary<ThingDef, int>();
-       public static Dictionary<ThingDef, int> butterOffsets = new Dictionary<ThingDef, int>();
+        public static Dictionary<ThingDef, int> yogurtOffsets = new Dictionary<ThingDef, int>();
+        public static Dictionary<ThingDef, int> oilOffsets = new Dictionary<ThingDef, int>();
+        public static Dictionary<ThingDef, int> perfumeOffsets = new Dictionary<ThingDef, int>();
+        public static Dictionary<ThingDef, int> butterOffsets = new Dictionary<ThingDef, int>();
+        public static Dictionary<ThingDef, int> vinegarOffsets = new Dictionary<ThingDef, int>();
 
 
 
@@ -25,7 +26,7 @@ namespace AlphaCrafts
             foreach (YogurtOffsets individualList in allYogurtLists)
             {
 
-                yogurtOffsets.AddRange(individualList.fruitAndOffsetList);                                          
+                yogurtOffsets.AddRange(individualList.fruitAndOffsetList);
             }
 
             List<OilOffsets> allOilLists = DefDatabase<OilOffsets>.AllDefsListForReading.ToList();
@@ -47,7 +48,12 @@ namespace AlphaCrafts
 
                 butterOffsets.AddRange(individualList.ingredientsAndOffsetList);
             }
+            List<VinegarOffsets> allVinegarLists = DefDatabase<VinegarOffsets>.AllDefsListForReading.ToList();
+            foreach (VinegarOffsets individualList in allVinegarLists)
+            {
 
+                vinegarOffsets.AddRange(individualList.ingredientsAndOffsetList);
+            }
         }
 
 

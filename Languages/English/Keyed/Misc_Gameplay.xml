@@ -4,17 +4,13 @@
 	<!-- Stews -->
 	
 	
-	<VCE_InsertSoybeansDesc>Fermenting Item</VCE_InsertSoybeansDesc>
-	
-	<VCE_StartSoybeanInsertion>Bring Soybeans</VCE_StartSoybeanInsertion>
-	<VCE_StartSoybeanInsertionDesc>Bring soybeans to the fermenter to start fermentation process</VCE_StartSoybeanInsertionDesc>
-	
-	<VCE_CancelBringingSoybeans>Cancel Bringing Soybeans</VCE_CancelBringingSoybeans>
-	<VCE_CancelBringingSoybeansDesc>Cancel bringing soybeans to the fermenter.</VCE_CancelBringingSoybeansDesc>
-	
-	<VCE_RemoveSoySauce>Remove Soy Sauce ({0})</VCE_RemoveSoySauce>
-	<VCE_RemoveSoySauceDesc>Remove soy sauce from the fermenter. The sauce will be ready at the present quality level ({0})</VCE_RemoveSoySauceDesc>
-	
+	<AC_InsertProduceDesc>Produce to Insert</AC_InsertProduceDesc>
+	<AC_StartInsertion>Bring Produce</AC_StartInsertion>
+	<AC_StartInsertionDesc>Bring produce to the vinegar cask to start processing</AC_StartInsertionDesc>
+	<AC_CancelBringingProduce>Cancel Bringing Produce</AC_CancelBringingProduce>
+	<AC_CancelBringingProduceDesc>Cancel bringing produce to the vinegar cask.</AC_CancelBringingProduceDesc>
+	<AC_VinegarFailurePower>The vinegar has spoiled due to a power failure in the vinegar cask</AC_VinegarFailurePower>
+	<AC_CaskNotWorking>This vinegar cask is not working at the moment</AC_CaskNotWorking>
 
 
 	

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<RecipeDef Name="VCE_YoghurtMealBase" Abstract="True">
+	<RecipeDef Name="AC_YoghurtMealBase" Abstract="True">
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>RawBerries</li>
@@ -15,8 +15,8 @@
 		</defaultIngredientFilter>
 		<workSkill>Cooking</workSkill>
 	</RecipeDef>
-	<RecipeDef ParentName="VCE_YoghurtMealBase">
-		<defName>VCE_CookYoghurt</defName>
+	<RecipeDef ParentName="AC_YoghurtMealBase">
+		<defName>AC_CookYoghurt</defName>
 		<label>cook yoghurt</label>
 		<description>Cook a yoghurt from milk and fruit.</description>
 		<jobString>Cooking yoghurt.</jobString>
@@ -54,8 +54,8 @@
 			<VCE_Yoghurt>1</VCE_Yoghurt>
 		</products>
 	</RecipeDef>
-	<RecipeDef ParentName="VCE_YoghurtMealBase">
-		<defName>VCE_CookYoghurt_Bulk</defName>
+	<RecipeDef ParentName="AC_YoghurtMealBase">
+		<defName>AC_CookYoghurt_Bulk</defName>
 		<label>cook yoghurt x4</label>
 		<description>Cook 4 yoghurt from milk and fruit.</description>
 		<jobString>Cooking 4 yoghurt.</jobString>
@@ -97,7 +97,7 @@
 		</products>
 	</RecipeDef>
 	<RecipeDef>
-		<defName>VCE_MakeRicotta</defName>
+		<defName>AC_MakeRicotta</defName>
 		<label>make ricotta</label>
 		<description>Turn milk into ricotta.</description>
 		<jobString>Turning milk into ricotta.</jobString>

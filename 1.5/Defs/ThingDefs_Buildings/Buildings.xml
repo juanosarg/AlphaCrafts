@@ -33,6 +33,7 @@
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>1.5</Flammability>
 		</statBases>
+		<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
@@ -78,7 +79,6 @@
 		</placeWorkers>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
-	
 	<ThingDef ParentName="BuildingBase">
 		<defName>AC_DairyProcessingStation</defName>
 		<label>dairy processing station</label>
@@ -96,6 +96,7 @@
 			</damageData>
 		</graphicData>
 		<tickerType>Normal</tickerType>
+		<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
 		<costList>
 			<Steel>50</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
@@ -155,6 +156,81 @@
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
+		<minifiedDef>MinifiedThing</minifiedDef>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AC_VinegarCask</defName>
+		<label>vinegar cask</label>
+		<description>A sturdy, purpose-built cask designed specifically for fermenting fruits, vegetables, and grains into vinegar. The cask allows precise control over the fermentation process, creating distinct flavors and varieties of vinegar from different ingredients.</description>
+		
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Buildings/AC_VinegarCask</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<uiIconScale>0.8</uiIconScale>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<Mass>10</Mass>
+			<WorkToBuild>800</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<researchPrerequisites>
+			<li>AC_VinegarBrewing</li>
+		</researchPrerequisites>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<building>
+			
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>50</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>AC_CaskNotWorking</notWorkingKey>
+				<processes>
+					<li>AC_RiceToVinegar</li>
+				</processes>
+				<progressBarOffset>(0,0,-1)</progressBarOffset>
+			</li>
+		</comps>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 </Defs>
