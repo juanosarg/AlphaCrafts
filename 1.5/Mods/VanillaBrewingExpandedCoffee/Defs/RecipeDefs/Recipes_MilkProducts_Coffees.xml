@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<RecipeDef>
+		<defName>AC_MakeButtermilk</defName>
+		<label>make buttermilk</label>
+		<description>Turn milk and lemons into buttermilk.</description>
+		<jobString>Turning milk and lemons into buttermilk.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>3000</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		
+		<recipeUsers>
+			<li>AC_DairyProcessingStation</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VCE_RawLemon</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+				<li>VCE_RawLemon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+				<li>VCE_RawLemon</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Buttermilk>3</AC_Buttermilk>
+		</products>
+		
+	</RecipeDef>
+</Defs>

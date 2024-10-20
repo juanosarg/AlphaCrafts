@@ -160,8 +160,8 @@
 	</ThingDef>
 	<ThingDef ParentName="BuildingBase">
 		<defName>AC_VinegarCask</defName>
-		<label>vinegar cask</label>
-		<description>A sturdy, purpose-built cask designed specifically for fermenting fruits, vegetables, and grains into vinegar. The cask allows precise control over the fermentation process, creating distinct flavors and varieties of vinegar from different ingredients.</description>
+		<label>artisan fermenter</label>
+		<description>A versatile, purpose-built vessel designed for fermenting a wide range of ingredients, from dairy to grains and fruits. This fermenter allows precise control over complex fermentation processes, enabling the creation of a variety of artisan products like vinegar, miso, kefir, and sake. Ideal for producing high-quality goods with distinct flavors and textures from various cultures.</description>
 		
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>

@@ -189,4 +189,57 @@
 			</li>
 		</modExtensions>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>AC_MakeSourCream</defName>
+		<label>make sour cream</label>
+		<description>Turn milk and vinegar into sour cream.</description>
+		<jobString>Turning milk and vinegar into sour cream.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>1500</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		
+		<recipeUsers>
+			<li>AC_DairyProcessingStation</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AC_Vinegar</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+				<li>AC_Vinegar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+				<li>AC_Vinegar</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_SourCream>5</AC_SourCream>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+	</RecipeDef>
 </Defs>

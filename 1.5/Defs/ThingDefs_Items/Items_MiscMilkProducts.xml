@@ -31,4 +31,70 @@
 			<li>AC_ArtisanProducts</li>
 		</thingCategories>
 	</ThingDef>
+	
+	<ThingDef ParentName="MealBase">
+		<defName>AC_SourCream</defName>
+		<label>sour cream</label>
+		<description>A tangy, creamy dairy product made by curdling milk with vinegar, offering a rich texture and flavor perfect for enhancing both savory and sweet dishes.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_SourCream</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>30</MarketValue>
+			<Nutrition>0.15</Nutrition>
+			<Mass>0.1</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<maxNumToIngestAtOnce>7</maxNumToIngestAtOnce>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>20</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="MealBase">
+		<defName>AC_Kefir</defName>
+		<label>kefir</label>
+		<description>A tangy, probiotic-rich fermented milk drink, made by culturing milk with kefir grains. Known for its creamy texture and health benefits.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Kefir</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>30</MarketValue>
+			<Nutrition>0.15</Nutrition>
+			<Mass>0.1</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<maxNumToIngestAtOnce>7</maxNumToIngestAtOnce>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
 </Defs>

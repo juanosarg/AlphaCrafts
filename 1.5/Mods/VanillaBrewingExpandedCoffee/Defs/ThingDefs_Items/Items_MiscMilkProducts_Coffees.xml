@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="MealBase">
+		<defName>AC_Buttermilk</defName>
+		<label>buttermilk</label>
+		<description>A tangy, slightly thickened dairy product made by combining milk with lemon juice, commonly used in baking and cooking to add moisture and a subtle acidity to recipes.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Buttermilk</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>17</MarketValue>
+			<Nutrition>0.15</Nutrition>
+			<Mass>0.1</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<maxNumToIngestAtOnce>7</maxNumToIngestAtOnce>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>20</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+</Defs>

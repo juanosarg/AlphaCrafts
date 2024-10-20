@@ -3,15 +3,15 @@
 
 	
 	<PipeSystem.ProcessDef>
-		<defName>AC_RiceToVinegar</defName>
-		<label>Ferment rice into vinegar</label>
-		<description>Turns 50 rice into 25 vinegar.</description>
+		<defName>AC_CoconutsToVinegar</defName>
+		<label>Ferment coconuts into vinegar</label>
+		<description>Turns 50 coconuts into 25 vinegar.</description>
 		<useIngredients>true</useIngredients>
 		<spawnOnInteractionCell>true</spawnOnInteractionCell>
-		<labelOverride>Ferment 50 rice into 25 vinegar</labelOverride>
+		<labelOverride>Ferment 50 coconuts into 25 vinegar</labelOverride>
 		<ingredients>
 			<li>
-				<thing>RawRice</thing>
+				<thing>VCE_RawCoconut</thing>
 				<countNeeded>50</countNeeded>
 			</li>
 		</ingredients>
@@ -21,8 +21,9 @@
 				<thing>AC_Vinegar</thing>
 				<count>25</count>
 			</li>
-		</results>
-		
+		</results>	
 	</PipeSystem.ProcessDef>
+	
+
 
 </Defs>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ResearchProjectDef>
 		<defName>AC_OilExtraction</defName>
 		<label>oil extraction</label>
@@ -8,14 +7,21 @@
 		<techLevel>Industrial</techLevel>
 		<description>Unlocks techniques for extracting oils from a variety of plants and seeds, enabling the production of valuable artisan oils.</description>
 		<baseCost>300</baseCost>
-		
 		<prerequisites>
 			<li>Electricity</li>
 		</prerequisites>
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->liquid gold</li>
+				<li>subject_story->unlocked the ancient art of extracting oils from seeds, nuts, and fruits</li>
+				<li>subject_story->perfected the techniques of pressing and refining oils for culinary and crafting uses</li>
+				<li>subject_story->introduced the oil press, transforming produce into valuable oils for cooking and industry</li>
+				<li>subject_gerund->harnessing nature's oils to enhance food, fuel, and artisan goods</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
-
 	<ResearchProjectDef>
 		<defName>AC_ArtisanDairyProcessing</defName>
 		<label>artisan dairy processing</label>
@@ -28,8 +34,17 @@
 		</prerequisites>
 		<researchViewX>1</researchViewX>
 		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->cheese, and other oddities</li>
+				<li>subject_story->developed the craft of turning milk into rich, flavorful dairy products</li>
+				<li>subject_story->mastered the process of creating yogurt, cream, and artisanal cheeses</li>
+				<li>subject_story->introduced new techniques for elevating everyday milk into specialty goods</li>
+				<li>subject_gerund->transforming simple milk into a variety of handcrafted dairy delights</li>
 
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
 	<ResearchProjectDef>
 		<defName>AC_VinegarBrewing</defName>
 		<label>vinegar brewing</label>
@@ -42,7 +57,36 @@
 		</prerequisites>
 		<researchViewX>2</researchViewX>
 		<researchViewY>0</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->sweet bitterness</li>
+				<li>subject_story->perfected the age-old art of fermenting fruits and grains into tangy, versatile vinegar</li>
+				<li>subject_story->introduced controlled fermentation techniques for crafting distinct vinegar varieties</li>
+				<li>subject_story->expanded the uses of vinegar in preservation, cooking, and artisanal goods</li>
+				<li>subject_gerund->brewing flavorful vinegar to enhance cooking and preserve food</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
-
-
+	<ResearchProjectDef>
+		<defName>AC_ArtisanalFermentation</defName>
+		<label>artisanal fermentation</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Unlocks additional recipes for the artisan fermenter to ferment miso, kefir, lassi, sake, and more.</description>
+		<baseCost>250</baseCost>
+		<prerequisites>
+			<li>AC_VinegarBrewing</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->the joys of fermentation</li>
+				<li>subject_story->unlocked the potential of fermenting various ingredients into unique, culture-rich products</li>
+				<li>subject_story->mastered fermentation techniques for producing miso, kefir, lassi, sake, and more</li>
+				<li>subject_story->introduced multi-purpose fermenting methods to craft diverse culinary and artisan goods</li>
+				<li>subject_gerund->harnessing fermentation to create a world of artisanal flavors and textures</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
 </Defs>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_ApplesToVinegar</defName>
+		<label>Ferment apples into vinegar</label>
+		<description>Turns 50 apples into 25 vinegar.</description>
+		<useIngredients>true</useIngredients>
+		<labelOverride>Ferment 50 apples into 25 vinegar</labelOverride>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<ingredients>
+			<li>
+				<thing>VCE_RawApple</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>60000</ticks>
+		<results>
+			<li>
+				<thing>AC_Vinegar</thing>
+				<count>25</count>
+			</li>
+		</results>	
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_TomatoesToVinegar</defName>
+		<label>Ferment tomatoes into vinegar</label>
+		<description>Turns 50 tomatoes into 25 vinegar.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 50 tomatoes into 25 vinegar</labelOverride>
+		<ingredients>
+			<li>
+				<thing>VCE_RawTomatoes</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>60000</ticks>
+		<results>
+			<li>
+				<thing>AC_Vinegar</thing>
+				<count>25</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+
+</Defs>
