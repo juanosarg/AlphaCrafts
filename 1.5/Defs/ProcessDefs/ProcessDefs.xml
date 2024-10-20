@@ -6,6 +6,8 @@
 		<defName>AC_RiceToVinegar</defName>
 		<label>Ferment rice into vinegar</label>
 		<description>Turns 50 rice into 25 vinegar.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
 		<ingredients>
 			<li>
 				<thing>RawRice</thing>
