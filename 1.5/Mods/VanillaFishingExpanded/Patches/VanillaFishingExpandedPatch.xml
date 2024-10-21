@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+		<value>
+			<li>AC_FishToFishSauce</li>
+			
+		</value>
+	</Operation>
+	
+</Patch>
+

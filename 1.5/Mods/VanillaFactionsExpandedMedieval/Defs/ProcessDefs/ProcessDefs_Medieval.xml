@@ -15,7 +15,8 @@
 				<countNeeded>50</countNeeded>
 			</li>
 		</ingredients>
-		<ticks>60000</ticks>
+		<priorityInBillList>10</priorityInBillList>
+		<ticks>600000</ticks>
 		<results>
 			<li>
 				<thing>AC_Vinegar</thing>

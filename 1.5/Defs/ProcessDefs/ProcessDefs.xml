@@ -9,17 +9,71 @@
 		<useIngredients>true</useIngredients>
 		<spawnOnInteractionCell>true</spawnOnInteractionCell>
 		<labelOverride>Ferment 50 rice into 25 vinegar</labelOverride>
+		<priorityInBillList>10</priorityInBillList>
 		<ingredients>
 			<li>
 				<thing>RawRice</thing>
 				<countNeeded>50</countNeeded>
 			</li>
 		</ingredients>
-		<ticks>60000</ticks>
+		<ticks>600000</ticks>
 		<results>
 			<li>
 				<thing>AC_Vinegar</thing>
 				<count>25</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_MilkToKefir</defName>
+		<label>Ferment milk into kefir</label>
+		<description>Turns 50 milk into 10 kefir.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 50 milk into 10 kefir</labelOverride>
+		
+		<priorityInBillList>11</priorityInBillList>
+		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
+		<ingredients>
+			<li>
+				<thing>Milk</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>800000</ticks>
+		<results>
+			<li>
+				<thing>AC_Kefir</thing>
+				<count>10</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_YogHurtToLassi</defName>
+		<label>Ferment yoghurt into lassi</label>
+		<description>Turns 20 yoghurt into 10 lassi.</description>
+		<useIngredients>true</useIngredients>
+		<transfersIngredientList>true</transfersIngredientList>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 20 yoghurt into 10 lassi</labelOverride>
+		
+		<priorityInBillList>12</priorityInBillList>
+		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
+		<ingredients>
+			<li>
+				<thing>VCE_Yoghurt</thing>
+				<countNeeded>20</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>900000</ticks>
+		<results>
+			<li>
+				<thing>AC_Lassi</thing>
+				<count>10</count>
 			</li>
 		</results>
 		

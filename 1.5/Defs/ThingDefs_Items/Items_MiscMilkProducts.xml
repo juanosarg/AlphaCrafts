@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="MealBase">
+	<ThingDef ParentName="MealBaseIngredientless">
 		<defName>AC_Ricotta</defName>
 		<label>ricotta</label>
 		<description>A soft, creamy cheese with a mild flavor, often used in both savory and sweet dishes like pasta, pastries, and desserts. Very quick to make from milk, and a fast, easy way to make a profit from it.</description>
@@ -26,13 +26,16 @@
 				<daysToRotStart>120</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
+			<li Class="CompProperties_Ingredients">
+				
+			</li>
 		</comps>
 		<thingCategories>
 			<li>AC_ArtisanProducts</li>
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="MealBase">
+	<ThingDef ParentName="MealBaseIngredientless">
 		<defName>AC_SourCream</defName>
 		<label>sour cream</label>
 		<description>A tangy, creamy dairy product made by curdling milk with vinegar, offering a rich texture and flavor perfect for enhancing both savory and sweet dishes.</description>
@@ -58,13 +61,16 @@
 				<daysToRotStart>20</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
+			<li Class="CompProperties_Ingredients">
+				
+			</li>
 		</comps>
 		<thingCategories>
 			<li>AC_ArtisanProducts</li>
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="MealBase">
+	<ThingDef ParentName="MealBaseIngredientless">
 		<defName>AC_Kefir</defName>
 		<label>kefir</label>
 		<description>A tangy, probiotic-rich fermented milk drink, made by culturing milk with kefir grains. Known for its creamy texture and health benefits.</description>
@@ -73,9 +79,9 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>30</MarketValue>
+			<MarketValue>17</MarketValue>
 			<Nutrition>0.15</Nutrition>
-			<Mass>0.1</Mass>
+			<Mass>0.2</Mass>
 		</statBases>
 		<rotatable>false</rotatable>
 		<tradeability>Sellable</tradeability>
@@ -89,6 +95,44 @@
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>10</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+				
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="MealBaseIngredientless">
+		<defName>AC_Lassi</defName>
+		<label>lassi</label>
+		<description>A traditional, creamy yogurt-based drink, often flavored with fruits or spices. It's a refreshing blend of sweet or savory ingredients, perfect for cooling off and aiding digestion.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Lassi</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>17</MarketValue>
+			<Nutrition>0.15</Nutrition>
+			<Mass>0.15</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<maxNumToIngestAtOnce>7</maxNumToIngestAtOnce>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+				
 			</li>
 		</comps>
 		<thingCategories>

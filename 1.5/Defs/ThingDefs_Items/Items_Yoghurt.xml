@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="MealCooked">
+	<ThingDef ParentName="MealBaseIngredientless">
 		<defName>VCE_Yoghurt</defName>
 		<label>yoghurt</label>
 		<description>A creamy, tangy dairy product made by fermenting milk, often enjoyed on its own or used in cooking and baking.</description>
@@ -23,7 +23,7 @@
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Ingredients">
-				<splitTransferableFoodKind>true</splitTransferableFoodKind>
+				
 			</li>
 			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
 				

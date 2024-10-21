@@ -24,14 +24,13 @@
 		<workAmount>450</workAmount>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
-		<allowMixingIngredients>true</allowMixingIngredients>
+		<allowMixingIngredients>false</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<recipeUsers>
 			<li>AC_DairyProcessingStation</li>
 		</recipeUsers>
 		<ingredients>
-			<li>
-				
+			<li Name="FruitIngredient">
 				<filter>
 					<customSummary>fruit</customSummary>
 					<thingDefs>
@@ -42,7 +41,7 @@
 			</li>
 			<li>
 				<filter>
-				<customSummary>milk</customSummary>
+					<customSummary>milk</customSummary>
 					<thingDefs>
 						<li>Milk</li>
 					</thingDefs>
@@ -66,14 +65,13 @@
 		</skillRequirements>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
-		<allowMixingIngredients>true</allowMixingIngredients>
+		<allowMixingIngredients>false</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<recipeUsers>
 			<li>AC_DairyProcessingStation</li>
 		</recipeUsers>
 		<ingredients>
-			<li>
-				
+			<li Name="FruitIngredient">
 				<filter>
 					<customSummary>fruit</customSummary>
 					<thingDefs>
@@ -84,7 +82,7 @@
 			</li>
 			<li>
 				<filter>
-				<customSummary>milk</customSummary>
+					<customSummary>milk</customSummary>
 					<thingDefs>
 						<li>Milk</li>
 					</thingDefs>
@@ -135,7 +133,6 @@
 			<AC_Ricotta>5</AC_Ricotta>
 		</products>
 	</RecipeDef>
-	
 	<RecipeDef>
 		<defName>AC_ChurnButter</defName>
 		<label>churn butter</label>
@@ -182,14 +179,12 @@
 		<products>
 			<AC_Butter>20</AC_Butter>
 		</products>
-		
 		<modExtensions>
 			<li Class="AlphaCrafts.VariableOutputByIngredient">
 				<baseline>RawCorn</baseline>
 			</li>
 		</modExtensions>
 	</RecipeDef>
-	
 	<RecipeDef>
 		<defName>AC_MakeSourCream</defName>
 		<label>make sour cream</label>
@@ -200,7 +195,6 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
-		
 		<recipeUsers>
 			<li>AC_DairyProcessingStation</li>
 		</recipeUsers>

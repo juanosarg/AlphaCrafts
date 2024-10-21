@@ -27,5 +27,12 @@
 			<li>VCE_RawSoybean</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+		<value>
+			<li>AC_SoybeansToMiso</li>
+			
+		</value>
+	</Operation>
 </Patch>
 

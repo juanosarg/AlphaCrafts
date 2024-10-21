@@ -227,6 +227,8 @@
 				<notWorkingKey>AC_CaskNotWorking</notWorkingKey>
 				<processes>
 					<li>AC_RiceToVinegar</li>
+					<li>AC_MilkToKefir</li>
+					<li>AC_YogHurtToLassi</li>
 				</processes>
 				<progressBarOffset>(0,0,-1)</progressBarOffset>
 			</li>

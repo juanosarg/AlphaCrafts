@@ -17,7 +17,7 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName = "AC_CookYoghurt"]/ingredients/li/filter</xpath>
+		<xpath>Defs/RecipeDef[defName = "AC_CookYoghurt"]/ingredients/li[@Name="FruitIngredient"]/filter</xpath>
 		<value>
 			<categories>
 				<li>VCE_Fruit</li>
@@ -25,7 +25,7 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName = "AC_CookYoghurt_Bulk"]/ingredients/li/filter</xpath>
+		<xpath>Defs/RecipeDef[defName = "AC_CookYoghurt_Bulk"]/ingredients/li[@Name="FruitIngredient"]/filter</xpath>
 		<value>
 			<categories>
 				<li>VCE_Fruit</li>
