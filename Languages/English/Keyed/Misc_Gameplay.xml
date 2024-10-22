@@ -12,7 +12,11 @@
 	<AC_VinegarFailurePower>The vinegar has spoiled due to a power failure in the vinegar cask</AC_VinegarFailurePower>
 	<AC_CaskNotWorking>This vinegar cask is not working at the moment</AC_CaskNotWorking>
 
-
+	<AC_DisableQuests>Disable Artisan Trading quests</AC_DisableQuests>
+	<AC_DisableQuests_Description>Disables Artisan Trading quests from triggering. Bear in mind these quests are independent of any other quests or storyteller events (raids, manhunters, etc). They don't "take a slot"</AC_DisableQuests_Description>
+	<AC_QuestRate>Artisan Trading quest multiplier (lower means getting the event more often)</AC_QuestRate>
+	<AC_QuestRateTooltip>The frequency of the Artisan Trading quest being offered is multiplied by this number (with a multiplier of 1, it is offered every between 15 and 30 days at random). Numbers below 1 decrease the time, while numbers above it increase it. Note that this event doesn't "replace" normal quests, it works independently.</AC_QuestRateTooltip>
+	<AC_Reset>Reset</AC_Reset>
 	
 
 </LanguageData>

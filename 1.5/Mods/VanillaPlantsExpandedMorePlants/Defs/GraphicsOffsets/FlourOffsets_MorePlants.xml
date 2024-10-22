@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.FlourOffsets>
+		<defName>AC_FlourOffsets_MorePlants</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawAlmonds</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>VCE_RawBuckwheat</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>VCE_RawChickpeas</key>
+				<value>2</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.FlourOffsets>
+</Defs>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ZestCitrics"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawLemon</li>
+		
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ZestCitrics"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawLemon</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ZestCitrics"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawLemon</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Zest"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawLemon</key>
+				<value>Lemon</value>
+			</li>
+			
+		</value>
+	</Operation>
+	
+</Patch>
+

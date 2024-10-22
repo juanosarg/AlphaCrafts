@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.FlourOffsets>
+		<defName>AC_FlourOffsets</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>RawRice</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>RawCorn</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>RawPotatoes</key>
+				<value>1</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.FlourOffsets>
+</Defs>

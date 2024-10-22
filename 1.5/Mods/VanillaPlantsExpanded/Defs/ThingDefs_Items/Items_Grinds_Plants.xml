@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Zest</defName>
+		<label>zest</label>
+		<description>The outer peel of citrus fruits, rich in aromatic oils and vibrant flavors.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Zest</texPath>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Zest</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>7</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>2</Flammability>
+			<Mass>0.05</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
+				<overrides>
+					<li>
+						<key>VCE_RawOrange</key>
+						<value>Orange</value>
+					</li>
+				</overrides>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+	
+	
+</Defs>

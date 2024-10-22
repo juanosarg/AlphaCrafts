@@ -52,6 +52,59 @@
 			<li>AC_TomatoesToVinegar</li>
 		</value>
 	</Operation>
-	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPumpkin</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPumpkin</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPumpkin</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Chips"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawPumpkin</key>
+				<value>Pumpkin seeds</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawApple</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawApple</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawApple</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Puree"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawApple</key>
+				<value>Applesauce</value>
+			</li>
+		</value>
+	</Operation>
 </Patch>
 

@@ -94,6 +94,73 @@ namespace AlphaCrafts
             }
             return 0;
         }
+
+        public static int GetGraphicNumberOffsetForFlour(Thing thing)
+        {
+            CompIngredients compIngredients = thing.TryGetComp<CompIngredients>();
+            if (compIngredients != null)
+            {
+                foreach (ThingDef ingredient in compIngredients.ingredients)
+                {
+                    if (StaticCollections.flourOffsets.ContainsKey(ingredient))
+                    {
+                        return StaticCollections.flourOffsets[ingredient];
+                    }
+                }
+
+            }
+            return 0;
+        }
+
+        public static int GetGraphicNumberOffsetForChips(Thing thing)
+        {
+            CompIngredients compIngredients = thing.TryGetComp<CompIngredients>();
+            if (compIngredients != null)
+            {
+                foreach (ThingDef ingredient in compIngredients.ingredients)
+                {
+                    if (StaticCollections.chipsOffsets.ContainsKey(ingredient))
+                    {
+                        return StaticCollections.chipsOffsets[ingredient];
+                    }
+                }
+
+            }
+            return 0;
+        }
+        public static int GetGraphicNumberOffsetForZest(Thing thing)
+        {
+            CompIngredients compIngredients = thing.TryGetComp<CompIngredients>();
+            if (compIngredients != null)
+            {
+                foreach (ThingDef ingredient in compIngredients.ingredients)
+                {
+                    if (StaticCollections.zestOffsets.ContainsKey(ingredient))
+                    {
+                        return StaticCollections.zestOffsets[ingredient];
+                    }
+                }
+
+            }
+            return 0;
+        }
+
+        public static int GetGraphicNumberOffsetForPuree(Thing thing)
+        {
+            CompIngredients compIngredients = thing.TryGetComp<CompIngredients>();
+            if (compIngredients != null)
+            {
+                foreach (ThingDef ingredient in compIngredients.ingredients)
+                {
+                    if (StaticCollections.pureeOffsets.ContainsKey(ingredient))
+                    {
+                        return StaticCollections.pureeOffsets[ingredient];
+                    }
+                }
+
+            }
+            return 0;
+        }
     }
 }
 

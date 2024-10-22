@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Flour</defName>
+		<label>specialty flour</label>
+		<description>A finely ground powder made from non-wheat sources such as nuts, seeds, or alternative grains. These flours bring unique flavors and textures to baking and cooking, offering versatile options for a wide range of culinary creations.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Flour</texPath>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Flour</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>27</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>2</Flammability>
+			<Mass>1</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>120</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
+				<overrides>
+					<li>
+						<key>RawPotatoes</key>
+						<value>Potato</value>
+					</li>
+				</overrides>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+	
+	<ThingDef ParentName="MealBaseIngredientless">
+		<defName>AC_Chips</defName>
+		<label>chips</label>
+		<description>A variety of crunchy, flavorful bites made from seeds and thinly sliced, dried, or fried produce. These nutrient-packed treats offer a satisfying crunch and can be seasoned or flavored to suit any taste.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Chips</texPath>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Chips</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>3</MarketValue>
+			<Nutrition>0.3</Nutrition>
+			<Mass>0.05</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+		
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Ingredients">
+				
+			</li>
+			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
+				<fullReplace>true</fullReplace>
+				<overrides>
+					<li>
+						<key>RawPotatoes</key>
+						<value>Potato chips</value>
+					</li>
+				</overrides>
+			</li>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="MealBaseIngredientless">
+		<defName>AC_Puree</defName>
+		<label>puree</label>
+		<description>A smooth, thick blend made by processing fruits, vegetables, or legumes into a creamy consistency. Purees are used in cooking to create sauces, soups, or as a base for various dishes, adding texture and concentrated flavor.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Puree</texPath>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Puree</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>3</MarketValue>
+			<Nutrition>0.3</Nutrition>
+			<Mass>0.1</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+		
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Ingredients">
+				
+			</li>
+			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
+				<fullReplace>true</fullReplace>
+				<overrides>
+				
+					<li>
+						<key>RawPotatoes</key>
+						<value>Potato mash</value>
+					</li>
+				</overrides>
+			</li>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+	</ThingDef>
+</Defs>

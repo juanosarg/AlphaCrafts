@@ -12,6 +12,7 @@
 		<workAmount>1000</workAmount>
 		<recipeUsers>
 			<li>AC_OilPressWorkshop</li>
+			<li>AC_ArtisanWorkshop</li>
 		</recipeUsers>
 		<ingredients>
 			<li>

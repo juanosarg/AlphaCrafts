@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.ZestOffsets>
+		<defName>AC_ZestOffsets_CoffeeAndTea</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawLemon</key>
+				<value>0</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.ZestOffsets>
+</Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.ChipsOffsets>
+		<defName>AC_ChipsOffsets_Plants</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawPumpkin</key>
+				<value>1</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.ChipsOffsets>
+	
+	
+</Defs>

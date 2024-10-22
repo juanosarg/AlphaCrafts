@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.PureeOffsets>
+		<defName>AC_PureeOffsets_MorePlants</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawAvocado</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>VCE_RawChickpeas</key>
+				<value>2</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.PureeOffsets>
+</Defs>

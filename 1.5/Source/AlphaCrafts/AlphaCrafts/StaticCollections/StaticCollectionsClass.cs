@@ -17,8 +17,10 @@ namespace AlphaCrafts
         public static Dictionary<ThingDef, int> perfumeOffsets = new Dictionary<ThingDef, int>();
         public static Dictionary<ThingDef, int> butterOffsets = new Dictionary<ThingDef, int>();
         public static Dictionary<ThingDef, int> vinegarOffsets = new Dictionary<ThingDef, int>();
-
-
+        public static Dictionary<ThingDef, int> flourOffsets = new Dictionary<ThingDef, int>();
+        public static Dictionary<ThingDef, int> chipsOffsets = new Dictionary<ThingDef, int>();
+        public static Dictionary<ThingDef, int> zestOffsets = new Dictionary<ThingDef, int>();
+        public static Dictionary<ThingDef, int> pureeOffsets = new Dictionary<ThingDef, int>();
 
         static StaticCollections()
         {
@@ -53,6 +55,30 @@ namespace AlphaCrafts
             {
 
                 vinegarOffsets.AddRange(individualList.ingredientsAndOffsetList);
+            }
+            List<FlourOffsets> allFlourLists = DefDatabase<FlourOffsets>.AllDefsListForReading.ToList();
+            foreach (FlourOffsets individualList in allFlourLists)
+            {
+
+                flourOffsets.AddRange(individualList.ingredientsAndOffsetList);
+            }
+            List<ChipsOffsets> allChipsLists = DefDatabase<ChipsOffsets>.AllDefsListForReading.ToList();
+            foreach (ChipsOffsets individualList in allChipsLists)
+            {
+
+                chipsOffsets.AddRange(individualList.ingredientsAndOffsetList);
+            }
+            List<ZestOffsets> allZestLists = DefDatabase<ZestOffsets>.AllDefsListForReading.ToList();
+            foreach (ZestOffsets individualList in allZestLists)
+            {
+
+                zestOffsets.AddRange(individualList.ingredientsAndOffsetList);
+            }
+            List<PureeOffsets> allPureeLists = DefDatabase<PureeOffsets>.AllDefsListForReading.ToList();
+            foreach (PureeOffsets individualList in allPureeLists)
+            {
+
+                pureeOffsets.AddRange(individualList.ingredientsAndOffsetList);
             }
         }
 
