@@ -137,6 +137,61 @@
 						</categories>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<RecipeDef>
+							<defName>AC_PrepareKimchi</defName>
+							<label>prepare kimchi</label>
+							<description>This recipe transforms fresh cabbage and spices into the tangy, spicy, and fermented delicacy known as kimchi.</description>
+							<jobString>preparing kimchi.</jobString>
+							<workSpeedStat>CookSpeed</workSpeedStat>
+							<effectWorking>Cook</effectWorking>
+							<soundWorking>Recipe_CookMeal</soundWorking>
+							<workAmount>1000</workAmount>
+							<recipeUsers>
+								<li>AC_BottlingStation</li>
+							</recipeUsers>
+							<ingredients>
+								<li Name="ProduceIngredient">
+									<filter>
+										<thingDefs>
+											<li>VCE_RawCabbage</li>
+										</thingDefs>
+									</filter>
+									<count>20</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>VCE_RawSpices</li>
+										</thingDefs>
+									</filter>
+									<count>2</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>VCE_RawCabbage</li>
+									<li>VCE_RawSpices</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<thingDefs>
+									<li>VCE_RawCabbage</li>
+									<li>VCE_RawSpices</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<workSkill>Cooking</workSkill>
+							<products>
+								<AC_Kimchi>10</AC_Kimchi>
+							</products>
+							<skillRequirements>
+								<Cooking>5</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>
@@ -176,7 +231,6 @@
 			<li>VCE_RawTomatoes</li>
 		</value>
 	</Operation>
-	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/ingredients/li[@Name="ProduceIngredient"]/filter/thingDefs</xpath>
 		<value>
