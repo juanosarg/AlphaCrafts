@@ -176,4 +176,39 @@
 			<li>VCE_RawTomatoes</li>
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/ingredients/li[@Name="ProduceIngredient"]/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_InfusedMayonnaise"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawPepper</key>
+				<value>Chili mayonnaise</value>
+			</li>
+			<li>
+				<key>VCE_RawTomatoes</key>
+				<value>Tomato mayonnaise</value>
+			</li>
+		</value>
+	</Operation>
 </Patch>

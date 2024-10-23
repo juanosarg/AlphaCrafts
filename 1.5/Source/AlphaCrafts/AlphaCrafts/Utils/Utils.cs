@@ -178,6 +178,22 @@ namespace AlphaCrafts
             }
             return 0;
         }
+        public static int GetGraphicNumberOffsetForMayo(Thing thing)
+        {
+            CompIngredients compIngredients = thing.TryGetComp<CompIngredients>();
+            if (compIngredients != null)
+            {
+                foreach (ThingDef ingredient in compIngredients.ingredients)
+                {
+                    if (StaticCollections.mayoOffsets.ContainsKey(ingredient))
+                    {
+                        return StaticCollections.mayoOffsets[ingredient];
+                    }
+                }
+
+            }
+            return 0;
+        }
     }
 }
 

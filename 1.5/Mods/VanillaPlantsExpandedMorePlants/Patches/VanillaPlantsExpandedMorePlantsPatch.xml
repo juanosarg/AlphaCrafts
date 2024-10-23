@@ -261,6 +261,7 @@
 		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
 		<value>
 			<li>AC_CoconutsToVinegar</li>
+			<li>AC_GarlicToBlackGarlic</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -408,6 +409,48 @@
 			<li>VCE_RawYellowBellPeppers</li>
 			<li>VCE_RawCucumber</li>
 			<li>VCE_RawButternutSquash</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/ingredients/li[@Name="ProduceIngredient"]/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_Mangoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_Mangoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_Mangoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_InfusedMayonnaise"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawGarlic</key>
+				<value>Aioli</value>
+			</li>
+			<li>
+				<key>VCE_RawAvocado</key>
+				<value>Avocado mayonnaise</value>
+			</li>
+			<li>
+				<key>VCE_Mangoes</key>
+				<value>Mango mayonnaise</value>
+			</li>
 		</value>
 	</Operation>
 </Patch>

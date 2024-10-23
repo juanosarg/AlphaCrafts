@@ -1,37 +1,148 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName="AC_ZestCitrics"]/ingredients/li/filter/thingDefs</xpath>
-		<value>
-			<li>VCE_RawLemon</li>
-		
-			
-		</value>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Plants Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<AlphaCrafts.ZestOffsets>
+							<defName>AC_ZestOffsets_CoffeeAndTea</defName>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VCE_RawLemon</key>
+									<value>0</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</AlphaCrafts.ZestOffsets>
+						<AlphaCrafts.YogurtOffsets>
+							<defName>AC_YogurtFruitOffsets_CoffeeAndTea</defName>
+							<fruitAndOffsetList>
+								<li>
+									<key>VCE_RawLemon</key>
+									<value>2</value>
+								</li>
+							</fruitAndOffsetList>
+						</AlphaCrafts.YogurtOffsets>
+						<AlphaCrafts.MayoOffsets>
+							<defName>AC_MayoOffsets_CoffeeAndTea</defName>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VCE_RawLemon</key>
+									<value>2</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</AlphaCrafts.MayoOffsets>
+						<RecipeDef>
+							<defName>AC_MakeButtermilk</defName>
+							<label>make buttermilk</label>
+							<description>Turn milk and lemons into buttermilk.</description>
+							<jobString>Turning milk and lemons into buttermilk.</jobString>
+							<workSpeedStat>CookSpeed</workSpeedStat>
+							<workAmount>3000</workAmount>
+							<effectWorking>Cook</effectWorking>
+							<soundWorking>Recipe_CookMeal</soundWorking>
+							<allowMixingIngredients>true</allowMixingIngredients>
+							<recipeUsers>
+								<li>AC_DairyProcessingStation</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Milk</li>
+										</thingDefs>
+									</filter>
+									<count>10</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>VCE_RawLemon</li>
+										</thingDefs>
+									</filter>
+									<count>10</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>Milk</li>
+									<li>VCE_RawLemon</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<thingDefs>
+									<li>Milk</li>
+									<li>VCE_RawLemon</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<workSkill>Cooking</workSkill>
+							<products>
+								<AC_Buttermilk>3</AC_Buttermilk>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_ZestCitrics"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>VCE_RawLemon</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_ZestCitrics"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>VCE_RawLemon</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_ZestCitrics"]/defaultIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>VCE_RawLemon</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AC_Zest"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+					<value>
+						<li>
+							<key>VCE_RawLemon</key>
+							<value>Lemon</value>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/ingredients/li[@Name="ProduceIngredient"]/filter/thingDefs</xpath>
+					<value>
+						<li>VCE_RawLemon</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>VCE_RawLemon</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/defaultIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>VCE_RawLemon</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AC_InfusedMayonnaise"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+					<value>
+						<li>
+							<key>VCE_RawLemon</key>
+							<value>Lemon mayonnaise</value>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
 	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName="AC_ZestCitrics"]/fixedIngredientFilter/thingDefs</xpath>
-		<value>
-			<li>VCE_RawLemon</li>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName="AC_ZestCitrics"]/defaultIngredientFilter/thingDefs</xpath>
-		<value>
-			<li>VCE_RawLemon</li>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="AC_Zest"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
-		<value>
-			<li>
-				<key>VCE_RawLemon</key>
-				<value>Lemon</value>
-			</li>
-			
-		</value>
-	</Operation>
-	
 </Patch>
 

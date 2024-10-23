@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.MayoOffsets>
+		<defName>AC_MayoOffsets_Plants</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawPepper</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>VCE_RawTomatoes</key>
+				<value>0</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.MayoOffsets>
+</Defs>

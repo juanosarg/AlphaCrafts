@@ -304,6 +304,7 @@
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Defs\PureeOffsets.cs" />
     <Compile Include="Defs\PickleOffsets.cs" />
+    <Compile Include="Defs\MayoOffsets.cs" />
     <Compile Include="Defs\ZestOffsets.cs" />
     <Compile Include="Defs\FlourOffsets.cs" />
     <Compile Include="Defs\ChipsOffsets.cs" />
@@ -315,6 +316,7 @@
     <Compile Include="Dev Mode\GenerateArtisanTradingQuest.cs" />
     <Compile Include="Graphics\Graphic_RandomStackCount.cs" />
     <Compile Include="Graphics\Graphic_StackCountByIngredients.cs" />
+    <Compile Include="Graphics\Graphic_StackCountByIngredients_Mayo.cs" />
     <Compile Include="Graphics\Graphic_StackCountByIngredients_Pickle.cs" />
     <Compile Include="Graphics\Graphic_StackCountByIngredients_Butter.cs" />
     <Compile Include="Graphics\Graphic_StackCountByIngredients_Oil.cs" />

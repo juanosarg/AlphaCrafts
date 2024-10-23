@@ -1,15 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="RoughPlantBase">
-		<defName>AC_Mayonnaise</defName>
-		<label>artisanal mayonnaise</label>
-		<description>A creamy, smooth emulsion made from oil, egg yolks, and an acid like vinegar.</description>
+		<defName>AC_BlackGarlic</defName>
+		<label>black garlic</label>
+		<description>Black garlic is a type of aged garlic that undergoes a fermentation-like process, resulting in soft, dark-colored cloves. Unlike regular garlic, black garlic has a sweet, mild flavour with hints of molasses, balsamic vinegar, and tamarind, lacking the sharp pungency of fresh garlic.</description>
 		<graphicData>
-			<texPath>Things/Item/AC_Mayonnaise</texPath>
+			<texPath>Things/Item/AC_BlackGarlic</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>47</MarketValue>
+			<MarketValue>3</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.05</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>140</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			
+			
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+	
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_BlackMayonnaise</defName>
+		<label>black mayonnaise</label>
+		<description>A novel and luxurious take on regular mayonnaise, black mayonnaise is made by blending mayonnaise with black garlic. This gives it a unique, earthy sweetness and deep, umami-rich flavor, along with a striking dark color.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_BlackMayonnaise</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>150</MarketValue>
 			<Nutrition>0.01</Nutrition>
 			<Flammability>0.5</Flammability>
 			<Mass>0.3</Mass>
@@ -36,54 +73,5 @@
 		</ingredient>
 	</ThingDef>
 	
-	<ThingDef ParentName="RoughPlantBase">
-		<defName>AC_InfusedMayonnaise</defName>
-		<label>infused mayonnaise</label>
-		<description>A flavorful twist on classic mayonnaise, infused mayonnaise incorporates ingredients like garlic, herbs, or avocado to enhance its taste and versatility.</description>
-		<graphicData>
-			<texPath>Things/Item/AC_InfusedMayonnaise</texPath>
-			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Mayo</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>130</MarketValue>
-			<Nutrition>0.01</Nutrition>
-			<Flammability>0.5</Flammability>
-			<Mass>0.3</Mass>
-		</statBases>
-		<tradeability>Sellable</tradeability>
-		<comps>
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>20</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
-				<fullReplace>true</fullReplace>
-				<overrides>
-					<li>
-						<key>Dye</key>
-						<value>Rainbow mayo</value>
-					</li>
-					<li>
-						<key>SmokeleafLeaves</key>
-						<value>CannaMayo</value>
-					</li>
-				</overrides>
-			</li>
-			<li Class="CompProperties_Ingredients">
-				
-			</li>
-		</comps>
-		<thingCategories>
-			<li>AC_ArtisanProducts</li>
-		</thingCategories>
-		<ingestible>
-			<preferability>NeverForNutrition</preferability>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
-		</ingestible>
-		<ingredient>
-			<mergeCompatibilityTags>
-				<li>Condiments</li>
-			</mergeCompatibilityTags>
-		</ingredient>
-	</ThingDef>
+	
 </Defs>
