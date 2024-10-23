@@ -12,6 +12,7 @@ namespace AlphaCrafts
     class CompLabelByIngredients : ThingComp
     {
         CompIngredients ingredients = null;
+        string cachedLabel = "";
 
         public CompProperties_LabelByIngredients Props
         {
@@ -31,28 +32,40 @@ namespace AlphaCrafts
 
         public override string TransformLabel(string label)
         {
-            if (ingredients != null && !ingredients.ingredients.NullOrEmpty())
+            if (cachedLabel == "")
             {
-                if (!Props.overrides.NullOrEmpty())
+                if (ingredients != null && !ingredients.ingredients.NullOrEmpty())
                 {
-                    ThingDef thingDef = ingredients.ingredients.First();
-                    if (thingDef!=null && Props.overrides.ContainsKey(thingDef))
+                    if (!Props.overrides.NullOrEmpty())
                     {
-                        if (Props.fullReplace)
+                        ThingDef thingDef = ingredients.ingredients.First();
+                        if (thingDef != null && Props.overrides.ContainsKey(thingDef))
                         {
-                            return Props.overrides[thingDef];
+                            if (Props.fullReplace)
+                            {
+                                cachedLabel= Props.overrides[thingDef];
+                            }
+                            else { 
+                                cachedLabel= Props.overrides[thingDef] + " " + label; 
+                            }
+
                         }
-                        else { return Props.overrides[thingDef] + " " + label; }
+                        else
+                        {
+                            cachedLabel = ingredients.ingredients.First().LabelCap + " " + label;
+                        }
                         
                     }
-                    return ingredients.ingredients.First().LabelCap + " " + label;
+                    else
+                    {
+                        cachedLabel= ingredients.ingredients.First().LabelCap + " " + label;
+                    }
                 }
-                else
-                {
-                    return ingredients.ingredients.First().LabelCap + " " + label;
-                }
+
+
             }
-            return label;
+         
+            return cachedLabel == "" ? label : cachedLabel;
 
         }
 

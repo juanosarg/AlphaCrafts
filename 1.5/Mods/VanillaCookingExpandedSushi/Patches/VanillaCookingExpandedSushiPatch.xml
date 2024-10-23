@@ -34,5 +34,25 @@
 			
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/ingredients/li[@Name="VegIngredient"]/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawSoybean</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawSoybean</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawSoybean</li>
+		</value>
+	</Operation>
 </Patch>
 

@@ -161,6 +161,23 @@ namespace AlphaCrafts
             }
             return 0;
         }
+
+        public static int GetGraphicNumberOffsetForPickle(Thing thing)
+        {
+            CompIngredients compIngredients = thing.TryGetComp<CompIngredients>();
+            if (compIngredients != null)
+            {
+                foreach (ThingDef ingredient in compIngredients.ingredients)
+                {
+                    if (StaticCollections.pickleOffsets.ContainsKey(ingredient))
+                    {
+                        return StaticCollections.pickleOffsets[ingredient];
+                    }
+                }
+
+            }
+            return 0;
+        }
     }
 }
 

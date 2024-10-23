@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>AC_PreserveFruitAsJam</defName>
+		<label>preserve fruit as jam</label>
+		<description>A process that transforms fresh fruits into a sweet, spreadable preserve by cooking them with sugar. This method captures the fruit's flavor while extending its shelf life.</description>
+		<jobString>Preserving fruit.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>3000</workAmount>
+		<recipeUsers>
+			<li>AC_BottlingStation</li>
+			<li>AC_ArtisanWorkshop</li>
+		</recipeUsers>
+		<ingredients>
+			<li Name="FruitIngredient">
+				<filter>
+					<customSummary>fruit</customSummary>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+					
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<customSummary>sugar</customSummary>
+					<thingDefs>
+						<li>VCE_RawSugar</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>VCE_RawSugar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>VCE_RawSugar</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Jam>10</AC_Jam>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>RawBerries</baseline>
+				<exclusions><li>VCE_RawSugar</li></exclusions>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	
+	
+	<RecipeDef>
+		<defName>AC_PrepareChutney</defName>
+		<label>prepare chutney</label>
+		<description>A flavorful process that blends fruits or vegetables with spices, sugar, and vinegar to create a tangy, sweet, and savory condiment.</description>
+		<jobString>Preparing chutney.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>5000</workAmount>
+		<recipeUsers>
+			<li>AC_BottlingStation</li>
+			
+		</recipeUsers>
+		<ingredients>
+			<li Name="FruitIngredient">
+				<filter>
+					<customSummary>jams</customSummary>
+					<thingDefs>
+						<li>AC_Jam</li>
+					</thingDefs>
+					
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<customSummary>spices</customSummary>
+					<thingDefs>
+						<li>VCE_RawSpices</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<customSummary>vinegars</customSummary>
+					<thingDefs>
+						<li>AC_Vinegar</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AC_Jam</li>
+				<li>VCE_RawSpices</li>
+				<li>AC_Vinegar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>AC_Jam</li>
+				<li>VCE_RawSpices</li>
+				<li>AC_Vinegar</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Chutney>10</AC_Chutney>
+		</products>
+		<skillRequirements>
+			<Cooking>10</Cooking>
+		</skillRequirements>
+		
+	</RecipeDef>
+	
+</Defs>

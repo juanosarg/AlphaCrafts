@@ -5,6 +5,7 @@ using RimWorld;
 using System.Linq;
 using UnityEngine;
 using Verse;
+using System;
 
 namespace AlphaCrafts
 {
@@ -16,9 +17,9 @@ namespace AlphaCrafts
         {
             if (recipeDef.GetModExtension<VariableOutputByIngredient>() != null)
             {
-               
-                ThingDef baseline = recipeDef.GetModExtension<VariableOutputByIngredient>().baseline;
-           
+                VariableOutputByIngredient extension = recipeDef.GetModExtension<VariableOutputByIngredient>();
+                ThingDef baseline = extension.baseline;
+
                 ThingDef baselinePlant = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => x.plant?.harvestedThingDef == baseline).FirstOrFallback(null);
 
                 ThingDef productIngredient = null;
@@ -27,46 +28,46 @@ namespace AlphaCrafts
                 CompIngredients compIngredients = product.TryGetComp<CompIngredients>();
                 if (compIngredients != null)
                 {
-                    productIngredient = compIngredients.ingredients.First();
+                    productIngredient = compIngredients.ingredients.Where(x => extension.exclusions?.Contains(x) != true).First();
                     productIngredientPlant = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => x.plant?.harvestedThingDef == productIngredient).FirstOrFallback(null);
 
                 }
 
 
-                if (baselinePlant != null)
+
+                int resultingStack = __result.stackCount;
+
+                float basePrice = baseline.BaseMarketValue;
+                float ingredientPrice = extension.useCap ? Math.Min(productIngredient.BaseMarketValue, basePrice*extension.capPriceInfluenceMultiplier) : productIngredient.BaseMarketValue;
+
+                if (productIngredientPlant != null && baselinePlant != null)
                 {
-                    int resultingStack = __result.stackCount;
+                    float baselineTime = baselinePlant.plant.growDays;
+                    float baselineYield = baselinePlant.plant.harvestYield;
 
-                    float basePrice = baseline.BaseMarketValue;
-                    float ingredientPrice = productIngredient.BaseMarketValue;
-
-                    if (productIngredientPlant != null)
-                    {
-                        float baselineTime = baselinePlant.plant.growDays;
-                        float baselineYield = baselinePlant.plant.harvestYield;
-
-                        float ingredientTime = productIngredientPlant.plant.growDays;
-                        float ingredientYield = productIngredientPlant.plant.harvestYield;
+                    float ingredientTime = productIngredientPlant.plant.growDays;
+                    float ingredientYield = productIngredientPlant.plant.harvestYield;
 
 
-                        resultingStack = (int)(__result.stackCount * (ingredientPrice/ basePrice) * ((baselineYield / baselineTime) / (ingredientYield / ingredientTime)));
-                    }
-                    else
-                    {
-                        resultingStack = (int)(__result.stackCount * (ingredientPrice / basePrice));
+                    resultingStack = (int)(__result.stackCount * (ingredientPrice / basePrice) * ((baselineYield / baselineTime) / (ingredientYield / ingredientTime)));
+                }
+                else
+                {
+                    resultingStack = (int)(__result.stackCount * (ingredientPrice / basePrice));
 
-
-                    }
-
-                    if (resultingStack == 0)
-                    {
-                        resultingStack = 1;
-                    }
-
-
-                    __result.stackCount = resultingStack;
 
                 }
+
+                if (resultingStack == 0)
+                {
+                    resultingStack = 1;
+                }
+
+
+                __result.stackCount = resultingStack;
+
+
+
 
 
 

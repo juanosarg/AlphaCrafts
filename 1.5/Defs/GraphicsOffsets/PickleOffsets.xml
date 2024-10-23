@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.PickleOffsets>
+		<defName>AC_PickleOffsets</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>RawCorn</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>RawFungus</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>RawPotatoes</key>
+				<value>9</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.PickleOffsets>
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.PickleOffsets>
+		<defName>AC_PickleOffsets_Sushi</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawSoybean</key>
+				<value>6</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.PickleOffsets>
+</Defs>

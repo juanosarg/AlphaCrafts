@@ -106,5 +106,74 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_PreserveFruitAsJam"]/fixedIngredientFilter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_PreserveFruitAsJam"]/defaultIngredientFilter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_PreserveFruitAsJam"]/ingredients/li[@Name="FruitIngredient"]/filter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/ingredients/li[@Name="VegIngredient"]/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOnion</li>
+			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawPeas</li>
+			<li>VCE_RawEggplant</li>
+			<li>VCE_RawBeets</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOnion</li>
+			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawPeas</li>
+			<li>VCE_RawEggplant</li>
+			<li>VCE_RawBeets</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOnion</li>
+			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawPeas</li>
+			<li>VCE_RawEggplant</li>
+			<li>VCE_RawBeets</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
 </Patch>
-

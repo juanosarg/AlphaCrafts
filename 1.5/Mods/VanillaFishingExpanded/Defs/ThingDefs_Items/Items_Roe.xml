@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Roe</defName>
+		<label>roe</label>
+		<description>Delicate fish eggs harvested from a variety of aquatic species, roe is prized for its briny, rich flavor and smooth texture.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Roe</texPath>
+			<graphicClass>AlphaCrafts.Graphic_RandomStackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.1</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>6</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+</Defs>

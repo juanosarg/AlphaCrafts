@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Pickles</defName>
+		<label>pickles</label>
+		<description>Crisp vegetables preserved in a vinegar solution, pickles develop a tangy, salty, and sometimes spicy flavor through fermentation or soaking.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Pickles</texPath>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Pickle</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.1</Flammability>
+			<Mass>0.2</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>120</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			<li Class="AlphaCrafts.CompProperties_LabelByIngredients_Inverted">
+				<prefix>pickled</prefix>
+				<ignoredIngredient>AC_Vinegar</ignoredIngredient>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+	
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_PickledEggs</defName>
+		<label>pickled eggs</label>
+		<description>This process transforms boiled eggs into tangy, flavorful snacks by immersing them in a brine of vinegar. Over time, the eggs absorb the brine’s sharp flavors, creating a delicious, protein-rich treat. This kills the chicken.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_EggPickles</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>7</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.1</Flammability>
+			<Mass>0.2</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>120</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+</Defs>

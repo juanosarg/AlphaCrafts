@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Jam</defName>
+		<label>jam</label>
+		<description>A sweet spread made by cooking fruits with sugar, jam preserves the flavors of ripe fruit while creating a thick, spreadable consistency. It often includes pieces of fruit or pulp, making it a delightful addition to bread, pastries, or desserts.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Jam</texPath>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Yogurt</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.1</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+	
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Chutney</defName>
+		<label>chutney</label>
+		<description>A rich, tangy-sweet condiment made by combining fruits, spices, and vinegar. Chutneys vary in texture and flavor, from smooth to chunky, and are used to add a burst of flavor to savory dishes, balancing sweetness with a hint of tartness and spice.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Chutney</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.1</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+</Defs>

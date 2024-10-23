@@ -368,5 +368,47 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/ingredients/li[@Name="VegIngredient"]/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOkra</li>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawCarrot</li>
+			<li>VCE_RawBrusselsSprouts</li>
+			<li>VCE_RawBeans</li>
+			<li>VCE_RawBellPeppers</li>
+			<li>VCE_RawYellowBellPeppers</li>
+			<li>VCE_RawCucumber</li>
+			<li>VCE_RawButternutSquash</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOkra</li>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawCarrot</li>
+			<li>VCE_RawBrusselsSprouts</li>
+			<li>VCE_RawBeans</li>
+			<li>VCE_RawBellPeppers</li>
+			<li>VCE_RawYellowBellPeppers</li>
+			<li>VCE_RawCucumber</li>
+			<li>VCE_RawButternutSquash</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOkra</li>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawCarrot</li>
+			<li>VCE_RawBrusselsSprouts</li>
+			<li>VCE_RawBeans</li>
+			<li>VCE_RawBellPeppers</li>
+			<li>VCE_RawYellowBellPeppers</li>
+			<li>VCE_RawCucumber</li>
+			<li>VCE_RawButternutSquash</li>
+		</value>
+	</Operation>
 </Patch>
 

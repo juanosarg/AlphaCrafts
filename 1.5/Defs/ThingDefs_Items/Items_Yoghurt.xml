@@ -25,9 +25,7 @@
 			<li Class="CompProperties_Ingredients">
 				
 			</li>
-			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
-				
-			</li>
+			
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>30</daysToRotStart>
 				<rotDestroys>true</rotDestroys>

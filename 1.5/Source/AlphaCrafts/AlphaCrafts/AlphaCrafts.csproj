@@ -297,10 +297,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Comps\CompLabelByIngredients.cs" />
+    <Compile Include="Comps\CompLabelByIngredients_Inverted.cs" />
+    <Compile Include="Comps\Properties\CompProperties_LabelByIngredients_Inverted.cs" />
     <Compile Include="Comps\Properties\CompProperties_LabelByIngredients.cs" />
     <Compile Include="DefModExtension\VariableOutputByIngredient.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Defs\PureeOffsets.cs" />
+    <Compile Include="Defs\PickleOffsets.cs" />
     <Compile Include="Defs\ZestOffsets.cs" />
     <Compile Include="Defs\FlourOffsets.cs" />
     <Compile Include="Defs\ChipsOffsets.cs" />
@@ -312,6 +315,7 @@
     <Compile Include="Dev Mode\GenerateArtisanTradingQuest.cs" />
     <Compile Include="Graphics\Graphic_RandomStackCount.cs" />
     <Compile Include="Graphics\Graphic_StackCountByIngredients.cs" />
+    <Compile Include="Graphics\Graphic_StackCountByIngredients_Pickle.cs" />
     <Compile Include="Graphics\Graphic_StackCountByIngredients_Butter.cs" />
     <Compile Include="Graphics\Graphic_StackCountByIngredients_Oil.cs" />
     <Compile Include="Graphics\Graphic_StackCountByIngredients_Perfume.cs" />

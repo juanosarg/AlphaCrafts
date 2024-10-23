@@ -21,6 +21,8 @@ namespace AlphaCrafts
         public static Dictionary<ThingDef, int> chipsOffsets = new Dictionary<ThingDef, int>();
         public static Dictionary<ThingDef, int> zestOffsets = new Dictionary<ThingDef, int>();
         public static Dictionary<ThingDef, int> pureeOffsets = new Dictionary<ThingDef, int>();
+        public static Dictionary<ThingDef, int> pickleOffsets = new Dictionary<ThingDef, int>();
+
 
         static StaticCollections()
         {
@@ -79,6 +81,12 @@ namespace AlphaCrafts
             {
 
                 pureeOffsets.AddRange(individualList.ingredientsAndOffsetList);
+            }
+            List<PickleOffsets> allPickleLists = DefDatabase<PickleOffsets>.AllDefsListForReading.ToList();
+            foreach (PickleOffsets individualList in allPickleLists)
+            {
+
+                pickleOffsets.AddRange(individualList.ingredientsAndOffsetList);
             }
         }
 
