@@ -3,7 +3,7 @@
 	<ThingDef ParentName="RoughPlantBase">
 		<defName>AC_Molasses</defName>
 		<label>molasses</label>
-		<description>Molasses is a thick, dark syrup created as a byproduct of the sugar refining process, especially from sugarcane. It has a rich, bittersweet flavor and is often used in baking and cooking. </description>
+		<description>Molasses is a thick, dark syrup created as a byproduct of the sugar refining process, especially from sugarcane. It has a rich, bittersweet flavor and is often used in baking and cooking.</description>
 		<graphicData>
 			<texPath>Things/Item/AC_Molasses</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

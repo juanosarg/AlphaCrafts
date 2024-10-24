@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AC_Essence</defName>
+		<label>essence</label>
+		<description>A concentrated extract derived from the purest flavors or aromas of ingredients like fruits, herbs, or spices. Used in small amounts, it can intensify the taste or fragrance of food, beverages, and other products.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Essence</texPath>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Yogurt</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>4</MarketValue>
+			<Flammability>0.5</Flammability>
+			<Mass>0.05</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
+				
+				<overrides>
+					<li>
+						<key>Dye</key>
+						<value>Rainbow</value>
+					</li>
+					
+				</overrides>
+			</li>
+		</comps>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+</Defs>

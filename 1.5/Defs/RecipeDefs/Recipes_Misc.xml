@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<RecipeDef>
-		<defName>AC_ExtractPerfume</defName>
-		<label>extract perfume</label>
-		<description>Transform fragrant flowers into concentrated perfumes, extracting essential oils to create high-quality scents for crafting and trade. Yield of the recipe will depend on the produce being used to get the perfume.</description>
-		<jobString>Extracting perfume.</jobString>
+		<defName>AC_CraftAloeVeraSalve</defName>
+		<label>craft aloe vera salve</label>
+		<description>Harness the natural healing properties of aloe vera by turning its gel into a soothing salve.</description>
+		<jobString>Crafting aloe vera salve.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>false</allowMixingIngredients>
-		<workAmount>750</workAmount>
+		<workAmount>375</workAmount>
 		<recipeUsers>
 			<li>AC_ArtisanWorkshop</li>
 		</recipeUsers>
@@ -43,4 +43,56 @@
 		
 		
 	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_ExtractEssence</defName>
+		<label>extract essence</label>
+		<description>Extract the concentrated essence of key ingredients, capturing their most intense flavors or aromas. Yield of the recipe will depend on the produce being used to get the essence.</description>
+		<jobString>Extracting essence.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>625</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanWorkshop</li>
+		</recipeUsers>
+		<ingredients>
+			<li Name="FruitIngredient">
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>						
+						<li>Dye</li>					
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>						
+				<li>Dye</li>		
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>						
+				<li>Dye</li>		
+				
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Essence>10</AC_Essence>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>RawBerries</baseline>
+			</li>
+		</modExtensions>
+		
+		
+	</RecipeDef>
+	
+	
 </Defs>

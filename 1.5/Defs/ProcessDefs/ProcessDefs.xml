@@ -87,7 +87,7 @@
 		<spawnOnInteractionCell>true</spawnOnInteractionCell>
 		<labelOverride>Ferment 125 rice into 10 sake</labelOverride>
 		
-		<priorityInBillList>1200</priorityInBillList>
+		<priorityInBillList>13</priorityInBillList>
 		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
 		<ingredients>
 			<li>

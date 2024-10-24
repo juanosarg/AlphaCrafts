@@ -27,6 +27,51 @@
 				<key>VCE_RawAlmonds</key>
 				<value>6</value>
 			</li>
+			
+			<li>
+				<key>AC_Lavender</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>AC_FragrantbloomRose</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>AC_Hyacinth</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>AC_Jasmine</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>AC_Lily</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>AC_Orchid</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>AC_Plumeria</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>AC_Tulip</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>AC_Vanilla</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>AC_Violet</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>AC_YlangYlang</key>
+				<value>2</value>
+			</li>
 		</fruitAndOffsetList>
 	</AlphaCrafts.YogurtOffsets>
 </Defs>

@@ -265,4 +265,28 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_ExtractEssence"]/fixedIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_ExtractEssence"]/defaultIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_ExtractEssence"]/ingredients/li[@Name="FruitIngredient"]/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
 </Patch>

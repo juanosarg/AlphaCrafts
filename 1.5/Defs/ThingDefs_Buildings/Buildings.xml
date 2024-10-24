@@ -302,6 +302,7 @@
 					<li>AC_RiceToVinegar</li>
 					<li>AC_MilkToKefir</li>
 					<li>AC_YogHurtToLassi</li>
+					<li>AC_RiceToSake</li>
 				</processes>
 				<progressBarOffset>(0,0,-1)</progressBarOffset>
 			</li>

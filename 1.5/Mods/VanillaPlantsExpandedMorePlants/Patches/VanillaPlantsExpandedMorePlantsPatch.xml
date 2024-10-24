@@ -540,5 +540,56 @@
 			</operations>
 		</match>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ExtractEssence"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>AC_Lavender</li>
+			<li>AC_FragrantbloomRose</li>
+			<li>AC_Hyacinth</li>
+			<li>AC_Jasmine</li>
+			<li>AC_Lily</li>
+			<li>AC_Orchid</li>
+			<li>AC_Plumeria</li>
+			<li>AC_Tulip</li>
+			<li>AC_Vanilla</li>
+			<li>AC_Violet</li>
+			<li>AC_YlangYlang</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ExtractEssence"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AC_Lavender</li>
+			<li>AC_FragrantbloomRose</li>
+			<li>AC_Hyacinth</li>
+			<li>AC_Jasmine</li>
+			<li>AC_Lily</li>
+			<li>AC_Orchid</li>
+			<li>AC_Plumeria</li>
+			<li>AC_Tulip</li>
+			<li>AC_Vanilla</li>
+			<li>AC_Violet</li>
+			<li>AC_YlangYlang</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ExtractEssence"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AC_Lavender</li>
+			<li>AC_FragrantbloomRose</li>
+			<li>AC_Hyacinth</li>
+			<li>AC_Jasmine</li>
+			<li>AC_Lily</li>
+			<li>AC_Orchid</li>
+			<li>AC_Plumeria</li>
+			<li>AC_Tulip</li>
+			<li>AC_Vanilla</li>
+			<li>AC_Violet</li>
+			<li>AC_YlangYlang</li>
+			
+		</value>
+	</Operation>
 </Patch>
 
