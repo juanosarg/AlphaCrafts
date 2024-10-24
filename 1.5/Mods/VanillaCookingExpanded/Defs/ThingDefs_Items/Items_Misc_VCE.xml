@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Molasses</defName>
+		<label>molasses</label>
+		<description>Molasses is a thick, dark syrup created as a byproduct of the sugar refining process, especially from sugarcane. It has a rich, bittersweet flavor and is often used in baking and cooking. </description>
+		<graphicData>
+			<texPath>Things/Item/AC_Molasses</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>8</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.05</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+	
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_SaltedCaramel</defName>
+		<label>salted caramel</label>
+		<description>A decadent sauce made by heating sugar until it caramelizes and adding butter, with a hint of salt to balance the sweetness. The combination of rich, buttery caramel with a touch of salt creates a perfect harmony of flavors.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_SaltedCaramel</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+	
+</Defs>

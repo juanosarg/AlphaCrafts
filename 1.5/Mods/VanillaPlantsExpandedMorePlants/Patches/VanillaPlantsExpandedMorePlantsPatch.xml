@@ -453,5 +453,92 @@
 			</li>
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<RecipeDef>
+							<defName>AC_BrewChichaMorada</defName>
+							<label>brew chicha morada</label>
+							<description>Use purple corn, spices, and fruits to brew the traditional drink known as chicha morada.</description>
+							<jobString>brewing chicha morada.</jobString>
+							<workSpeedStat>CookSpeed</workSpeedStat>
+							<effectWorking>Cook</effectWorking>
+							<soundWorking>Recipe_CookMeal</soundWorking>
+							<workAmount>7500</workAmount>
+							<recipeUsers>
+								<li>AC_BottlingStation</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RawCorn</li>
+										</thingDefs>
+									</filter>
+									<count>20</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>VCE_RawPineapple</li>
+										</thingDefs>
+									</filter>
+									<count>10</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>VCE_RawSpices</li>
+										</thingDefs>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>VCE_RawSugar</li>
+										</thingDefs>
+									</filter>
+									<count>2</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RawCorn</li>
+									<li>VCE_RawPineapple</li>
+									<li>VCE_RawSpices</li>
+									<li>VCE_RawSugar</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<thingDefs>
+									<li>RawCorn</li>
+									<li>VCE_RawPineapple</li>
+									<li>VCE_RawSpices</li>
+									<li>VCE_RawSugar</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<workSkill>Cooking</workSkill>
+							<products>
+								<AC_ChichaMorada>10</AC_ChichaMorada>
+							</products>
+							<skillRequirements>
+								<Cooking>8</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
 </Patch>
 

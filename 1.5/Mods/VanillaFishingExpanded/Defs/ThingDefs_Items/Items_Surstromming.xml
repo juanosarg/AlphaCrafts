@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Surstromming</defName>
+		<label>surströmming</label>
+		<description>A traditional dish known for its strong, distinctive aroma and powerful flavor. Prepared through a specialized curing process where fish is treated with salt, it is prized for its bold, pungent taste.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Surstromming</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.1</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+</Defs>

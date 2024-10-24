@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AC_AloeVeraSalve</defName>
+		<label>aloe vera salve</label>
+		<description>A soothing, all-natural ointment made from the gel of the aloe vera plant. Known for its healing and moisturizing properties.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_AloeVeraSalve</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>9</MarketValue>		
+			<Flammability>0.5</Flammability>
+			<Mass>0.05</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+	
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_CornSyrup</defName>
+		<label>high fructose corn syrup</label>
+		<description>A sweetener made from corn starch, processed to convert some of its glucose into fructose. Commonly used in processed foods and beverages, it enhances sweetness and preserves freshness.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_CornSyrup</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+</Defs>

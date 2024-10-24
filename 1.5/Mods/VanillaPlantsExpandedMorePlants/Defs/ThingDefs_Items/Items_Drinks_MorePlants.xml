@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="DrugBase">
+		<defName>AC_ChichaMorada</defName>
+		<label>chicha morada</label>
+		<description>A traditional beverage made from purple corn, spiced with cinnamon and cloves, and flavored with fruits like pineapple. Known for its rich, deep purple color and refreshing sweet-tart taste, chicha morada is not only a cultural staple but also rich in antioxidants due to the high anthocyanin content of purple corn.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_ChichaMorada</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>35</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.5</Flammability>
+			<Nutrition>0.16</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Fluid, Processed</foodType>
+			<joyKind>Gluttonous</joyKind>
+			<joy>0.1</joy>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<!--<tasteThought>VBE_DrankSoda</tasteThought>-->
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1001</listOrder>
+				<overdoseSeverityOffset>0</overdoseSeverityOffset>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

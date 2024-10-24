@@ -267,4 +267,51 @@
 		</modExtensions>
 	</RecipeDef>
 	
+	<RecipeDef>
+		<defName>AC_MakeCornSyrup</defName>
+		<label>produce high fructose corn syrup</label>
+		<description>Process corn starch to convert glucose into fructose, creating high fructose corn syrup.</description>
+		<jobString>Preparing high fructose corn syrup.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>10000</workAmount>
+		<recipeUsers>
+			<li>AC_BottlingStation</li>
+			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					
+					<thingDefs>
+						<li>RawCorn</li>
+					</thingDefs>
+					
+				</filter>
+				<count>200</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_CornSyrup>20</AC_CornSyrup>
+		</products>
+		
+		
+	</RecipeDef>
+	
 </Defs>

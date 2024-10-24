@@ -128,4 +128,122 @@
 		
 	</RecipeDef>
 	
+	<RecipeDef>
+		<defName>AC_ExtractMolasses</defName>
+		<label>extract molasses</label>
+		<description>This recipe extracts molasses from sugarcane during the refining process.</description>
+		<jobString>Extracting molasses.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>1250</workAmount>
+		<recipeUsers>
+			<li>AC_BottlingStation</li>
+			
+		</recipeUsers>
+		<ingredients>
+			<li Name="FruitIngredient">
+				<filter>
+					
+					<thingDefs>
+						<li>VCE_RawSugar</li>
+					</thingDefs>
+					
+				</filter>
+				<count>10</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>VCE_RawSugar</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>VCE_RawSugar</li>
+				
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Molasses>50</AC_Molasses>
+		</products>
+		
+	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_MakeSaltedCaramel</defName>
+		<label>make salted caramel</label>
+		<description>This recipe melts sugar into a rich caramel, blended with butter and a touch of salt for balance.</description>
+		<jobString>Making salted caramel.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+			<li>AC_BottlingStation</li>
+			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					
+					<thingDefs>
+						<li>VCE_RawSugar</li>
+					</thingDefs>
+					
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					
+					<thingDefs>
+						<li>VCE_Salt</li>
+					</thingDefs>
+					
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					
+					<thingDefs>
+						<li>AC_Butter</li>
+					</thingDefs>
+					
+				</filter>
+				<count>10</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>VCE_RawSugar</li>
+				<li>VCE_Salt</li>
+				<li>AC_Butter</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>VCE_RawSugar</li>
+				<li>VCE_Salt</li>
+				<li>AC_Butter</li>
+				
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_SaltedCaramel>10</AC_SaltedCaramel>
+		</products>
+		<skillRequirements>
+			<Cooking>10</Cooking>
+		</skillRequirements>
+		
+		
+	</RecipeDef>
+	
 </Defs>
