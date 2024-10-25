@@ -3,7 +3,7 @@
 	<ThingDef ParentName="DrugBase">
 		<defName>AC_Sake</defName>
 		<label>sake</label>
-		<description>A traditional rice wine made through a fermentation process involving polished rice, water, yeast, and koji mold. With a wide range of flavors from sweet to dry, sake can be enjoyed warm or chilled. Excessive consumption can lead to alcohol blackouts and, over time, addiction.</description>
+		<description>A traditional rice wine made through a fermentation process involving polished rice, water, yeast, and koji mold. With a wide range of flavors from sweet to dry, sake can be enjoyed warm or chilled. Excessive consumption can lead to alcohol blackouts and, over time, addiction. But acccsssstually "sake" in Japanese means... YES, yes, we all know... Shuddup.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 sake requires 125 rice for a total value of 137.50, and sells for 25, giving a &lt;color=#33CC33&gt;45%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Fermentation time:&lt;/color&gt; 18 days.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;83.33&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.63&lt;/color&gt; (for reference, Yayo is 0.35).</description>
 		<descriptionHyperlinks>
 			<HediffDef>AlcoholHigh</HediffDef>
 			<HediffDef>AlcoholTolerance</HediffDef>

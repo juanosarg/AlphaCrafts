@@ -3,7 +3,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AC_Soap</defName>
 		<label>soap</label>
-		<description>A smooth, gently lathering soap crafted from rich oils and aromatic essences. Its blend of natural ingredients leaves a subtle, refreshing fragrance and a silky feel.</description>
+		<description>A smooth, gently lathering soap crafted from rich oils and aromatic essences. Its blend of natural ingredients leaves a subtle, refreshing fragrance and a silky feel.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 soap requires essence and oil for a total value of 140, and sells for 45, giving a &lt;color=#33CC33&gt;68.89%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 10000 work, which results on a value per work of &lt;color=#33CC33&gt;0.05&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.05 Kg, for a value per Kg of &lt;color=#33CC33&gt;900&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;2.78&lt;/color&gt; (for reference Yayo is 0.35).</description>
 		<graphicData>
 			<texPath>Things/Item/AC_Soap</texPath>
 			<graphicClass>AlphaCrafts.Graphic_RandomStackCount</graphicClass>

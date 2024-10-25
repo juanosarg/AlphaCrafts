@@ -54,5 +54,37 @@
 			<li>VCE_RawSoybean</li>
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/ingredients/li[@Name="ProduceIngredient"]/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawWasabi</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawWasabi</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawWasabi</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_InfusedMayonnaise"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawWasabi</key>
+				<value>Wasabi mayonnaise</value>
+			</li>
+			
+		</value>
+	</Operation>
 </Patch>
 

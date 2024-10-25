@@ -3,7 +3,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AC_AloeVeraSalve</defName>
 		<label>aloe vera salve</label>
-		<description>A soothing, all-natural ointment made from the gel of the aloe vera plant. Known for its healing and moisturizing properties.</description>
+		<description>A soothing, all-natural ointment made from the gel of the aloe vera plant. Known for its healing and moisturizing properties.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 aloe vera salves requires herbal medicine for a total value of 50, and sells for 9, giving a &lt;color=#33CC33&gt;44.44%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 750 work, which results on a value per work of &lt;color=#33CC33&gt;0.12&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.05 Kg, for a value per Kg of &lt;color=#33CC33&gt;180&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.31&lt;/color&gt; (for reference Yayo is 0.35).</description>
 		<graphicData>
 			<texPath>Things/Item/AC_AloeVeraSalve</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -25,7 +25,7 @@
 	<ThingDef ParentName="RoughPlantBase">
 		<defName>AC_CornSyrup</defName>
 		<label>high fructose corn syrup</label>
-		<description>A sweetener made from corn starch, processed to convert some of its glucose into fructose. Commonly used in processed foods and beverages, it enhances sweetness and preserves freshness.</description>
+		<description>A sweetener made from corn starch, processed to convert some of its glucose into fructose. Commonly used in processed foods and beverages, it enhances sweetness and preserves freshness.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 20 corn syrup requires 200 corn for a total value of 220, and sells for 25, giving a &lt;color=#33CC33&gt;56%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 10000 work, which results on a value per work of &lt;color=#33CC33&gt;0.05&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;83.33&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.67&lt;/color&gt; (for reference Yayo is 0.35).</description>
 		<graphicData>
 			<texPath>Things/Item/AC_CornSyrup</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

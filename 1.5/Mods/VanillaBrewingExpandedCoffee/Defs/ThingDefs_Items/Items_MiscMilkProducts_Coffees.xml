@@ -3,7 +3,7 @@
 	<ThingDef ParentName="MealBase">
 		<defName>AC_Buttermilk</defName>
 		<label>buttermilk</label>
-		<description>A tangy, slightly thickened dairy product made by combining milk with lemon juice, commonly used in baking and cooking to add moisture and a subtle acidity to recipes.</description>
+		<description>A tangy, slightly thickened dairy product made by combining milk with lemon juice, commonly used in baking and cooking to add moisture and a subtle acidity to recipes.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 4 buttermilk requires milk and lemons for a total value of 31, and sells for 17, giving a &lt;color=#33CC33&gt;54.41%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 3000 work, which results on a value per work of &lt;color=#33CC33&gt;0.02&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.1 Kg, for a value per Kg of &lt;color=#33CC33&gt;170&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.19&lt;/color&gt; (for reference Yayo is 0.35).</description>
 		<graphicData>
 			<texPath>Things/Item/AC_Buttermilk</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

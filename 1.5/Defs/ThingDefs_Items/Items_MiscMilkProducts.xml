@@ -3,13 +3,13 @@
 	<ThingDef ParentName="MealBaseIngredientless">
 		<defName>AC_Ricotta</defName>
 		<label>ricotta</label>
-		<description>A soft, creamy cheese with a mild flavor, often used in both savory and sweet dishes like pasta, pastries, and desserts. Very quick to make from milk, and a fast, easy way to make a profit from it.</description>
+		<description>A soft, creamy cheese with a mild flavor, often used in both savory and sweet dishes like pasta, pastries, and desserts. Very quick to make from milk, and a fast, easy way to make a profit from it.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 5 ricotta requires 1.25 nutrition from milk, with an average total value of 47.50, and sells for 12, giving a &lt;color=#33CC33&gt;20.83%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 100 work, which results on a value per work of &lt;color=#33CC33&gt;0.60&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.1 Kg, for a value per Kg of &lt;color=#33CC33&gt;180&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; Profit per day will depend on the animal producing the milk. With cows, it will be &lt;color=#33CC33&gt;1.40&lt;/color&gt; (for reference Yayo is 0.35, but cows need to be fed too).</description>
 		<graphicData>
 			<texPath>Things/Item/AC_Ricotta</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>18</MarketValue>
+			<MarketValue>12</MarketValue>
 			<Nutrition>0.15</Nutrition>
 			<Mass>0.1</Mass>
 		</statBases>
@@ -38,7 +38,7 @@
 	<ThingDef ParentName="MealBaseIngredientless">
 		<defName>AC_SourCream</defName>
 		<label>sour cream</label>
-		<description>A tangy, creamy dairy product made by curdling milk with vinegar, offering a rich texture and flavor perfect for enhancing both savory and sweet dishes.</description>
+		<description>A tangy, creamy dairy product made by curdling milk with vinegar, offering a rich texture and flavor perfect for enhancing both savory and sweet dishes.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 5 sour cream requires milk and vinegar with a total value of 79, and sells for 30, giving a &lt;color=#33CC33&gt;47.33%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 1500 work, which results on a value per work of &lt;color=#33CC33&gt;0.10&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.1 Kg, for a value per Kg of &lt;color=#33CC33&gt;300&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.91&lt;/color&gt; (for reference Yayo is 0.35).</description>
 		<graphicData>
 			<texPath>Things/Item/AC_SourCream</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -73,7 +73,7 @@
 	<ThingDef ParentName="MealBaseIngredientless">
 		<defName>AC_Kefir</defName>
 		<label>kefir</label>
-		<description>A tangy, probiotic-rich fermented milk drink, made by culturing milk with kefir grains. Known for its creamy texture and health benefits.</description>
+		<description>A tangy, probiotic-rich fermented milk drink, made by culturing milk with kefir grains. Known for its creamy texture and health benefits.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 kefir requires 50 milk with a total value of 95, and sells for 17, giving a &lt;color=#33CC33&gt;44.12%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Fermentation time:&lt;/color&gt; 13.33 days.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.2 Kg, for a value per Kg of &lt;color=#33CC33&gt;85&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.44&lt;/color&gt; (for reference Yayo is 0.35).</description>
 		<graphicData>
 			<texPath>Things/Item/AC_Kefir</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -108,7 +108,7 @@
 	<ThingDef ParentName="MealBaseIngredientless">
 		<defName>AC_Lassi</defName>
 		<label>lassi</label>
-		<description>A traditional, creamy yogurt-based drink, often flavored with fruits or spices. It's a refreshing blend of sweet or savory ingredients, perfect for cooling off and aiding digestion.</description>
+		<description>A traditional, creamy yogurt-based drink, often flavored with fruits or spices. It's a refreshing blend of sweet or savory ingredients, perfect for cooling off and aiding digestion.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 lassi requires 20 yoghurt with a total value of 600, and sells for 80, giving a &lt;color=#33CC33&gt;25.00%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Fermentation time:&lt;/color&gt; 15 days.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.15 Kg, for a value per Kg of &lt;color=#33CC33&gt;533.33&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;1.33&lt;/color&gt; (take this number with a pinch of salt. It's hard to estimate milk + fruit + yoghurt + fermentation, so it just assumes you are swimming in yoghurt).</description>
 		<graphicData>
 			<texPath>Things/Item/AC_Lassi</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

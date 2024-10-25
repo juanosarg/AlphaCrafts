@@ -3,7 +3,7 @@
 	<ThingDef ParentName="MealBaseIngredientless">
 		<defName>VCE_Yoghurt</defName>
 		<label>yoghurt</label>
-		<description>A creamy, tangy dairy product made by fermenting milk, often enjoyed on its own or used in cooking and baking.</description>
+		<description>A creamy, tangy dairy product made by fermenting milk, often enjoyed on its own or used in cooking and baking.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 1 yoghurt requires 0.25 nutrition from each milk and fruit, with an average total value of 15, and sells for 30, giving a &lt;color=#33CC33&gt;50%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 450 work, which results on a value per work of &lt;color=#33CC33&gt;0.07&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.2 Kg, for a value per Kg of &lt;color=#33CC33&gt;150&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.31&lt;/color&gt; (for reference Yayo is 0.35).</description>
 		<graphicData>
 			<texPath>Things/Item/VCE_Yoghurt</texPath>
 			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Yogurt</graphicClass>

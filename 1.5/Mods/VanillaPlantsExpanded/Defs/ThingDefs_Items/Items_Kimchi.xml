@@ -3,7 +3,7 @@
 	<ThingDef ParentName="RoughPlantBase">
 		<defName>AC_Kimchi</defName>
 		<label>kimchi</label>
-		<description>Kimchi is a traditional dish made by fermenting vegetables with a mix of seasonings like chili pepper, garlic, ginger, and fish sauce.</description>
+		<description>Kimchi is a traditional dish made by fermenting vegetables with a mix of seasonings like chili pepper, garlic, ginger, and fish sauce.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 kimchi requires cabbage and spices for a total value of 35.20, and sells for 8, giving a &lt;color=#33CC33&gt;56%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 1000 work, which results on a value per work of &lt;color=#33CC33&gt;0.08&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.2 Kg, for a value per Kg of &lt;color=#33CC33&gt;40&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.39&lt;/color&gt; (for reference Yayo is 0.35).</description>
 		<graphicData>
 			<texPath>Things/Item/AC_Kimchi</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
