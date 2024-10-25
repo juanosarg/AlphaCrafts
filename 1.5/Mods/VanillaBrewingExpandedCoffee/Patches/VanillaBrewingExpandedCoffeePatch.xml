@@ -144,5 +144,21 @@
 			</operations>
 		</match>
 	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AC_Buttermilk"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Condiments</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
 </Patch>
 

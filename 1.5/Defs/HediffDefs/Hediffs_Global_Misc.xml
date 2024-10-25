@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<HediffDef>
+		<defName>AC_ConsumedButter</defName>
+		<label>consumed butter (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A rich, creamy dairy product made by churning cream, commonly used in cooking, baking, and as a spread. It gives a 10% bonus to Blood pumping for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedButter</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				<capMods>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>AC_ConsumedSourCream</defName>
+		<label>consumed sour cream (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A tangy, creamy dairy product made by curdling milk with vinegar, offering a rich texture and flavor perfect for enhancing both savory and sweet dishes. Provides +5% Immunity Gain Speed for 12 hours for a probiotic benefit but slightly decreases Move Speed due to its richness.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedSourCream</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ImmunityGainSpeed>0.05</ImmunityGainSpeed>					
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+<HediffDef>
+		<defName>AC_ConsumedButtermilk</defName>
+		<label>consumed buttermilk (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A tangy, slightly thickened dairy product made by combining milk with lemon juice, commonly used in baking and cooking to add moisture and a subtle acidity to recipes. Provides +12% Injury Healing Factor; however, slightly reduces Social Impact for its acquired taste.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedButtermilk</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				
+				<statOffsets>
+					<InjuryHealingFactor>0.12</InjuryHealingFactor>		
+					<SocialImpact>-0.1</SocialImpact>					
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+<HediffDef>
+		<defName>AC_ConsumedCondensedMilk</defName>
+		<label>consumed condensed milk (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A thick, sweetened dairy product made by reducing milk, commonly used in desserts, baking, or as a long-lasting ingredient for various recipes. Provides +15% Psychic Sensitivity for a mood-lifting sweetness, but also +5% Rest Fall Rate as it makes the consumer feel sluggish.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedCondensedMilk</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				 <statOffsets>
+					<PsychicSensitivity>0.15</PsychicSensitivity>
+					<RestFallRateFactor>0.05</RestFallRateFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

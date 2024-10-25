@@ -9,6 +9,9 @@
 		<baseCost>100</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
 		<generalRules>
 			<rulesStrings>
 				<li>subject->forgotten crafts</li>

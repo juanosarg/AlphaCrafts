@@ -18,5 +18,10 @@
 	<AC_QuestRateTooltip>The frequency of the Artisan Trading quest being offered is multiplied by this number (with a multiplier of 1, it is offered every between 15 and 30 days at random). Numbers below 1 decrease the time, while numbers above it increase it. Note that this event doesn't "replace" normal quests, it works independently.</AC_QuestRateTooltip>
 	<AC_Reset>Reset</AC_Reset>
 	
-
+	<AC_CondimentEffects>Condiment Effects</AC_CondimentEffects>
+	<AC_CondimentEffectsTitle>Acting as condiment (if VE Cooking is present)</AC_CondimentEffectsTitle>
+	<AC_CondimentEffectsButter>A rich, creamy dairy product made by churning cream, commonly used in cooking, baking, and as a spread. It gives a 10% bonus to Blood pumping for 12 hours.</AC_CondimentEffectsButter>
+	<AC_CondimentEffectsSourCream>A tangy, creamy dairy product made by curdling milk with vinegar, offering a rich texture and flavor perfect for enhancing both savory and sweet dishes. Provides +5% Immunity Gain Speed for 12 hours for a probiotic benefit but slightly decreases Move Speed due to its richness.</AC_CondimentEffectsSourCream>
+	<AC_CondimentEffectsButtermilk>A tangy, slightly thickened dairy product made by combining milk with lemon juice, commonly used in baking and cooking to add moisture and a subtle acidity to recipes. Provides +12% Injury Healing Factor; however, slightly reduces Social Impact for its acquired taste.</AC_CondimentEffectsButtermilk>
+	<AC_CondimentEffectsCondensedMilk>A thick, sweetened dairy product made by reducing milk, commonly used in desserts, baking, or as a long-lasting ingredient for various recipes. Provides +15% Psychic Sensitivity for a mood-lifting sweetness, but also +5% Rest Fall Rate as it makes the consumer feel sluggish.</AC_CondimentEffectsCondensedMilk>
 </LanguageData>

@@ -33,5 +33,17 @@
 			
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Butter"]/thingCategories</xpath>
+		<value>
+			<li>VCE_Condiments</li>			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_SourCream"]/thingCategories</xpath>
+		<value>
+			<li>VCE_Condiments</li>			
+		</value>
+	</Operation>
 </Patch>
 

@@ -62,9 +62,12 @@
 		<rotatable>false</rotatable>
 		<tradeability>Sellable</tradeability>
 		<ingestible>
-			<preferability>MealSimple</preferability>
-		
-			<ingestEffect>EatVegetarian</ingestEffect>
+			<preferability>DesperateOnly</preferability>
+			  <foodType>Processed</foodType>
+			  <joy>0.10</joy>
+			  <joyKind>Gluttonous</joyKind>
+			  <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+			  <defaultNumToIngestAtOnce>4</defaultNumToIngestAtOnce>
 			<ingestSound>Meal_Eat</ingestSound>
 		</ingestible>
 		<comps>
@@ -105,9 +108,12 @@
 		<rotatable>false</rotatable>
 		<tradeability>Sellable</tradeability>
 		<ingestible>
-			<preferability>MealSimple</preferability>
-		
-			<ingestEffect>EatVegetarian</ingestEffect>
+			<preferability>DesperateOnly</preferability>
+			<foodType>Processed</foodType>
+			<joy>0.08</joy>
+			<joyKind>Gluttonous</joyKind>
+			<maxNumToIngestAtOnce>7</maxNumToIngestAtOnce>
+			<defaultNumToIngestAtOnce>7</defaultNumToIngestAtOnce>
 			<ingestSound>Meal_Eat</ingestSound>
 		</ingestible>
 		<comps>

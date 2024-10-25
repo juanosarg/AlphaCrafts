@@ -50,6 +50,7 @@
 		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
+			<specialThoughtAsIngredient>AC_ConsumedButter</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
 		</ingestible>
 		<ingredient>
@@ -57,5 +58,23 @@
 				<li>Condiments</li>
 			</mergeCompatibilityTags>
 		</ingredient>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+				
+				<statToAdd>
+					<li>AC_CondimentEffects</li>
+						
+				</statToAdd>
+				<statValues>
+					<li>AC_CondimentEffectsTitle</li>
+									
+				</statValues>
+				<statDescriptions>
+					<li>AC_CondimentEffectsButter</li>
+					
+				</statDescriptions>
+				
+			</li>
+		</modExtensions>
 	</ThingDef>
 </Defs>
