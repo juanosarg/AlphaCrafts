@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AC_ScentedCandle</defName>
+		<label>scented candle</label>
+		<description>These handmade candles use butter as a base, stabilized with other natural ingredients, and infused with rich botanical essences. The result is a fragrant, slow-burning candle with a smooth, clean melt that fills the room with soothing scents.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_ScentedCandle</texPath>
+			<graphicClass>AlphaCrafts.Graphic_RandomStackCount</graphicClass>
+			<drawSize>0.65</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>32</MarketValue>
+			<Flammability>1</Flammability>
+			<Mass>0.1</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		
+	</ThingDef>
+</Defs>

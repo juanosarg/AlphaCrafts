@@ -12,6 +12,7 @@
 		<recipeUsers>
 			<li>AC_BottlingStation</li>
 		</recipeUsers>
+		 <researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
 		<ingredients>
 			<li Name="VegIngredient">
 				<filter>
@@ -75,6 +76,7 @@
 		<recipeUsers>
 			<li>AC_BottlingStation</li>
 		</recipeUsers>
+		<researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -133,6 +135,7 @@
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
 		<workAmount>1500</workAmount>
 		<recipeUsers>
 			<li>AC_BottlingStation</li>
@@ -208,6 +211,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<workAmount>3000</workAmount>
+		<researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
 		<recipeUsers>
 			<li>AC_BottlingStation</li>
 		</recipeUsers>

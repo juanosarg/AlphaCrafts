@@ -145,6 +145,7 @@
 		<workAmount>5000</workAmount>
 		<recipeUsers>
 			<li>AC_DairyProcessingStation</li>
+			<li>AC_ArtisanWorkshop</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
@@ -195,6 +196,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
+		<researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
 		<recipeUsers>
 			<li>AC_DairyProcessingStation</li>
 		</recipeUsers>

@@ -70,6 +70,7 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>false</allowMixingIngredients>
 		<workAmount>5000</workAmount>
+		<researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
 		<recipeUsers>
 			<li>AC_BottlingStation</li>
 			
@@ -187,6 +188,7 @@
 			<li>AC_BottlingStation</li>
 			
 		</recipeUsers>
+		<researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>

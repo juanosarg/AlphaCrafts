@@ -6,7 +6,7 @@
 		<tab>AC_AlphaCrafts</tab>
 		<techLevel>Medieval</techLevel>
 		<description>Unlocks a range of specialized artisanal processes, enabling colonists to craft unique, niche products using traditional methods and tools that complement the colony’s production capabilities.</description>
-		<baseCost>100</baseCost>		
+		<baseCost>100</baseCost>
 		<researchViewX>0</researchViewX>
 		<researchViewY>0</researchViewY>
 		<generalRules>
@@ -38,7 +38,6 @@
 				<li>subject_story->mastered the process of creating yogurt, cream, and artisanal cheeses</li>
 				<li>subject_story->introduced new techniques for elevating everyday milk into specialty goods</li>
 				<li>subject_gerund->transforming simple milk into a variety of handcrafted dairy delights</li>
-
 			</rulesStrings>
 		</generalRules>
 	</ResearchProjectDef>
@@ -86,7 +85,6 @@
 			</rulesStrings>
 		</generalRules>
 	</ResearchProjectDef>
-	
 	<ResearchProjectDef>
 		<defName>AC_ArtisanalGrinding</defName>
 		<label>artisanal grinding</label>
@@ -150,6 +148,28 @@
 				<li>subject_story->introduced sealed bottles, extending the shelf life of jams, mayonnaise, and other liquids</li>
 				<li>subject_story->revolutionized trade by making bottled goods more transportable and valuable</li>
 				<li>subject_gerund->bottling liquids to preserve their freshness and enhance trade potential</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>AC_ComplexArtisanalCrafting</defName>
+		<label>complex artisanal crafting</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Medieval</techLevel>
+		<description>Unlocks a range of more complex artisanal processes. This research project will unlock all recipes that require another artisanal product to craft, such as for example sour cream, requiring milk and vinegar.</description>
+		<baseCost>300</baseCost>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+		<prerequisites>
+			<li>AC_MiscellaneousArtisanalCrafting</li>
+		</prerequisites>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->layered creations</li>
+				<li>subject_story->mastered the intricate techniques of blending artisan products to create elevated flavors and textures</li>
+				<li>subject_story->pioneered methods that draw on multiple artisanal ingredients, resulting in unique, multi-step crafts</li>
+				<li>subject_story->introduced advanced processes that build on foundational recipes, unlocking refined, specialized goods</li>
+				<li>subject_gerund->crafting with a complex blend of resources to produce exceptional artisanal items</li>
 			</rulesStrings>
 		</generalRules>
 	</ResearchProjectDef>

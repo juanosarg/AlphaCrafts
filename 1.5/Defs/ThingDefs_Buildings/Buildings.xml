@@ -3,7 +3,7 @@
 <ThingDef ParentName="BuildingBase">
 		<defName>AC_ArtisanWorkshop</defName>
 		<label>artisan workshop</label>
-		<description>A flexible workshop dedicated to various small-scale artisanal processes that don’t fit into larger categories. It provides space and tools for specialized crafting, ensuring no resource goes to waste in the colony's production line. Can also be used as a low efficiency workshop to press oils and create jams.</description>
+		<description>A flexible workshop dedicated to various small-scale artisanal processes that don’t fit into larger categories. It provides space and tools for specialized crafting, ensuring no resource goes to waste in the colony's production line.\n\nCan also be used as a low efficiency workshop to press oils, churn butter and create jams.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Things/Buildings/AC_ArtisanCraftsTable</texPath>

@@ -19,11 +19,7 @@
 			<li>AC_ArtisanProducts</li>
 		</thingCategories>
 		
-		<ingredient>
-			<mergeCompatibilityTags>
-				<li>Condiments</li>
-			</mergeCompatibilityTags>
-		</ingredient>
+		
 	</ThingDef>
 	
 	<ThingDef ParentName="RoughPlantBase">

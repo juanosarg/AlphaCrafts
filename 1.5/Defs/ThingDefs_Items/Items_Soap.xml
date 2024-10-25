@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AC_Soap</defName>
+		<label>soap</label>
+		<description>A smooth, gently lathering soap crafted from rich oils and aromatic essences. Its blend of natural ingredients leaves a subtle, refreshing fragrance and a silky feel.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Soap</texPath>
+			<graphicClass>AlphaCrafts.Graphic_RandomStackCount</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>45</MarketValue>
+			<Flammability>0.5</Flammability>
+			<Mass>0.05</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		
+	</ThingDef>
+</Defs>
