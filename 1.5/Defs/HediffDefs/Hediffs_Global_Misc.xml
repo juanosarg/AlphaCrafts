@@ -69,7 +69,7 @@
 		<defName>AC_ConsumedButtermilk</defName>
 		<label>consumed buttermilk (from meal)</label>
 		<makesSickThought>false</makesSickThought>
-		<description>A tangy, slightly thickened dairy product made by combining milk with lemon juice, commonly used in baking and cooking to add moisture and a subtle acidity to recipes. Provides +12% Injury Healing Factor; however, slightly reduces Social Impact for its acquired taste.</description>
+		<description>A tangy, slightly thickened dairy product made by combining milk with lemon juice, commonly used in baking and cooking to add moisture and a subtle acidity to recipes. Provides +12% Injury Healing Factor for 12 hours; however, slightly reduces Social Impact for its acquired taste.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>
@@ -98,7 +98,7 @@
 		<defName>AC_ConsumedCondensedMilk</defName>
 		<label>consumed condensed milk (from meal)</label>
 		<makesSickThought>false</makesSickThought>
-		<description>A thick, sweetened dairy product made by reducing milk, commonly used in desserts, baking, or as a long-lasting ingredient for various recipes. Provides +15% Psychic Sensitivity for a mood-lifting sweetness, but also +5% Rest Fall Rate as it makes the consumer feel sluggish.</description>
+		<description>A thick, sweetened dairy product made by reducing milk, commonly used in desserts, baking, or as a long-lasting ingredient for various recipes. Provides +15% Psychic Sensitivity for 12 hours for a mood-lifting sweetness, but also +5% Rest Fall Rate as it makes the consumer feel sluggish.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>
@@ -117,6 +117,244 @@
 				 <statOffsets>
 					<PsychicSensitivity>0.15</PsychicSensitivity>
 					<RestFallRateFactor>0.05</RestFallRateFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AC_ConsumedVinegar</defName>
+		<label>consumed vinegar (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A sharp, acidic liquid created by fermenting produce, used for cooking, preserving food, and crafting artisan goods. Boosts toxin resistance by 10% for 12 hours, aligning with its cleansing qualities.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedVinegar</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				 <statOffsets>
+					<ToxicResistance>0.1</ToxicResistance>
+					
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+		<HediffDef>
+		<defName>AC_ConsumedFishSauce</defName>
+		<label>consumed fish sauce (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A savory, fermented liquid made from fish, commonly used as a flavorful condiment. +8% Manipulation for 12 hours, enhances dexterity for cooking and crafting, but lowers Social impact due to its strong smell.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedFishSauce</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.08</offset>
+					</li>
+				</capMods>
+				 <statOffsets>
+				
+					<SocialImpact>-0.1</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AC_ConsumedMiso</defName>
+		<label>consumed fish sauce (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A traditional paste made by fermenting soybeans with koji, known for its rich, savory flavor. Provides +5% Psychic Sensitivity and +5% Blood Filtration for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedMiso</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				 <statOffsets>
+				
+					<PsychicSensitivity>0.05</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AC_ConsumedBlackGarlic</defName>
+		<label>consumed black garlic (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Black garlic is a type of aged garlic that undergoes a fermentation-like process, resulting in soft, dark-colored cloves. Provides very mild regeneration of wounds for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedBlackGarlic</li>
+				</thoughtDefs>
+			</li>
+			
+			<li Class="AnimalBehaviours.HediffCompProperties_Regeneration">
+				<rateInTicks>2500</rateInTicks>
+			</li>
+		
+		</comps>
+		
+	</HediffDef>
+	<HediffDef>
+		<defName>AC_ConsumedZest</defName>
+		<label>consumed zest (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>The outer peel of citrus fruits, rich in aromatic oils and vibrant flavors. Provides a bright flavor boosting joy, lowering Joy fall rate factor for 10% for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedZest</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				
+				 <statOffsets>
+				
+					<JoyFallRateFactor>-0.1</JoyFallRateFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AC_ConsumedCornSyrup</defName>
+		<label>consumed corn syrup (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A sweetener made from corn starch, processed to convert some of its glucose into fructose. Provides a large +2% Moving bonus, but also lowers Manipulation by 5% for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedCornSyrup</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				
+				 <capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AC_ConsumedMolasses</defName>
+		<label>consumed molasses (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A thick, dark syrup created as a byproduct of the sugar refining process, especially from sugarcane. Provides a 5% bonus to Global learning factor and a 5% Rest fall rate factor reduction for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedMolasses</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				
+				  <statOffsets>
+					<GlobalLearningFactor>0.05</GlobalLearningFactor>
+					<RestFallRateFactor>-0.05</RestFallRateFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AC_ConsumedEssence</defName>
+		<label>consumed essence (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A concentrated extract derived from the purest flavors or aromas of ingredients like fruits, herbs, or spices. Makes you refreshed and ready to harvest some kidneys or something, giving a 5% bonus to Medical tend speed and Medical operation speed for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedMolasses</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				
+				  <statOffsets>
+					<MedicalOperationSpeed>0.05</MedicalOperationSpeed>
+					<MedicalTendSpeed>0.05</MedicalTendSpeed>
 				</statOffsets>
 			</li>
 		</stages>

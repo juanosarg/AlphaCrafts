@@ -94,6 +94,12 @@
 						</RecipeDef>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AC_FishSauce"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Condiments</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

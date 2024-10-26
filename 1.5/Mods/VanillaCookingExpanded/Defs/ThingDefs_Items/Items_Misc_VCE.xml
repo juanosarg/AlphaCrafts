@@ -18,16 +18,37 @@
 		
 		<thingCategories>
 			<li>AC_ArtisanProducts</li>
+			<li>VCE_Condiments</li>	
 		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
+			<specialThoughtAsIngredient>AC_ConsumedMolasses</specialThoughtAsIngredient>
 			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
 		</ingestible>
 		<ingredient>
 			<mergeCompatibilityTags>
 				<li>Condiments</li>
+				
 			</mergeCompatibilityTags>
 		</ingredient>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+				
+				<statToAdd>
+					<li>AC_CondimentEffects</li>
+						
+				</statToAdd>
+				<statValues>
+					<li>AC_CondimentEffectsTitle</li>
+									
+				</statValues>
+				<statDescriptions>
+					<li>AC_CondimentEffectsMolasses</li>
+					
+				</statDescriptions>
+				
+			</li>
+		</modExtensions>
 	</ThingDef>
 	
 	<ThingDef ParentName="RoughPlantBase">

@@ -12,6 +12,8 @@ namespace AlphaCrafts
 
     {
 
+        public const float AC_MarketValueModifierBase = 1;
+        public float AC_MarketValueModifier = AC_MarketValueModifierBase;
         public const float AC_QuestRateBase = 1;
         public float AC_QuestRate = AC_QuestRateBase;
         public bool AC_DisableQuests = false;
@@ -19,7 +21,7 @@ namespace AlphaCrafts
 
 
 
-        private static Vector2 scrollPosition = Vector2.zero;
+       
 
         public override void ExposeData()
         {
@@ -27,7 +29,7 @@ namespace AlphaCrafts
 
             Scribe_Values.Look(ref AC_QuestRate, "AC_QuestRate", AC_QuestRateBase);
             Scribe_Values.Look(ref AC_DisableQuests, "AC_DisableQuests", false);
-          
+            Scribe_Values.Look(ref AC_MarketValueModifier, "AC_MarketValueModifier", AC_MarketValueModifierBase);
 
 
         }
@@ -35,24 +37,14 @@ namespace AlphaCrafts
         {
             Listing_Standard listingStandard = new Listing_Standard();
 
-            var scrollContainer = inRect.ContractedBy(10);
-            scrollContainer.height -= listingStandard.CurHeight;
-            scrollContainer.y += listingStandard.CurHeight;
-            Widgets.DrawBoxSolid(scrollContainer, Color.grey);
-            var innerContainer = scrollContainer.ContractedBy(1);
-            Widgets.DrawBoxSolid(innerContainer, new ColorInt(42, 43, 44).ToColor);
-            var frameRect = innerContainer.ContractedBy(5);
-            frameRect.y += 15;
-            frameRect.height -= 15;
-            var contentRect = frameRect;
-            contentRect.x = 0;
-            contentRect.y = 0;
-            contentRect.width -= 20;
+            listingStandard.Begin(inRect);
 
-            contentRect.height = 950f;
-
-            Widgets.BeginScrollView(frameRect, ref scrollPosition, contentRect, true);
-            listingStandard.Begin(contentRect.AtZero());
+            var MarketValueLabel = listingStandard.LabelPlusButton("AC_MarketValueModifier".Translate() + ": " + AC_MarketValueModifier, "AC_MarketValueModifierTooltip".Translate());
+            AC_MarketValueModifier = (float)Math.Round(listingStandard.Slider(AC_MarketValueModifier, 0.1f, 5f), 1);
+            if (listingStandard.Settings_Button("AC_Reset".Translate(), new Rect(0f, MarketValueLabel.position.y + 35, 180f, 29f)))
+            {
+                AC_MarketValueModifier = AC_MarketValueModifierBase;
+            }
 
             var QuestRateLabel = listingStandard.LabelPlusButton("AC_QuestRate".Translate() + ": " + AC_QuestRate, "AC_QuestRateTooltip".Translate());
             AC_QuestRate = (float)Math.Round(listingStandard.Slider(AC_QuestRate, 0.1f, 5f), 1);
@@ -66,7 +58,7 @@ namespace AlphaCrafts
 
 
             listingStandard.End();
-            Widgets.EndScrollView();
+          
 
             base.Write();
 

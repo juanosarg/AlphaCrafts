@@ -45,5 +45,29 @@
 			<li>VCE_Condiments</li>			
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Vinegar"]/thingCategories</xpath>
+		<value>
+			<li>VCE_Condiments</li>			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Flour"]/thingCategories</xpath>
+		<value>
+			<li>VCE_Condiments</li>			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_CornSyrup"]/thingCategories</xpath>
+		<value>
+			<li>VCE_Condiments</li>			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Essence"]/thingCategories</xpath>
+		<value>
+			<li>VCE_Condiments</li>			
+		</value>
+	</Operation>
 </Patch>
 

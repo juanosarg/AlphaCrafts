@@ -336,6 +336,7 @@
     <Compile Include="Settings\AlphaCrafts_SettingsController.cs" />
     <Compile Include="Settings\SettingsHelper.cs" />
     <Compile Include="StaticCollections\StaticCollectionsClass.cs" />
+    <Compile Include="StatParts\StatPart_ArtisanProduct.cs" />
     <Compile Include="StockGenerators\StockGenerator_BuyCategory.cs" />
     <Compile Include="Utils\Utils.cs" />
     <Compile Include="WorldComponents\WorldComponent_ArtisanTradingQuests.cs" />

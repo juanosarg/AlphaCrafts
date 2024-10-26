@@ -461,7 +461,12 @@
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>
-				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AC_BlackGarlic"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Condiments</li>
+					</value>
+				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
