@@ -359,4 +359,120 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AC_DrankChichaMorada</defName>
+		<label>drank chicha morada</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A traditional beverage made from purple corn, spiced with cinnamon and cloves, and flavored with fruits like pineapple. Provides a 10% manipulation buff for 5 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_DrankChichaMorada</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AC_ChichaMoradaAsIngredient</defName>
+		<label>drank chicha morada based cocktail</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This colonist drank a cocktail that had chicha morada as one of its ingredients. Provides a 5% manipulation buff for 24 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ChichaMoradaAsIngredient</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AC_SakeHigh</defName>
+		<label>sake high</label>
+		<labelNoun>a sake high</labelNoun>
+		<description>Drank some sake. Mildly increases relaxation and therefore decreases mental break threshold by 5% for a short period.</description>
+		<hediffClass>Hediff_Alcohol</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.25</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+				
+				</statOffsets>		
+			</li>
+			
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AC_SakeAsIngredient</defName>
+		<label>drank sake based cocktail</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This colonist drank a cocktail that had sake as one of its ingredients. Provides a 5% manipulation buff for 5 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_SakeAsIngredient</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

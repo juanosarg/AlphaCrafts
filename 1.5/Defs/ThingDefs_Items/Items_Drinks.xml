@@ -12,6 +12,9 @@
 			<HediffDef>Cirrhosis</HediffDef>
 			<HediffDef>ChemicalDamageModerate</HediffDef>
 		</descriptionHyperlinks>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
 		<possessionCount>6</possessionCount>
 		<graphicData>
 			<texPath>Things/Item/AC_Sake</texPath>
@@ -27,6 +30,7 @@
 			<Nutrition>0.08</Nutrition>
 		</statBases>
 		<ingestible>
+			<specialThoughtAsIngredient>AC_SakeAsIngredient</specialThoughtAsIngredient>
 			<foodType>Fluid, Processed, Liquor</foodType>
 			<joyKind>Chemical</joyKind>
 			<joy>0.17</joy>
@@ -48,6 +52,11 @@
 					<hediffDef>AlcoholHigh</hediffDef>
 					<severity>0.15</severity>
 					<toleranceChemical>Alcohol</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_SakeHigh</hediffDef>
+					<severity>0.35</severity>
+					
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>AlcoholTolerance</hediffDef>

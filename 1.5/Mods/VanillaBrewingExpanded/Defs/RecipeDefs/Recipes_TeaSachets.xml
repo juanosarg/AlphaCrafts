@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>AC_PrepareSpecialtyTeaSachets</defName>
+		<label>prepare specialty tea sachets</label>
+		<description>Crafts soothing sachets from a blend of artisan herbs and spices, offering unique flavors and calming effects. Yield of the recipe will depend on the produce being used to get the sachet.</description>
+		<jobString>Preparing specialty tea sachets.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>80</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanWorkshop</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+				<customSummary>tea leaves</customSummary>
+					<thingDefs>
+						<li>VBE_RawTea</li>
+						
+						
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li Name="FruitIngredient">
+				<filter>
+				<customSummary>fruits or flowers</customSummary>
+					<thingDefs>
+						<li>RawBerries</li>
+						
+						
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>VBE_RawTea</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>VBE_RawTea</li>
+				
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_TeaSachets>20</AC_TeaSachets>
+		</products>
+		
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>RawBerries</baseline>
+				<exclusions>
+					<li>VBE_RawTea</li>
+					
+				</exclusions>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+</Defs>

@@ -411,7 +411,6 @@
 			<li>VCE_RawButternutSquash</li>
 		</value>
 	</Operation>
-	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/ingredients/li[@Name="ProduceIngredient"]/filter/thingDefs</xpath>
 		<value>
@@ -453,7 +452,6 @@
 			</li>
 		</value>
 	</Operation>
-	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Cooking Expanded</li>
@@ -470,6 +468,49 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
+						<ThingDef ParentName="DrugBase">
+							<defName>AC_ChichaMorada</defName>
+							<label>chicha morada</label>
+							<description>A traditional beverage made from purple corn, spiced with cinnamon and cloves, and flavored with fruits like pineapple. Known for its rich, deep purple color and refreshing sweet-tart taste, chicha morada is not only a cultural staple but also rich in antioxidants due to the high anthocyanin content of purple corn.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 chicha morada requires corn, pineapple, spices and sugar for a total value of 99.40, and sells for 35, giving a &lt;color=#33CC33&gt;71.60%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 7500 work, which results on a value per work of &lt;color=#33CC33&gt;0.05&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;116.66&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;1.09&lt;/color&gt; (for reference Yayo is 0.35).</description>
+							<graphicData>
+								<texPath>Things/Item/AC_ChichaMorada</texPath>
+								<graphicClass>Graphic_StackCount</graphicClass>
+							</graphicData>
+							<thingCategories>
+								<li>AC_ArtisanProducts</li>
+							</thingCategories>
+							<rotatable>false</rotatable>
+							<stackLimit>25</stackLimit>
+							<statBases>
+								<DeteriorationRate>0.5</DeteriorationRate>
+								<MarketValue>35</MarketValue>
+								<Mass>0.3</Mass>
+								<Flammability>0.5</Flammability>
+								<Nutrition>0.16</Nutrition>
+							</statBases>
+							<ingestible>
+								<foodType>Fluid, Processed</foodType>
+								<joyKind>Gluttonous</joyKind>
+								<joy>0.1</joy>
+								<drugCategory>Social</drugCategory>
+								<ingestSound>Ingest_Beer</ingestSound>
+								<ingestHoldOffsetStanding>
+									<northDefault>
+										<offset>(0.18,0,0)</offset>
+									</northDefault>
+								</ingestHoldOffsetStanding>
+								<ingestCommandString>Drink {0}</ingestCommandString>
+								<ingestReportString>Drinking {0}.</ingestReportString>
+								<ingestHoldUsesTable>false</ingestHoldUsesTable>
+								<tasteThought>AC_DrankChichaMorada</tasteThought>
+							</ingestible>
+							<comps>
+								<li Class="CompProperties_Drug">
+									<listOrder>1001</listOrder>
+									<overdoseSeverityOffset>0</overdoseSeverityOffset>
+								</li>
+							</comps>
+						</ThingDef>
 						<RecipeDef>
 							<defName>AC_BrewChichaMorada</defName>
 							<label>brew chicha morada</label>
@@ -542,6 +583,102 @@
 						</RecipeDef>
 					</value>
 				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Brewing Expanded</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<success>Always</success>
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[@Name = "VBE_CookCocktailMealBase"]/fixedIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[@Name = "VBE_CookCocktailMealBase"]/defaultIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[@Name = "VBE_CookCocktailFineMealBase"]/fixedIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[@Name = "VBE_CookCocktailFineMealBase"]/defaultIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "VBE_MakeCocktailSimple"]/ingredients/li/filter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "VBE_MakeCocktailFine"]/ingredients/li[2]/filter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationConditional">
+								<xpath>/Defs/RecipeDef[defName = "VBE_MakeCocktailLavish"]/ingredients/li[2]/filter/thingDefs</xpath>
+								<nomatch Class="PatchOperationAdd">
+									<success>Always</success>
+									<xpath>/Defs/RecipeDef[defName = "VBE_MakeCocktailLavish"]/ingredients/li[2]/filter</xpath>
+									<value>
+										<thingDefs>
+											<li>AC_ChichaMorada</li>
+										</thingDefs>
+									</value>
+								</nomatch>
+								<match Class="PatchOperationAdd">
+									<success>Always</success>
+									<xpath>/Defs/RecipeDef[defName = "VBE_MakeCocktailLavish"]/ingredients/li[2]/filter/thingDefs</xpath>
+									<value>
+										<li>AC_ChichaMorada</li>
+									</value>
+								</match>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "AC_ChichaMorada"]/ingestible</xpath>
+								<value>
+									<specialThoughtAsIngredient>AC_ChichaMoradaAsIngredient</specialThoughtAsIngredient>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<success>Always</success>
+								<xpath>/Defs/ThingDef[defName="AC_ChichaMorada"]/thingCategories</xpath>
+								<value>
+									<li>VBE_DrinksNonAlcoholic</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs</xpath>
+								<value>
+									<ThoughtDef>
+										<defName>AC_ChichaMoradaAsIngredient</defName>
+										<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
+										<hediff>AC_ChichaMoradaAsIngredient</hediff>
+										<durationDays>1</durationDays>
+										<stages>
+											<li>
+												<label>drank chicha morada-based cocktail</label>
+												<description>Yummy.</description>
+												<baseMoodEffect>0</baseMoodEffect>
+											</li>
+										</stages>
+									</ThoughtDef>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
 			</operations>
 		</match>
 	</Operation>
@@ -559,7 +696,6 @@
 			<li>AC_Vanilla</li>
 			<li>AC_Violet</li>
 			<li>AC_YlangYlang</li>
-			
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -576,7 +712,6 @@
 			<li>AC_Vanilla</li>
 			<li>AC_Violet</li>
 			<li>AC_YlangYlang</li>
-			
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -593,8 +728,65 @@
 			<li>AC_Vanilla</li>
 			<li>AC_Violet</li>
 			<li>AC_YlangYlang</li>
-			
 		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Brewing Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_PrepareSpecialtyTeaSachets"]/ingredients/li/filter/thingDefs</xpath>
+					<value>
+						<li>AC_Lavender</li>
+						<li>AC_FragrantbloomRose</li>
+						<li>AC_Hyacinth</li>
+						<li>AC_Jasmine</li>
+						<li>AC_Lily</li>
+						<li>AC_Orchid</li>
+						<li>AC_Plumeria</li>
+						<li>AC_Tulip</li>
+						<li>AC_Vanilla</li>
+						<li>AC_Violet</li>
+						<li>AC_YlangYlang</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_PrepareSpecialtyTeaSachets"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>AC_Lavender</li>
+						<li>AC_FragrantbloomRose</li>
+						<li>AC_Hyacinth</li>
+						<li>AC_Jasmine</li>
+						<li>AC_Lily</li>
+						<li>AC_Orchid</li>
+						<li>AC_Plumeria</li>
+						<li>AC_Tulip</li>
+						<li>AC_Vanilla</li>
+						<li>AC_Violet</li>
+						<li>AC_YlangYlang</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_PrepareSpecialtyTeaSachets"]/defaultIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>AC_Lavender</li>
+						<li>AC_FragrantbloomRose</li>
+						<li>AC_Hyacinth</li>
+						<li>AC_Jasmine</li>
+						<li>AC_Lily</li>
+						<li>AC_Orchid</li>
+						<li>AC_Plumeria</li>
+						<li>AC_Tulip</li>
+						<li>AC_Vanilla</li>
+						<li>AC_Violet</li>
+						<li>AC_YlangYlang</li>
+					</value>
+				</li>
+			</operations>
+		</match>
 	</Operation>
 </Patch>
 

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AC_TeaSachets</defName>
+		<label>specialty tea sachets</label>
+		<description>An artfully crafted tea sachet, blending artisan ingredients like fragrant flowers, spices, and delicate herbs to create a soothing and refreshing brew.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 20 sachets requires 10 tea leaves and 10 fruit or flowers for a total value of 23, and sells for 2.1, giving a &lt;color=#33CC33&gt;45.24%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 160 work, which results on a value per work of &lt;color=#33CC33&gt;0.29&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.01 Kg, for a value per Kg of &lt;color=#33CC33&gt;210&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.07&lt;/color&gt; (for reference Yayo is 0.35).</description>
+		<graphicData>
+			<texPath>Things/Item/AC_TeaSachets</texPath>
+			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Yogurt</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.1</MarketValue>
+			
+			<Flammability>1</Flammability>
+			<Mass>0.01</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps><li Class="CompProperties_Ingredients">
+			
+			</li>
+			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
+				<exclusions>
+					<li>VBE_RawTea</li>
+				</exclusions>
+				<overrides>
+					
+				</overrides>
+			</li></comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		
+		</thingCategories>
+		
+	</ThingDef>
+	
+	
+	
+</Defs>

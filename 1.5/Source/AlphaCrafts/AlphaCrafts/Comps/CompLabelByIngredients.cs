@@ -38,7 +38,7 @@ namespace AlphaCrafts
                 {
                     if (!Props.overrides.NullOrEmpty())
                     {
-                        ThingDef thingDef = ingredients.ingredients.First();
+                        ThingDef thingDef = ingredients.ingredients.Where(x => Props.exclusions?.Contains(x) != true).First();
                         if (thingDef != null && Props.overrides.ContainsKey(thingDef))
                         {
                             if (Props.fullReplace)
@@ -52,13 +52,13 @@ namespace AlphaCrafts
                         }
                         else
                         {
-                            cachedLabel = ingredients.ingredients.First().LabelCap + " " + label;
+                            cachedLabel = ingredients.ingredients.Where(x => Props.exclusions?.Contains(x) != true).First().LabelCap + " " + label;
                         }
                         
                     }
                     else
                     {
-                        cachedLabel= ingredients.ingredients.First().LabelCap + " " + label;
+                        cachedLabel= ingredients.ingredients.Where(x => Props.exclusions?.Contains(x) != true).First().LabelCap + " " + label;
                     }
                 }
 

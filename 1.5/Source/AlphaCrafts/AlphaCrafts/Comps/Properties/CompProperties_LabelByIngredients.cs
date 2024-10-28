@@ -8,6 +8,7 @@ namespace AlphaCrafts
     {
         public bool fullReplace = false;
         public Dictionary<ThingDef, string> overrides = new Dictionary<ThingDef, string>();
+        public List<ThingDef> exclusions = new List<ThingDef>();
 
         public CompProperties_LabelByIngredients()
         {
