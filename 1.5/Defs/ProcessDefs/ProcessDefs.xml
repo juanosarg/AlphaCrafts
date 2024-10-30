@@ -104,5 +104,30 @@
 		</results>
 		
 	</PipeSystem.ProcessDef>
+	<PipeSystem.ProcessDef>
+		<defName>AC_ChocolateToLiquor</defName>
+		<label>Ferment chocolate into liquor</label>
+		<description>Turns 50 chocolate into 10 chocolate liquor.</description>
+		
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 50 chocolate into 10 chocolate liquor</labelOverride>
+		
+		<priorityInBillList>14</priorityInBillList>
+		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
+		<ingredients>
+			<li>
+				<thing>Chocolate</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>420000</ticks>
+		<results>
+			<li>
+				<thing>AC_ChocolateLiquor</thing>
+				<count>10</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
 
 </Defs>

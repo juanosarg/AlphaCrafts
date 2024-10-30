@@ -1,6 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PepareGravy"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+		<value>
+			<li>VCE_CannedMeat</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[@Name="AC_YoghurtMealBase"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+		<value>
+			<li>VCE_CannedFruit</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ExtractEssence"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+		<value>
+			<li>VCE_CannedFruit</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PreserveFruitAsJam"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+		<value>
+			<li>VCE_CannedFruit</li>
+		</value>
+	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/ingredients/li[@Name="ProduceIngredient"]/filter/thingDefs</xpath>
 		<value>

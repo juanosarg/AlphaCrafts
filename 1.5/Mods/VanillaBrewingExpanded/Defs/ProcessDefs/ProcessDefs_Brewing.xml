@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_TeaToKombucha</defName>
+		<label>Ferment tea into artisanal kombucha</label>
+		<description>Turns 125 tea into 50 artisanal kombucha.</description>
+		
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 125 tea into 50 rtisanal kombucha</labelOverride>
+		
+		<priorityInBillList>20</priorityInBillList>
+		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
+		<ingredients>
+			<li>
+				<thing>VBE_RawTea</thing>
+				<countNeeded>125</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>720000</ticks>
+		<results>
+			<li>
+				<thing>AC_ArtisanalKombucha</thing>
+				<count>50</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+
+	<PipeSystem.ProcessDef>
+		<defName>AC_CoffeeToLiquor</defName>
+		<label>Ferment coffee beans into coffee liquor</label>
+		<description>Turns 125 coffee beans into 30 coffee liquor.</description>
+		
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 125 coffee beans into 30 coffee liquor</labelOverride>
+		
+		<priorityInBillList>21</priorityInBillList>
+		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
+		<ingredients>
+			<li>
+				<thing>VBE_RawCoffee</thing>
+				<countNeeded>125</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>600000</ticks>
+		<results>
+			<li>
+				<thing>AC_CoffeeLiquor</thing>
+				<count>30</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+</Defs>

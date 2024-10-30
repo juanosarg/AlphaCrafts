@@ -43,6 +43,7 @@
 				<li>VBE_RawTea</li>
 				
 			</thingDefs>
+			<disallowedThingDefs/>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>

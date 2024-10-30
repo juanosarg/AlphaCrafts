@@ -38,6 +38,7 @@
 				<li>RawRice</li>
 				<li>RawPotatoes</li>
 			</thingDefs>
+			
 		</defaultIngredientFilter>
 		<workSkill>Cooking</workSkill>
 		<products>
@@ -49,7 +50,6 @@
 			</li>
 		</modExtensions>
 	</RecipeDef>
-	
 	<RecipeDef>
 		<defName>AC_GrindIntoChips</defName>
 		<label>grind into chips</label>
@@ -67,7 +67,6 @@
 			<li>
 				<filter>
 					<thingDefs>
-						
 						<li>RawPotatoes</li>
 					</thingDefs>
 				</filter>
@@ -76,13 +75,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				
 				<li>RawPotatoes</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
-				
 				<li>RawPotatoes</li>
 			</thingDefs>
 		</defaultIngredientFilter>
@@ -113,7 +110,6 @@
 			<li>
 				<filter>
 					<thingDefs>
-						
 						<li>RawPotatoes</li>
 					</thingDefs>
 				</filter>
@@ -122,13 +118,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				
 				<li>RawPotatoes</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
-				
 				<li>RawPotatoes</li>
 			</thingDefs>
 		</defaultIngredientFilter>
@@ -142,5 +136,51 @@
 			</li>
 		</modExtensions>
 	</RecipeDef>
-	 
+	<RecipeDef>
+		<defName>AC_PepareGravy</defName>
+		<label>prepare gravy</label>
+		<description>Craft a batch of rich, hearty gravy by grinding meat with a base of artisanal stock, then carefully thickening to create a smooth, indulgent sauce.</description>
+		<jobString>Preparing gravy.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>7500</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanalGrinder</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>125</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li>InsectJelly</li>
+				<li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+			</disallowedThingDefs>
+			<disallowedCategories/>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+			
+			
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Gravy>50</AC_Gravy>
+		</products>
+	</RecipeDef>
 </Defs>

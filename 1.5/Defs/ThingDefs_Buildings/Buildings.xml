@@ -236,7 +236,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AC_VinegarCask</defName>
 		<label>artisan fermenter</label>
-		<description>A versatile, purpose-built vessel designed for fermenting a wide range of ingredients, from dairy to grains and fruits. This fermenter allows precise control over complex fermentation processes, enabling the creation of a variety of artisan products like vinegar, miso, kefir, and sake. Ideal for producing high-quality goods with distinct flavors and textures from various cultures.</description>
+		<description>A multi-chambered, purpose-built vessel designed for fermenting a wide range of ingredients, from dairy to grains and fruits. This fermenter allows precise control over complex fermentation processes, enabling the creation of a variety of artisan products like vinegar, miso, kefir, and sake. Ideal for producing high-quality goods with distinct flavors and textures from various cultures.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Buildings/AC_VinegarCask</texPath>
@@ -303,6 +303,7 @@
 					<li>AC_MilkToKefir</li>
 					<li>AC_YogHurtToLassi</li>
 					<li>AC_RiceToSake</li>
+					<li>AC_ChocolateToLiquor</li>
 				</processes>
 				<progressBarOffset>(0,0,-1)</progressBarOffset>
 			</li>

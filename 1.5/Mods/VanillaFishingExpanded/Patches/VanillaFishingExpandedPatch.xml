@@ -6,6 +6,12 @@
 			<li>AC_FishToFishSauce</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PepareGravy"]/fixedIngredientFilter/disallowedCategories</xpath>
+		<value>
+			<li>VCEF_RawFishCategory</li>
+		</value>
+	</Operation>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Cooking Expanded</li>
@@ -13,6 +19,7 @@
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>
+			
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>

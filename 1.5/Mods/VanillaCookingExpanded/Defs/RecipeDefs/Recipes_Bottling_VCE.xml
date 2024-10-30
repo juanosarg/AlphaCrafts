@@ -40,6 +40,7 @@
 				<li>RawBerries</li>
 				<li>VCE_RawSugar</li>
 			</thingDefs>
+			<disallowedThingDefs/>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>

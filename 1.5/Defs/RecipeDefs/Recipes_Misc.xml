@@ -73,6 +73,7 @@
 				<li>Dye</li>		
 				
 			</thingDefs>
+			<disallowedThingDefs/>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>

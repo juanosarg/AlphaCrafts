@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>AC_CraftPipeTobacco</defName>
+		<label>craft pipe tobacco</label>
+		<description>Blend and cure select tobacco leaves to create a distinctive pipe tobacco. Through careful handling and aging, the leaves reach optimal flavor and aroma, making for a refined, rich smoke designed for quality enjoyment.</description>
+		<jobString>Crafting pipe tobacco.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>200</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanWorkshop</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VBE_RawTobacco</li>
+						
+						
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>VBE_RawTobacco</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>VBE_RawTobacco</li>
+			
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_PipeTobacco>20</AC_PipeTobacco>
+		</products>
+		
+		
+	</RecipeDef>
+</Defs>
