@@ -284,7 +284,7 @@
 		<defName>AC_ConsumedCornSyrup</defName>
 		<label>consumed corn syrup (from meal)</label>
 		<makesSickThought>false</makesSickThought>
-		<description>A sweetener made from corn starch, processed to convert some of its glucose into fructose. Provides a large +2% Moving bonus, but also lowers Manipulation by 5% for 12 hours.</description>
+		<description>A sweetener made from corn starch, processed to convert some of its glucose into fructose. Provides a large +20% Moving bonus, but also lowers Manipulation by 5% for 12 hours.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(92,62,198)</defaultLabelColor>

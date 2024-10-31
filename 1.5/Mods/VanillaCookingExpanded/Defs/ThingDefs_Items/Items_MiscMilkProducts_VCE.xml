@@ -26,6 +26,11 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
+		<ingredient>
+		  <mergeCompatibilityTags>
+			<li>Condiments</li>
+		  </mergeCompatibilityTags>
+		</ingredient>
 		<thingCategories>
 			<li>AC_ArtisanProducts</li>
 			<li>VCE_Condiments</li>
