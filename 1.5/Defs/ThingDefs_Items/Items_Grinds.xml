@@ -75,7 +75,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3</MarketValue>
-			<Nutrition>0.3</Nutrition>
+			<Nutrition>0.05</Nutrition>
 			<Mass>0.05</Mass>
 		</statBases>
 		<rotatable>false</rotatable>

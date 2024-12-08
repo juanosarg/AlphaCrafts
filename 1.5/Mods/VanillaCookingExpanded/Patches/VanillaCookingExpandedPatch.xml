@@ -92,5 +92,11 @@
 			<li>VCE_Condiments</li>			
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Gravy"]/thingCategories</xpath>
+		<value>
+			<li>VCE_Condiments</li>			
+		</value>
+	</Operation>
 </Patch>
 

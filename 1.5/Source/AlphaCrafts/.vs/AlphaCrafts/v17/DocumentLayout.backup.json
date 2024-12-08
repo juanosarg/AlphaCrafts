@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\settings\\alphacrafts_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\settings\\alphacrafts_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\statparts\\statpart_artisanproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\statparts\\statpart_artisanproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\settings\\alphacrafts_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\settings\\alphacrafts_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\settings\\alphacrafts_settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\settings\\alphacrafts_settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\settings\\alphacrafts_settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\harmony\\genrecipe_postprocessproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\harmony\\genrecipe_postprocessproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\harmony\\genrecipe_postprocessproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -117,16 +117,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StatPart_ArtisanProduct.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\StatParts\\StatPart_ArtisanProduct.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\StatParts\\StatPart_ArtisanProduct.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\StatParts\\StatPart_ArtisanProduct.cs*",
-              "RelativeToolTip": "AlphaCrafts\\StatParts\\StatPart_ArtisanProduct.cs*",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\StatParts\\StatPart_ArtisanProduct.cs",
+              "RelativeToolTip": "AlphaCrafts\\StatParts\\StatPart_ArtisanProduct.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T14:26:54.322Z",
@@ -142,18 +146,17 @@
               "RelativeToolTip": "AlphaCrafts\\Settings\\AlphaCrafts_SettingsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T14:22:52.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T14:22:52.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AlphaCrafts_Settings.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Settings\\AlphaCrafts_Settings.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\Settings\\AlphaCrafts_Settings.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Settings\\AlphaCrafts_Settings.cs",
               "RelativeToolTip": "AlphaCrafts\\Settings\\AlphaCrafts_Settings.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T14:22:51.619Z",
               "EditorCaption": ""
@@ -228,12 +231,7 @@
               "RelativeToolTip": "AlphaCrafts\\Harmony\\GenRecipe_PostProcessProduct.cs",
               "ViewState": "AgIAABQAAAAAAAAAAADwvx4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T13:08:31.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-10-17T13:08:31.978Z"
             },
             {
               "$type": "Document",
