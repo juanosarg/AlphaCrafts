@@ -6,11 +6,11 @@
 	
 	<AC_InsertProduceDesc>Produce to Insert</AC_InsertProduceDesc>
 	<AC_StartInsertion>Bring Produce</AC_StartInsertion>
-	<AC_StartInsertionDesc>Bring produce to the vinegar cask to start processing</AC_StartInsertionDesc>
+	<AC_StartInsertionDesc>Bring produce to the artisan fermenter to start processing</AC_StartInsertionDesc>
 	<AC_CancelBringingProduce>Cancel Bringing Produce</AC_CancelBringingProduce>
-	<AC_CancelBringingProduceDesc>Cancel bringing produce to the vinegar cask.</AC_CancelBringingProduceDesc>
-	<AC_VinegarFailurePower>The vinegar has spoiled due to a power failure in the vinegar cask</AC_VinegarFailurePower>
-	<AC_CaskNotWorking>This vinegar cask is not working at the moment</AC_CaskNotWorking>
+	<AC_CancelBringingProduceDesc>Cancel bringing produce to the artisan fermenter.</AC_CancelBringingProduceDesc>
+	<AC_VinegarFailurePower>The product has spoiled due to a power failure in the artisan fermenter</AC_VinegarFailurePower>
+	<AC_CaskNotWorking>This artisan fermenter is not working at the moment</AC_CaskNotWorking>
 
 	<AC_DisableQuests>Disable Artisan Trading quests</AC_DisableQuests>
 	<AC_DisableQuests_Description>Disables Artisan Trading quests from triggering. Bear in mind these quests are independent of any other quests or storyteller events (raids, manhunters, etc). They don't "take a slot"</AC_DisableQuests_Description>
