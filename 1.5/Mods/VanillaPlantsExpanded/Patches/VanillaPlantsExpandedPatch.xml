@@ -56,18 +56,21 @@
 		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/ingredients/li/filter/thingDefs</xpath>
 		<value>
 			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawBeets</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/fixedIngredientFilter/thingDefs</xpath>
 		<value>
 			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawBeets</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/defaultIngredientFilter/thingDefs</xpath>
 		<value>
 			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawBeets</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -76,6 +79,10 @@
 			<li>
 				<key>VCE_RawPumpkin</key>
 				<value>Pumpkin seeds</value>
+			</li>
+			<li>
+				<key>VCE_RawBeets</key>
+				<value>Beet chips</value>
 			</li>
 		</value>
 	</Operation>

@@ -11,6 +11,16 @@
 				<key>VCE_RawCassava</key>
 				<value>2</value>
 			</li>
+			<li>
+				<key>VCE_RawSweetPotatoes</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>VCE_RawCarrot</key>
+				<value>4</value>
+			</li>
+			
+			
 		</ingredientsAndOffsetList>
 	</AlphaCrafts.ChipsOffsets>
 	

@@ -7,6 +7,10 @@
 				<key>VCE_RawPumpkin</key>
 				<value>1</value>
 			</li>
+			<li>
+				<key>VCE_RawBeets</key>
+				<value>5</value>
+			</li>
 			
 		</ingredientsAndOffsetList>
 	</AlphaCrafts.ChipsOffsets>

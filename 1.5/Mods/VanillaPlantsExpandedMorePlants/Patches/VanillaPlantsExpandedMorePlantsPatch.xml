@@ -306,6 +306,8 @@
 		<value>
 			<li>VCE_RawSunflower</li>
 			<li>VCE_RawCassava</li>
+			<li>VCE_RawSweetPotatoes</li>
+			<li>VCE_RawCarrot</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -313,6 +315,8 @@
 		<value>
 			<li>VCE_RawSunflower</li>
 			<li>VCE_RawCassava</li>
+			<li>VCE_RawSweetPotatoes</li>
+			<li>VCE_RawCarrot</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -320,6 +324,8 @@
 		<value>
 			<li>VCE_RawSunflower</li>
 			<li>VCE_RawCassava</li>
+			<li>VCE_RawSweetPotatoes</li>
+			<li>VCE_RawCarrot</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -332,6 +338,14 @@
 			<li>
 				<key>VCE_RawCassava</key>
 				<value>Yuca chips</value>
+			</li>
+			<li>
+				<key>VCE_RawSweetPotatoes</key>
+				<value>Sweet potato chips</value>
+			</li>
+			<li>
+				<key>VCE_RawCarrot</key>
+				<value>Carrot chips</value>
 			</li>
 		</value>
 	</Operation>
