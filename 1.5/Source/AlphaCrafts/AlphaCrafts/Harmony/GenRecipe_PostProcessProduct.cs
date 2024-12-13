@@ -28,45 +28,46 @@ namespace AlphaCrafts
                 CompIngredients compIngredients = product.TryGetComp<CompIngredients>();
                 if (compIngredients != null)
                 {
-                    productIngredient = compIngredients.ingredients.Where(x => extension.exclusions?.Contains(x) != true).First();
+                    productIngredient = compIngredients.ingredients.Where(x => extension.exclusions?.Contains(x) != true).FirstOrFallback(null);
+
                     productIngredientPlant = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => x.plant?.harvestedThingDef == productIngredient).FirstOrFallback(null);
 
+
+
+
+
+                    int resultingStack = __result.stackCount;
+
+                    float basePrice = baseline.BaseMarketValue;
+                    float ingredientPrice = extension.useCap ? Math.Min(productIngredient.BaseMarketValue, basePrice * extension.capPriceInfluenceMultiplier) : productIngredient.BaseMarketValue;
+
+                    if (productIngredientPlant != null && baselinePlant != null)
+                    {
+                        float baselineTime = baselinePlant.plant.growDays;
+                        float baselineYield = baselinePlant.plant.harvestYield;
+
+                        float ingredientTime = productIngredientPlant.plant.growDays;
+                        float ingredientYield = productIngredientPlant.plant.harvestYield;
+
+
+                        resultingStack = (int)(__result.stackCount * (ingredientPrice / basePrice) * ((baselineYield / baselineTime) / (ingredientYield / ingredientTime)));
+                    }
+                    else
+                    {
+                        resultingStack = (int)(__result.stackCount * (ingredientPrice / basePrice));
+
+
+                    }
+
+                    if (resultingStack == 0)
+                    {
+                        resultingStack = 1;
+                    }
+
+
+                    __result.stackCount = resultingStack;
+
                 }
-
-
-
-                int resultingStack = __result.stackCount;
-
-                float basePrice = baseline.BaseMarketValue;
-                float ingredientPrice = extension.useCap ? Math.Min(productIngredient.BaseMarketValue, basePrice*extension.capPriceInfluenceMultiplier) : productIngredient.BaseMarketValue;
-
-                if (productIngredientPlant != null && baselinePlant != null)
-                {
-                    float baselineTime = baselinePlant.plant.growDays;
-                    float baselineYield = baselinePlant.plant.harvestYield;
-
-                    float ingredientTime = productIngredientPlant.plant.growDays;
-                    float ingredientYield = productIngredientPlant.plant.harvestYield;
-
-
-                    resultingStack = (int)(__result.stackCount * (ingredientPrice / basePrice) * ((baselineYield / baselineTime) / (ingredientYield / ingredientTime)));
-                }
-                else
-                {
-                    resultingStack = (int)(__result.stackCount * (ingredientPrice / basePrice));
-
-
-                }
-
-                if (resultingStack == 0)
-                {
-                    resultingStack = 1;
-                }
-
-
-                __result.stackCount = resultingStack;
-
-
 
 
 
