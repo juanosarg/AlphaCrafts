@@ -31,7 +31,7 @@
 
         <li Class="QuestNode_GetNearbySettlement">
           <allowActiveTradeRequest>true</allowActiveTradeRequest>
-          <maxTileDistance>32</maxTileDistance>
+          <maxTileDistance>75</maxTileDistance>
           <storeAs>settlement</storeAs>
           <storeFactionLeaderAs>asker</storeFactionLeaderAs>
         </li>

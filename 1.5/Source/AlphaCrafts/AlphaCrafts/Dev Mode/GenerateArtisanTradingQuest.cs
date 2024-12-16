@@ -8,6 +8,7 @@ using Verse;
 using RimWorld.QuestGen;
 using LudeonTK;
 using AlphaCrafts;
+using static HarmonyLib.Code;
 
 namespace AlphaGenes
 {
@@ -20,9 +21,21 @@ namespace AlphaGenes
         {
 
             Slate slate = new Slate();
-            Quest quest = QuestUtility.GenerateQuestAndMakeAvailable(InternalDefOf.AC_ArtisanTradeRequest, slate);
 
-            QuestUtility.SendLetterQuestAvailable(quest);
+            if (InternalDefOf.AC_ArtisanTradeRequest.CanRun(slate))
+            {
+                Quest quest = QuestUtility.GenerateQuestAndMakeAvailable(InternalDefOf.AC_ArtisanTradeRequest, slate);
+
+                QuestUtility.SendLetterQuestAvailable(quest);
+
+            }
+            else
+            {
+                Messages.Message("AC_CantRunQuest".Translate(), null, MessageTypeDefOf.NegativeEvent);
+            }
+
+
+
         }
 
 

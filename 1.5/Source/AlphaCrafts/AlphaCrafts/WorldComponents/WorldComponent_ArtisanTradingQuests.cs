@@ -38,10 +38,15 @@ namespace AlphaCrafts
                 {
 
                     Slate slate = new Slate();
-                    Quest quest = QuestUtility.GenerateQuestAndMakeAvailable(InternalDefOf.AC_ArtisanTradeRequest, slate);
 
-                    QuestUtility.SendLetterQuestAvailable(quest);
-                    ticksToNextQuest = (int)(60000 * Rand.RangeInclusive(15, 30) * AlphaCrafts_Mod.settings.AC_QuestRate);
+                    if (InternalDefOf.AC_ArtisanTradeRequest.CanRun(slate))
+                    {
+                        Quest quest = QuestUtility.GenerateQuestAndMakeAvailable(InternalDefOf.AC_ArtisanTradeRequest, slate);
+
+                        QuestUtility.SendLetterQuestAvailable(quest);
+                        ticksToNextQuest = (int)(60000 * Rand.RangeInclusive(15, 30) * AlphaCrafts_Mod.settings.AC_QuestRate);
+                    }
+                   
                     tickCounter = 0;
 
 
