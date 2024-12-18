@@ -58,7 +58,7 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>false</allowMixingIngredients>
-		<workAmount>5000</workAmount>
+		<workAmount>10000</workAmount>
 		<recipeUsers>
 			<li>AC_OilPressWorkshop</li>
 		
