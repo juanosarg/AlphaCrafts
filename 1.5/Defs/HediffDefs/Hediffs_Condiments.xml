@@ -367,241 +367,33 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
 	<HediffDef>
-		<defName>AC_DrankChichaMorada</defName>
-		<label>drank chicha morada</label>
+		<defName>AC_ConsumedJam</defName>
+		<label>consumed jam (from meal)</label>
 		<makesSickThought>false</makesSickThought>
-		<description>A traditional beverage made from purple corn, spiced with cinnamon and cloves, and flavored with fruits like pineapple. Provides a 10% manipulation buff for 5 hours.</description>
+		<description>A sweet spread made by cooking fruits with sugar, jam preserves the flavors of ripe fruit while creating a thick, spreadable consistency. Makes you forget your problems for a while, reducing the duration of negative memories by 20% for 2 days.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
-		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
 		<hediffClass>HediffWithComps</hediffClass>
 		<initialSeverity>1.0</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
 			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
 				<thoughtDefs>
-					<li>AC_DrankChichaMorada</li>
+					<li>AC_ConsumedJam</li>
 				</thoughtDefs>
 			</li>
-		</comps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Manipulation</capacity>
-						<offset>0.1</offset>
-					</li>
-				</capMods>
-			</li>
-		</stages>
-	</HediffDef>
-	<HediffDef>
-		<defName>AC_ChichaMoradaAsIngredient</defName>
-		<label>drank chicha morada based cocktail</label>
-		<makesSickThought>false</makesSickThought>
-		<description>This colonist drank a cocktail that had chicha morada as one of its ingredients. Provides a 5% manipulation buff for 24 hours.</description>
-		<tendable>false</tendable>
-		<isBad>false</isBad>
-		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
-		<initialSeverity>1.0</initialSeverity>
-		<maxSeverity>1.0</maxSeverity>
-		<comps>
-			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
-				<thoughtDefs>
-					<li>AC_ChichaMoradaAsIngredient</li>
-				</thoughtDefs>
+			<li Class="AlphaCrafts.HediffCompProperties_MoodPeriodModifier">
+				
 			</li>
 		</comps>
 		<stages>
 			<li>
-				<capMods>
-					<li>
-						<capacity>Manipulation</capacity>
-						<offset>0.05</offset>
-					</li>
-				</capMods>
+				
 			</li>
 		</stages>
 	</HediffDef>
-	<HediffDef>
-		<defName>AC_SakeHigh</defName>
-		<label>sake high</label>
-		<labelNoun>a sake high</labelNoun>
-		<description>Drank some sake. Mildly increases relaxation and therefore decreases mental break threshold by 5% for a short period.</description>
-		<hediffClass>Hediff_Alcohol</hediffClass>
-		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<scenarioCanAdd>true</scenarioCanAdd>
-		<isBad>false</isBad>
-		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-0.25</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-		</comps>
-		<stages>
-			<li>
-				<statOffsets>
-					<MentalBreakThreshold>-0.05</MentalBreakThreshold>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-	<HediffDef>
-		<defName>AC_SakeAsIngredient</defName>
-		<label>drank sake based cocktail</label>
-		<makesSickThought>false</makesSickThought>
-		<description>This colonist drank a cocktail that had sake as one of its ingredients. Provides a 5% manipulation buff for 5 hours.</description>
-		<tendable>false</tendable>
-		<isBad>false</isBad>
-		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
-		<initialSeverity>1.0</initialSeverity>
-		<maxSeverity>1.0</maxSeverity>
-		<comps>
-			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
-				<thoughtDefs>
-					<li>AC_SakeAsIngredient</li>
-				</thoughtDefs>
-			</li>
-		</comps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Manipulation</capacity>
-						<offset>0.05</offset>
-					</li>
-				</capMods>
-			</li>
-		</stages>
-	</HediffDef>
-	<HediffDef>
-		<defName>AC_DrankArtisanalKombucha</defName>
-		<label>drank artisanal kombucha</label>
-		<makesSickThought>false</makesSickThought>
-		<description>Tannins naturally found in tea, once metabolised, increase stimuli in the nervous system, suppressing the urge to sleep and boosting the immune system. Increases immunity gain speed by 15% and provides 10% reduction in rest fall rate for 5 hours. Kombucha acts as a home remedy against the flu, reducing its severity by 5%.</description>
-		<tendable>false</tendable>
-		<isBad>false</isBad>
-		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
-		<initialSeverity>1.0</initialSeverity>
-		<maxSeverity>1.0</maxSeverity>
-		<comps>
-			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
-				<thoughtDefs>
-					<li>AC_DrankArtisanalKombucha</li>
-				</thoughtDefs>
-				<hediffReduction>Flu</hediffReduction>
-				<reductionAmount>0.05</reductionAmount>
-			</li>
-		</comps>
-		<stages>
-			<li>
-				<restFallFactor>0.9</restFallFactor>
-				<statOffsets>
-					<ImmunityGainSpeed>0.15</ImmunityGainSpeed>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-	<HediffDef>
-		<defName>AC_ChocolateLiquorHigh</defName>
-		<label>chocolate liquor high</label>
-		<labelNoun>a chocolate liquor high</labelNoun>
-		<description>Drank some chocolate liquor. Thanks to natural compounds like theobromine, provides a mildly decreased pain shock threshold by 10% for a short period.</description>
-		<hediffClass>Hediff_Alcohol</hediffClass>
-		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<scenarioCanAdd>true</scenarioCanAdd>
-		<isBad>false</isBad>
-		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-0.5</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-		</comps>
-		<stages>
-			<li>
-				<statOffsets>
-					<PainShockThreshold>-0.1</PainShockThreshold>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-	<HediffDef>
-		<defName>AC_CoffeeLiquorHigh</defName>
-		<label>coffee liquor high</label>
-		<labelNoun>a coffee liquor high</labelNoun>
-		<description>Drank some coffee liquor. Caffeine naturally found in coffee once metabolised increases the stimuli in one's nervous system, suppressing ones urge to sleep, as well as clearing ones mind. Increases learning speed by a 8% amount and 8% reduction in rest fall rate. Increases global work speed by 8%. for a short period.</description>
-		<hediffClass>Hediff_Alcohol</hediffClass>
-		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<scenarioCanAdd>true</scenarioCanAdd>
-		<isBad>false</isBad>
-		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-0.25</severityPerDay>
-				<showHoursToRecover>true</showHoursToRecover>
-			</li>
-		</comps>
-		<stages>
-			<li>
-				<restFallFactor>0.92</restFallFactor>
-				<statOffsets>
-					<GlobalLearningFactor>0.08</GlobalLearningFactor>
-					<WorkSpeedGlobal>0.08</WorkSpeedGlobal>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-	<HediffDef>
-		<defName>AC_ChocolateLiquorAsIngredient</defName>
-		<label>drank chocolate liquor based cocktail</label>
-		<makesSickThought>false</makesSickThought>
-		<description>This colonist drank a cocktail that had chocolate liquor as one of its ingredients. Thanks to natural compounds like theobromine, provides a mildly decreased pain shock threshold by 10% for 5 hours.</description>
-		<tendable>false</tendable>
-		<isBad>false</isBad>
-		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
-		<initialSeverity>1.0</initialSeverity>
-		<maxSeverity>1.0</maxSeverity>
-		<comps>
-			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
-				<thoughtDefs>
-					<li>AC_ChocolateLiquorAsIngredient</li>
-				</thoughtDefs>
-			</li>
-		</comps>
-		<stages>
-			<li>
-				<statOffsets>
-					<PainShockThreshold>-0.1</PainShockThreshold>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
-	<HediffDef>
-		<defName>AC_CoffeeLiquorAsIngredient</defName>
-		<label>drank coffee liquor based cocktail</label>
-		<makesSickThought>false</makesSickThought>
-		<description>This colonist drank a cocktail that had coffee liquor as one of its ingredients. Considerably reduces rest fall factor by 25% for 5 hours.</description>
-		<tendable>false</tendable>
-		<isBad>false</isBad>
-		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
-		<initialSeverity>1.0</initialSeverity>
-		<maxSeverity>1.0</maxSeverity>
-		<comps>
-			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
-				<thoughtDefs>
-					<li>AC_CoffeeLiquorAsIngredient</li>
-				</thoughtDefs>
-			</li>
-		</comps>
-		<stages>
-			<li>
-				<restFallFactor>0.75</restFallFactor>
-			</li>
-		</stages>
-	</HediffDef>
+	
 </Defs>

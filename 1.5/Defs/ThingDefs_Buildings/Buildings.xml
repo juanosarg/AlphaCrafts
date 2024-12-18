@@ -24,7 +24,7 @@
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
-		<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+		
 		<uiIconScale>0.8</uiIconScale>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
@@ -108,7 +108,7 @@
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>1.5</Flammability>
 		</statBases>
-		<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+		
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
@@ -171,7 +171,7 @@
 			</damageData>
 		</graphicData>
 		<tickerType>Normal</tickerType>
-		<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+		
 		<costList>
 			<Steel>50</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
@@ -253,7 +253,7 @@
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
-		<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+	
 		<costList>
 			<Steel>50</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
@@ -343,7 +343,7 @@
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+		
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
@@ -415,7 +415,7 @@
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
-		<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+	
 		<uiIconScale>0.8</uiIconScale>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>

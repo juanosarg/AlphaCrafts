@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="AlphaCrafts.PatchOperation_Dropdown">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName= "AC_ArtisanWorkshop"]</xpath>
+			<value>
+				<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+	
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="AlphaCrafts.PatchOperation_Dropdown">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName= "AC_OilPressWorkshop"]</xpath>
+			<value>
+				<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+	
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="AlphaCrafts.PatchOperation_Dropdown">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName= "AC_DairyProcessingStation"]</xpath>
+			<value>
+				<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+	
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="AlphaCrafts.PatchOperation_Dropdown">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName= "AC_VinegarCask"]</xpath>
+			<value>
+				<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+	
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="AlphaCrafts.PatchOperation_Dropdown">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName= "AC_ArtisanalGrinder"]</xpath>
+			<value>
+				<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+	
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="AlphaCrafts.PatchOperation_Dropdown">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName= "AC_BottlingStation"]</xpath>
+			<value>
+				<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
+	
+			</value>
+		</match>
+	</Operation>
+	
+	
+	
+</Patch>

@@ -11,7 +11,7 @@ namespace AlphaCrafts
     [StaticConstructorOnStartup]
     public static class StaticCollections
     {
-
+        public static Dictionary<Pawn, float> pawnMoodTimeMultiplier = new Dictionary<Pawn, float>();
         public static Dictionary<ThingDef, int> yogurtOffsets = new Dictionary<ThingDef, int>();
         public static Dictionary<ThingDef, int> oilOffsets = new Dictionary<ThingDef, int>();
         public static Dictionary<ThingDef, int> perfumeOffsets = new Dictionary<ThingDef, int>();
@@ -96,7 +96,18 @@ namespace AlphaCrafts
             }
         }
 
+        public static void AddPawnMoodTimeMultiplierToList(Pawn thing, float modifier)
+        {
+            pawnMoodTimeMultiplier[thing] = modifier;
+        }
 
+        public static void RemovePawnMoodTimeMultiplierFromList(Pawn thing)
+        {
+            if (pawnMoodTimeMultiplier.ContainsKey(thing))
+            {
+                pawnMoodTimeMultiplier.Remove(thing);
+            }
+        }
 
 
     }

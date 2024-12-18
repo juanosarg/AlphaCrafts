@@ -330,12 +330,16 @@
     <Compile Include="Harmony\CompIngredients_GetFoodKindInspectString.cs" />
     <Compile Include="Harmony\GenRecipe_PostProcessProduct.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="Harmony\Thought_Memory_DurationTicks.cs" />
+    <Compile Include="HediffComps\HediffComp_MoodPeriodModifier.cs" />
+    <Compile Include="HediffComps\Properties\HediffCompProperties_MoodPeriodModifier.cs" />
+    <Compile Include="PatchOperations\PatchOperation_Dropdown.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuestNodes\QuestNode_TradeRequest_GetRequestedThing_Artisan.cs" />
     <Compile Include="Settings\AlphaCrafts_Settings.cs" />
     <Compile Include="Settings\AlphaCrafts_SettingsController.cs" />
     <Compile Include="Settings\SettingsHelper.cs" />
-    <Compile Include="StaticCollections\StaticCollectionsClass.cs" />
+    <Compile Include="StaticCollections\StaticCollections.cs" />
     <Compile Include="StatParts\StatPart_ArtisanProduct.cs" />
     <Compile Include="StockGenerators\StockGenerator_BuyCategory.cs" />
     <Compile Include="Utils\Utils.cs" />
@@ -344,5 +348,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

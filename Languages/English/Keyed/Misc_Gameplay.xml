@@ -11,6 +11,7 @@
 	<AC_CancelBringingProduceDesc>Cancel bringing produce to the artisan fermenter.</AC_CancelBringingProduceDesc>
 	<AC_VinegarFailurePower>The product has spoiled due to a power failure in the artisan fermenter</AC_VinegarFailurePower>
 	<AC_CaskNotWorking>This artisan fermenter is not working at the moment</AC_CaskNotWorking>
+	<AC_CantRunQuest>Quest can't be run at the moment (likely culprit: no allies in the world to offer it)</AC_CantRunQuest>
 
 	<AC_DisableQuests>Disable Artisan Trading quests</AC_DisableQuests>
 	<AC_DisableQuests_Description>Disables Artisan Trading quests from triggering. Bear in mind these quests are independent of any other quests or storyteller events (raids, manhunters, etc). They don't "take a slot"</AC_DisableQuests_Description>
@@ -20,6 +21,8 @@
 	<AC_MarketValueModifierTooltip>The market value of artisan goods will be multiplied by this rate. 0.1 means artisan goods will be basically worthless, while 5 will quintuple their value, and therefore the profit. Make millionaires out of fermented fish, I don't care!</AC_MarketValueModifierTooltip>
 	<AC_StatsReport_ArtisanProduct>Artisan product mod options modifier x{0}</AC_StatsReport_ArtisanProduct>
 	<AC_Reset>Reset</AC_Reset>
+	<AC_UseDropdownForMachines>Use dropdown designator for machines (requires game reload)</AC_UseDropdownForMachines>
+	<AC_UseDropdownForMachines_Description>If this is ON, all buildings added by this mod will appear under a single designator for the artisan workshop, and clicking on it will bring up a dropdown menu to select the rest. OFF by default as it confused people. Requires game reload.</AC_UseDropdownForMachines_Description>
 	
 	<AC_CondimentEffects>Condiment Effects</AC_CondimentEffects>
 	<AC_CondimentEffectsTitle>Acting as condiment (if VE Cooking is present)</AC_CondimentEffectsTitle>
@@ -38,5 +41,6 @@
 	<AC_CondimentEffectsEssence>A concentrated extract derived from the purest flavors or aromas of ingredients like fruits, herbs, or spices. Makes you refreshed and ready to harvest some kidneys or something, giving a 5% bonus to Medical tend speed and Medical operation speed for 12 hours.</AC_CondimentEffectsEssence>
 	<AC_CondimentEffectsEssence>A rich, savory sauce made by combining meat drippings with flavorful stock, thickened for a smooth texture and bold flavor. Increases animal gather speed and yield for 10% for 12 hours.</AC_CondimentEffectsEssence>
 	
-	<AC_CantRunQuest>Quest can't be run at the moment (likely culprit: no allies in the world to offer it)</AC_CantRunQuest>
+	<AC_CondimentEffectsJam>A sweet spread made by cooking fruits with sugar, jam preserves the flavors of ripe fruit while creating a thick, spreadable consistency. Makes you forget your problems for a while, reducing the duration of negative memories by 20% for 2 days.</AC_CondimentEffectsJam>
+
 </LanguageData>

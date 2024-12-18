@@ -17,6 +17,7 @@ namespace AlphaCrafts
         public const float AC_QuestRateBase = 1;
         public float AC_QuestRate = AC_QuestRateBase;
         public bool AC_DisableQuests = false;
+        public bool AC_UseDropdownForMachines = false;
 
 
 
@@ -29,6 +30,7 @@ namespace AlphaCrafts
 
             Scribe_Values.Look(ref AC_QuestRate, "AC_QuestRate", AC_QuestRateBase);
             Scribe_Values.Look(ref AC_DisableQuests, "AC_DisableQuests", false);
+            Scribe_Values.Look(ref AC_UseDropdownForMachines, "AC_UseDropdownForMachines", false);
             Scribe_Values.Look(ref AC_MarketValueModifier, "AC_MarketValueModifier", AC_MarketValueModifierBase);
 
 
@@ -53,7 +55,8 @@ namespace AlphaCrafts
                 AC_QuestRate = AC_QuestRateBase;
             }
             listingStandard.CheckboxLabeled("AC_DisableQuests".Translate(), ref AC_DisableQuests, "AC_DisableQuests_Description".Translate());
-            
+            listingStandard.CheckboxLabeled("AC_UseDropdownForMachines".Translate(), ref AC_UseDropdownForMachines, "AC_UseDropdownForMachines_Description".Translate());
+
 
 
 
