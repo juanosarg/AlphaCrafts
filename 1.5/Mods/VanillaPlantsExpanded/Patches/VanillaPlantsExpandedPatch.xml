@@ -50,6 +50,8 @@
 		<value>
 			<li>AC_ApplesToVinegar</li>
 			<li>AC_TomatoesToVinegar</li>
+			<li>AC_CabbageIntoSauerkraut</li>
+			<li>AC_BeetsIntoKvass</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -336,7 +338,6 @@
 			</categories>
 		</value>
 	</Operation>
-	
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Brewing Expanded</li>
@@ -368,7 +369,12 @@
 						</categories>
 					</value>
 				</li>
-				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AC_BeetKvass"]/thingCategories</xpath>
+					<value>
+						<li>VBE_DrinksSimpleSpirits</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

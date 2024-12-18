@@ -83,6 +83,57 @@
 		</stages>
 	</HediffDef>
 	<HediffDef>
+		<defName>AC_BeetKvassHigh</defName>
+		<label>beet kvass high</label>
+		<labelNoun>a beet kvass high</labelNoun>
+		<description>Drank some beet kvass. Provides a cooling sensation to the body, lowering the minimum comfortable temperature by 3°C due to its hydrating and restorative properties. Also grants a slight immunity gain boost (5%) for its probiotic benefits.</description>
+		<hediffClass>Hediff_Alcohol</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.25</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMin>-3</ComfyTemperatureMin>
+					<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AC_BeetKvassAsIngredient</defName>
+		<label>drank beet kvass based cocktail</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This colonist drank a cocktail that had beet kvass as one of its ingredients. Provides a cooling sensation to the body, lowering the minimum comfortable temperature by 3°C due to its hydrating and restorative properties. Also grants a slight immunity gain boost (5%) for its probiotic benefits.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_BeetKvassAsIngredient</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMin>-3</ComfyTemperatureMin>
+					<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
 		<defName>AC_SakeAsIngredient</defName>
 		<label>drank sake based cocktail</label>
 		<makesSickThought>false</makesSickThought>

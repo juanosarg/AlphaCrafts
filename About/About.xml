@@ -3,11 +3,10 @@
 	<name>Alpha Crafts</name>
 	<author>Sarg Bjornson</author>
 	<supportedVersions>
-     
-      <li>1.5</li>
-   </supportedVersions>
-  
-	 <modDependencies>
+		<li>1.5</li>
+	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/AlphaCrafts</modIconPath>
+	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
 			<displayName>Harmony</displayName>
@@ -21,8 +20,7 @@
 			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
 		</li>
 	</modDependencies>
-		<packageId>sarg.alphacrafts</packageId>
-	
+	<packageId>sarg.alphacrafts</packageId>
 	<description>Step into a world of refined flavors and artisanal craft with Alpha Crafts! Discover a rich array of handmade goods and culinary treasures, from intricate condiments to specialty teas, fermented beverages, and traditional essentials like pipe tobacco. Whether preparing an energizing tea blend, a warming coffee liqueur, or a barrel-aged artisanal kombucha, each creation brings its own flair and subtle impact to the world, inviting players to master the art of fine crafting.
 	
 Tired of endless, boring Yayo-fueled economies? Well, try a colony that thrives on trading Surströming. Or Miso. Or one of the other 50 artisanal products!

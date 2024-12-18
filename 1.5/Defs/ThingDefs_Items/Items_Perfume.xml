@@ -34,6 +34,18 @@
 					</li>
 				</overrides>
 			</li>
+			<li Class="CompProperties_Usable">
+				<useLabel>Use {0_label}</useLabel>
+				<useJob>Ingest</useJob>
+				<showUseGizmo>true</showUseGizmo>
+				<allowedMutants>
+					<li>Ghoul</li>
+				</allowedMutants>
+			</li>
+			<li Class="CompProperties_UseEffectAddHediff">
+				<hediffDef>AC_PerfumeHediff</hediffDef>
+				<allowRepeatedUse>true</allowRepeatedUse>
+			</li>
 		</comps>
 		<thingCategories>
 			<li>AC_ArtisanProducts</li>
@@ -43,5 +55,22 @@
 				<li>Condiments</li>
 			</mergeCompatibilityTags>
 		</ingredient>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
+			<foodType>Processed</foodType>
+			<baseIngestTicks>20</baseIngestTicks>
+			<humanlikeOnly>true</humanlikeOnly>
+			<chairSearchRadius>0</chairSearchRadius>
+			<ingestSound>AC_Spray</ingestSound>
+			<ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestCommandString>Use {0}</ingestCommandString>
+			<ingestReportString>Using {0}.</ingestReportString>
+			<showIngestFloatOption>false</showIngestFloatOption>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_UseThing"/>
+			</outcomeDoers>
+		</ingestible>
 	</ThingDef>
 </Defs>
