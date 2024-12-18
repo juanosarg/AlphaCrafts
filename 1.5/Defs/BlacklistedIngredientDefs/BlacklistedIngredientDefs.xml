@@ -8,4 +8,13 @@
 		
 		</blacklistedIngredients>		
 	</VanillaCookingExpandedVariety.BlacklistedIngredientDefs>
+	
+	<VanillaCookingExpandedVariety.BlacklistedFoodDefs>
+		<defName>VCEV_BlacklistedIngredientDefs_AlphaCrafts</defName>
+		<blacklistedFoods>
+			<li>AC_Soap</li>	
+			<li>AC_Perfume</li>
+		
+		</blacklistedFoods>		
+	</VanillaCookingExpandedVariety.BlacklistedFoodDefs>
 </Defs>
