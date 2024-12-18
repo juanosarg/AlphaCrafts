@@ -78,7 +78,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AC_OilPressWorkshop</defName>
 		<label>oil press workshop</label>
-		<description>A specialized building where fruits, nuts, and seeds are processed into high-quality oils. Essential for crafting cooking oils, skincare products, and artisan goods.</description>
+		<description>A specialized building where fruits, nuts, and seeds are processed into high-quality oils. Essential for crafting cooking oils, skincare products, and artisan goods. Includes a butter clarifier accesory.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Things/Buildings/AC_OilMachine</texPath>

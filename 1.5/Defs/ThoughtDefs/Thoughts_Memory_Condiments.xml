@@ -15,6 +15,19 @@
 		</stages>
 	</ThoughtDef>
 	<ThoughtDef>
+		<defName>AC_ConsumedGhee</defName>
+		<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedGhee</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed ghee</label>
+				<description>Pure fatty indulgence.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
 		<defName>AC_ConsumedSourCream</defName>
 		<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
 		<hediff>AC_ConsumedSourCream</hediff>
@@ -194,83 +207,5 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	<ThoughtDef>
-		<defName>AC_DrankChichaMorada</defName>
-		<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
-		<hediff>AC_DrankChichaMorada</hediff>
-		<durationDays>0.2</durationDays>
-		<stages>
-			<li>
-				<label>drank chicha morada</label>
-				<description>A sip of something ancient and comforting.</description>
-				<baseMoodEffect>6</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
-	<ThoughtDef>
-		<defName>AC_SakeAsIngredient</defName>
-		<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
-		<hediff>AC_SakeAsIngredient</hediff>
-		<durationDays>0.2</durationDays>
-		<stages>
-			<li>
-				<label>drank sake-based cocktail</label>
-				<description>Yummy.</description>
-				<baseMoodEffect>0</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
-	<ThoughtDef>
-		<defName>AC_ChichaMoradaAsIngredient</defName>
-		<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
-		<hediff>AC_ChichaMoradaAsIngredient</hediff>
-		<durationDays>0.2</durationDays>
-		<stages>
-			<li>
-				<label>drank chicha morada-based cocktail</label>
-				<description>Yummy.</description>
-				<baseMoodEffect>0</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
-	<ThoughtDef>
-		<defName>AC_ChocolateLiquorAsIngredient</defName>
-		<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
-		<hediff>AC_ChocolateLiquorAsIngredient</hediff>
-		<durationDays>0.2</durationDays>
-		<stages>
-			<li>
-				<label>drank chocolate liquor-based cocktail</label>
-				<description>Yummy.</description>
-				<baseMoodEffect>0</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
 	
-	<ThoughtDef>
-		<defName>AC_CoffeeLiquorAsIngredient</defName>
-		<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
-		<hediff>AC_CoffeeLiquorAsIngredient</hediff>
-		<durationDays>0.2</durationDays>
-		<stages>
-			<li>
-				<label>drank coffee liquor-based cocktail</label>
-				<description>Yummy.</description>
-				<baseMoodEffect>0</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
-	<ThoughtDef>
-		<defName>AC_DrankArtisanalKombucha</defName>
-		<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
-		<hediff>AC_DrankArtisanalKombucha</hediff>
-		<durationDays>0.2</durationDays>
-		<stages>
-			<li>
-				<label>A Healthy sip!</label>
-				<description>A tasty cup of artisanal kombucha a day keeps the doctor away.</description>
-				<baseMoodEffect>3</baseMoodEffect>
-			</li>
-		</stages>
-	</ThoughtDef>
 </Defs>

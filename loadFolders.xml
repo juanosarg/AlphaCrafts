@@ -13,7 +13,7 @@
 		<li IfModActive="VanillaExpanded.VCookE">1.5/Mods/VanillaCookingExpanded</li>
 		<li IfModActive="VanillaExpanded.VCEF">1.5/Mods/VanillaFishingExpanded</li>
 		<li IfModActive="VanillaExpanded.VBrewE">1.5/Mods/VanillaBrewingExpanded</li>
-		
+		<li IfModActive="Dubwise.DubsBadHygiene">1.5/Mods/DubsBadHygiene</li>
 	
 		
 	</v1.5>

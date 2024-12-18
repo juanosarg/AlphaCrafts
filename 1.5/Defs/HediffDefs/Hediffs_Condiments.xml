@@ -30,6 +30,38 @@
 		</stages>
 	</HediffDef>
 	<HediffDef>
+		<defName>AC_ConsumedGhee</defName>
+		<label>consumed ghee (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A clarified butter with a rich, nutty flavor, prized for its high smoke point and long shelf life. It gives a 12% bonus to Blood pumping and a 2.5% bonus to immunity gain speed for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedGhee</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.12</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ImmunityGainSpeed>0.025</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
 		<defName>AC_ConsumedSourCream</defName>
 		<label>consumed sour cream (from meal)</label>
 		<makesSickThought>false</makesSickThought>
