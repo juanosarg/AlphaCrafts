@@ -35,7 +35,7 @@
 						<li>Ghoul</li>
 					</allowedMutants>
 				</li>
-				<li Class="CompProperties_Serum"/>
+				
 				<li Class="CompProperties_UseEffectAddHediff">
 					<hediffDef>AC_SoapHediff</hediffDef>
 					<allowRepeatedUse>true</allowRepeatedUse>
