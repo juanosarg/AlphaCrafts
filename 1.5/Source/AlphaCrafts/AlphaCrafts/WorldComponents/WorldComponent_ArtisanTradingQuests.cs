@@ -2,7 +2,7 @@
 using RimWorld.Planet;
 using Verse;
 using RimWorld.QuestGen;
-using System;
+using AlphaCrafts;
 
 namespace AlphaCrafts
 {
@@ -36,19 +36,17 @@ namespace AlphaCrafts
 
                 if (tickCounter > ticksToNextQuest)
                 {
-                    try
+
+                    Slate slate = new Slate();
+
+                    if (InternalDefOf.AC_ArtisanTradeRequest.CanRun(slate))
                     {
-                        Slate slate = new Slate();
+                        Quest quest = QuestUtility.GenerateQuestAndMakeAvailable(InternalDefOf.AC_ArtisanTradeRequest, slate);
 
-                        if (InternalDefOf.AC_ArtisanTradeRequest.CanRun(slate))
-                        {
-                            Quest quest = QuestUtility.GenerateQuestAndMakeAvailable(InternalDefOf.AC_ArtisanTradeRequest, slate);
-
-                            QuestUtility.SendLetterQuestAvailable(quest);
-                            ticksToNextQuest = (int)(60000 * Rand.RangeInclusive(15, 30) * AlphaCrafts_Mod.settings.AC_QuestRate);
-                        }
+                        QuestUtility.SendLetterQuestAvailable(quest);
+                        ticksToNextQuest = (int)(60000 * Rand.RangeInclusive(15, 30) * AlphaCrafts_Mod.settings.AC_QuestRate);
                     }
-                    catch (Exception) { };
+                   
                     tickCounter = 0;
 
 
