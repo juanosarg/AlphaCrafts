@@ -22,7 +22,7 @@ namespace AlphaCrafts
         public static void ModifyDuration(ref int __result, Thought_Memory __instance)
         {
             
-            if (__instance.pawn!=null&&__instance?.MoodOffset() < 0 && StaticCollections.pawnMoodTimeMultiplier.ContainsKey(__instance.pawn))
+            if (__instance.pawn!=null&&__instance?.moodOffset < 0 && StaticCollections.pawnMoodTimeMultiplier.ContainsKey(__instance.pawn))
             {
                 __result = (int)(__result * StaticCollections.pawnMoodTimeMultiplier[__instance.pawn]);
             }
