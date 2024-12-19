@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\settings\\alphacrafts_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\settings\\alphacrafts_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\settings\\alphacrafts_settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\settings\\alphacrafts_settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\harmony\\thought_memory_durationticks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\harmony\\thought_memory_durationticks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\harmony\\thought_memory_durationticks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\hediffcomps\\properties\\hediffcompproperties_moodperiodmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\settings\\alphacrafts_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\settings\\alphacrafts_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\settings\\alphacrafts_settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\settings\\alphacrafts_settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\hediffcomps\\properties\\hediffcompproperties_moodperiodmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\hediffcomps\\properties\\hediffcompproperties_moodperiodmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphacrafts\\1.5\\source\\alphacrafts\\alphacrafts\\hediffcomps\\hediffcomp_moodperiodmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\alphacrafts\\hediffcomps\\hediffcomp_moodperiodmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FB16194-D5CE-4528-860D-0A68D7628C2B}|AlphaCrafts\\AlphaCrafts.csproj|solutionrelative:alphacrafts\\hediffcomps\\hediffcomp_moodperiodmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -145,11 +145,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AlphaCrafts_SettingsController.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Settings\\AlphaCrafts_SettingsController.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\Settings\\AlphaCrafts_SettingsController.cs",
@@ -157,8 +157,7 @@
               "RelativeToolTip": "AlphaCrafts\\Settings\\AlphaCrafts_SettingsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T14:22:52.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T14:22:52.822Z"
             },
             {
               "$type": "Document",
@@ -170,8 +169,7 @@
               "RelativeToolTip": "AlphaCrafts\\HediffComps\\HediffComp_MoodPeriodModifier.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAAwDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:21:34.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T11:21:34.613Z"
             },
             {
               "$type": "Document",
@@ -183,31 +181,30 @@
               "RelativeToolTip": "AlphaCrafts\\HediffComps\\Properties\\HediffCompProperties_MoodPeriodModifier.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:21:00.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T11:21:00.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Harmony\\Thought_Memory_DurationTicks.cs",
+              "DocumentIndex": 0,
+              "Title": "Thought_Memory_DurationTicks.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Harmony\\Thought_Memory_DurationTicks.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\Harmony\\Thought_Memory_DurationTicks.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Harmony\\Thought_Memory_DurationTicks.cs",
               "RelativeToolTip": "AlphaCrafts\\Harmony\\Thought_Memory_DurationTicks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T11:08:13.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AlphaCrafts_Settings.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Settings\\AlphaCrafts_Settings.cs",
               "RelativeDocumentMoniker": "AlphaCrafts\\Settings\\AlphaCrafts_Settings.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaCrafts\\1.5\\Source\\AlphaCrafts\\AlphaCrafts\\Settings\\AlphaCrafts_Settings.cs",
               "RelativeToolTip": "AlphaCrafts\\Settings\\AlphaCrafts_Settings.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T14:22:51.619Z",
               "EditorCaption": ""
