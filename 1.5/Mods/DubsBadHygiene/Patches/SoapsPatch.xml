@@ -32,7 +32,7 @@
 					<useJob>Ingest</useJob>
 					<showUseGizmo>true</showUseGizmo>
 					<allowedMutants>
-						<li>Ghoul</li>
+						<li MayRequire="Ludeon.RimWorld.Anomaly">Ghoul</li>
 					</allowedMutants>
 				</li>
 				
