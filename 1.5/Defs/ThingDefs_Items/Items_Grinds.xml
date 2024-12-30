@@ -120,7 +120,7 @@
 			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Puree</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>3</MarketValue>
+			<MarketValue>10</MarketValue>
 			<Nutrition>0.3</Nutrition>
 			<Mass>0.1</Mass>
 		</statBases>
