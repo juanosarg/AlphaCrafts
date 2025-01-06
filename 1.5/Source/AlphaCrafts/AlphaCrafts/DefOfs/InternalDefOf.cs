@@ -12,7 +12,7 @@ namespace AlphaCrafts
 
         public static ThingCategoryDef AC_ArtisanProducts;
         public static QuestScriptDef AC_ArtisanTradeRequest;
-
+        public static StatDef AC_ArtisanalCraftingYield;
 
 
         static InternalDefOf()

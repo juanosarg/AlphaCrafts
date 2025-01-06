@@ -13,8 +13,9 @@ namespace AlphaCrafts
     public class AlphaCrafts_GenRecipe_PostProcessProduct_Patch
     {
         [HarmonyPostfix]
-        private static void PostFix(Thing product, RecipeDef recipeDef, ref Thing __result)
+        private static void PostFix(Thing product, RecipeDef recipeDef, ref Thing __result, Pawn worker)
         {
+            int resultingStack = __result.stackCount;
             if (recipeDef.GetModExtension<VariableOutputByIngredient>() != null)
             {
                 VariableOutputByIngredient extension = recipeDef.GetModExtension<VariableOutputByIngredient>();
@@ -32,11 +33,6 @@ namespace AlphaCrafts
 
                     productIngredientPlant = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => x.plant?.harvestedThingDef == productIngredient).FirstOrFallback(null);
 
-
-
-
-
-                    int resultingStack = __result.stackCount;
 
                     float basePrice = baseline.BaseMarketValue;
                     float ingredientPrice = extension.useCap ? Math.Min(productIngredient.BaseMarketValue, basePrice * extension.capPriceInfluenceMultiplier) : productIngredient.BaseMarketValue;
@@ -65,7 +61,7 @@ namespace AlphaCrafts
                     }
 
 
-                    __result.stackCount = resultingStack;
+                   
 
                 }
 
@@ -74,6 +70,8 @@ namespace AlphaCrafts
 
 
             }
+            resultingStack = (int)(resultingStack * worker.GetStatValue(InternalDefOf.AC_ArtisanalCraftingYield));
+            __result.stackCount = resultingStack;
         }
     }
 }
