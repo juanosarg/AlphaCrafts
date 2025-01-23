@@ -32,6 +32,10 @@
 						<key>Dye</key>
 						<value>Rainbow</value>
 					</li>
+					<li>
+						<key>AC_FragrantbloomRose</key>
+						<value>Rose</value>
+					</li>
 				</overrides>
 			</li>
 			<li Class="CompProperties_Usable">

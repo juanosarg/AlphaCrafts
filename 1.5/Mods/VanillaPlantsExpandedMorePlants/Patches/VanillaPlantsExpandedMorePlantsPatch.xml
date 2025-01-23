@@ -153,61 +153,24 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="AC_ExtractPerfume"]/ingredients/li/filter/thingDefs</xpath>
 		<value>
-			<li>AC_Lavender</li>
-			<li>AC_FragrantbloomRose</li>
-			<li>AC_Hyacinth</li>
-			<li>AC_Jasmine</li>
-			<li>AC_Lily</li>
-			<li>AC_Orchid</li>
-			<li>AC_Plumeria</li>
-			<li>AC_Tulip</li>
-			<li>AC_Vanilla</li>
-			<li>AC_Violet</li>
-			<li>AC_YlangYlang</li>
 			<li>VCE_RawCoconut</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="AC_ExtractPerfume"]/fixedIngredientFilter/thingDefs</xpath>
 		<value>
-			<li>AC_Lavender</li>
-			<li>AC_FragrantbloomRose</li>
-			<li>AC_Hyacinth</li>
-			<li>AC_Jasmine</li>
-			<li>AC_Lily</li>
-			<li>AC_Orchid</li>
-			<li>AC_Plumeria</li>
-			<li>AC_Tulip</li>
-			<li>AC_Vanilla</li>
-			<li>AC_Violet</li>
-			<li>AC_YlangYlang</li>
 			<li>VCE_RawCoconut</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="AC_ExtractPerfume"]/defaultIngredientFilter/thingDefs</xpath>
 		<value>
-			<li>AC_Lavender</li>
-			<li>AC_FragrantbloomRose</li>
-			<li>AC_Hyacinth</li>
-			<li>AC_Jasmine</li>
-			<li>AC_Lily</li>
-			<li>AC_Orchid</li>
-			<li>AC_Plumeria</li>
-			<li>AC_Tulip</li>
-			<li>AC_Vanilla</li>
-			<li>AC_Violet</li>
-			<li>AC_YlangYlang</li>
 			<li>VCE_RawCoconut</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AC_Perfume"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
 		<value>
-			<li>
-				<key>AC_FragrantbloomRose</key>
-				<value>Rose</value>
-			</li>
 			<li>
 				<key>VCE_RawCoconut</key>
 				<value>Coconut</value>
@@ -692,112 +655,6 @@
 							</li>
 						</operations>
 					</match>
-				</li>
-			</operations>
-		</match>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName="AC_ExtractEssence"]/ingredients/li/filter/thingDefs</xpath>
-		<value>
-			<li>AC_Lavender</li>
-			<li>AC_FragrantbloomRose</li>
-			<li>AC_Hyacinth</li>
-			<li>AC_Jasmine</li>
-			<li>AC_Lily</li>
-			<li>AC_Orchid</li>
-			<li>AC_Plumeria</li>
-			<li>AC_Tulip</li>
-			<li>AC_Vanilla</li>
-			<li>AC_Violet</li>
-			<li>AC_YlangYlang</li>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName="AC_ExtractEssence"]/fixedIngredientFilter/thingDefs</xpath>
-		<value>
-			<li>AC_Lavender</li>
-			<li>AC_FragrantbloomRose</li>
-			<li>AC_Hyacinth</li>
-			<li>AC_Jasmine</li>
-			<li>AC_Lily</li>
-			<li>AC_Orchid</li>
-			<li>AC_Plumeria</li>
-			<li>AC_Tulip</li>
-			<li>AC_Vanilla</li>
-			<li>AC_Violet</li>
-			<li>AC_YlangYlang</li>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName="AC_ExtractEssence"]/defaultIngredientFilter/thingDefs</xpath>
-		<value>
-			<li>AC_Lavender</li>
-			<li>AC_FragrantbloomRose</li>
-			<li>AC_Hyacinth</li>
-			<li>AC_Jasmine</li>
-			<li>AC_Lily</li>
-			<li>AC_Orchid</li>
-			<li>AC_Plumeria</li>
-			<li>AC_Tulip</li>
-			<li>AC_Vanilla</li>
-			<li>AC_Violet</li>
-			<li>AC_YlangYlang</li>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Brewing Expanded</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<success>Always</success>
-			<operations>
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[defName="AC_PrepareSpecialtyTeaSachets"]/ingredients/li/filter/thingDefs</xpath>
-					<value>
-						<li>AC_Lavender</li>
-						<li>AC_FragrantbloomRose</li>
-						<li>AC_Hyacinth</li>
-						<li>AC_Jasmine</li>
-						<li>AC_Lily</li>
-						<li>AC_Orchid</li>
-						<li>AC_Plumeria</li>
-						<li>AC_Tulip</li>
-						<li>AC_Vanilla</li>
-						<li>AC_Violet</li>
-						<li>AC_YlangYlang</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[defName="AC_PrepareSpecialtyTeaSachets"]/fixedIngredientFilter/thingDefs</xpath>
-					<value>
-						<li>AC_Lavender</li>
-						<li>AC_FragrantbloomRose</li>
-						<li>AC_Hyacinth</li>
-						<li>AC_Jasmine</li>
-						<li>AC_Lily</li>
-						<li>AC_Orchid</li>
-						<li>AC_Plumeria</li>
-						<li>AC_Tulip</li>
-						<li>AC_Vanilla</li>
-						<li>AC_Violet</li>
-						<li>AC_YlangYlang</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>Defs/RecipeDef[defName="AC_PrepareSpecialtyTeaSachets"]/defaultIngredientFilter/thingDefs</xpath>
-					<value>
-						<li>AC_Lavender</li>
-						<li>AC_FragrantbloomRose</li>
-						<li>AC_Hyacinth</li>
-						<li>AC_Jasmine</li>
-						<li>AC_Lily</li>
-						<li>AC_Orchid</li>
-						<li>AC_Plumeria</li>
-						<li>AC_Tulip</li>
-						<li>AC_Vanilla</li>
-						<li>AC_Violet</li>
-						<li>AC_YlangYlang</li>
-					</value>
 				</li>
 			</operations>
 		</match>

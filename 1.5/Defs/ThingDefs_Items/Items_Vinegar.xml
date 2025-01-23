@@ -9,7 +9,7 @@
 			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Vinegar</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>10</MarketValue>
+			<MarketValue>6</MarketValue>
 			<Nutrition>0.01</Nutrition>
 			<Flammability>0.5</Flammability>
 			<Mass>0.3</Mass>

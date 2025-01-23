@@ -134,7 +134,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>17</MarketValue>
+			<MarketValue>80</MarketValue>
 			<Nutrition>0.15</Nutrition>
 			<Mass>0.15</Mass>
 		</statBases>
