@@ -31,7 +31,7 @@
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<statBases>
-								<MarketValue>50</MarketValue>
+								<MarketValue>15</MarketValue>
 								<Nutrition>0.01</Nutrition>
 								<Flammability>0.5</Flammability>
 								<Mass>0.1</Mass>

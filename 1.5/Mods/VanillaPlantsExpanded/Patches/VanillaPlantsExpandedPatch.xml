@@ -158,7 +158,7 @@
 								<graphicClass>Graphic_StackCount</graphicClass>
 							</graphicData>
 							<statBases>
-								<MarketValue>7</MarketValue>
+								<MarketValue>8</MarketValue>
 								<Nutrition>0.01</Nutrition>
 								<Flammability>0.1</Flammability>
 								<Mass>0.05</Mass>

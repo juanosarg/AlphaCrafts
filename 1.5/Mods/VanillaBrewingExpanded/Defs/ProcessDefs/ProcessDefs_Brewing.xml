@@ -10,7 +10,7 @@
 		<description>Turns 125 tea into 50 artisanal kombucha.</description>
 		
 		<spawnOnInteractionCell>true</spawnOnInteractionCell>
-		<labelOverride>Ferment 125 tea into 50 rtisanal kombucha</labelOverride>
+		<labelOverride>Ferment 125 tea into 50 artisanal kombucha</labelOverride>
 		
 		<priorityInBillList>20</priorityInBillList>
 		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
