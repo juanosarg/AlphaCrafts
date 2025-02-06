@@ -68,9 +68,13 @@ namespace AlphaCrafts
 
 
 
+                
+            }
+            if (recipeDef.defName.Contains("AC_"))
+            {
+                resultingStack = (int)(resultingStack * worker.GetStatValue(InternalDefOf.AC_ArtisanalCraftingYield));
 
             }
-            resultingStack = (int)(resultingStack * worker.GetStatValue(InternalDefOf.AC_ArtisanalCraftingYield));
             __result.stackCount = resultingStack;
         }
     }
