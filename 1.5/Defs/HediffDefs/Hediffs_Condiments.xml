@@ -417,13 +417,12 @@
 					<li>AC_ConsumedJam</li>
 				</thoughtDefs>
 			</li>
-			<li Class="AlphaCrafts.HediffCompProperties_MoodPeriodModifier">
-				
-			</li>
 		</comps>
 		<stages>
 			<li>
-				
+				<statFactors>
+					<VEF_NegativeThoughtDurationFactor>0.8</VEF_NegativeThoughtDurationFactor>
+				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
