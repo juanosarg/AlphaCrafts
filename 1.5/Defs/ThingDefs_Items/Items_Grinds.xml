@@ -180,7 +180,7 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 			<li Class="CompProperties_Ingredients">
-			
+				<noIngredientsFoodKind>Meat</noIngredientsFoodKind>
 			</li>
 			<li Class="AlphaCrafts.CompProperties_LabelByIngredients">
 				<overrides>
