@@ -79,6 +79,7 @@
 		<modExtensions>
 			<li Class="AlphaCrafts.VariableOutputByIngredient">
 				<baseline>RawBerries</baseline>
+				
 			</li>
 		</modExtensions>
 	</RecipeDef>

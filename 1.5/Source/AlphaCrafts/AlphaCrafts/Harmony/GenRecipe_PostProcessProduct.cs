@@ -37,7 +37,7 @@ namespace AlphaCrafts
                     float basePrice = baseline.BaseMarketValue;
                     float ingredientPrice = extension.useCap ? Math.Min(productIngredient.BaseMarketValue, basePrice * extension.capPriceInfluenceMultiplier) : productIngredient.BaseMarketValue;
 
-                    if (productIngredientPlant != null && baselinePlant != null)
+                    if (productIngredientPlant != null && baselinePlant != null && productIngredientPlant != ThingDefOf.Plant_Ambrosia)
                     {
                         float baselineTime = baselinePlant.plant.growDays;
                         float baselineYield = baselinePlant.plant.harvestYield;
