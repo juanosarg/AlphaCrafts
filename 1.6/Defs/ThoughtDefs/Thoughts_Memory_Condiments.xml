@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>AC_ConsumedButter</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedButter</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed butter</label>
+				<description>A taste so rich and creamy.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedGhee</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedGhee</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed ghee</label>
+				<description>Pure fatty indulgence.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedSourCream</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedSourCream</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed sour cream</label>
+				<description>It's cool and tangy, like a little nudge to wake up the senses.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedButtermilk</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedButtermilk</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed buttermilk</label>
+				<description>A smooth, comforting flavor.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedCondensedMilk</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedCondensedMilk</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed condensed milk</label>
+				<description>Sweet and thick. It’s the kind of treat that lingers, in all the best ways.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedVinegar</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedVinegar</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed vinegar</label>
+				<description>A sharp taste that wakes you up—but maybe a bit too much.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedFishSauce</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedFishSauce</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed fish sauce</label>
+				<description>Intense and savory, with a taste that lingers long after it’s gone.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedMiso</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedMiso</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed miso</label>
+				<description>Deeply earthy and familiar.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedBlackGarlic</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedBlackGarlic</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed black garlic</label>
+				<description>Rich and dark, with a subtle sweetness.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedFlour</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed specialty flour</label>
+				<description>Simple and plain, but a good backbone for that meal.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedZest</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedZest</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed zest</label>
+				<description>A burst of bright flavor, like a spark that awakens the senses.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedCornSyrup</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedCornSyrup</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed corn syrup</label>
+				<description>Syrupy and sweet, it hits the spot for instant energy, but leaves a slight stickiness behind.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedMolasses</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedMolasses</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed molasses</label>
+				<description>Deep and dark, with a nice lingering sweetness.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedEssence</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedEssence</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed essence</label>
+				<description>Fragrant and refined, a refreshing, lingering taste.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedGravy</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedGravy</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed gravy</label>
+				<description>Really smooth, you can taste the subtle meaty undertones.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
+		<defName>AC_ConsumedJam</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedJam</hediff>
+		<durationDays>2</durationDays>
+		<stages>
+			<li>
+				<label>consumed jam</label>
+				<description>Now this is just delicious! I love the tiny fruit chunks in it.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

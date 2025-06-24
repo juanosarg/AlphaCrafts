@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>AC_ZestCitrics</defName>
+		<label>zest citrics</label>
+		<description>A process of carefully peeling the outer layer of citrus fruits, extracting the flavorful, aromatic peel. Yield of the recipe will depend on the produce being used to get the zest.</description>
+		<jobString>Zesting citrics.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanalGrinder</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						
+						<li>VCE_RawOrange</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				
+				<li>VCE_RawOrange</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				
+				<li>VCE_RawOrange</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Zest>10</AC_Zest>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>VCE_RawOrange</baseline>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+</Defs>

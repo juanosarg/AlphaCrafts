@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_CoconutsToVinegar</defName>
+		<label>Ferment coconuts into vinegar</label>
+		<description>Turns 50 coconuts into 25 vinegar.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 50 coconuts into 25 vinegar</labelOverride>
+		<ingredients>
+			<li>
+				<thing>VCE_RawCoconut</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>600000</ticks>
+		<priorityInBillList>10</priorityInBillList>
+		<results>
+			<li>
+				<thing>AC_Vinegar</thing>
+				<count>25</count>
+			</li>
+		</results>	
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_GarlicToBlackGarlic</defName>
+		<label>Ferment garlic into black garlic</label>
+		<description>Turns 50 garlic into 25 black garlic.</description>
+		
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 50 garlic into 25 black garlic</labelOverride>
+		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
+		<ingredients>
+			<li>
+				<thing>VCE_RawGarlic</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>100000</ticks>
+		<priorityInBillList>30</priorityInBillList>
+		<results>
+			<li>
+				<thing>AC_BlackGarlic</thing>
+				<count>25</count>
+			</li>
+		</results>	
+	</PipeSystem.ProcessDef>
+
+</Defs>

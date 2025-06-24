@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Molasses</defName>
+		<label>molasses</label>
+		<description>Molasses is a thick, dark syrup created as a byproduct of the sugar refining process, especially from sugarcane. It has a rich, bittersweet flavor and is often used in baking and cooking.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 50 molasses requires 10 sugar for a total value of 121, and sells for 8, giving a &lt;color=#33CC33&gt;69.75%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 1250 work, which results on a value per work of &lt;color=#33CC33&gt;0.32&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.05 Kg, for a value per Kg of &lt;color=#33CC33&gt;160&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.25&lt;/color&gt; (for reference Yayo is 0.35).</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Molasses</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>8</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.05</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+			<li>VCE_Condiments</li>	
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<specialThoughtAsIngredient>AC_ConsumedMolasses</specialThoughtAsIngredient>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+				
+			</mergeCompatibilityTags>
+		</ingredient>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
+				
+				<statToAdd>
+					<li>AC_CondimentEffects</li>
+						
+				</statToAdd>
+				<statValues>
+					<li>AC_CondimentEffectsTitle</li>
+									
+				</statValues>
+				<statDescriptions>
+					<li>AC_CondimentEffectsMolasses</li>
+					
+				</statDescriptions>
+				
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_SaltedCaramel</defName>
+		<label>salted caramel</label>
+		<description>A decadent sauce made by heating sugar until it caramelizes and adding butter, with a hint of salt to balance the sweetness. The combination of rich, buttery caramel with a touch of salt creates a perfect harmony of flavors.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 salted caramel requires sugar, salt and butter for a total value of 215.52, and sells for 75, giving a &lt;color=#33CC33&gt;71.26%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 2000 work, which results on a value per work of &lt;color=#33CC33&gt;0.38&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;250&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;2.49&lt;/color&gt; (for reference Yayo is 0.35).</description>
+		<graphicData>
+			<texPath>Things/Item/AC_SaltedCaramel</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+	</ThingDef>
+	
+</Defs>

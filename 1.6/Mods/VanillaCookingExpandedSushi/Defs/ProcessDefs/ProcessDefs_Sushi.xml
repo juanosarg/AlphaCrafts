@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_SoybeansToMiso</defName>
+		<label>Ferment soybeans into miso</label>
+		<description>Turns 50 soybeans into 5 miso.</description>
+		
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 50 soybeans into 5 miso</labelOverride>
+		<ingredients>
+			<li>
+				<thing>VCE_RawSoybean</thing>
+				<countNeeded>50</countNeeded>
+			
+			</li>
+		</ingredients>
+		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
+		<ticks>1080000</ticks>
+		<priorityInBillList>15</priorityInBillList>
+		<results>
+			<li>
+				<thing>AC_Miso</thing>
+				<count>5</count>
+			</li>
+		</results>	
+	</PipeSystem.ProcessDef>
+	
+
+
+</Defs>

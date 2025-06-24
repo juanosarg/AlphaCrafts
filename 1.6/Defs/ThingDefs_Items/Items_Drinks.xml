@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="DrugBase">
+		<defName>AC_Sake</defName>
+		<label>sake</label>
+		<description>A traditional rice wine made through a fermentation process involving polished rice, water, yeast, and koji mold. With a wide range of flavors from sweet to dry, sake can be enjoyed warm or chilled. Excessive consumption can lead to alcohol blackouts and, over time, addiction. But acccsssstually "sake" in Japanese means... YES, yes, we all know... Shuddup.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 sake requires 125 rice for a total value of 137.50, and sells for 25, giving a &lt;color=#33CC33&gt;45%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Fermentation time:&lt;/color&gt; 18 days.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;83.33&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.48&lt;/color&gt; (for reference, Yayo is 0.35).</description>
+		<descriptionHyperlinks>
+			<HediffDef>AlcoholHigh</HediffDef>
+			<HediffDef>AlcoholTolerance</HediffDef>
+			<HediffDef>Hangover</HediffDef>
+			<HediffDef>AlcoholAddiction</HediffDef>
+			<HediffDef>Cirrhosis</HediffDef>
+			<HediffDef>ChemicalDamageModerate</HediffDef>
+		</descriptionHyperlinks>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<possessionCount>6</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/AC_Sake</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>25</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.5</Flammability>
+			<Nutrition>0.08</Nutrition>
+		</statBases>
+		<ingestible>
+			<specialThoughtAsIngredient>AC_SakeAsIngredient</specialThoughtAsIngredient>
+			<foodType>Fluid, Processed, Liquor</foodType>
+			<joyKind>Chemical</joyKind>
+			<joy>0.17</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<chairSearchRadius>25</chairSearchRadius>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+			<tableDesired>false</tableDesired>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AlcoholHigh</hediffDef>
+					<severity>0.15</severity>
+					<toleranceChemical>Alcohol</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_SakeHigh</hediffDef>
+					<severity>0.35</severity>
+					
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AlcoholTolerance</hediffDef>
+					<toleranceChemical>Alcohol</toleranceChemical>
+					<severity>0.016</severity>
+					<divideByBodySize>true</divideByBodySize>
+					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Alcohol</chemical>
+				<addictiveness>0.010</addictiveness>
+				<minToleranceToAddict>0.25</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>10</listOrder>
+			</li>
+		</comps>
+		<allowedArchonexusCount>50</allowedArchonexusCount>
+	</ThingDef>
+	
+	<ThingDef ParentName="DrugBase">
+		<defName>AC_ChocolateLiquor</defName>
+		<label>chocolate liquor</label>
+		<description>A rich, thick liquid made by grinding cacao beans into a smooth paste and fermenting it. It retains both the cocoa solids and cocoa butter, creating a deep, intense chocolate flavor.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 chocolate liquor requires 50 chocolate for a total value of 150, and sells for 26.50, giving a &lt;color=#33CC33&gt;43.40%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Fermentation time:&lt;/color&gt; 7 days.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;88.33&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.31&lt;/color&gt; (for reference, Yayo is 0.35).</description>
+		<descriptionHyperlinks>
+			<HediffDef>AlcoholHigh</HediffDef>
+			<HediffDef>AlcoholTolerance</HediffDef>
+			<HediffDef>Hangover</HediffDef>
+			<HediffDef>AlcoholAddiction</HediffDef>
+			<HediffDef>Cirrhosis</HediffDef>
+			<HediffDef>ChemicalDamageModerate</HediffDef>
+		</descriptionHyperlinks>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<possessionCount>6</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/AC_ChocolateLiquor</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<DeteriorationRate>0.5</DeteriorationRate>
+			<MarketValue>26.50</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.5</Flammability>
+			<Nutrition>0.08</Nutrition>
+		</statBases>
+		<ingestible>
+			<specialThoughtAsIngredient>AC_ChocolateLiquorAsIngredient</specialThoughtAsIngredient>
+			<foodType>Fluid, Processed, Liquor</foodType>
+			<joyKind>Chemical</joyKind>
+			<joy>0.17</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<chairSearchRadius>25</chairSearchRadius>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+			<tableDesired>false</tableDesired>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AlcoholHigh</hediffDef>
+					<severity>0.15</severity>
+					<toleranceChemical>Alcohol</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AC_ChocolateLiquorHigh</hediffDef>
+					<severity>0.35</severity>
+					
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AlcoholTolerance</hediffDef>
+					<toleranceChemical>Alcohol</toleranceChemical>
+					<severity>0.016</severity>
+					<divideByBodySize>true</divideByBodySize>
+					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<chemical>Alcohol</chemical>
+				<addictiveness>0.010</addictiveness>
+				<minToleranceToAddict>0.25</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+				<needLevelOffset>0.9</needLevelOffset>
+				<listOrder>10</listOrder>
+			</li>
+		</comps>
+		<allowedArchonexusCount>50</allowedArchonexusCount>
+	</ThingDef>
+</Defs>

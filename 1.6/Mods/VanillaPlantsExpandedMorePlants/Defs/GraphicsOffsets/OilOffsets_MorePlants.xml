@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.OilOffsets>
+		<defName>AC_OilOffsets_MorePlants</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawAvocado</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>VCE_RawSunflower</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>VCE_RawOlives</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>VCE_RawPeanut</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>VCE_RawCoconut</key>
+				<value>2</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.OilOffsets>
+</Defs>

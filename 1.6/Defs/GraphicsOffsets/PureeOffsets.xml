@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.PureeOffsets>
+		<defName>AC_PureeOffsets</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>RawPotatoes</key>
+				<value>3</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.PureeOffsets>
+</Defs>

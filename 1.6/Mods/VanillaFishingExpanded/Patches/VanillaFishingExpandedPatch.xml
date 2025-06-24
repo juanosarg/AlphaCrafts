@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+		<value>
+			<li>AC_FishToFishSauce</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PepareGravy"]/fixedIngredientFilter/disallowedCategories</xpath>
+		<value>
+			<li>VCEF_RawFishCategory</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ThingDef ParentName="RoughPlantBase">
+							<defName>AC_Surstromming</defName>
+							<label>surströmming</label>
+							<description>A traditional dish known for its strong, distinctive aroma and powerful flavor. Prepared through a specialized curing process where fish is treated with salt, it is prized for its bold, pungent taste.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 surströmming requires fish, salt and steel, for a total value of 65.70, and sells for 15, giving a &lt;color=#33CC33&gt;56.20%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 2000 work, which results on a value per work of &lt;color=#33CC33&gt;0.08&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.1 Kg, for a value per Kg of &lt;color=#33CC33&gt;150&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; Super hard to calculate, as it will depend on the fish acquired per day, which depends on size, pawn skill, etc.</description>
+							<graphicData>
+								<texPath>Things/Item/AC_Surstromming</texPath>
+								<graphicClass>Graphic_StackCount</graphicClass>
+							</graphicData>
+							<statBases>
+								<MarketValue>15</MarketValue>
+								<Nutrition>0.01</Nutrition>
+								<Flammability>0.5</Flammability>
+								<Mass>0.1</Mass>
+							</statBases>
+							<tradeability>Sellable</tradeability>
+							<thingCategories>
+								<li>AC_ArtisanProducts</li>
+							</thingCategories>
+							<ingestible>
+								<preferability>NeverForNutrition</preferability>
+								<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+							</ingestible>
+							<ingredient>
+								<mergeCompatibilityTags>
+									<li>Condiments</li>
+								</mergeCompatibilityTags>
+							</ingredient>
+							<comps>
+								<li Class="CompProperties_Ingredients">
+				
+								</li>
+							</comps>
+						</ThingDef>
+						<RecipeDef>
+							<defName>AC_PrepareSurstromming</defName>
+							<label>prepare surströmming</label>
+							<description>Cure fish through a preservation process that results in surströmming, a potent and distinctive dish known for its intense flavors. Yield of the recipe will depend on the fish being used to get the cans.</description>
+							<jobString>preparing surströmming.</jobString>
+							<workSpeedStat>CookSpeed</workSpeedStat>
+							<effectWorking>Cook</effectWorking>
+							<soundWorking>Recipe_CookMeal</soundWorking>
+							<workAmount>2000</workAmount>
+							<recipeUsers>
+								<li>AC_BottlingStation</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<customSummary>fish</customSummary>
+										<categories>
+											<li>VCEF_RawFishCategory</li>
+										</categories>
+									</filter>
+									<count>50</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>VCE_Salt</li>
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Steel</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>VCEF_RawFishCategory</li>
+								</categories>
+								<thingDefs>
+									<li>VCE_Salt</li>
+									<li>Steel</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<categories>
+									<li>VCEF_RawFishCategory</li>
+								</categories>
+								<thingDefs>
+									<li>VCE_Salt</li>
+									<li>Steel</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<workSkill>Cooking</workSkill>
+							<products>
+								<AC_Surstromming>10</AC_Surstromming>
+							</products>
+							<skillRequirements>
+								<Cooking>5</Cooking>
+							</skillRequirements>
+							<modExtensions>
+								<li Class="AlphaCrafts.VariableOutputByIngredient">
+									<baseline>VCEF_RawAnglerfish</baseline>
+									<useCap>true</useCap>
+									<capPriceInfluenceMultiplier>1.5</capPriceInfluenceMultiplier>
+									<exclusions>
+										<li>VCE_Salt</li>
+										<li>Steel</li>
+									</exclusions>
+								</li>
+							</modExtensions>
+						</RecipeDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AC_FishSauce"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Condiments</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

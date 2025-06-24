@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AC_ScentedCandle</defName>
+		<label>scented candle</label>
+		<description>These handmade candles use butter as a base, stabilized with other natural ingredients, and infused with rich botanical essences. The result is a fragrant, slow-burning candle with a smooth, clean melt that fills the room with soothing scents.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 20 scented candle requires essence and butter for a total value of 230, and sells for 32, giving a &lt;color=#33CC33&gt;64.06%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 10000 work, which results on a value per work of &lt;color=#33CC33&gt;0.06&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.1 Kg, for a value per Kg of &lt;color=#33CC33&gt;320&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;2.41&lt;/color&gt; (for reference Yayo is 0.35).</description>
+		<graphicData>
+			<texPath>Things/Item/AC_ScentedCandle</texPath>
+			<graphicClass>AlphaCrafts.Graphic_RandomStackCount</graphicClass>
+			<drawSize>0.65</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>32</MarketValue>
+			<Flammability>1</Flammability>
+			<Mass>0.1</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		
+	</ThingDef>
+</Defs>

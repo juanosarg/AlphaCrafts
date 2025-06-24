@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>AC_PressOil</defName>
+		<label>press oil</label>
+		<description>Process fruits, nuts, or seeds into high-quality oils. Yield of the recipe will depend on the produce being used to get the oil.</description>
+		<jobString>Pressing oil.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+			<li>AC_OilPressWorkshop</li>
+			<li>AC_ArtisanWorkshop</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCorn</li>
+						<li>SmokeleafLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				<li>SmokeleafLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				<li>SmokeleafLeaves</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Oil>10</AC_Oil>
+		</products>
+		
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>SmokeleafLeaves</baseline>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>AC_ClarifyButterIntoGhee</defName>
+		<label>clarify butter into ghee</label>
+		<description>Heat butter to remove water and milk solids, yielding pure golden fat with a rich, nutty flavor.</description>
+		<jobString>Clarifying butter.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>10000</workAmount>
+		<recipeUsers>
+			<li>AC_OilPressWorkshop</li>
+		
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AC_Butter</li>
+						
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AC_Butter</li>
+			
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>AC_Butter</li>
+				
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Ghee>20</AC_Ghee>
+		</products>
+		
+		
+	</RecipeDef>
+</Defs>

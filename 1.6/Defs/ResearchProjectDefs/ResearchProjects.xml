@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>AC_MiscellaneousArtisanalCrafting</defName>
+		<label>miscellaneous artisanal crafting</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Medieval</techLevel>
+		<description>Unlocks a range of specialized artisanal processes, enabling colonists to craft unique, niche products using traditional methods and tools that complement the colony’s production capabilities.</description>
+		<baseCost>100</baseCost>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->forgotten crafts</li>
+				<li>subject_story->revived the age-old methods of medieval artisans to craft unique and valuable goods</li>
+				<li>subject_story->perfected niche techniques, creating specialized products from everyday materials</li>
+				<li>subject_story->introduced traditional guild practices, allowing a variety of overlooked processes to flourish</li>
+				<li>subject_gerund->harnessing medieval craftsmanship to transform simple resources into artisanal treasures</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>AC_ArtisanDairyProcessing</defName>
+		<label>artisan dairy processing</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Unlocks techniques for transforming raw milk into a variety of dairy products, such as yogurt, cream, and condensed milk.</description>
+		<baseCost>300</baseCost>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->cheese, and other oddities</li>
+				<li>subject_story->developed the craft of turning milk into rich, flavorful dairy products</li>
+				<li>subject_story->mastered the process of creating yogurt, cream, and artisanal cheeses</li>
+				<li>subject_story->introduced new techniques for elevating everyday milk into specialty goods</li>
+				<li>subject_gerund->transforming simple milk into a variety of handcrafted dairy delights</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>AC_VinegarBrewing</defName>
+		<label>vinegar brewing</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Unlocks the knowledge of fermenting various produce into vinegar.</description>
+		<baseCost>400</baseCost>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->sweet bitterness</li>
+				<li>subject_story->perfected the age-old art of fermenting fruits and grains into tangy, versatile vinegar</li>
+				<li>subject_story->introduced controlled fermentation techniques for crafting distinct vinegar varieties</li>
+				<li>subject_story->expanded the uses of vinegar in preservation, cooking, and artisanal goods</li>
+				<li>subject_gerund->brewing flavorful vinegar to enhance cooking and preserve food</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>AC_ArtisanalFermentation</defName>
+		<label>artisanal fermentation</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Unlocks additional recipes for the artisan fermenter to ferment miso, kefir, lassi, sake, and more.</description>
+		<baseCost>250</baseCost>
+		<prerequisites>
+			<li>AC_VinegarBrewing</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->the joys of fermentation</li>
+				<li>subject_story->unlocked the potential of fermenting various ingredients into unique, culture-rich products</li>
+				<li>subject_story->mastered fermentation techniques for producing miso, kefir, lassi, sake, and more</li>
+				<li>subject_story->introduced multi-purpose fermenting methods to craft diverse culinary and artisan goods</li>
+				<li>subject_gerund->harnessing fermentation to create a world of artisanal flavors and textures</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>AC_ArtisanalGrinding</defName>
+		<label>artisanal grinding</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Unlocks recipes for expertly grinding produce into fine flours, crisp chips, vibrant zests, and smooth purees, elevating the colony's production capabilities.</description>
+		<baseCost>200</baseCost>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->the finest powder</li>
+				<li>subject_story->mastered the art of finely grinding produce into flours, chips, zests, and purees</li>
+				<li>subject_story->introduced advanced techniques for processing fruits, vegetables, and grains with precision</li>
+				<li>subject_story->revolutionized culinary production by transforming raw ingredients into refined components</li>
+				<li>subject_gerund->grinding produce into artisanal forms for cooking and crafting</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>AC_OilExtraction</defName>
+		<label>oil extraction</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Unlocks techniques for extracting oils from a variety of plants and seeds, enabling the production of valuable artisan oils.</description>
+		<baseCost>300</baseCost>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->liquid gold</li>
+				<li>subject_story->unlocked the ancient art of extracting oils from seeds, nuts, and fruits</li>
+				<li>subject_story->perfected the techniques of pressing and refining oils for culinary and crafting uses</li>
+				<li>subject_story->introduced the oil press, transforming produce into valuable oils for cooking and industry</li>
+				<li>subject_gerund->harnessing nature's oils to enhance food, fuel, and artisan goods</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>AC_BottlingTechniques</defName>
+		<label>bottling techniques</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Unlocks advanced methods for bottling liquids, improving the preservation, storage, and trade of jams, mayonnaise and other artisanal products.</description>
+		<baseCost>400</baseCost>
+		<prerequisites>
+			<li>Electricity</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->sealed freshness</li>
+				<li>subject_story->learned the techniques of preserving liquids through efficient bottling methods</li>
+				<li>subject_story->introduced sealed bottles, extending the shelf life of jams, mayonnaise, and other liquids</li>
+				<li>subject_story->revolutionized trade by making bottled goods more transportable and valuable</li>
+				<li>subject_gerund->bottling liquids to preserve their freshness and enhance trade potential</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>AC_ComplexArtisanalCrafting</defName>
+		<label>complex artisanal crafting</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Medieval</techLevel>
+		<description>Unlocks a range of more complex artisanal processes. This research project will unlock all recipes that require another artisanal product to craft, such as for example sour cream, requiring milk and vinegar.</description>
+		<baseCost>300</baseCost>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+		<prerequisites>
+			<li>AC_MiscellaneousArtisanalCrafting</li>
+		</prerequisites>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->layered creations</li>
+				<li>subject_story->mastered the intricate techniques of blending artisan products to create elevated flavors and textures</li>
+				<li>subject_story->pioneered methods that draw on multiple artisanal ingredients, resulting in unique, multi-step crafts</li>
+				<li>subject_story->introduced advanced processes that build on foundational recipes, unlocking refined, specialized goods</li>
+				<li>subject_gerund->crafting with a complex blend of resources to produce exceptional artisanal items</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+</Defs>

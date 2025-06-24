@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AC_Sake"]/thingCategories</xpath>
+		<value>
+			<li>VBE_DrinksSimpleSpirits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="AC_ChocolateLiquor"]/thingCategories</xpath>
+		<value>
+			<li>VBE_DrinksLuxurySpirits</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+		<value>
+			<li>AC_TeaToKombucha</li>
+			<li>AC_CoffeeToLiquor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Plants Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_BrewFlavouredKombucha"]/fixedIngredientFilter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_BrewFlavouredKombucha"]/defaultIngredientFilter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_BrewFlavouredKombucha"]/ingredients/li[@Name="FruitIngredient"]/filter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_PrepareSpecialtyTeaSachets"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+					<value>
+						<li>VCE_CannedFruit</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Plants Expanded - More Plants</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_BrewFlavouredKombucha"]/ingredients/li[@Name="FruitIngredient"]/filter/thingDefs</xpath>
+					<value>
+						<li>AC_Lavender</li>
+						<li>AC_FragrantbloomRose</li>
+						<li>AC_Hyacinth</li>
+						<li>AC_Jasmine</li>
+						<li>AC_Lily</li>
+						<li>AC_Orchid</li>
+						<li>AC_Plumeria</li>
+						<li>AC_Tulip</li>
+						<li>AC_Vanilla</li>
+						<li>AC_Violet</li>
+						<li>AC_YlangYlang</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_BrewFlavouredKombucha"]/fixedIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>AC_Lavender</li>
+						<li>AC_FragrantbloomRose</li>
+						<li>AC_Hyacinth</li>
+						<li>AC_Jasmine</li>
+						<li>AC_Lily</li>
+						<li>AC_Orchid</li>
+						<li>AC_Plumeria</li>
+						<li>AC_Tulip</li>
+						<li>AC_Vanilla</li>
+						<li>AC_Violet</li>
+						<li>AC_YlangYlang</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="AC_BrewFlavouredKombucha"]/defaultIngredientFilter/thingDefs</xpath>
+					<value>
+						<li>AC_Lavender</li>
+						<li>AC_FragrantbloomRose</li>
+						<li>AC_Hyacinth</li>
+						<li>AC_Jasmine</li>
+						<li>AC_Lily</li>
+						<li>AC_Orchid</li>
+						<li>AC_Plumeria</li>
+						<li>AC_Tulip</li>
+						<li>AC_Vanilla</li>
+						<li>AC_Violet</li>
+						<li>AC_YlangYlang</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

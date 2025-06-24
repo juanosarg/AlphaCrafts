@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.PureeOffsets>
+		<defName>AC_PureeOffsets_Plants</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawApple</key>
+				<value>0</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.PureeOffsets>
+</Defs>

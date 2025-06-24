@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <DesignatorDropdownGroupDef>
+    <defName>AC_ArtisanMachines</defName>
+    <label>artisan machines</label>
+  </DesignatorDropdownGroupDef>
+
+</Defs>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>AC_CraftAloeVeraSalve</defName>
+		<label>craft aloe vera salve</label>
+		<description>Harness the natural healing properties of aloe vera by turning its gel into a soothing salve.</description>
+		<jobString>Crafting aloe vera salve.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>375</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanWorkshop</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_AloeVeraSalve>10</AC_AloeVeraSalve>
+		</products>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_ExtractEssence</defName>
+		<label>extract essence</label>
+		<description>Extract the concentrated essence of key ingredients, capturing their most intense flavors or aromas. Yield of the recipe will depend on the produce being used to get the essence.</description>
+		<jobString>Extracting essence.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>625</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanWorkshop</li>
+		</recipeUsers>
+		<ingredients>
+			<li Name="FruitIngredient">
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+						<li>Dye</li>
+						<li>AC_Lavender</li>
+						<li>AC_FragrantbloomRose</li>
+						<li>AC_Hyacinth</li>
+						<li>AC_Jasmine</li>
+						<li>AC_Lily</li>
+						<li>AC_Orchid</li>
+						<li>AC_Plumeria</li>
+						<li>AC_Tulip</li>
+						<li>AC_Vanilla</li>
+						<li>AC_Violet</li>
+						<li>AC_YlangYlang</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>Dye</li>
+				<li>AC_Lavender</li>
+				<li>AC_FragrantbloomRose</li>
+				<li>AC_Hyacinth</li>
+				<li>AC_Jasmine</li>
+				<li>AC_Lily</li>
+				<li>AC_Orchid</li>
+				<li>AC_Plumeria</li>
+				<li>AC_Tulip</li>
+				<li>AC_Vanilla</li>
+				<li>AC_Violet</li>
+				<li>AC_YlangYlang</li>
+			</thingDefs>
+			<disallowedThingDefs/>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawBerries</li>
+				<li>Dye</li>
+				<li>AC_Lavender</li>
+				<li>AC_FragrantbloomRose</li>
+				<li>AC_Hyacinth</li>
+				<li>AC_Jasmine</li>
+				<li>AC_Lily</li>
+				<li>AC_Orchid</li>
+				<li>AC_Plumeria</li>
+				<li>AC_Tulip</li>
+				<li>AC_Vanilla</li>
+				<li>AC_Violet</li>
+				<li>AC_YlangYlang</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Essence>10</AC_Essence>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>RawBerries</baseline>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+</Defs>

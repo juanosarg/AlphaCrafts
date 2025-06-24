@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_GrapesToVinegar</defName>
+		<label>Ferment grapes into vinegar</label>
+		<description>Turns 50 grapes into 25 vinegar.</description>
+		<useIngredients>true</useIngredients>
+		<labelOverride>Ferment 50 grapes into 25 vinegar</labelOverride>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<ingredients>
+			<li>
+				<thing>VFEM2_RawGrapes</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<priorityInBillList>10</priorityInBillList>
+		<ticks>600000</ticks>
+		<results>
+			<li>
+				<thing>AC_Vinegar</thing>
+				<count>25</count>
+			</li>
+		</results>	
+	</PipeSystem.ProcessDef>
+	
+	
+</Defs>

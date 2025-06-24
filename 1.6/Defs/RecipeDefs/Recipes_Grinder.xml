@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>AC_GrindFlours</defName>
+		<label>grind flour</label>
+		<description>Grind produce into fine flour. Yield of the recipe will depend on the produce being used to get the flour.</description>
+		<jobString>Grinding flour.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>4000</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanalGrinder</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCorn</li>
+						<li>RawRice</li>
+						<li>RawPotatoes</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				<li>RawRice</li>
+				<li>RawPotatoes</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				<li>RawRice</li>
+				<li>RawPotatoes</li>
+			</thingDefs>
+			
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Flour>5</AC_Flour>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>RawCorn</baseline>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_GrindIntoChips</defName>
+		<label>grind into chips</label>
+		<description>Grind produce into chips. Yield of the recipe will depend on the produce being used to get the chips.</description>
+		<jobString>Grinding into chips.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>250</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanalGrinder</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPotatoes</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawPotatoes</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawPotatoes</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Chips>10</AC_Chips>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>RawPotatoes</baseline>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_MakePuree</defName>
+		<label>make puree</label>
+		<description>A process of blending produce into a smooth, creamy puree, perfect for sauces, soups, or enhancing other dishes.</description>
+		<jobString>Making puree.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>1250</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanalGrinder</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPotatoes</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawPotatoes</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawPotatoes</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Puree>30</AC_Puree>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>RawPotatoes</baseline>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_PepareGravy</defName>
+		<label>prepare gravy</label>
+		<description>Craft a batch of rich, hearty gravy by grinding meat with a base of artisanal stock, then carefully thickening to create a smooth, indulgent sauce.</description>
+		<jobString>Preparing gravy.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>7500</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanalGrinder</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>125</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li>InsectJelly</li>
+				<li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+			</disallowedThingDefs>
+			<disallowedCategories/>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>MeatRaw</li>
+			</categories>
+			
+			
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Gravy>50</AC_Gravy>
+		</products>
+	</RecipeDef>
+</Defs>

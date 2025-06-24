@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>AC_PickleVegetables</defName>
+		<label>pickle vegetables</label>
+		<description>This recipe preserves fresh vegetables by soaking them in a vinegary brine, allowing them to absorb tangy flavors and develop a crunchy texture. Yield of the recipe will depend on the produce being used to get the pickles.</description>
+		<jobString>pickling vegetables.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+			<li>AC_BottlingStation</li>
+		</recipeUsers>
+		 <researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
+		<ingredients>
+			<li Name="VegIngredient">
+				<filter>
+					<customSummary>vegetables</customSummary>
+					<thingDefs>
+						<li>RawCorn</li>
+						<li>RawFungus</li>
+						<li>RawPotatoes</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<customSummary>vinegars</customSummary>
+					<thingDefs>
+						<li>AC_Vinegar</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				<li>RawFungus</li>
+				<li>RawPotatoes</li>
+				<li>AC_Vinegar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				<li>RawFungus</li>
+				<li>RawPotatoes</li>
+				<li>AC_Vinegar</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Pickles>25</AC_Pickles>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>RawCorn</baseline>
+				<exclusions>
+					<li>AC_Vinegar</li>
+				</exclusions>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_PickleEggs</defName>
+		<label>pickle eggs</label>
+		<description>This recipe preserves eggs by soaking them in a vinegary brine, allowing them to absorb tangy flavors. Yield of the recipe will depend on the egg being used to get the pickles.</description>
+		<jobString>pickling eggs.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+			<li>AC_BottlingStation</li>
+		</recipeUsers>
+		<researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<customSummary>eggs</customSummary>
+					<categories>
+						<li>EggsUnfertilized</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<customSummary>vinegars</customSummary>
+					<thingDefs>
+						<li>AC_Vinegar</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>AC_Vinegar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>AC_Vinegar</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_PickledEggs>20</AC_PickledEggs>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>EggChickenUnfertilized</baseline>
+				<exclusions>
+					<li>AC_Vinegar</li>
+				</exclusions>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>AC_MakeMayonnaise</defName>
+		<label>make artisanal mayonnaise</label>
+		<description>This recipe emulsifies fresh egg yolks and oil, creating a smooth and tangy spread perfect for enhancing sandwiches, salads, and more. Yield of the recipe will depend on the egg being used to make the artisanal mayonnaise.</description>
+		<jobString>making artisanal mayonnaise.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
+		<workAmount>1500</workAmount>
+		<recipeUsers>
+			<li>AC_BottlingStation</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<customSummary>eggs</customSummary>
+					<categories>
+						<li>EggsUnfertilized</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<customSummary>vinegars</customSummary>
+					<thingDefs>
+						<li>AC_Vinegar</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<customSummary>oils</customSummary>
+					<thingDefs>
+						<li>AC_Oil</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>AC_Oil</li>
+				<li>AC_Vinegar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>AC_Oil</li>
+				<li>AC_Vinegar</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Mayonnaise>10</AC_Mayonnaise>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>EggChickenUnfertilized</baseline>
+				<exclusions>
+					<li>AC_Vinegar</li>
+					<li>AC_Oil</li>
+				</exclusions>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>AC_InfuseMayonnaise</defName>
+		<label>make infused mayonnaise</label>
+		<description>This recipe takes traditional mayonnaise and blends it with additional ingredients such as garlic, herbs, or avocado to create a richly flavored spread.</description>
+		<jobString>making infused mayonnaise.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>3000</workAmount>
+		<researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
+		<recipeUsers>
+			<li>AC_BottlingStation</li>
+		</recipeUsers>
+		<ingredients>
+			<li Name="ProduceIngredient">
+				<filter>
+					<customSummary>produce</customSummary>
+					<thingDefs>
+						<li>Dye</li>
+						<li>SmokeleafLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<customSummary>mayonnaise</customSummary>
+					<thingDefs>
+						<li>AC_Mayonnaise</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			
+			<thingDefs>
+				<li>AC_Mayonnaise</li>
+				<li>Dye</li>
+				<li>SmokeleafLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			
+			<thingDefs>
+				<li>AC_Mayonnaise</li>
+				<li>Dye</li>
+				<li>SmokeleafLeaves</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_InfusedMayonnaise>10</AC_InfusedMayonnaise>
+		</products>
+		<skillRequirements>
+			<Cooking>10</Cooking>
+		</skillRequirements>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>SmokeleafLeaves</baseline>
+				<exclusions>
+					<li>AC_Mayonnaise</li>
+					
+				</exclusions>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>AC_MakeCornSyrup</defName>
+		<label>produce high fructose corn syrup</label>
+		<description>Process corn starch to convert glucose into fructose, creating high fructose corn syrup.</description>
+		<jobString>Preparing high fructose corn syrup.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>10000</workAmount>
+		<recipeUsers>
+			<li>AC_BottlingStation</li>
+			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					
+					<thingDefs>
+						<li>RawCorn</li>
+					</thingDefs>
+					
+				</filter>
+				<count>200</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_CornSyrup>20</AC_CornSyrup>
+		</products>
+		
+		
+	</RecipeDef>
+	
+</Defs>

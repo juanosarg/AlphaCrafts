@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.ButterOffsets>
+		<defName>AC_ButterOffsets_MorePlants</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawCoconut</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>VCE_RawPeanut</key>
+				<value>4</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.ButterOffsets>
+</Defs>

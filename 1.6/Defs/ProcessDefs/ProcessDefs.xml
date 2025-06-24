@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_RiceToVinegar</defName>
+		<label>Ferment rice into vinegar</label>
+		<description>Turns 50 rice into 25 vinegar.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 50 rice into 25 vinegar</labelOverride>
+		<priorityInBillList>10</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>RawRice</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>600000</ticks>
+		<results>
+			<li>
+				<thing>AC_Vinegar</thing>
+				<count>25</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_MilkToKefir</defName>
+		<label>Ferment milk into kefir</label>
+		<description>Turns 50 milk into 10 kefir.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 50 milk into 10 kefir</labelOverride>
+		
+		<priorityInBillList>11</priorityInBillList>
+		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
+		<ingredients>
+			<li>
+				<thing>Milk</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>800000</ticks>
+		<results>
+			<li>
+				<thing>AC_Kefir</thing>
+				<count>10</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_YogHurtToLassi</defName>
+		<label>Ferment yoghurt into lassi</label>
+		<description>Turns 20 yoghurt into 10 lassi.</description>
+		<useIngredients>true</useIngredients>
+		<transfersIngredientList>true</transfersIngredientList>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 20 yoghurt into 10 lassi</labelOverride>
+		
+		<priorityInBillList>12</priorityInBillList>
+		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
+		<ingredients>
+			<li>
+				<thing>VCE_Yoghurt</thing>
+				<countNeeded>20</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>900000</ticks>
+		<results>
+			<li>
+				<thing>AC_Lassi</thing>
+				<count>10</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_RiceToSake</defName>
+		<label>Ferment rice into sake</label>
+		<description>Turns 125 rice into 10 sake.</description>
+		
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 125 rice into 10 sake</labelOverride>
+		
+		<priorityInBillList>13</priorityInBillList>
+		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
+		<ingredients>
+			<li>
+				<thing>RawRice</thing>
+				<countNeeded>125</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>1080000</ticks>
+		<results>
+			<li>
+				<thing>AC_Sake</thing>
+				<count>10</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	<PipeSystem.ProcessDef>
+		<defName>AC_ChocolateToLiquor</defName>
+		<label>Ferment chocolate into liquor</label>
+		<description>Turns 50 chocolate into 10 chocolate liquor.</description>
+		
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Ferment 50 chocolate into 10 chocolate liquor</labelOverride>
+		
+		<priorityInBillList>14</priorityInBillList>
+		<researchPrerequisites><li>AC_ArtisanalFermentation</li></researchPrerequisites>
+		<ingredients>
+			<li>
+				<thing>Chocolate</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>420000</ticks>
+		<results>
+			<li>
+				<thing>AC_ChocolateLiquor</thing>
+				<count>10</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+
+</Defs>

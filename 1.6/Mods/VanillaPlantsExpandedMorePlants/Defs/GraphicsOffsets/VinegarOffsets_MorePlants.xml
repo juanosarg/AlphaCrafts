@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.VinegarOffsets>
+		<defName>AC_VinegarOffsets_MorePlants</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawCoconut</key>
+				<value>1</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.VinegarOffsets>
+</Defs>

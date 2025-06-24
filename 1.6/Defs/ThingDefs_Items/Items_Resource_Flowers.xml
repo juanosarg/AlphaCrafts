@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Lavender</defName>
+		<label>lavender</label>
+		<description>A fragrant, purple-flowered plant known for its calming scent and ornamental beauty.</description>
+		<graphicData>
+			<texPath>Things/Item/Flowers/AC_Lavender</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_FragrantbloomRose</defName>
+		<label>fragrant bloomrose</label>
+		<description>A unique rose variety cultivated for its intense, captivating scent, perfect for making perfumes and other aromatic products.</description>
+		<graphicData>
+			<texPath>Things/Item/Flowers/AC_FragrantbloomRose</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Hyacinth</defName>
+		<label>hyacinth</label>
+		<description>A vibrant, sweet-smelling flower with a fresh, green fragrance that adds depth to gardens and perfumes alike.</description>
+		<graphicData>
+			<texPath>Things/Item/Flowers/AC_Hyacinth</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Jasmine</defName>
+		<label>jasmine</label>
+		<description>A vibrant, sweet-smelling flower with a fresh, green fragrance that adds depth to gardens and perfumes alike.</description>
+		<graphicData>
+			<texPath>Things/Item/Flowers/AC_Jasmine</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Lily</defName>
+		<label>lily</label>
+		<description>A striking flower with a rich, sweet, and sometimes spicy fragrance that fills any space with elegance.</description>
+		<graphicData>
+			<texPath>Things/Item/Flowers/AC_Lily</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+		<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Orchid</defName>
+		<label>orchid</label>
+		<description>A delicate and exotic bloom with a subtle, sweet scent that varies by species, often used in sophisticated perfumes.</description>
+		<graphicData>
+			<texPath>Things/Item/Flowers/AC_Orchid</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Plumeria</defName>
+		<label>plumeria</label>
+		<description>A tropical flower with a fruity, sweet, and creamy fragrance, perfect for creating a lush, warm atmosphere.</description>
+		<graphicData>
+			<texPath>Things/Item/Flowers/AC_Plumeria</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Tulip</defName>
+		<label>tulip</label>
+		<description>A beautiful but mild-scented flower known more for its vibrant colors than its fragrance.</description>
+		<graphicData>
+			<texPath>Things/Item/Flowers/AC_Tulip</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Vanilla</defName>
+		<label>vanilla</label>
+		<description>Delicate, creamy-white flowers with a light, sweet fragrance. While the flowers are beautiful, it’s the pods they produce that are prized for their warm, rich scent. We put some vanilla in your Vanilla Expanded so you can expand vanilla while you vanilla your expansion.</description>
+		<graphicData>
+			<texPath>Things/Item/Flowers/AC_Vanilla</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_Violet</defName>
+		<label>violet</label>
+		<description>A soft, powdery, and sweet-smelling flower, often used to add a gentle floral note to perfumes.</description>
+		<graphicData>
+			<texPath>Things/Item/Flowers/AC_Violet</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_YlangYlang</defName>
+		<label>ylang-Ylang</label>
+		<description>A highly fragrant, sweet, and rich flower, prized for its use in exotic and sensual perfumes.</description>
+		<graphicData>
+			<texPath>Things/Item/Flowers/AC_YlangYlang</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+	</ThingDef>
+</Defs>

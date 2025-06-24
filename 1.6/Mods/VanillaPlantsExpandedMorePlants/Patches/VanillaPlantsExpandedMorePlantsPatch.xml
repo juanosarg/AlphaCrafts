@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Oil"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawAvocado</key>
+				<value>Avocado</value>
+			</li>
+			<li>
+				<key>VCE_RawOlives</key>
+				<value>Olive</value>
+			</li>
+			<li>
+				<key>VCE_RawSunflower</key>
+				<value>Sunflower</value>
+			</li>
+			<li>
+				<key>VCE_RawPeanut</key>
+				<value>Peanut</value>
+			</li>
+			<li>
+				<key>VCE_RawCoconut</key>
+				<value>Coconut</value>
+			</li>
+			<li>
+				<key>VCE_RawCanola</key>
+				<value>Canola</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PressOil"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_RawOlives</li>
+			<li>VCE_RawSunflower</li>
+			<li>VCE_RawPeanut</li>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawCanola</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PressOil"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_RawOlives</li>
+			<li>VCE_RawSunflower</li>
+			<li>VCE_RawPeanut</li>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawCanola</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PressOil"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_RawOlives</li>
+			<li>VCE_RawSunflower</li>
+			<li>VCE_RawPeanut</li>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawCanola</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Lavender"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Lavender</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_FragrantbloomRose"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_FragrantbloomRose</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Hyacinth"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Hyacinth</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Jasmine"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Jasmine</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Lily"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Lily</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Orchid"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Orchid</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Plumeria"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Plumeria</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Tulip"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Tulip</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Vanilla"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Vanilla</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_Violet"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_Violet</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VCE_YlangYlang"]/plant</xpath>
+		<value>
+			<harvestedThingDef>AC_YlangYlang</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestWork>300</harvestWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ExtractPerfume"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawCoconut</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ExtractPerfume"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawCoconut</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ExtractPerfume"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawCoconut</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Perfume"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawCoconut</key>
+				<value>Coconut</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ChurnButter"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawPeanut</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ChurnButter"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawPeanut</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_ChurnButter"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawCoconut</li>
+			<li>VCE_RawPeanut</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Butter"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawCoconut</key>
+				<value>Coconut butter</value>
+			</li>
+			<li>
+				<key>VCE_RawPeanut</key>
+				<value>Peanut butter</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Vinegar"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawCoconut</key>
+				<value>Coconut</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+		<value>
+			<li>AC_CoconutsToVinegar</li>
+			<li>AC_GarlicToBlackGarlic</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindFlours"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAlmonds</li>
+			<li>VCE_RawBuckwheat</li>
+			<li>VCE_RawChickpeas</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindFlours"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAlmonds</li>
+			<li>VCE_RawBuckwheat</li>
+			<li>VCE_RawChickpeas</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindFlours"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAlmonds</li>
+			<li>VCE_RawBuckwheat</li>
+			<li>VCE_RawChickpeas</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Flour"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawAlmonds</key>
+				<value>Almond</value>
+			</li>
+			<li>
+				<key>VCE_RawChickpeas</key>
+				<value>Chickpea</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawSunflower</li>
+			<li>VCE_RawCassava</li>
+			<li>VCE_RawSweetPotatoes</li>
+			<li>VCE_RawCarrot</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawSunflower</li>
+			<li>VCE_RawCassava</li>
+			<li>VCE_RawSweetPotatoes</li>
+			<li>VCE_RawCarrot</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawSunflower</li>
+			<li>VCE_RawCassava</li>
+			<li>VCE_RawSweetPotatoes</li>
+			<li>VCE_RawCarrot</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Chips"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawSunflower</key>
+				<value>Sunflower seeds</value>
+			</li>
+			<li>
+				<key>VCE_RawCassava</key>
+				<value>Yuca chips</value>
+			</li>
+			<li>
+				<key>VCE_RawSweetPotatoes</key>
+				<value>Sweet potato chips</value>
+			</li>
+			<li>
+				<key>VCE_RawCarrot</key>
+				<value>Carrot chips</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_RawChickpeas</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_RawChickpeas</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_RawChickpeas</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Puree"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawAvocado</key>
+				<value>Guacamole</value>
+			</li>
+			<li>
+				<key>VCE_RawChickpeas</key>
+				<value>Hummus</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/ingredients/li[@Name="VegIngredient"]/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOkra</li>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawCarrot</li>
+			<li>VCE_RawBrusselsSprouts</li>
+			<li>VCE_RawBeans</li>
+			<li>VCE_RawBellPeppers</li>
+			<li>VCE_RawYellowBellPeppers</li>
+			<li>VCE_RawCucumber</li>
+			<li>VCE_RawButternutSquash</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOkra</li>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawCarrot</li>
+			<li>VCE_RawBrusselsSprouts</li>
+			<li>VCE_RawBeans</li>
+			<li>VCE_RawBellPeppers</li>
+			<li>VCE_RawYellowBellPeppers</li>
+			<li>VCE_RawCucumber</li>
+			<li>VCE_RawButternutSquash</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOkra</li>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawCarrot</li>
+			<li>VCE_RawBrusselsSprouts</li>
+			<li>VCE_RawBeans</li>
+			<li>VCE_RawBellPeppers</li>
+			<li>VCE_RawYellowBellPeppers</li>
+			<li>VCE_RawCucumber</li>
+			<li>VCE_RawButternutSquash</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/ingredients/li[@Name="ProduceIngredient"]/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_Mangoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_Mangoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawGarlic</li>
+			<li>VCE_RawAvocado</li>
+			<li>VCE_Mangoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_InfusedMayonnaise"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawGarlic</key>
+				<value>Aioli</value>
+			</li>
+			<li>
+				<key>VCE_RawAvocado</key>
+				<value>Avocado mayonnaise</value>
+			</li>
+			<li>
+				<key>VCE_Mangoes</key>
+				<value>Mango mayonnaise</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AC_BlackGarlic"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Condiments</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ThingDef ParentName="DrugBase">
+							<defName>AC_ChichaMorada</defName>
+							<label>chicha morada</label>
+							<description>A traditional beverage made from purple corn, spiced with cinnamon and cloves, and flavored with fruits like pineapple. Known for its rich, deep purple color and refreshing sweet-tart taste, chicha morada is not only a cultural staple but also rich in antioxidants due to the high anthocyanin content of purple corn.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 chicha morada requires corn, pineapple, spices and sugar for a total value of 99.40, and sells for 35, giving a &lt;color=#33CC33&gt;71.60%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 7500 work, which results on a value per work of &lt;color=#33CC33&gt;0.05&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;116.66&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;1.09&lt;/color&gt; (for reference Yayo is 0.35).</description>
+							<graphicData>
+								<texPath>Things/Item/AC_ChichaMorada</texPath>
+								<graphicClass>Graphic_StackCount</graphicClass>
+							</graphicData>
+							<thingCategories>
+								<li>AC_ArtisanProducts</li>
+							</thingCategories>
+							<rotatable>false</rotatable>
+							<stackLimit>25</stackLimit>
+							<statBases>
+								<DeteriorationRate>0.5</DeteriorationRate>
+								<MarketValue>35</MarketValue>
+								<Mass>0.3</Mass>
+								<Flammability>0.5</Flammability>
+								<Nutrition>0.16</Nutrition>
+							</statBases>
+							<ingestible>
+								<foodType>Fluid, Processed</foodType>
+								<joyKind>Gluttonous</joyKind>
+								<joy>0.1</joy>
+								<drugCategory>Social</drugCategory>
+								<ingestSound>Ingest_Beer</ingestSound>
+								<ingestHoldOffsetStanding>
+									<northDefault>
+										<offset>(0.18,0,0)</offset>
+									</northDefault>
+								</ingestHoldOffsetStanding>
+								<ingestCommandString>Drink {0}</ingestCommandString>
+								<ingestReportString>Drinking {0}.</ingestReportString>
+								<ingestHoldUsesTable>false</ingestHoldUsesTable>
+								<tasteThought>AC_DrankChichaMorada</tasteThought>
+							</ingestible>
+							<comps>
+								<li Class="CompProperties_Drug">
+									<listOrder>1001</listOrder>
+									<overdoseSeverityOffset>0</overdoseSeverityOffset>
+								</li>
+							</comps>
+						</ThingDef>
+						<RecipeDef>
+							<defName>AC_BrewChichaMorada</defName>
+							<label>brew chicha morada</label>
+							<description>Use purple corn, spices, and fruits to brew the traditional drink known as chicha morada.</description>
+							<jobString>brewing chicha morada.</jobString>
+							<workSpeedStat>CookSpeed</workSpeedStat>
+							<effectWorking>Cook</effectWorking>
+							<soundWorking>Recipe_CookMeal</soundWorking>
+							<workAmount>7500</workAmount>
+							<recipeUsers>
+								<li>AC_BottlingStation</li>
+							</recipeUsers>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RawCorn</li>
+										</thingDefs>
+									</filter>
+									<count>20</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>VCE_RawPineapple</li>
+										</thingDefs>
+									</filter>
+									<count>10</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>VCE_RawSpices</li>
+										</thingDefs>
+									</filter>
+									<count>2</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>VCE_RawSugar</li>
+										</thingDefs>
+									</filter>
+									<count>2</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RawCorn</li>
+									<li>VCE_RawPineapple</li>
+									<li>VCE_RawSpices</li>
+									<li>VCE_RawSugar</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<thingDefs>
+									<li>RawCorn</li>
+									<li>VCE_RawPineapple</li>
+									<li>VCE_RawSpices</li>
+									<li>VCE_RawSugar</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<workSkill>Cooking</workSkill>
+							<products>
+								<AC_ChichaMorada>10</AC_ChichaMorada>
+							</products>
+							<skillRequirements>
+								<Cooking>8</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+					</value>
+				</li>
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Vanilla Brewing Expanded</li>
+					</mods>
+					<match Class="PatchOperationSequence">
+						<success>Always</success>
+						<operations>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[@Name = "VBE_CookCocktailMealBase"]/fixedIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[@Name = "VBE_CookCocktailMealBase"]/defaultIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[@Name = "VBE_CookCocktailFineMealBase"]/fixedIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[@Name = "VBE_CookCocktailFineMealBase"]/defaultIngredientFilter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "VBE_MakeCocktailSimple"]/ingredients/li/filter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/RecipeDef[defName = "VBE_MakeCocktailFine"]/ingredients/li[2]/filter/thingDefs</xpath>
+								<value>
+									<li>AC_ChichaMorada</li>
+								</value>
+							</li>
+							<li Class="PatchOperationConditional">
+								<xpath>/Defs/RecipeDef[defName = "VBE_MakeCocktailLavish"]/ingredients/li[2]/filter/thingDefs</xpath>
+								<nomatch Class="PatchOperationAdd">
+									<success>Always</success>
+									<xpath>/Defs/RecipeDef[defName = "VBE_MakeCocktailLavish"]/ingredients/li[2]/filter</xpath>
+									<value>
+										<thingDefs>
+											<li>AC_ChichaMorada</li>
+										</thingDefs>
+									</value>
+								</nomatch>
+								<match Class="PatchOperationAdd">
+									<success>Always</success>
+									<xpath>/Defs/RecipeDef[defName = "VBE_MakeCocktailLavish"]/ingredients/li[2]/filter/thingDefs</xpath>
+									<value>
+										<li>AC_ChichaMorada</li>
+									</value>
+								</match>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs/ThingDef[defName = "AC_ChichaMorada"]/ingestible</xpath>
+								<value>
+									<specialThoughtAsIngredient>AC_ChichaMoradaAsIngredient</specialThoughtAsIngredient>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<success>Always</success>
+								<xpath>/Defs/ThingDef[defName="AC_ChichaMorada"]/thingCategories</xpath>
+								<value>
+									<li>VBE_DrinksNonAlcoholic</li>
+								</value>
+							</li>
+							<li Class="PatchOperationAdd">
+								<xpath>/Defs</xpath>
+								<value>
+									<ThoughtDef>
+										<defName>AC_ChichaMoradaAsIngredient</defName>
+										<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+										<hediff>AC_ChichaMoradaAsIngredient</hediff>
+										<durationDays>1</durationDays>
+										<stages>
+											<li>
+												<label>drank chicha morada-based cocktail</label>
+												<description>Yummy.</description>
+												<baseMoodEffect>0</baseMoodEffect>
+											</li>
+										</stages>
+									</ThoughtDef>
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

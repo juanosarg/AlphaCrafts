@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.CookingVariety.BlacklistedIngredientDefs>
+		<defName>VCEV_BlacklistedIngredientDefs_AlphaCrafts</defName>
+		<blacklistedIngredients>
+			<li>AC_Soap</li>	
+			<li>AC_Perfume</li>
+		
+		</blacklistedIngredients>		
+	</VEF.CookingVariety.BlacklistedIngredientDefs>
+	
+	<VEF.CookingVariety.BlacklistedFoodDefs>
+		<defName>VCEV_BlacklistedIngredientDefs_AlphaCrafts</defName>
+		<blacklistedFoods>
+			<li>AC_Soap</li>	
+			<li>AC_Perfume</li>
+		
+		</blacklistedFoods>		
+	</VEF.CookingVariety.BlacklistedFoodDefs>
+</Defs>

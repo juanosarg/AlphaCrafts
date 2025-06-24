@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>AC_CondensedMilk</defName>
+		<label>condensed milk</label>
+		<description>A thick, sweetened dairy product made by reducing milk, commonly used in desserts, baking, or as a long-lasting ingredient for various recipes.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 5 condensed milk requires milk and sugar for a total value of 33.70, and sells for 12, giving a &lt;color=#33CC33&gt;43.83%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 1000 work, which results on a value per work of &lt;color=#33CC33&gt;0.06&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;40&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.24&lt;/color&gt; (for reference Yayo is 0.35).</description>
+		<graphicData>
+			<texPath>Things/Item/AC_CondensedMilk</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>12</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Mass>0.3</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<specialThoughtAsIngredient>AC_ConsumedCondensedMilk</specialThoughtAsIngredient>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>240</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingredient>
+		  <mergeCompatibilityTags>
+			<li>Condiments</li>
+		  </mergeCompatibilityTags>
+		</ingredient>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+			<li>VCE_Condiments</li>
+		</thingCategories>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
+				
+				<statToAdd>
+					<li>AC_CondimentEffects</li>
+						
+				</statToAdd>
+				<statValues>
+					<li>AC_CondimentEffectsTitle</li>
+									
+				</statValues>
+				<statDescriptions>
+					<li>AC_CondimentEffectsCondensedMilk</li>
+					
+				</statDescriptions>
+				
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

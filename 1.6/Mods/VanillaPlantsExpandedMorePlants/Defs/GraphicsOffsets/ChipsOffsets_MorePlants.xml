@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.ChipsOffsets>
+		<defName>AC_ChipsOffsets_MorePlants</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawSunflower</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>VCE_RawCassava</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>VCE_RawSweetPotatoes</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>VCE_RawCarrot</key>
+				<value>4</value>
+			</li>
+			
+			
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.ChipsOffsets>
+	
+	
+</Defs>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>AC_PrepareRoe</defName>
+		<label>prepare roe</label>
+		<description>This process carefully preserves fresh fish eggs, maintaining their delicate texture and rich, briny flavor. Yield of the recipe will depend on the fish being used to get the roe.</description>
+		<jobString>preparing roe.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>10000</workAmount>
+		<recipeUsers>
+			<li>AC_BottlingStation</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<customSummary>fish</customSummary>
+					<categories>
+						<li>VCEF_RawFishCategory</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>VCEF_RawFishCategory</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>VCEF_RawFishCategory</li>
+			</categories>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Roe>3</AC_Roe>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>VCEF_RawAnglerfish</baseline>
+				<useCap>true</useCap>
+				<capPriceInfluenceMultiplier>2.5</capPriceInfluenceMultiplier>
+				
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	
+</Defs>

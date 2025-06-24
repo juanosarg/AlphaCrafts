@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.PickleOffsets>
+		<defName>AC_PickleOffsets_MorePlants</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VCE_RawOkra</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>VCE_RawGarlic</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>VCE_RawCarrot</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>VCE_RawBrusselsSprouts</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>VCE_RawBeans</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>VCE_RawBellPeppers</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>VCE_RawYellowBellPeppers</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>VCE_RawCucumber</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>VCE_RawButternutSquash</key>
+				<value>11</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.PickleOffsets>
+</Defs>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+  <VSE.Expertise.ExpertiseDef>
+    <defName>AC_ArtisanExpertise</defName>
+    <label>Artisan</label>
+    <description>An expertise in crafting artisanal goods to get better yields.</description>
+    <skill>Cooking</skill>
+    <statOffsets>
+      <AC_ArtisanalCraftingYield>0.025</AC_ArtisanalCraftingYield>
+    </statOffsets>
+  </VSE.Expertise.ExpertiseDef>
+ 
+ 
+</Defs>

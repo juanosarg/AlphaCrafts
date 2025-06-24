@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AlphaCrafts.MayoOffsets>
+		<defName>AC_MayoOffsets</defName>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>Dye</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>SmokeleafLeaves</key>
+				<value>5</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</AlphaCrafts.MayoOffsets>
+</Defs>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>AC_PourCandles</defName>
+		<label>pour scented candles</label>
+		<description>Combine artisanal ingredients with a touch of essence to craft a candle that releases soothing, fragrant aromas.</description>
+		<jobString>Pouring scented candles.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>5000</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<researchPrerequisite>AC_ComplexArtisanalCrafting</researchPrerequisite>
+		<recipeUsers>
+			<li>AC_ArtisanWorkshop</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AC_Essence</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AC_Butter</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AC_Essence</li>
+				<li>AC_Butter</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>AC_Essence</li>
+				<li>AC_Butter</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_ScentedCandle>20</AC_ScentedCandle>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+	</RecipeDef>
+</Defs>

@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[@Name = "AC_YoghurtMealBase"]/fixedIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[@Name = "AC_YoghurtMealBase"]/defaultIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_CookYoghurt"]/ingredients/li[@Name="FruitIngredient"]/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_CookYoghurt_Bulk"]/ingredients/li[@Name="FruitIngredient"]/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Vinegar"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawApple</key>
+				<value>Apple</value>
+			</li>
+			<li>
+				<key>VCE_RawTomatoes</key>
+				<value>Tomato</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+		<value>
+			<li>AC_ApplesToVinegar</li>
+			<li>AC_TomatoesToVinegar</li>
+			<li>AC_CabbageIntoSauerkraut</li>
+			<li>AC_BeetsIntoKvass</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawBeets</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawBeets</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawBeets</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Chips"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawPumpkin</key>
+				<value>Pumpkin seeds</value>
+			</li>
+			<li>
+				<key>VCE_RawBeets</key>
+				<value>Beet chips</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawApple</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawApple</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawApple</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Puree"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawApple</key>
+				<value>Applesauce</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_PreserveFruitAsJam"]/fixedIngredientFilter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_PreserveFruitAsJam"]/defaultIngredientFilter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_PreserveFruitAsJam"]/ingredients/li[@Name="FruitIngredient"]/filter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<ThingDef ParentName="RoughPlantBase">
+							<defName>AC_Kimchi</defName>
+							<label>kimchi</label>
+							<description>Kimchi is a traditional dish made by fermenting vegetables with a mix of seasonings like chili pepper, garlic, ginger, and fish sauce.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 kimchi requires cabbage and spices for a total value of 35.20, and sells for 8, giving a &lt;color=#33CC33&gt;56%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 1000 work, which results on a value per work of &lt;color=#33CC33&gt;0.08&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.2 Kg, for a value per Kg of &lt;color=#33CC33&gt;40&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.39&lt;/color&gt; (for reference Yayo is 0.35).</description>
+							<graphicData>
+								<texPath>Things/Item/AC_Kimchi</texPath>
+								<graphicClass>Graphic_StackCount</graphicClass>
+							</graphicData>
+							<statBases>
+								<MarketValue>8</MarketValue>
+								<Nutrition>0.01</Nutrition>
+								<Flammability>0.1</Flammability>
+								<Mass>0.05</Mass>
+							</statBases>
+							<tradeability>Sellable</tradeability>
+							<comps>
+								<li Class="CompProperties_Rottable">
+									<daysToRotStart>120</daysToRotStart>
+									<rotDestroys>true</rotDestroys>
+								</li>
+							</comps>
+							<thingCategories>
+								<li>AC_ArtisanProducts</li>
+							</thingCategories>
+							<ingestible>
+								<preferability>NeverForNutrition</preferability>
+								<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+							</ingestible>
+							<ingredient>
+								<mergeCompatibilityTags>
+									<li>Condiments</li>
+								</mergeCompatibilityTags>
+							</ingredient>
+						</ThingDef>
+						<RecipeDef>
+							<defName>AC_PrepareKimchi</defName>
+							<label>prepare kimchi</label>
+							<description>This recipe transforms fresh cabbage and spices into the tangy, spicy, and fermented delicacy known as kimchi.</description>
+							<jobString>preparing kimchi.</jobString>
+							<workSpeedStat>CookSpeed</workSpeedStat>
+							<effectWorking>Cook</effectWorking>
+							<soundWorking>Recipe_CookMeal</soundWorking>
+							<workAmount>1000</workAmount>
+							<recipeUsers>
+								<li>AC_BottlingStation</li>
+							</recipeUsers>
+							<ingredients>
+								<li Name="ProduceIngredient">
+									<filter>
+										<thingDefs>
+											<li>VCE_RawCabbage</li>
+										</thingDefs>
+									</filter>
+									<count>20</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>VCE_RawSpices</li>
+										</thingDefs>
+									</filter>
+									<count>2</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>VCE_RawCabbage</li>
+									<li>VCE_RawSpices</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<thingDefs>
+									<li>VCE_RawCabbage</li>
+									<li>VCE_RawSpices</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<workSkill>Cooking</workSkill>
+							<products>
+								<AC_Kimchi>10</AC_Kimchi>
+							</products>
+							<skillRequirements>
+								<Cooking>5</Cooking>
+							</skillRequirements>
+						</RecipeDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AC_Zest"]/thingCategories</xpath>
+					<value>
+						<li>VCE_Condiments</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/ingredients/li[@Name="VegIngredient"]/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOnion</li>
+			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawPeas</li>
+			<li>VCE_RawEggplant</li>
+			<li>VCE_RawBeets</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOnion</li>
+			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawPeas</li>
+			<li>VCE_RawEggplant</li>
+			<li>VCE_RawBeets</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawOnion</li>
+			<li>VCE_RawPumpkin</li>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawPeas</li>
+			<li>VCE_RawEggplant</li>
+			<li>VCE_RawBeets</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/ingredients/li[@Name="ProduceIngredient"]/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_InfuseMayonnaise"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawPepper</li>
+			<li>VCE_RawTomatoes</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_InfusedMayonnaise"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>VCE_RawPepper</key>
+				<value>Chili mayonnaise</value>
+			</li>
+			<li>
+				<key>VCE_RawTomatoes</key>
+				<value>Tomato mayonnaise</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_ExtractEssence"]/fixedIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_ExtractEssence"]/defaultIngredientFilter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_ExtractEssence"]/ingredients/li[@Name="FruitIngredient"]/filter</xpath>
+		<value>
+			<categories>
+				<li>VCE_Fruit</li>
+			</categories>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Brewing Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_PrepareSpecialtyTeaSachets"]/fixedIngredientFilter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_PrepareSpecialtyTeaSachets"]/defaultIngredientFilter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "AC_PrepareSpecialtyTeaSachets"]/ingredients/li[@Name="FruitIngredient"]/filter</xpath>
+					<value>
+						<categories>
+							<li>VCE_Fruit</li>
+						</categories>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="AC_BeetKvass"]/thingCategories</xpath>
+					<value>
+						<li>VBE_DrinksSimpleSpirits</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
