@@ -8,9 +8,9 @@
 		<li IfModActive="VanillaExpanded.VPlantsEMore">1.5/Mods/VanillaPlantsExpandedMorePlants</li>
 		<li IfModActive="VanillaExpanded.VPlantsE">1.5/Mods/VanillaPlantsExpanded</li>
 		<li IfModActive="VanillaExpanded.VBrewECandT">1.5/Mods/VanillaBrewingExpandedCoffee</li>
-		<li IfModActive="VanillaExpanded.VCookESushi">1.5/Mods/VEF.CookingSushi</li>
+		<li IfModActive="VanillaExpanded.VCookESushi">1.5/Mods/VanillaCookingExpandedSushi</li>
 		<li IfModActive="OskarPotocki.VFE.Medieval2">1.5/Mods/VanillaFactionsExpandedMedieval</li>
-		<li IfModActive="VanillaExpanded.VCookE">1.5/Mods/VEF.Cooking</li>
+		<li IfModActive="VanillaExpanded.VCookE">1.5/Mods/VanillaCookingExpanded</li>
 		<li IfModActive="VanillaExpanded.VCEF">1.5/Mods/VanillaFishingExpanded</li>
 		<li IfModActive="VanillaExpanded.VBrewE">1.5/Mods/VanillaBrewingExpanded</li>
 		<li IfModActive="Dubwise.DubsBadHygiene">1.5/Mods/DubsBadHygiene</li>
@@ -26,9 +26,9 @@
 		<li IfModActive="VanillaExpanded.VPlantsEMore">1.6/Mods/VanillaPlantsExpandedMorePlants</li>
 		<li IfModActive="VanillaExpanded.VPlantsE">1.6/Mods/VanillaPlantsExpanded</li>
 		<li IfModActive="VanillaExpanded.VBrewECandT">1.6/Mods/VanillaBrewingExpandedCoffee</li>
-		<li IfModActive="VanillaExpanded.VCookESushi">1.6/Mods/VEF.CookingSushi</li>
+		<li IfModActive="VanillaExpanded.VCookESushi">1.6/Mods/VanillaCookingExpandedSushi</li>
 		<li IfModActive="OskarPotocki.VFE.Medieval2">1.6/Mods/VanillaFactionsExpandedMedieval</li>
-		<li IfModActive="VanillaExpanded.VCookE">1.6/Mods/VEF.Cooking</li>
+		<li IfModActive="VanillaExpanded.VCookE">1.6/Mods/VanillaCookingExpanded</li>
 		<li IfModActive="VanillaExpanded.VCEF">1.6/Mods/VanillaFishingExpanded</li>
 		<li IfModActive="VanillaExpanded.VBrewE">1.6/Mods/VanillaBrewingExpanded</li>
 		<li IfModActive="Dubwise.DubsBadHygiene">1.6/Mods/DubsBadHygiene</li>
