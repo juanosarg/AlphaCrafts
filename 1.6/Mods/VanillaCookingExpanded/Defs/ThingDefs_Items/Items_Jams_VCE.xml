@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>AC_Jam</defName>
 		<label>jam</label>
 		<description>A sweet spread made by cooking fruits with sugar, jam preserves the flavors of ripe fruit while creating a thick, spreadable consistency. It often includes pieces of fruit or pulp, making it a delightful addition to bread, pastries, or desserts.\n\n&lt;color=#E5E54C&gt;Trade considerations&lt;/color&gt; (assuming bottling station is used):\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 jam requires fruits and sugar with a total value of 60.20, and sells for 15, giving a &lt;color=#33CC33&gt;59.87%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 3000 work, which results on a value per work of &lt;color=#33CC33&gt;0.05&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.1 Kg, for a value per Kg of &lt;color=#33CC33&gt;150&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.26&lt;/color&gt; (for reference Yayo is 0.35).</description>
@@ -59,7 +59,7 @@
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>AC_Chutney</defName>
 		<label>chutney</label>
 		<description>A rich, tangy-sweet condiment made by combining fruits, spices, and vinegar. Chutneys vary in texture and flavor, from smooth to chunky, and are used to add a burst of flavor to savory dishes, balancing sweetness with a hint of tartness and spice.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 chutney requires jams, spices and vinegar for a total value of 193.20, and sells for 100, giving a &lt;color=#33CC33&gt;80.68%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 5000 work, which results on a value per work of &lt;color=#33CC33&gt;0.2&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.1 Kg, for a value per Kg of &lt;color=#33CC33&gt;1000&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;2.30&lt;/color&gt; (for reference Yayo is 0.35).</description>

@@ -22,7 +22,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<ThingDef ParentName="RoughPlantBase">
+						<ThingDef ParentName="OrganicProductBase">
 							<defName>AC_Surstromming</defName>
 							<label>surströmming</label>
 							<description>A traditional dish known for its strong, distinctive aroma and powerful flavor. Prepared through a specialized curing process where fish is treated with salt, it is prized for its bold, pungent taste.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 surströmming requires fish, salt and steel, for a total value of 65.70, and sells for 15, giving a &lt;color=#33CC33&gt;56.20%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 2000 work, which results on a value per work of &lt;color=#33CC33&gt;0.08&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.1 Kg, for a value per Kg of &lt;color=#33CC33&gt;150&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; Super hard to calculate, as it will depend on the fish acquired per day, which depends on size, pawn skill, etc.</description>

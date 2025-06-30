@@ -37,7 +37,7 @@
 			<li>AC_ArtisanProducts</li>
 		</thingCategories>
 	</ThingDef>
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>AC_SourCream</defName>
 		<label>sour cream</label>
 		<description>A tangy, creamy dairy product made by curdling milk with vinegar, offering a rich texture and flavor perfect for enhancing both savory and sweet dishes.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 5 sour cream requires milk and vinegar with a total value of 79, and sells for 30, giving a &lt;color=#33CC33&gt;47.33%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 1500 work, which results on a value per work of &lt;color=#33CC33&gt;0.10&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.1 Kg, for a value per Kg of &lt;color=#33CC33&gt;300&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.91&lt;/color&gt; (for reference Yayo is 0.35).</description>

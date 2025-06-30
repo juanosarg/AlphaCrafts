@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>AC_CondensedMilk</defName>
 		<label>condensed milk</label>
 		<description>A thick, sweetened dairy product made by reducing milk, commonly used in desserts, baking, or as a long-lasting ingredient for various recipes.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 5 condensed milk requires milk and sugar for a total value of 33.70, and sells for 12, giving a &lt;color=#33CC33&gt;43.83%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 1000 work, which results on a value per work of &lt;color=#33CC33&gt;0.06&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;40&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.24&lt;/color&gt; (for reference Yayo is 0.35).</description>

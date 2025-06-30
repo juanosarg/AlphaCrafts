@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>AC_Zest</defName>
 		<label>zest</label>
 		<description>The outer peel of citrus fruits, rich in aromatic oils and vibrant flavors.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 zest requires 15 oranges or lemons for a total value of 18, and sells for 7, giving a &lt;color=#33CC33&gt;74.29%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 500 work, which results on a value per work of &lt;color=#33CC33&gt;0.14&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.05 Kg, for a value per Kg of &lt;color=#33CC33&gt;140&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.11&lt;/color&gt; (for reference Yayo is 0.35).</description>

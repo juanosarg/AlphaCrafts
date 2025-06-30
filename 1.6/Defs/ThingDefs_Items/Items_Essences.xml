@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="RoughPlantBase">
+	<ThingDef ParentName="OrganicProductBase">
 		<defName>AC_Essence</defName>
 		<label>essence</label>
 		<description>A concentrated extract derived from the purest flavors or aromas of ingredients like fruits, herbs, or spices. Used in small amounts, it can intensify the taste or fragrance of food, beverages, and other products.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 essence requires 20 fruits or flowers for a total value of 24, and sells for 4, giving a &lt;color=#33CC33&gt;40%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 1250 work, which results on a value per work of &lt;color=#33CC33&gt;0.03&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.01 Kg, for a value per Kg of &lt;color=#33CC33&gt;400&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.19&lt;/color&gt; (for reference Yayo is 0.35).</description>
