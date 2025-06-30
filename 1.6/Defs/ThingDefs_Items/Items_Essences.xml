@@ -19,7 +19,7 @@
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>AC_ConsumedEssence</specialThoughtAsIngredient>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
 		</ingestible>
 		<thingCategories>
 			<li>AC_ArtisanProducts</li>

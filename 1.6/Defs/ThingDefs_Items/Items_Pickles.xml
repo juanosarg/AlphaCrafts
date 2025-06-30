@@ -33,7 +33,7 @@
 		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
 			<mergeCompatibilityTags>
@@ -69,7 +69,7 @@
 		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
 			<mergeCompatibilityTags>

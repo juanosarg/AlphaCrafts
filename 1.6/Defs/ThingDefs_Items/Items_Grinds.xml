@@ -38,7 +38,7 @@
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>AC_ConsumedFlour</specialThoughtAsIngredient>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
 			<mergeCompatibilityTags>
@@ -194,7 +194,7 @@
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>AC_ConsumedGravy</specialThoughtAsIngredient>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
 			<mergeCompatibilityTags>

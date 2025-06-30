@@ -51,7 +51,7 @@
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>AC_ConsumedButter</specialThoughtAsIngredient>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
 			<mergeCompatibilityTags>
@@ -106,7 +106,7 @@
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>AC_ConsumedGhee</specialThoughtAsIngredient>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
 			<mergeCompatibilityTags>

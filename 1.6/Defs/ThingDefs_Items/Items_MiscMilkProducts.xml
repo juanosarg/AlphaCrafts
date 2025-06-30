@@ -55,7 +55,7 @@
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>AC_ConsumedSourCream</specialThoughtAsIngredient>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Rottable">
