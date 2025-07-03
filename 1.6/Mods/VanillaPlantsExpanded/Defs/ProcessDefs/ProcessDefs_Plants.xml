@@ -89,7 +89,7 @@
 			</li>
 		</ingredients>
 		<ticks>720000</ticks>
-		<priorityInBillList>13.5</priorityInBillList>
+		<priorityInBillList>14</priorityInBillList>
 		<results>
 			<li>
 				<thing>AC_BeetKvass</thing>
