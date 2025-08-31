@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.PerfumeOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_PerfumeOffsets</defName>
+		<thingDef>AC_Perfume</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>RawBerries</key>
@@ -16,7 +17,7 @@
 				<value>8</value>
 			</li>
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.PerfumeOffsets>
+	</VEF.Graphics.GraphicOffsets>
 	
 	
 </Defs>

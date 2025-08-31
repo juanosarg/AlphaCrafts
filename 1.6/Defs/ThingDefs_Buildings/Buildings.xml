@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase">
 		<defName>AC_ArtisanWorkshop</defName>
 		<label>artisan workshop</label>
 		<description>A flexible workshop dedicated to various small-scale artisanal processes that don’t fit into larger categories. It provides space and tools for specialized crafting, ensuring no resource goes to waste in the colony's production line.\n\nCan also be used as a low efficiency workshop to press oils, churn butter and create jams.</description>
@@ -24,7 +24,6 @@
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
-		
 		<uiIconScale>0.8</uiIconScale>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
@@ -74,7 +73,6 @@
 		</placeWorkers>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
-
 	<ThingDef ParentName="BuildingBase">
 		<defName>AC_OilPressWorkshop</defName>
 		<label>oil press workshop</label>
@@ -108,7 +106,6 @@
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>1.5</Flammability>
 		</statBases>
-		
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
@@ -171,7 +168,6 @@
 			</damageData>
 		</graphicData>
 		<tickerType>Normal</tickerType>
-		
 		<costList>
 			<Steel>50</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
@@ -253,7 +249,6 @@
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
-	
 		<costList>
 			<Steel>50</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
@@ -343,7 +338,6 @@
 			<MaxHitPoints>150</MaxHitPoints>
 			<Flammability>0.5</Flammability>
 		</statBases>
-		
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
@@ -389,8 +383,6 @@
 		</placeWorkers>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
-	
-	
 	<ThingDef ParentName="BuildingBase">
 		<defName>AC_BottlingStation</defName>
 		<label>bottling station</label>
@@ -415,7 +407,6 @@
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<rotatable>true</rotatable>
-	
 		<uiIconScale>0.8</uiIconScale>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
@@ -424,7 +415,6 @@
 			<WorkToBuild>1500</WorkToBuild>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Flammability>0.2</Flammability>
-			
 		</statBases>
 		<inspectorTabs>
 			<li>ITab_Bills</li>
@@ -469,6 +459,80 @@
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
+		<minifiedDef>MinifiedThing</minifiedDef>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AC_Infuser</defName>
+		<label>infuser</label>
+		<description>A specialized workstation designed to steep herbs, fruits, and exotic ingredients into other artisan crafts. By carefully controlling temperature and infusion time, it creates infused oils, vinegars, and other artisanal delicacies.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Buildings/AC_Infuser</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<uiIconScale>0.8</uiIconScale>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<Mass>10</Mass>
+			<WorkToBuild>800</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<researchPrerequisites>
+			<li>AC_Infusing</li>
+		</researchPrerequisites>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<basePowerConsumption>50</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<inProgressTexture>Things/Buildings/AC_InfuserFull</inProgressTexture>
+				<finishedTexture>Things/Buildings/AC_InfuserFull</finishedTexture>
+				<notWorkingKey>AC_InfuserNotWorking</notWorkingKey>
+				<processes>
+					
+				</processes>
+				<progressBarOffset>(0,0,-1)</progressBarOffset>
+			</li>
+		</comps>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 </Defs>

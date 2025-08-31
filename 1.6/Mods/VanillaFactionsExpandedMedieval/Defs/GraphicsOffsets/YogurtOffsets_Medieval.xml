@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.YogurtOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_YogurtFruitOffsets_Medieval</defName>
-		<fruitAndOffsetList>
+		<thingDef>VCE_Yoghurt</thingDef>
+		<ingredientsAndOffsetList>
 			<li>
 				<key>VFEM2_RawGrapes</key>
 				<value>4</value>
 			</li>
-		</fruitAndOffsetList>
-	</AlphaCrafts.YogurtOffsets>
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
 </Defs>

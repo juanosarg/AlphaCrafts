@@ -50,7 +50,7 @@
 		<description>A handcrafted, fermented tea derivate known for its light effervescence, delicate sweetness, and refreshing acidity. Made in small batches with carefully selected tea leaves, fresh fruits, and aromatic herbs, each bottle captures unique flavors.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 flavoured kombucha requires 10 artisanal kombucha and 30 fruits or flowers for a total value of 96, and sells for 28.50, giving a &lt;color=#33CC33&gt;66.32%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 4000 work, which results on a value per work of &lt;color=#33CC33&gt;0.07&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;95&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.58&lt;/color&gt; (for reference Yayo is 0.35).</description>
 		<graphicData>
 			<texPath>Things/Item/AC_FlavouredKombucha</texPath>
-			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Yogurt</graphicClass>
+			<graphicClass>VEF.Graphics.Graphic_StackCountByIngredient</graphicClass>
 		</graphicData>
 		<thingCategories>
 			<li>AC_ArtisanProducts</li>

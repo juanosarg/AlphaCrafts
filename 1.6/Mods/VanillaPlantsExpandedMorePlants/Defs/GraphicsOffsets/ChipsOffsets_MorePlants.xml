@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.ChipsOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_ChipsOffsets_MorePlants</defName>
+		<thingDef>AC_Chips</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>VCE_RawSunflower</key>
@@ -22,7 +23,7 @@
 			
 			
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.ChipsOffsets>
+	</VEF.Graphics.GraphicOffsets>
 	
 	
 </Defs>

@@ -137,7 +137,7 @@
 	<RecipeDef>
 		<defName>AC_ChurnButter</defName>
 		<label>churn butter</label>
-		<description>A recipe for transforming cream or other produce into rich, flavorful butter. Yield of the recipe will depend on the produce being used to get the butter.</description>
+		<description>A recipe for transforming cream or other produce into rich, flavorful butter. Yield of the recipe will depend on the produce being used to get the butter, with 50 corn producing 20 butter.</description>
 		<jobString>Churning butter.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>

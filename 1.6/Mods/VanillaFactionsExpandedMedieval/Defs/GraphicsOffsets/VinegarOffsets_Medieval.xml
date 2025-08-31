@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.VinegarOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_VinegarOffsets_Medieval</defName>
+		<thingDef>AC_Vinegar</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>VFEM2_RawGrapes</key>
@@ -9,5 +10,5 @@
 			</li>
 			
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.VinegarOffsets>
+	</VEF.Graphics.GraphicOffsets>
 </Defs>

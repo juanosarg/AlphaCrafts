@@ -3,7 +3,7 @@
 	<RecipeDef>
 		<defName>AC_PrepareSpecialtyTeaSachets</defName>
 		<label>prepare specialty tea sachets</label>
-		<description>Crafts soothing sachets from a blend of artisan herbs and spices, offering unique flavors and calming effects. Yield of the recipe will depend on the produce being used to get the sachet.</description>
+		<description>Crafts soothing sachets from a blend of artisan herbs and spices, offering unique flavors and calming effects. Yield of the recipe will depend on the produce being used to get the sachet, with 10 berries and 10 tea leaves producing 20 sachets.</description>
 		<jobString>Preparing specialty tea sachets.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>

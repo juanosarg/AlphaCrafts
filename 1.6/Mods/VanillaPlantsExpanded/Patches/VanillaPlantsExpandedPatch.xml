@@ -175,7 +175,8 @@
 							</thingCategories>
 							<ingestible>
 								<preferability>NeverForNutrition</preferability>
-								<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
+								<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+								<foodType>Processed</foodType>
 							</ingestible>
 							<ingredient>
 								<mergeCompatibilityTags>
@@ -233,6 +234,52 @@
 								<Cooking>5</Cooking>
 							</skillRequirements>
 						</RecipeDef>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_JamOffsets_Plants</defName>
+							<thingDef>AC_Jam</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VCE_RawApple</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawPeach</key>
+									<value>3</value>
+								</li>
+								<li>
+									<key>VCE_RawCherry</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawPlum</key>
+									<value>4</value>
+								</li>
+								<li>
+									<key>VCE_RawPrunes</key>
+									<value>4</value>
+								</li>
+								<li>
+									<key>VCE_RawPear</key>
+									<value>5</value>
+								</li>
+								<li>
+									<key>VCE_RawPricklyPear</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_Bearberry</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawBanana</key>
+									<value>2</value>
+								</li>
+								<li>
+									<key>VCE_RawOrange</key>
+									<value>3</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -370,9 +417,106 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="AC_BeetKvass"]/thingCategories</xpath>
+					<xpath>Defs/ThingDef[defName="AC_BeetKvass"]/thingCategories</xpath>
 					<value>
 						<li>VBE_DrinksSimpleSpirits</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_FlavouredKombuchaOffsets_Plants</defName>
+							<thingDef>AC_FlavouredKombucha</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VCE_RawApple</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawPeach</key>
+									<value>3</value>
+								</li>
+								<li>
+									<key>VCE_RawCherry</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawPlum</key>
+									<value>4</value>
+								</li>
+								<li>
+									<key>VCE_RawPrunes</key>
+									<value>4</value>
+								</li>
+								<li>
+									<key>VCE_RawPear</key>
+									<value>5</value>
+								</li>
+								<li>
+									<key>VCE_RawPricklyPear</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_Bearberry</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawBanana</key>
+									<value>2</value>
+								</li>
+								<li>
+									<key>VCE_RawOrange</key>
+									<value>3</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_TeaSachetsOffsets_Plants</defName>
+							<thingDef>AC_TeaSachets</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VCE_RawApple</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawPeach</key>
+									<value>3</value>
+								</li>
+								<li>
+									<key>VCE_RawCherry</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawPlum</key>
+									<value>4</value>
+								</li>
+								<li>
+									<key>VCE_RawPrunes</key>
+									<value>4</value>
+								</li>
+								<li>
+									<key>VCE_RawPear</key>
+									<value>5</value>
+								</li>
+								<li>
+									<key>VCE_RawPricklyPear</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_Bearberry</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>VCE_RawBanana</key>
+									<value>2</value>
+								</li>
+								<li>
+									<key>VCE_RawOrange</key>
+									<value>3</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
 					</value>
 				</li>
 			</operations>

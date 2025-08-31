@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.OilOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_OilOffsets_Sushi</defName>
+		<thingDef>AC_Oil</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>VCE_RawSoybean</key>
 				<value>3</value>
 			</li>
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.OilOffsets>
+	</VEF.Graphics.GraphicOffsets>
 </Defs>

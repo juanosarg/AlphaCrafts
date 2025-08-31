@@ -3,7 +3,7 @@
 	<RecipeDef>
 		<defName>AC_PressOil</defName>
 		<label>press oil</label>
-		<description>Process fruits, nuts, or seeds into high-quality oils. Yield of the recipe will depend on the produce being used to get the oil.</description>
+		<description>Process fruits, nuts, or seeds into high-quality oils. Yield of the recipe will depend on the produce being used to get the oil, with 50 smokeleaf leaves producing 10 oil.</description>
 		<jobString>Pressing oil.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>

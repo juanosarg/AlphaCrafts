@@ -3,7 +3,7 @@
 	<RecipeDef>
 		<defName>AC_BrewFlavouredKombucha</defName>
 		<label>brew flavoured kombucha</label>
-		<description>Brew a batch of flavored kombucha by blending handcrafted artisanal kombucha with selected fruits, flowers, herbs, or spices. This process infuses the brew with unique flavors and gentle natural effects, creating a refreshingly distinct beverage. Yield of the recipe will depend on the produce being used to get the kombucha.</description>
+		<description>Brew a batch of flavored kombucha by blending handcrafted artisanal kombucha with selected fruits, flowers, herbs, or spices. This process infuses the brew with unique flavors and gentle natural effects, creating a refreshingly distinct beverage. Yield of the recipe will depend on the produce being used to get the kombucha, with 30 berries and 10 kombucha producing 10 flavoured kombucha.</description>
 		<jobString>Brewing flavoured kombucha.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>

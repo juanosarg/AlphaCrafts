@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.VinegarOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_VinegarOffsets</defName>
+		<thingDef>AC_Vinegar</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>RawRice</key>
 				<value>4</value>
 			</li>
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.VinegarOffsets>
+	</VEF.Graphics.GraphicOffsets>
 </Defs>

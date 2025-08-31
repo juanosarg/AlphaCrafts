@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_FlavouredKombuchaOffsets</defName>
+		<thingDef>AC_FlavouredKombucha</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>RawBerries</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Dye</key>
+				<value>7</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>

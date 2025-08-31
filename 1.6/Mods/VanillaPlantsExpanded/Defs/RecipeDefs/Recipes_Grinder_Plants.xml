@@ -3,7 +3,7 @@
 	<RecipeDef>
 		<defName>AC_ZestCitrics</defName>
 		<label>zest citrics</label>
-		<description>A process of carefully peeling the outer layer of citrus fruits, extracting the flavorful, aromatic peel. Yield of the recipe will depend on the produce being used to get the zest.</description>
+		<description>A process of carefully peeling the outer layer of citrus fruits, extracting the flavorful, aromatic peel. Yield of the recipe will depend on the produce being used to get the zest, with 15 orange producing 10 zest.</description>
 		<jobString>Zesting citrics.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>

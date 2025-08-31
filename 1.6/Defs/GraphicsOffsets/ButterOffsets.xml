@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.ButterOffsets>
+	
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_ButterOffsets</defName>
+		<thingDef>AC_Butter</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>Milk</key>
@@ -19,6 +21,7 @@
 				<key>SmokeleafLeaves</key>
 				<value>3</value>
 			</li>
+			
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.ButterOffsets>
+	</VEF.Graphics.GraphicOffsets>
 </Defs>

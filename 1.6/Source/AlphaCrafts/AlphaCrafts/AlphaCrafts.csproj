@@ -302,31 +302,7 @@
     <Compile Include="Comps\Properties\CompProperties_LabelByIngredients.cs" />
     <Compile Include="DefModExtension\VariableOutputByIngredient.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
-    <Compile Include="Defs\PureeOffsets.cs" />
-    <Compile Include="Defs\PickleOffsets.cs" />
-    <Compile Include="Defs\MayoOffsets.cs" />
-    <Compile Include="Defs\ZestOffsets.cs" />
-    <Compile Include="Defs\FlourOffsets.cs" />
-    <Compile Include="Defs\ChipsOffsets.cs" />
-    <Compile Include="Defs\VinegarOffsets.cs" />
-    <Compile Include="Defs\PerfumeOffsets.cs" />
-    <Compile Include="Defs\OilOffsets.cs" />
-    <Compile Include="Defs\ButterOffsets.cs" />
-    <Compile Include="Defs\YogurtOffsets.cs" />
     <Compile Include="Dev Mode\GenerateArtisanTradingQuest.cs" />
-    <Compile Include="Graphics\Graphic_RandomStackCount.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients_Mayo.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients_Pickle.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients_Butter.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients_Oil.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients_Perfume.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients_Flour.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients_Chips.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients_Puree.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients_Zest.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients_Vinegar.cs" />
-    <Compile Include="Graphics\Graphic_StackCountByIngredients_Yogurt.cs" />
     <Compile Include="Harmony\CompIngredients_GetFoodKindInspectString.cs" />
     <Compile Include="Harmony\GenRecipe_PostProcessProduct.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
@@ -336,10 +312,8 @@
     <Compile Include="Settings\AlphaCrafts_Settings.cs" />
     <Compile Include="Settings\AlphaCrafts_SettingsController.cs" />
     <Compile Include="Settings\SettingsHelper.cs" />
-    <Compile Include="StaticCollections\StaticCollections.cs" />
     <Compile Include="StatParts\StatPart_ArtisanProduct.cs" />
     <Compile Include="StockGenerators\StockGenerator_BuyCategory.cs" />
-    <Compile Include="Utils\Utils.cs" />
     <Compile Include="WorldComponents\WorldComponent_ArtisanTradingQuests.cs" />
   </ItemGroup>
   <ItemGroup>

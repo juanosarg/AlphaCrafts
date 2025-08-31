@@ -176,4 +176,26 @@
 			</rulesStrings>
 		</generalRules>
 	</ResearchProjectDef>
+	<ResearchProjectDef>
+		<defName>AC_Infusing</defName>
+		<label>flavour infusing</label>
+		<tab>AC_AlphaCrafts</tab>
+		<techLevel>Industrial</techLevel>
+		<description>Unlocks techniques for infusing flavors into other artisan crafts, allowing colonists to craft infused oils, vinegars, and other enhanced artisanal products.</description>
+		<baseCost>400</baseCost>
+		<prerequisites>
+			<li>AC_ComplexArtisanalCrafting</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->flavour infusions</li>
+				<li>subject_story->discovered methods to blend fruits, flowers, and herbs into other crafts</li>
+				<li>subject_story->introduced infused oils, vinegars, and liquors with distinctive tastes</li>
+				<li>subject_story->gave rise to artisanal products that boosted both morale and trade value</li>
+				<li>subject_gerund->infusing flavours into artisanal goods to improve taste and uniqueness</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
 </Defs>

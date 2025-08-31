@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.OilOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_OilOffsets_MorePlants</defName>
+		<thingDef>AC_Oil</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>VCE_RawAvocado</key>
@@ -24,5 +25,5 @@
 				<value>2</value>
 			</li>
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.OilOffsets>
+	</VEF.Graphics.GraphicOffsets>
 </Defs>

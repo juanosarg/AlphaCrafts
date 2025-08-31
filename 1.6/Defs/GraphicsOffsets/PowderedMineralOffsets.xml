@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_PowderedMineralOffsets</defName>
+		<thingDef>AC_PowderedMineral</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>Silver</key>
+				<value>0</value>
+			</li>
+			<li>
+				<key>Jade</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Plasteel</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Gold</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Steel</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Uranium</key>
+				<value>7</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>

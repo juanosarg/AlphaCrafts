@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_EssenceOffsets_Medieval</defName>
+		<thingDef>AC_Essence</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VFEM2_RawGrapes</key>
+				<value>4</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>

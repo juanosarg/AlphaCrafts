@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_PowderedMineralOffsets_Anomaly</defName>
+		<thingDef>AC_PowderedMineral</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>Bioferrite</key>
+				<value>1</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>

@@ -34,7 +34,9 @@
 		<li IfModActive="Dubwise.DubsBadHygiene">1.6/Mods/DubsBadHygiene</li>
 		<li IfModActive="VanillaExpanded.VanillaFoodVarietyExpanded">1.6/Mods/VanillaFoodVarietyExpanded</li>
 		<li IfModActive="vanillaexpanded.skills">1.6/Mods/VanillaSkillsExpanded</li>
-	
+		<li IfModActive="sarg.alphaanimals">1.6/Mods/AlphaAnimals</li>
+		<li IfModActive="Ludeon.RimWorld.Anomaly">1.6/Mods/Anomaly</li>
+		<li IfModActive="Ludeon.RimWorld.Odyssey">1.6/Mods/Odyssey</li>
 		
 	</v1.6>
 </loadFolders>

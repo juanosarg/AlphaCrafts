@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.PickleOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_PickleOffsets_Sushi</defName>
+		<thingDef>AC_Pickles</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>VCE_RawSoybean</key>
@@ -9,5 +10,5 @@
 			</li>
 			
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.PickleOffsets>
+	</VEF.Graphics.GraphicOffsets>
 </Defs>

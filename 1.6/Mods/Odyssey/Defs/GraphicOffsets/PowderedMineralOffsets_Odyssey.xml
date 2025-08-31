@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_PowderedMineralOffsets_Odyssey</defName>
+		<thingDef>AC_PowderedMineral</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>Obsidian</key>
+				<value>2</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>

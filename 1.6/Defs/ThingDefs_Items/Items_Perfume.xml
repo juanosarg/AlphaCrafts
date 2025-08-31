@@ -6,7 +6,7 @@
 		<description>A luxurious blend of aromatic compounds and essential oils derived from flowers and botanicals, used to create delightful and captivating scents for personal use and ambiance. Each perfume is crafted to evoke emotions and memories, enhancing everyday experiences.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 perfume requires 25 ingredients at an average of 1.2 value (30), and sells for 6, giving a &lt;color=#33CC33&gt;50%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 2500 work, which results on a value per work of &lt;color=#33CC33&gt;0.02&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.05 Kg, for a value per Kg of &lt;color=#33CC33&gt;120&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.35&lt;/color&gt; (same as Yayo).</description>
 		<graphicData>
 			<texPath>Things/Item/AC_Perfume</texPath>
-			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Perfume</graphicClass>
+			<graphicClass>VEF.Graphics.Graphic_StackCountByIngredient</graphicClass>
 		</graphicData>
 		<statBases>
 			<MarketValue>6</MarketValue>

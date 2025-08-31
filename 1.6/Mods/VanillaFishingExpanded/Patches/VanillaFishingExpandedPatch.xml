@@ -24,7 +24,7 @@
 						<RecipeDef>
 							<defName>AC_PrepareRoe</defName>
 							<label>prepare roe</label>
-							<description>This process carefully preserves fresh fish eggs, maintaining their delicate texture and rich, briny flavor. Yield of the recipe will depend on the fish being used to get the roe.</description>
+							<description>This process carefully preserves fresh fish eggs, maintaining their delicate texture and rich, briny flavor. Yield of the recipe will depend on the fish being used to get the roe, with 10 anglerfish producing 3 roe.</description>
 							<jobString>preparing roe.</jobString>
 							<workSpeedStat>CookSpeed</workSpeedStat>
 							<effectWorking>Cook</effectWorking>
@@ -145,7 +145,7 @@
 									<RecipeDef>
 										<defName>AC_PrepareSurstromming</defName>
 										<label>prepare surströmming</label>
-										<description>Cure fish through a preservation process that results in surströmming, a potent and distinctive dish known for its intense flavors. Yield of the recipe will depend on the fish being used to get the cans.</description>
+										<description>Cure fish through a preservation process that results in surströmming, a potent and distinctive dish known for its intense flavors. Yield of the recipe will depend on the fish being used to get the cans, with 10 anglerfish, 5 salt and 1 steel producing 10 cans.</description>
 										<jobString>preparing surströmming.</jobString>
 										<workSpeedStat>CookSpeed</workSpeedStat>
 										<effectWorking>Cook</effectWorking>
@@ -275,7 +275,7 @@
 						<RecipeDef>
 							<defName>AC_PrepareRoe</defName>
 							<label>prepare roe</label>
-							<description>This process carefully preserves fresh fish eggs, maintaining their delicate texture and rich, briny flavor. Yield of the recipe will depend on the fish being used to get the roe.</description>
+							<description>This process carefully preserves fresh fish eggs, maintaining their delicate texture and rich, briny flavor. Yield of the recipe will depend on the fish being used to get the roe. Yield of the recipe will depend on the fish being used to get the roe, with 10 anglerfish producing 3 roe.</description>
 							<jobString>preparing roe.</jobString>
 							<workSpeedStat>CookSpeed</workSpeedStat>
 							<effectWorking>Cook</effectWorking>
@@ -366,7 +366,7 @@
 									<RecipeDef>
 										<defName>AC_PrepareSurstromming</defName>
 										<label>prepare surströmming</label>
-										<description>Cure fish through a preservation process that results in surströmming, a potent and distinctive dish known for its intense flavors. Yield of the recipe will depend on the fish being used to get the cans.</description>
+										<description>Cure fish through a preservation process that results in surströmming, a potent and distinctive dish known for its intense flavors. Yield of the recipe will depend on the fish being used to get the cans, with 10 anglerfish, 5 salt and 1 steel producing 10 cans.</description>
 										<jobString>preparing surströmming.</jobString>
 										<workSpeedStat>CookSpeed</workSpeedStat>
 										<effectWorking>Cook</effectWorking>

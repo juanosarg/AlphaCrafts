@@ -11,6 +11,7 @@
 	<AC_CancelBringingProduceDesc>Cancel bringing produce to the artisan fermenter.</AC_CancelBringingProduceDesc>
 	<AC_VinegarFailurePower>The product has spoiled due to a power failure in the artisan fermenter</AC_VinegarFailurePower>
 	<AC_CaskNotWorking>This artisan fermenter is not working at the moment</AC_CaskNotWorking>
+	<AC_InfuserNotWorking>This infuser is not working at the moment</AC_InfuserNotWorking>
 	<AC_CantRunQuest>Quest can't be run at the moment (likely culprit: no allies in the world to offer it)</AC_CantRunQuest>
 
 	<AC_DisableQuests>Disable Artisan Trading quests</AC_DisableQuests>

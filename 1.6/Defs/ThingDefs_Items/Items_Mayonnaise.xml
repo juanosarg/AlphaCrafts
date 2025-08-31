@@ -38,11 +38,11 @@
 	
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>AC_InfusedMayonnaise</defName>
-		<label>infused mayonnaise</label>
-		<description>A flavorful twist on classic mayonnaise, infused mayonnaise incorporates ingredients like garlic, herbs, or avocado to enhance its taste and versatility.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 infused mayonnaise requires mayonnaise and produce for a total value of 502, and sells for 130, giving a &lt;color=#33CC33&gt;61.38%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 4000 work, which results on a value per work of &lt;color=#33CC33&gt;0.33&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;433.33&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; Depends on so many factors it's hard to give a concrete number.</description>
+		<label>flavoured mayonnaise</label>
+		<description>A flavorful twist on classic mayonnaise, flavoured mayonnaise incorporates ingredients like garlic, herbs, or avocado to enhance its taste and versatility.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 flavoured mayonnaise requires mayonnaise and produce for a total value of 502, and sells for 130, giving a &lt;color=#33CC33&gt;61.38%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 4000 work, which results on a value per work of &lt;color=#33CC33&gt;0.33&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;433.33&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; Depends on so many factors it's hard to give a concrete number.</description>
 		<graphicData>
 			<texPath>Things/Item/AC_InfusedMayonnaise</texPath>
-			<graphicClass>AlphaCrafts.Graphic_StackCountByIngredients_Mayo</graphicClass>
+			<graphicClass>VEF.Graphics.Graphic_StackCountByIngredient</graphicClass>
 		</graphicData>
 		<statBases>
 			<MarketValue>130</MarketValue>

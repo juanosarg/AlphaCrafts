@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.ButterOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_ButterOffsets_MorePlants</defName>
+		<thingDef>AC_Butter</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>VCE_RawCoconut</key>
@@ -13,5 +14,5 @@
 			</li>
 			
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.ButterOffsets>
+	</VEF.Graphics.GraphicOffsets>
 </Defs>

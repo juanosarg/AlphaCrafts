@@ -3,7 +3,7 @@
 	<RecipeDef>
 		<defName>AC_PickleVegetables</defName>
 		<label>pickle vegetables</label>
-		<description>This recipe preserves fresh vegetables by soaking them in a vinegary brine, allowing them to absorb tangy flavors and develop a crunchy texture. Yield of the recipe will depend on the produce being used to get the pickles.</description>
+		<description>This recipe preserves fresh vegetables by soaking them in a vinegary brine, allowing them to absorb tangy flavors and develop a crunchy texture. Yield of the recipe will depend on the produce being used to get the pickles, with 50 corn producing 25 pickle jars.</description>
 		<jobString>pickling vegetables.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
@@ -67,7 +67,7 @@
 	<RecipeDef>
 		<defName>AC_PickleEggs</defName>
 		<label>pickle eggs</label>
-		<description>This recipe preserves eggs by soaking them in a vinegary brine, allowing them to absorb tangy flavors. Yield of the recipe will depend on the egg being used to get the pickles.</description>
+		<description>This recipe preserves eggs by soaking them in a vinegary brine, allowing them to absorb tangy flavors. Yield of the recipe will depend on the egg being used to get the pickles, with 5 chicken eggs producing 20 pickle jars.</description>
 		<jobString>pickling eggs.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
@@ -130,7 +130,7 @@
 	<RecipeDef>
 		<defName>AC_MakeMayonnaise</defName>
 		<label>make artisanal mayonnaise</label>
-		<description>This recipe emulsifies fresh egg yolks and oil, creating a smooth and tangy spread perfect for enhancing sandwiches, salads, and more. Yield of the recipe will depend on the egg being used to make the artisanal mayonnaise.</description>
+		<description>This recipe emulsifies fresh egg yolks and oil, creating a smooth and tangy spread perfect for enhancing sandwiches, salads, and more. Yield of the recipe will depend on the egg being used to make the artisanal mayonnaise, with 15 chicken eggs, 3 vinegar and 3 oil producing 10 mayonnaise.</description>
 		<jobString>making artisanal mayonnaise.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
@@ -204,9 +204,9 @@
 	
 	<RecipeDef>
 		<defName>AC_InfuseMayonnaise</defName>
-		<label>make infused mayonnaise</label>
-		<description>This recipe takes traditional mayonnaise and blends it with additional ingredients such as garlic, herbs, or avocado to create a richly flavored spread.</description>
-		<jobString>making infused mayonnaise.</jobString>
+		<label>make flavoured mayonnaise</label>
+		<description>This recipe takes traditional mayonnaise and blends it with additional ingredients such as garlic, herbs, or avocado to create a richly flavored spread. Yield of the recipe will depend on the produce being used to make the flavoured mayonnaise, with 20 smokeleaf leaves and 10 mayonnaise producing 10 flavoured mayonnaise.</description>
+		<jobString>making flavoured mayonnaise.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>

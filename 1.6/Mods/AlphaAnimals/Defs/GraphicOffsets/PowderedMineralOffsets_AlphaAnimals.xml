@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_PowderedMineralOffsets_AA</defName>
+		<thingDef>AC_PowderedMineral</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>AA_SkySteel</key>
+				<value>3</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>

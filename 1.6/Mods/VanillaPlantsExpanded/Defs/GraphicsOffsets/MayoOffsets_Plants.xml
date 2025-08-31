@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.MayoOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_MayoOffsets_Plants</defName>
+		<thingDef>AC_Mayonnaise</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>VCE_RawPepper</key>
@@ -12,5 +13,5 @@
 				<value>0</value>
 			</li>
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.MayoOffsets>
+	</VEF.Graphics.GraphicOffsets>
 </Defs>

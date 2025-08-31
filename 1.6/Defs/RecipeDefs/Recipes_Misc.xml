@@ -41,7 +41,7 @@
 	<RecipeDef>
 		<defName>AC_ExtractEssence</defName>
 		<label>extract essence</label>
-		<description>Extract the concentrated essence of key ingredients, capturing their most intense flavors or aromas. Yield of the recipe will depend on the produce being used to get the essence.</description>
+		<description>Extract the concentrated essence of key ingredients, capturing their most intense flavors or aromas. Yield of the recipe will depend on the produce being used to get the essence, with 20 berries producing 10 essence.</description>
 		<jobString>Extracting essence.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>

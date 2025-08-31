@@ -3,7 +3,7 @@
 	<RecipeDef>
 		<defName>AC_ExtractPerfume</defName>
 		<label>extract perfume</label>
-		<description>Transform fragrant flowers into concentrated perfumes, extracting essential oils to create high-quality scents for crafting and trade. Yield of the recipe will depend on the produce being used to get the perfume.</description>
+		<description>Transform fragrant flowers into concentrated perfumes, extracting essential oils to create high-quality scents for crafting and trade. Yield of the recipe will depend on the produce being used to get the perfume, with 25 berries producing 10 perfume.</description>
 		<jobString>Extracting perfume.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>

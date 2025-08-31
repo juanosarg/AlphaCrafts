@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_GrindHorns"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>AA_GallatrossHorn</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_GrindHorns"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AA_GallatrossHorn</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_GrindHorns"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AA_GallatrossHorn</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "AC_PowderedHorn"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>AA_GallatrossHorn</key>
+				<value>powdered gallatross horn</value>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_GrindMinerals"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			
+				<li>AA_SkySteel</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_GrindMinerals"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			
+				<li>AA_SkySteel</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_GrindMinerals"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			
+				<li>AA_SkySteel</li>
+			
+		</value>
+	</Operation>
+</Patch>
+

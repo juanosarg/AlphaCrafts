@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.YogurtOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_YogurtOffsets</defName>
-		<fruitAndOffsetList>
+		<thingDef>VCE_Yoghurt</thingDef>
+		<ingredientsAndOffsetList>
 			<li>
 				<key>RawBerries</key>
 				<value>1</value>
@@ -11,6 +12,6 @@
 				<key>Dye</key>
 				<value>7</value>
 			</li>
-		</fruitAndOffsetList>
-	</AlphaCrafts.YogurtOffsets>
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
 </Defs>

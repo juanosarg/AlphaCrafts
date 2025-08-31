@@ -3,7 +3,7 @@
 	<RecipeDef>
 		<defName>AC_GrindFlours</defName>
 		<label>grind flour</label>
-		<description>Grind produce into fine flour. Yield of the recipe will depend on the produce being used to get the flour.</description>
+		<description>Grind produce into fine flour. Yield of the recipe will depend on the produce being used to get the flour, with 50 corn producing 5 flour.</description>
 		<jobString>Grinding flour.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
@@ -38,7 +38,6 @@
 				<li>RawRice</li>
 				<li>RawPotatoes</li>
 			</thingDefs>
-			
 		</defaultIngredientFilter>
 		<workSkill>Cooking</workSkill>
 		<products>
@@ -53,7 +52,7 @@
 	<RecipeDef>
 		<defName>AC_GrindIntoChips</defName>
 		<label>grind into chips</label>
-		<description>Grind produce into chips. Yield of the recipe will depend on the produce being used to get the chips.</description>
+		<description>Grind produce into chips. Yield of the recipe will depend on the produce being used to get the chips, with 10 potatoes outputting 10 chips.</description>
 		<jobString>Grinding into chips.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
@@ -175,12 +174,155 @@
 			<categories>
 				<li>MeatRaw</li>
 			</categories>
-			
-			
 		</defaultIngredientFilter>
 		<workSkill>Cooking</workSkill>
 		<products>
 			<AC_Gravy>50</AC_Gravy>
 		</products>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_GrindHorns</defName>
+		<label>grind animal horn</label>
+		<description>Grind animal horns or tusks to create powdered horn. Yield of the recipe will depend on the horn being used to get the powder, with 1 Thrumbo horn producing 25 units.</description>
+		<jobString>Grinding animal horn.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>5000</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanalGrinder</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ThrumboHorn</li>
+						<li>ElephantTusk</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ThrumboHorn</li>
+				<li>ElephantTusk</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>ThrumboHorn</li>
+				<li>ElephantTusk</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_PowderedHorn>25</AC_PowderedHorn>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>ThrumboHorn</baseline>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_GrindMinerals</defName>
+		<label>grind minerals</label>
+		<description>Grind minerals to create powdered minerals. Yield of the recipe will depend on the mineral being used to get the powder, with 15 steel producing 5 units.</description>
+		<jobString>Grinding minerals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>5000</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanalGrinder</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+						<li>Jade</li>
+						<li>Uranium</li>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Jade</li>
+				<li>Uranium</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Jade</li>
+				<li>Uranium</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_PowderedMineral>5</AC_PowderedMineral>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>Steel</baseline>
+			</li>
+		</modExtensions>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_GrindLowVolumeMinerals</defName>
+		<label>grind low volume minerals</label>
+		<description>Grind low volume minerals to create powdered minerals. Yield of the recipe will depend on the mineral being used to get the powder, with 15 silver producing 3 units.</description>
+		<jobString>Grinding minerals.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>5000</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanalGrinder</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+						<li>Gold</li>
+					
+					</thingDefs>
+				</filter>
+				<count>1.5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+				<li>Gold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+				<li>Gold</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_PowderedMineral>3</AC_PowderedMineral>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>Silver</baseline>
+			</li>
+		</modExtensions>
 	</RecipeDef>
 </Defs>

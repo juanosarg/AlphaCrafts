@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.ZestOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_ZestOffsets_Plants</defName>
+		<thingDef>AC_Zest</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>VCE_RawOrange</key>
@@ -9,5 +10,5 @@
 			</li>
 			
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.ZestOffsets>
+	</VEF.Graphics.GraphicOffsets>
 </Defs>

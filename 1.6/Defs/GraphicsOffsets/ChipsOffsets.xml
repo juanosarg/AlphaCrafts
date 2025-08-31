@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<AlphaCrafts.ChipsOffsets>
+	<VEF.Graphics.GraphicOffsets>
 		<defName>AC_ChipsOffsets</defName>
+		<thingDef>AC_Chips</thingDef>
 		<ingredientsAndOffsetList>
 			<li>
 				<key>RawPotatoes</key>
@@ -9,7 +10,7 @@
 			</li>
 			
 		</ingredientsAndOffsetList>
-	</AlphaCrafts.ChipsOffsets>
+	</VEF.Graphics.GraphicOffsets>
 	
 	
 </Defs>

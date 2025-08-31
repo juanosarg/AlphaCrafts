@@ -10,33 +10,66 @@
 				<li Class="PatchOperationAdd">
 					<xpath>Defs</xpath>
 					<value>
-						<AlphaCrafts.ZestOffsets>
+						<VEF.Graphics.GraphicOffsets>
 							<defName>AC_ZestOffsets_CoffeeAndTea</defName>
+							<thingDef>AC_Zest</thingDef>
 							<ingredientsAndOffsetList>
 								<li>
 									<key>VCE_RawLemon</key>
 									<value>0</value>
 								</li>
 							</ingredientsAndOffsetList>
-						</AlphaCrafts.ZestOffsets>
-						<AlphaCrafts.YogurtOffsets>
+						</VEF.Graphics.GraphicOffsets>
+						<VEF.Graphics.GraphicOffsets>
 							<defName>AC_YogurtFruitOffsets_CoffeeAndTea</defName>
-							<fruitAndOffsetList>
-								<li>
-									<key>VCE_RawLemon</key>
-									<value>2</value>
-								</li>
-							</fruitAndOffsetList>
-						</AlphaCrafts.YogurtOffsets>
-						<AlphaCrafts.MayoOffsets>
-							<defName>AC_MayoOffsets_CoffeeAndTea</defName>
+							<thingDef>VCE_Yoghurt</thingDef>
 							<ingredientsAndOffsetList>
 								<li>
 									<key>VCE_RawLemon</key>
 									<value>2</value>
 								</li>
 							</ingredientsAndOffsetList>
-						</AlphaCrafts.MayoOffsets>
+						</VEF.Graphics.GraphicOffsets>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_EssenceOffsets_CoffeeAndTea</defName>
+							<thingDef>AC_Essence</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VCE_RawLemon</key>
+									<value>2</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_TeaSachetsOffsets_CoffeeAndTea</defName>
+							<thingDef>AC_TeaSachets</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VCE_RawLemon</key>
+									<value>2</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_FlavouredKombuchaOffsets_CoffeeAndTea</defName>
+							<thingDef>AC_FlavouredKombucha</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VCE_RawLemon</key>
+									<value>2</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_MayoOffsets_CoffeeAndTea</defName>
+							<thingDef>AC_Mayonnaise</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VCE_RawLemon</key>
+									<value>2</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
 						<ThingDef ParentName="OrganicProductBase">
 							<defName>AC_Buttermilk</defName>
 							<label>buttermilk</label>
@@ -55,7 +88,8 @@
 							<ingestible>
 								<preferability>NeverForNutrition</preferability>
 								<specialThoughtAsIngredient>AC_ConsumedButtermilk</specialThoughtAsIngredient>
-								<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
+								<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+								<foodType>Processed</foodType>
 							</ingestible>
 							<comps>
 								<li Class="CompProperties_Rottable">
@@ -203,6 +237,21 @@
 					<xpath>Defs/ThingDef[defName="AC_Buttermilk"]/thingCategories</xpath>
 					<value>
 						<li>VCE_Condiments</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_JamOffsets_CoffeeAndTea</defName>
+							<thingDef>AC_Jam</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VCE_RawLemon</key>
+									<value>2</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
 					</value>
 				</li>
 			</operations>

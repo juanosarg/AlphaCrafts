@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AC_Vinegar"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
 		<value>
@@ -8,16 +7,73 @@
 				<key>VFEM2_RawGrapes</key>
 				<value>Grape</value>
 			</li>
-			
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
 		<value>
 			<li>AC_GrapesToVinegar</li>
-			
 		</value>
 	</Operation>
-	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_JamOffsets_Medieval</defName>
+							<thingDef>AC_Jam</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VFEM2_RawGrapes</key>
+									<value>4</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Brewing Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_TeaSachetsOffsets_Medieval</defName>
+							<thingDef>AC_TeaSachets</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VFEM2_RawGrapes</key>
+									<value>4</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_FlavouredKombuchaOffsets_Medieval</defName>
+							<thingDef>AC_FlavouredKombucha</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>VFEM2_RawGrapes</key>
+									<value>4</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
 </Patch>
 
