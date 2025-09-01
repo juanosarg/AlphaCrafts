@@ -15,42 +15,35 @@
 			<Mass>0.05</Mass>
 		</statBases>
 		<tradeability>Sellable</tradeability>
-		
 		<thingCategories>
 			<li>AC_ArtisanProducts</li>
-			<li>VCE_Condiments</li>	
+			<li>VCE_Condiments</li>
 		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>AC_ConsumedMolasses</specialThoughtAsIngredient>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
 			<mergeCompatibilityTags>
 				<li>Condiments</li>
-				
 			</mergeCompatibilityTags>
 		</ingredient>
 		<modExtensions>
 			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
-				
 				<statToAdd>
 					<li>AC_CondimentEffects</li>
-						
 				</statToAdd>
 				<statValues>
 					<li>AC_CondimentEffectsTitle</li>
-									
 				</statValues>
 				<statDescriptions>
 					<li>AC_CondimentEffectsMolasses</li>
-					
 				</statDescriptions>
-				
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>AC_SaltedCaramel</defName>
 		<label>salted caramel</label>
@@ -66,13 +59,13 @@
 			<Mass>0.3</Mass>
 		</statBases>
 		<tradeability>Sellable</tradeability>
-		
 		<thingCategories>
 			<li>AC_ArtisanProducts</li>
 		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
 			<mergeCompatibilityTags>
@@ -80,5 +73,43 @@
 			</mergeCompatibilityTags>
 		</ingredient>
 	</ThingDef>
-	
+	<ThingDef ParentName="MealBaseIngredientless">
+		<defName>AC_JamonSerrano</defName>
+		<label>jamón serrano</label>
+		<description>A dry-cured ham, slowly aged to develop its rich aroma, deep flavor, and delicate marbling. Savory, complex, and melt-in-your-mouth tender, it is often regarded as the most delicious food ever created.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 5 portions of jamón serrano requires 100 pork meat and 10 salt with a total value of 217.60, and sells for 200, giving a &lt;color=#33CC33&gt;78.24%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Fermentation time:&lt;/color&gt; super long curing process lasting 100 days.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 5 Kg, for a value per Kg of &lt;color=#33CC33&gt;40&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; Assuming a pig farm with ample pork meat production, and a good supply of salt, estimated profit per day is &lt;color=#33CC33&gt;1.56&lt;/color&gt; (for reference Yayo is 0.35).</description>
+		<graphicData>
+			<texPath>Things/Item/AC_JamonSerrano/AC_JamonSerrano</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>200</MarketValue>
+			<Nutrition>1</Nutrition>
+			<Mass>5</Mass>
+		</statBases>
+		<rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+		<ingestible>
+			<preferability>DesperateOnly</preferability>
+			<foodType>Meat</foodType>
+			<joy>0.4</joy>
+			<joyKind>Gluttonous</joyKind>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<defaultNumToIngestAtOnce>1</defaultNumToIngestAtOnce>
+			<ingestSound>Meal_Eat</ingestSound>
+			<tasteThought>AC_AteJamonSerrano</tasteThought>
+			<optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+				<noIngredientsFoodKind>Meat</noIngredientsFoodKind>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+	</ThingDef>
 </Defs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_OilAndHerbalToInfusedOil</defName>
+		<label>Infuse oil and herbal medicine into infused oil</label>
+		<description>Turns 10 oil and 10 herbal medicine into 10 infused oil.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Infuse 10 oil and 10 herbal medicine into 10 infused oil</labelOverride>
+		<priorityInBillList>0</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>AC_Oil</thing>
+				<countNeeded>10</countNeeded>
+			</li>
+			<li>
+				<thing>MedicineHerbal</thing>
+				<countNeeded>10</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>600000</ticks>
+		<results>
+			<li>
+				<thing>AC_InfusedOil</thing>
+				<count>10</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	
+	
+
+</Defs>

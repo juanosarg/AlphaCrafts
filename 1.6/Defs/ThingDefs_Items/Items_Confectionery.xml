@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="MealBaseIngredientless">
+		<defName>AC_CuredHiveConfections</defName>
+		<label>cured hive confections</label>
+		<description>Cured hive confections are a rare delicacy crafted from rich insect jelly, carefully preserved and sweetened until it develops a crystalline, candy-like texture.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 confections requires 20 insect jelly with a total value of 160, and sells for 30, giving a &lt;color=#33CC33&gt;46.67%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 850 work, which results on a value per work of &lt;color=#33CC33&gt;0.35&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.025 Kg, for a value per Kg of &lt;color=#33CC33&gt;1200&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; Hard to estimate as it will depend on your source of insect jelly!</description>
+		<graphicData>
+			<texPath>Things/Item/AC_CuredHiveConfections</texPath>
+			<graphicClass>VEF.Graphics.Graphic_StackCountByIngredient</graphicClass>
+			<drawSize>0.65</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>30</MarketValue>
+			<Nutrition>0.05</Nutrition>
+			<Mass>0.025</Mass>
+			  <FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<rotatable>false</rotatable>
+		<tradeability>Sellable</tradeability>
+		 <socialPropernessMatters>true</socialPropernessMatters>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<foodType>Processed</foodType>
+			<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			 <lowPriorityCaravanFood>true</lowPriorityCaravanFood>
+			<babiesCanIngest>true</babiesCanIngest>
+			<optimalityOffsetFeedingAnimals>-100</optimalityOffsetFeedingAnimals>
+		</ingestible>
+		
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<comps>
+			
+			<li Class="CompProperties_Ingredients">
+				
+			</li>
+		</comps>
+	</ThingDef>
+	
+</Defs>

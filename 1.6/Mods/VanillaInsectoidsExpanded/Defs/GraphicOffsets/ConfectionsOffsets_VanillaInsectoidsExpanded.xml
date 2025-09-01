@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_ConfectionsOffsets_VanillaInsectoidsExpanded</defName>
+		<thingDef>AC_CuredHiveConfections</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>VFEI2_RoyalInsectJelly</key>
+				<value>2</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>

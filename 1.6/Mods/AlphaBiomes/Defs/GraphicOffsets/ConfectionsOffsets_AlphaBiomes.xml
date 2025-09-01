@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_ConfectionsOffsets_AB</defName>
+		<thingDef>AC_CuredHiveConfections</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>AB_BumbledroneFood</key>
+				<value>0</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>

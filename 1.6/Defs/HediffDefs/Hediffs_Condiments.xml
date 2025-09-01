@@ -427,4 +427,58 @@
 		</stages>
 	</HediffDef>
 	
+	<HediffDef>
+		<defName>AC_ConsumedOil</defName>
+		<label>consumed oil (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A versatile, high-quality liquid used for cooking, crafting, and various artisan processes. Increases toxic environment resistance for 10% for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VEF.Cooking.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedOil</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ToxicEnvironmentResistance>0.1</ToxicEnvironmentResistance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AC_ConsumedInfusedOil</defName>
+		<label>consumed infused oil (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Infused oil is crafted by steeping rich oil with herbal medicine or aromatic spices inside an infuser. Increases toxic environment resistance for 20% for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VEF.Cooking.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedInfusedOil</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ToxicEnvironmentResistance>0.2</ToxicEnvironmentResistance>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
 </Defs>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>AC_InfusedOil</defName>
+		<label>infused oil</label>
+		<description>Infused oil is crafted by steeping rich oil with herbal medicine or aromatic spices inside an infuser, allowing their flavors and essences to meld over time. The result is a fragrant, golden liquid.\n\n&lt;color=#E5E54C&gt;Trade considerations&lt;/color&gt;:\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 infused oil requires 10 oil plus 10 herbal medicine for a total of 200 value, and sells for 45, giving a &lt;color=#33CC33&gt;55.56%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Fermentation time:&lt;/color&gt; 10 days.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;150&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, assuming corn to create the oil plus herbal medicine, profit per day is &lt;color=#33CC33&gt;1.07&lt;/color&gt; (for reference Yayo is 0.35).</description>
+		<graphicData>
+			<texPath>Things/Item/AC_InfusedOil</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>45</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>2</Flammability>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>120</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Ingredients">
+			
+			</li>
+			
+		</comps>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<foodType>Processed</foodType>
+			<specialThoughtAsIngredient>AC_ConsumedInfusedOil</specialThoughtAsIngredient>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
+				<statToAdd>
+					<li>AC_CondimentEffects</li>
+				</statToAdd>
+				<statValues>
+					<li>AC_CondimentEffectsTitle</li>
+				</statValues>
+				<statDescriptions>
+					<li>AC_CondimentEffectsInfusedOil</li>
+				</statDescriptions>
+			</li>
+		</modExtensions>
+		
+	</ThingDef>
+</Defs>

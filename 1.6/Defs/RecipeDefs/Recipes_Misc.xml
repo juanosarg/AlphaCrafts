@@ -118,4 +118,47 @@
 			</li>
 		</modExtensions>
 	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_CraftCuredHiveConfections</defName>
+		<label>craft cured hive confections</label>
+		<description>Craft cured hive confections using insect jelly.  Yield of the recipe will depend on the produce being used to get the confections, with 20 insect jelly producing 10 confections.</description>
+		<jobString>Crafting cured hive confections.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>850</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanWorkshop</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>InsectJelly</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>InsectJelly</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>InsectJelly</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_CuredHiveConfections>10</AC_CuredHiveConfections>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>InsectJelly</baseline>
+			</li>
+		</modExtensions>
+	</RecipeDef>
 </Defs>

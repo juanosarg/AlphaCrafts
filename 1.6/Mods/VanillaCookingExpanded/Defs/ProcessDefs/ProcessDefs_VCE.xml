@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_PorkToJamon</defName>
+		<label>Cure pork and salt into jamón serrano</label>
+		<description>Turns 100 pork and 10 salt into 5 portions of jamón serrano.</description>
+		<useIngredients>false</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Cure 100 pork and 10 salt into 5 portions of jamón serrano.</labelOverride>
+		<priorityInBillList>30</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>Meat_Pig</thing>
+				<countNeeded>100</countNeeded>
+			</li>
+			<li>
+				<thing>VCE_Salt</thing>
+				<countNeeded>10</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>6000000</ticks>
+		<results>
+			<li>
+				<thing>AC_JamonSerrano</thing>
+				<count>5</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	
+	
+
+</Defs>

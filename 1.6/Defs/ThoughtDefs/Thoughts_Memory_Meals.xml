@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThoughtDef>
+		<defName>AC_AteJamonSerrano</defName>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>ate jamón serrano</label>
+				<description>A taste of heaven.</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	
+</Defs>

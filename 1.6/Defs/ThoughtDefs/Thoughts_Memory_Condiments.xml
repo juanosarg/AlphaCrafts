@@ -208,4 +208,32 @@
 		</stages>
 	</ThoughtDef>
 	
+	<ThoughtDef>
+		<defName>AC_ConsumedOil</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedOil</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed oil</label>
+				<description>This oil gives a distinct taste to the food.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>AC_ConsumedInfusedOil</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedInfusedOil</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed infused oil</label>
+				<description>What a delicate and balanced taste.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
 </Defs>

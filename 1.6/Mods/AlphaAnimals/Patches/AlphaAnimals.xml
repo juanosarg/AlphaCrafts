@@ -51,5 +51,30 @@
 			
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_CraftCuredHiveConfections"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			
+				<li>AA_BlackInsectJelly</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_CraftCuredHiveConfections"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			
+				<li>AA_BlackInsectJelly</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_CraftCuredHiveConfections"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			
+				<li>AA_BlackInsectJelly</li>
+			
+		</value>
+	</Operation>
 </Patch>
 

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_CraftCuredHiveConfections"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			
+				<li>VFEI2_RoyalInsectJelly</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_CraftCuredHiveConfections"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			
+				<li>VFEI2_RoyalInsectJelly</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_CraftCuredHiveConfections"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			
+				<li>VFEI2_RoyalInsectJelly</li>
+			
+		</value>
+	</Operation>
+</Patch>
+

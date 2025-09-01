@@ -37,13 +37,27 @@
 		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<foodType>Processed</foodType>
+			<specialThoughtAsIngredient>AC_ConsumedOil</specialThoughtAsIngredient>
 		</ingestible>
 		<ingredient>
 			<mergeCompatibilityTags>
 				<li>Condiments</li>
 			</mergeCompatibilityTags>
 		</ingredient>
-		
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
+				<statToAdd>
+					<li>AC_CondimentEffects</li>
+				</statToAdd>
+				<statValues>
+					<li>AC_CondimentEffectsTitle</li>
+				</statValues>
+				<statDescriptions>
+					<li>AC_CondimentEffectsOil</li>
+				</statDescriptions>
+			</li>
+		</modExtensions>
 	</ThingDef>
 </Defs>

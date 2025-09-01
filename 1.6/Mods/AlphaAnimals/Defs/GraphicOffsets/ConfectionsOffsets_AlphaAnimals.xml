@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_ConfectionsOffsets_AA</defName>
+		<thingDef>AC_CuredHiveConfections</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>AA_BlackInsectJelly</key>
+				<value>1</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>
