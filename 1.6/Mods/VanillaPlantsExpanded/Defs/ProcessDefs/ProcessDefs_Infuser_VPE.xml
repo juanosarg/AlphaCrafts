@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_VinegarAndFruitsToBalsamic</defName>
+		<label>Infuse vinegar and fruits into balsamic vinegar</label>
+		<description>Turns 15 vinegar and 50 fruits into 12 balsamic vinegar.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Infuse 15 vinegar and 50 fruits into 12 balsamic vinegar</labelOverride>
+		<priorityInBillList>11</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>AC_Vinegar</thing>
+				<countNeeded>15</countNeeded>
+			</li>
+			<li>
+				<thingCategory>VCE_Fruit</thingCategory>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>900000</ticks>
+		<results>
+			<li>
+				<thing>AC_BalsamicVinegar</thing>
+				<count>12</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	
+	
+
+</Defs>

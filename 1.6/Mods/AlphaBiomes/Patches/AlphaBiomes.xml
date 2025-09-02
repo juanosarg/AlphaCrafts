@@ -1,28 +1,235 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName = "AC_CraftCuredHiveConfections"]/fixedIngredientFilter/thingDefs</xpath>
 		<value>
-			
-				<li>AB_BumbledroneFood</li>
-			
+			<li>AB_BumbledroneFood</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName = "AC_CraftCuredHiveConfections"]/defaultIngredientFilter/thingDefs</xpath>
 		<value>
-			
-				<li>AB_BumbledroneFood</li>
-			
+			<li>AB_BumbledroneFood</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName = "AC_CraftCuredHiveConfections"]/ingredients/li/filter/thingDefs</xpath>
 		<value>
+			<li>AB_BumbledroneFood</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Infuser"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+		<value>
+			<li>AC_OilAndPinkFungusToTruffleOil</li>
+			<li>AC_OilAndBlueFungusToTruffleOil</li>
+			<li>AC_OilAndPurpleFungusToTruffleOil</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/ingredients/li[@Name="VegIngredient"]/filter/thingDefs</xpath>
+		<value>
+			<li>AB_PinkRawFungus</li>
+			<li>AB_BlueRawFungus</li>
+			<li>AB_PurpleRawFungus</li>
+			<li>AB_RawBrownBarrelCactus</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AB_PinkRawFungus</li>
+			<li>AB_BlueRawFungus</li>
+			<li>AB_PurpleRawFungus</li>
+			<li>AB_RawBrownBarrelCactus</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PickleVegetables"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AB_PinkRawFungus</li>
+			<li>AB_BlueRawFungus</li>
+			<li>AB_PurpleRawFungus</li>
+			<li>AB_RawBrownBarrelCactus</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+		<value>
+			<li>AC_FrostLeavesIntoIcedElixir</li>
 			
-				<li>AB_BumbledroneFood</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_JamOffsets_AB</defName>
+							<thingDef>AC_Jam</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>AB_RawTentacularFruit</key>
+									<value>5</value>
+								</li>
+								<li>
+									<key>AB_RawIashiphus</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>AB_RawSugarFamewort</key>
+									<value>5</value>
+								</li>
+								<li>
+									<key>AB_RawBloodBouquet</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>AB_RawRagadast</key>
+									<value>2</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Brewing Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="AC_IcedElixir"]/thingCategories</xpath>
+					<value>
+						<li>VBE_DrinksLuxurySpirits</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs</xpath>
+					<value>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_FlavouredKombuchaOffsets_AB</defName>
+							<thingDef>AC_FlavouredKombucha</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>AB_RawTentacularFruit</key>
+									<value>5</value>
+								</li>
+								<li>
+									<key>AB_RawIashiphus</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>AB_RawSugarFamewort</key>
+									<value>5</value>
+								</li>
+								<li>
+									<key>AB_RawBloodBouquet</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>AB_RawRagadast</key>
+									<value>2</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+						<VEF.Graphics.GraphicOffsets>
+							<defName>AC_TeaSachetsOffsets_AB</defName>
+							<thingDef>AC_TeaSachets</thingDef>
+							<ingredientsAndOffsetList>
+								<li>
+									<key>AB_RawTentacularFruit</key>
+									<value>5</value>
+								</li>
+								<li>
+									<key>AB_RawIashiphus</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>AB_RawSugarFamewort</key>
+									<value>5</value>
+								</li>
+								<li>
+									<key>AB_RawBloodBouquet</key>
+									<value>1</value>
+								</li>
+								<li>
+									<key>AB_RawRagadast</key>
+									<value>2</value>
+								</li>
+							</ingredientsAndOffsetList>
+						</VEF.Graphics.GraphicOffsets>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Oil"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			
+			<li>
+				<key>AB_GiantSeeds</key>
+				<value>Sunflower</value>
+			</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PressOil"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>AB_GiantSeeds</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PressOil"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AB_GiantSeeds</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_PressOil"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AB_GiantSeeds</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>AB_GiantSeeds</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AB_GiantSeeds</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_GrindIntoChips"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>AB_GiantSeeds</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Chips"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>AB_GiantSeeds</key>
+				<value>Sunflower seeds</value>
+			</li>
 			
 		</value>
 	</Operation>

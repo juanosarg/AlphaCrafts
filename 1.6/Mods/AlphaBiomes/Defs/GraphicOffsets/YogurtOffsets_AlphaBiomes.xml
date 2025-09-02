@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_YogurtOffsets_AB</defName>
+		<thingDef>VCE_Yoghurt</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>AB_RawTentacularFruit</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>AB_RawIashiphus</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>AB_RawSugarFamewort</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>AB_RawBloodBouquet</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>AB_RawRagadast</key>
+				<value>2</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>

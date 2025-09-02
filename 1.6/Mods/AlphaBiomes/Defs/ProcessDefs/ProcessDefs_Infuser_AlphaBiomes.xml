@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_OilAndPinkFungusToTruffleOil</defName>
+		<label>Infuse oil and pink fungus into truffle oil</label>
+		<description>Turns 15 oil and 50 pink fungus into 6 truffle oil.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Infuse 15 oil and 50 pink fungus into 6 truffle oil</labelOverride>
+		<priorityInBillList>3</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>AC_Oil</thing>
+				<countNeeded>15</countNeeded>
+			</li>
+			<li>
+				<thing>AB_PinkRawFungus</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>1200000</ticks>
+		<results>
+			<li>
+				<thing>AC_TruffleOil</thing>
+				<count>6</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	<PipeSystem.ProcessDef>
+		<defName>AC_OilAndBlueFungusToTruffleOil</defName>
+		<label>Infuse oil and blue fungus into truffle oil</label>
+		<description>Turns 15 oil and 50 blue fungus into 6 truffle oil.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Infuse 15 oil and 50 blue fungus into 6 truffle oil</labelOverride>
+		<priorityInBillList>3</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>AC_Oil</thing>
+				<countNeeded>15</countNeeded>
+			</li>
+			<li>
+				<thing>AB_BlueRawFungus</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>1200000</ticks>
+		<results>
+			<li>
+				<thing>AC_TruffleOil</thing>
+				<count>6</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	<PipeSystem.ProcessDef>
+		<defName>AC_OilAndPurpleFungusToTruffleOil</defName>
+		<label>Infuse oil and purple fungus into truffle oil</label>
+		<description>Turns 15 oil and 50 purple fungus into 6 truffle oil.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Infuse 15 oil and 50 purple fungus into 6 truffle oil</labelOverride>
+		<priorityInBillList>3</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>AC_Oil</thing>
+				<countNeeded>15</countNeeded>
+			</li>
+			<li>
+				<thing>AB_PurpleRawFungus</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>1200000</ticks>
+		<results>
+			<li>
+				<thing>AC_TruffleOil</thing>
+				<count>6</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+
+	
+
+</Defs>

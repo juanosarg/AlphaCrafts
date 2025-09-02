@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AC_RoyalSalve</defName>
+		<label>royal salve</label>
+		<description>A luxuriant balm of aloe vera enriched with rare royal insect jelly. Silken in texture and radiant in hue, this salve is prized for its ability to treat infections.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 royal salves requires 10 aloe vera salves and 5 royal insect jelly for a total value of 140, and sells for 25, giving a &lt;color=#33CC33&gt;44%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 1000 work, which results on a value per work of &lt;color=#33CC33&gt;0.25&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.05 Kg, for a value per Kg of &lt;color=#33CC33&gt;500&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, and assuming a constant royal insect jelly source, profit per day is &lt;color=#33CC33&gt;0.85&lt;/color&gt; (for reference Yayo is 0.35).\n\n&lt;color=#E5E54C&gt;Extra use:&lt;/color&gt; Royal salves can be applied to reduce the severity of an infection by 5%.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_RoyalSalve</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<Flammability>0.5</Flammability>
+			<Mass>0.05</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Targetable">
+				<compClass>CompTargetable_SinglePawn</compClass>
+			</li>
+			<li Class="CompProperties_Usable">
+				<useLabel>Use {0_label}</useLabel>
+				<useJob>AC_UseHealingItem</useJob>
+				<showUseGizmo>true</showUseGizmo>
+				<useDuration>600</useDuration>
+			</li>
+			<li Class="AlphaCrafts.CompProperties_UseEffectReduceInfections">
+				<reduction>0.05</reduction>
+			</li>
+		</comps>
+	</ThingDef>
+	
+</Defs>

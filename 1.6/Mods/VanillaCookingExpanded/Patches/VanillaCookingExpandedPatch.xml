@@ -75,6 +75,12 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_BalsamicVinegar"]/thingCategories</xpath>
+		<value>
+			<li>VCE_Condiments</li>			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AC_Flour"]/thingCategories</xpath>
 		<value>
 			<li>VCE_Condiments</li>			
@@ -112,6 +118,12 @@
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AC_InfusedOil"]/thingCategories</xpath>
+		<value>
+			<li>VCE_Condiments</li>			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_TruffleOil"]/thingCategories</xpath>
 		<value>
 			<li>VCE_Condiments</li>			
 		</value>

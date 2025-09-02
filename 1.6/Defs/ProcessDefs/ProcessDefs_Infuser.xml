@@ -30,6 +30,62 @@
 		
 	</PipeSystem.ProcessDef>
 	
+	<PipeSystem.ProcessDef>
+		<defName>AC_OilAndFungusToTruffleOil</defName>
+		<label>Infuse oil and fungus into truffle oil</label>
+		<description>Turns 15 oil and 50 raw fungus into 6 truffle oil.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Infuse 15 oil and 50 raw fungus into 6 truffle oil</labelOverride>
+		<priorityInBillList>2</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>AC_Oil</thing>
+				<countNeeded>15</countNeeded>
+			</li>
+			<li>
+				<thing>RawFungus</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>1200000</ticks>
+		<results>
+			<li>
+				<thing>AC_TruffleOil</thing>
+				<count>6</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	
+	<PipeSystem.ProcessDef>
+		<defName>AC_VinegarAndBerriesToBalsamic</defName>
+		<label>Infuse vinegar and berries into balsamic vinegar</label>
+		<description>Turns 15 vinegar and 50 berries into 12 balsamic vinegar.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Infuse 15 vinegar and 50 berries into 12 balsamic vinegar</labelOverride>
+		<priorityInBillList>10</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>AC_Vinegar</thing>
+				<countNeeded>15</countNeeded>
+			</li>
+			<li>
+				<thing>RawBerries</thing>
+				<countNeeded>50</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>900000</ticks>
+		<results>
+			<li>
+				<thing>AC_BalsamicVinegar</thing>
+				<count>12</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	
 	
 
 </Defs>

@@ -289,4 +289,56 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AC_IcedElixirHigh</defName>
+		<label>iced elixir high</label>
+		<labelNoun>an iced elixir high</labelNoun>
+		<description>Drank some iced elixir. Provides a heating sensation to the body, lowering the minimum comfortable temperature by 10°C.</description>
+		<hediffClass>Hediff_Alcohol</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.25</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+					
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AC_IcedElixirAsIngredient</defName>
+		<label>drank iced elixir based cocktail</label>
+		<makesSickThought>false</makesSickThought>
+		<description>This colonist drank a cocktail that had iced elixir as one of its ingredients. Provides a heating sensation to the body, lowering the minimum comfortable temperature by 10°C.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VEF.Cooking.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_IcedElixirAsIngredient</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+				
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

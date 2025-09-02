@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
 	<!-- Stews -->
-	
-	
 	<AC_InsertProduceDesc>Produce to Insert</AC_InsertProduceDesc>
 	<AC_StartInsertion>Bring Produce</AC_StartInsertion>
 	<AC_StartInsertionDesc>Bring produce to the artisan fermenter to start processing</AC_StartInsertionDesc>
@@ -13,7 +10,8 @@
 	<AC_CaskNotWorking>This artisan fermenter is not working at the moment</AC_CaskNotWorking>
 	<AC_InfuserNotWorking>This infuser is not working at the moment</AC_InfuserNotWorking>
 	<AC_CantRunQuest>Quest can't be run at the moment (likely culprit: no allies in the world to offer it)</AC_CantRunQuest>
-
+	<AC_TargetAPawn>Needs to target a colonist</AC_TargetAPawn>
+	<AC_NotOnGhouls>Can't be used on ghouls</AC_NotOnGhouls>
 	<AC_DisableQuests>Disable Artisan Trading quests</AC_DisableQuests>
 	<AC_DisableQuests_Description>Disables Artisan Trading quests from triggering. Bear in mind these quests are independent of any other quests or storyteller events (raids, manhunters, etc). They don't "take a slot"</AC_DisableQuests_Description>
 	<AC_QuestRate>Artisan Trading quest multiplier (lower means getting the event more often)</AC_QuestRate>
@@ -24,7 +22,6 @@
 	<AC_Reset>Reset</AC_Reset>
 	<AC_UseDropdownForMachines>Use dropdown designator for machines (requires game reload)</AC_UseDropdownForMachines>
 	<AC_UseDropdownForMachines_Description>If this is ON, all buildings added by this mod will appear under a single designator for the artisan workshop, and clicking on it will bring up a dropdown menu to select the rest. OFF by default as it confused people. Requires game reload.</AC_UseDropdownForMachines_Description>
-	
 	<AC_CondimentEffects>Condiment Effects</AC_CondimentEffects>
 	<AC_CondimentEffectsTitle>Acting as condiment (if VE Cooking is present)</AC_CondimentEffectsTitle>
 	<AC_CondimentEffectsButter>A rich, creamy dairy product made by churning cream, commonly used in cooking, baking, and as a spread. It gives a 10% bonus to Blood pumping for 12 hours.</AC_CondimentEffectsButter>
@@ -45,5 +42,6 @@
 	<AC_CondimentEffectsGravy>A rich, savory sauce made by combining meat drippings with flavorful stock, thickened for a smooth texture and bold flavor. Increases animal gather speed and yield for 10% for 12 hours.</AC_CondimentEffectsGravy>
 	<AC_CondimentEffectsOil>A versatile, high-quality liquid used for cooking, crafting, and various artisan processes. Increases toxic environment resistance for 10% for 12 hours.</AC_CondimentEffectsOil>
 	<AC_CondimentEffectsInfusedOil>Infused oil is crafted by steeping rich oil with herbal medicine or aromatic spices inside an infuser. Increases toxic environment resistance for 20% for 12 hours.</AC_CondimentEffectsInfusedOil>
-
+	<AC_CondimentEffectsBalsamicVinegar>By slowly infusing vinegar with fruit sugars, the mixture develops into a rich, dark balsamic vinegar. Boosts toxin resistance by 15% for 12 hours, aligning with its cleansing qualities.</AC_CondimentEffectsBalsamicVinegar>
+	<AC_CondimentEffectsSkySyrup>A rare, glimmering syrup distilled from aerofleet blue gel. Light as air yet richly sweet. Makes the colonist hover slightly over 12 hours, ignoring terrain movement costs.</AC_CondimentEffectsSkySyrup>
 </LanguageData>

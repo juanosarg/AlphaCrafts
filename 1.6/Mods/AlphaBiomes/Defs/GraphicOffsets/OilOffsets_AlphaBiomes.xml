@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_OilOffsets_AB</defName>
+		<thingDef>AC_Oil</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>AB_GiantSeeds</key>
+				<value>1</value>
+			</li>
+			
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>

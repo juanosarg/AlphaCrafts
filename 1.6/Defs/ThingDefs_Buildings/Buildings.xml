@@ -529,6 +529,8 @@
 				<notWorkingKey>AC_InfuserNotWorking</notWorkingKey>
 				<processes>
 					<li>AC_OilAndHerbalToInfusedOil</li>
+					<li>AC_VinegarAndBerriesToBalsamic</li>
+					<li>AC_OilAndFungusToTruffleOil</li>
 				</processes>
 				<progressBarOffset>(0,0,-1)</progressBarOffset>
 			</li>

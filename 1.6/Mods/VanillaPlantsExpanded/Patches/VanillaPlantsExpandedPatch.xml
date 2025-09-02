@@ -385,6 +385,13 @@
 			</categories>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Infuser"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+		<value>
+			<li>AC_VinegarAndFruitsToBalsamic</li>
+			
+		</value>
+	</Operation>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Brewing Expanded</li>

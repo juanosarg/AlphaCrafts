@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AC_DesertSalve</defName>
+		<label>desert salve</label>
+		<description>A soothing desert-born remedy, crafted by blending cooling aloe vera with the healing essence of cactipine quills.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 desert salves requires 10 aloe vera salves and 2 cactipine quills for a total value of 110, and sells for 20, giving a &lt;color=#33CC33&gt;45%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 750 work, which results on a value per work of &lt;color=#33CC33&gt;0.27&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.05 Kg, for a value per Kg of &lt;color=#33CC33&gt;400&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, and assuming a constant cactipine quills farm, profit per day is &lt;color=#33CC33&gt;0.70&lt;/color&gt; (for reference Yayo is 0.35).\n\n&lt;color=#E5E54C&gt;Extra use:&lt;/color&gt; Desert salves can be applied to reduce the severity of an infection by 5%.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_DesertSalve</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Flammability>0.5</Flammability>
+			<Mass>0.05</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Targetable">
+				<compClass>CompTargetable_SinglePawn</compClass>
+			</li>
+			<li Class="CompProperties_Usable">
+				<useLabel>Use {0_label}</useLabel>
+				<useJob>AC_UseHealingItem</useJob>
+				<showUseGizmo>true</showUseGizmo>
+				<useDuration>600</useDuration>
+			</li>
+			<li Class="AlphaCrafts.CompProperties_UseEffectReduceInfections">
+				<reduction>0.05</reduction>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>AC_SkySyrup</defName>
+		<label>sky syrup</label>
+		<description>A rare, glimmering syrup distilled from aerofleet blue gel. Light as air yet richly sweet.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 25 sky syrup requires 75 blue gel for a total value of 75, and sells for 6.50, giving a &lt;color=#33CC33&gt;53.85%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 650 work, which results on a value per work of &lt;color=#33CC33&gt;0.25&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.05 Kg, for a value per Kg of &lt;color=#33CC33&gt;130&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; Profit per day will depend heavily on the size of your aerofleet farm.</description>
+		<graphicData>
+			<texPath>Things/Item/AC_SkySyrup</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>6.50</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>0.5</Flammability>
+			<Mass>0.05</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+			
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<specialThoughtAsIngredient>AC_ConsumedSkySyrup</specialThoughtAsIngredient>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<foodType>Processed</foodType>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
+				<statToAdd>
+					<li>AC_CondimentEffects</li>
+				</statToAdd>
+				<statValues>
+					<li>AC_CondimentEffectsTitle</li>
+				</statValues>
+				<statDescriptions>
+					<li>AC_CondimentEffectsSkySyrup</li>
+				</statDescriptions>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+</Defs>

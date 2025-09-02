@@ -9,7 +9,7 @@
 		<useIngredients>true</useIngredients>
 		<spawnOnInteractionCell>true</spawnOnInteractionCell>
 		<labelOverride>Infuse 10 oil and 10 raw spices into 6 infused oil</labelOverride>
-		<priorityInBillList>0</priorityInBillList>
+		<priorityInBillList>1</priorityInBillList>
 		<ingredients>
 			<li>
 				<thing>AC_Oil</thing>

@@ -80,6 +80,19 @@
 		</stages>
 	</ThoughtDef>
 	<ThoughtDef>
+		<defName>AC_ConsumedBalsamicVinegar</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedVinegar</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed balsamic vinegar</label>
+				<description>Sharp, but also deliciously sweet.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
 		<defName>AC_ConsumedFishSauce</defName>
 		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
 		<hediff>AC_ConsumedFishSauce</hediff>
@@ -232,6 +245,20 @@
 				<label>consumed infused oil</label>
 				<description>What a delicate and balanced taste.</description>
 				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>AC_ConsumedSkySyrup</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedSkySyrup</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed sky syrup</label>
+				<description>It feels as if I could touch the sky!</description>
+				<baseMoodEffect>1</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_ChipsOffsets_AB</defName>
+		<thingDef>AC_Chips</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>AB_GiantSeeds</key>
+				<value>0</value>
+			</li>
+			
+			
+			
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+	
+	
+</Defs>

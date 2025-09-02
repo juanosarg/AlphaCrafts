@@ -3,25 +3,35 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AC_AloeVeraSalve</defName>
 		<label>aloe vera salve</label>
-		<description>A soothing, all-natural ointment made from the gel of the aloe vera plant. Known for its healing and moisturizing properties.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 aloe vera salves requires herbal medicine for a total value of 50, and sells for 9, giving a &lt;color=#33CC33&gt;44.44%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 750 work, which results on a value per work of &lt;color=#33CC33&gt;0.12&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.05 Kg, for a value per Kg of &lt;color=#33CC33&gt;180&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.31&lt;/color&gt; (for reference Yayo is 0.35).</description>
+		<description>A soothing, all-natural ointment made from the gel of the aloe vera plant. Known for its healing and moisturizing properties.\n\n&lt;color=#E5E54C&gt;Trade considerations:&lt;/color&gt;\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 10 aloe vera salves requires herbal medicine for a total value of 50, and sells for 9, giving a &lt;color=#33CC33&gt;44.44%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Value per work:&lt;/color&gt; Recipe requires 750 work, which results on a value per work of &lt;color=#33CC33&gt;0.12&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.05 Kg, for a value per Kg of &lt;color=#33CC33&gt;180&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, profit per day is &lt;color=#33CC33&gt;0.31&lt;/color&gt; (for reference Yayo is 0.35).\n\n&lt;color=#E5E54C&gt;Extra use:&lt;/color&gt; Aloe vera salves can be applied to reduce the severity of an infection by 2,5%.</description>
 		<graphicData>
 			<texPath>Things/Item/AC_AloeVeraSalve</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>9</MarketValue>		
+			<MarketValue>9</MarketValue>
 			<Flammability>0.5</Flammability>
 			<Mass>0.05</Mass>
 		</statBases>
 		<tradeability>Sellable</tradeability>
-		
 		<thingCategories>
 			<li>AC_ArtisanProducts</li>
 		</thingCategories>
-		
-		
+		<comps>
+			<li Class="CompProperties_Targetable">
+				<compClass>CompTargetable_SinglePawn</compClass>
+			</li>
+			<li Class="CompProperties_Usable">
+				<useLabel>Use {0_label}</useLabel>
+				<useJob>AC_UseHealingItem</useJob>
+				<showUseGizmo>true</showUseGizmo>
+				<useDuration>600</useDuration>
+			</li>
+			<li Class="AlphaCrafts.CompProperties_UseEffectReduceInfections">
+				<reduction>0.025</reduction>
+			</li>
+		</comps>
 	</ThingDef>
-	
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>AC_CornSyrup</defName>
 		<label>high fructose corn syrup</label>
@@ -37,14 +47,14 @@
 			<Mass>0.3</Mass>
 		</statBases>
 		<tradeability>Sellable</tradeability>
-		
 		<thingCategories>
 			<li>AC_ArtisanProducts</li>
 		</thingCategories>
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>AC_ConsumedCornSyrup</specialThoughtAsIngredient>
-			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals><foodType>Processed</foodType>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
 			<mergeCompatibilityTags>
@@ -53,22 +63,16 @@
 		</ingredient>
 		<modExtensions>
 			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
-				
 				<statToAdd>
 					<li>AC_CondimentEffects</li>
-						
 				</statToAdd>
 				<statValues>
 					<li>AC_CondimentEffectsTitle</li>
-									
 				</statValues>
 				<statDescriptions>
 					<li>AC_CondimentEffectsCornSyrup</li>
-					
 				</statDescriptions>
-				
 			</li>
 		</modExtensions>
 	</ThingDef>
-	
 </Defs>

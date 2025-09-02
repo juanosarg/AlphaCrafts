@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Graphics.GraphicOffsets>
+		<defName>AC_PickleOffsets_AB</defName>
+		<thingDef>AC_Pickles</thingDef>
+		<ingredientsAndOffsetList>
+			<li>
+				<key>AB_PinkRawFungus</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>AB_BlueRawFungus</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>AB_PurpleRawFungus</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>AB_RawBrownBarrelCactus</key>
+				<value>13</value>
+			</li>
+		</ingredientsAndOffsetList>
+	</VEF.Graphics.GraphicOffsets>
+</Defs>

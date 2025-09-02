@@ -24,5 +24,40 @@
 			
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_GrindHorns"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>MastodonTusk</li>
+			<li>AlphaThrumboHorn</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_GrindHorns"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>MastodonTusk</li>
+			<li>AlphaThrumboHorn</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_GrindHorns"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>MastodonTusk</li>
+			<li>AlphaThrumboHorn</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "AC_PowderedHorn"]/comps/li[@Class="AlphaCrafts.CompProperties_LabelByIngredients"]/overrides</xpath>
+		<value>
+			<li>
+				<key>MastodonTusk</key>
+				<value>powdered mastodon tusk</value>
+			</li>
+			<li>
+				<key>AlphaThrumboHorn</key>
+				<value>powdered alpha thrumbo horn</value>
+			</li>
+		</value>
+	</Operation>
 </Patch>
 

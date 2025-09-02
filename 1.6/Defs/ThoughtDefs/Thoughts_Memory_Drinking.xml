@@ -42,6 +42,19 @@
 		</stages>
 	</ThoughtDef>
 	<ThoughtDef>
+		<defName>AC_IcedElixirAsIngredient</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_IcedElixirAsIngredient</hediff>
+		<durationDays>0.2</durationDays>
+		<stages>
+			<li>
+				<label>drank iced elixir-based cocktail</label>
+				<description>Yummy.</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<ThoughtDef>
 		<defName>AC_ChichaMoradaAsIngredient</defName>
 		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
 		<hediff>AC_ChichaMoradaAsIngredient</hediff>
