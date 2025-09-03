@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_PourCandles"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>RB_Beeswax</li>
+			<li>RB_Brittlewax</li>
+			<li>RB_RedBeeswax</li>
+			<li>RB_HeavyWax</li>
+			<li>RB_WhiteBeeswax</li>
+			<li>RB_BlueBeeswax</li>
+			<li>RB_Steelwax</li>
+			<li>RB_BlackBeeswax</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_PourCandles"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>RB_Beeswax</li>
+			<li>RB_Brittlewax</li>
+			<li>RB_RedBeeswax</li>
+			<li>RB_HeavyWax</li>
+			<li>RB_WhiteBeeswax</li>
+			<li>RB_BlueBeeswax</li>
+			<li>RB_Steelwax</li>
+			<li>RB_BlackBeeswax</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "AC_PourCandles"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>RB_Beeswax</li>
+			<li>RB_Brittlewax</li>
+			<li>RB_RedBeeswax</li>
+			<li>RB_HeavyWax</li>
+			<li>RB_WhiteBeeswax</li>
+			<li>RB_BlueBeeswax</li>
+			<li>RB_Steelwax</li>
+			<li>RB_BlackBeeswax</li>
+		</value>
+	</Operation>
+	
+</Patch>
+

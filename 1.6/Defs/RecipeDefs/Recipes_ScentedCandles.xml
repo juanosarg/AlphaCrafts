@@ -51,5 +51,13 @@
 		<skillRequirements>
 			<Cooking>6</Cooking>
 		</skillRequirements>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>AC_Butter</baseline>
+				<exclusions>
+					<li>AC_Essence</li>
+				</exclusions>
+			</li>
+		</modExtensions>
 	</RecipeDef>
 </Defs>

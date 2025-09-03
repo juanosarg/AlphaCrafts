@@ -57,6 +57,30 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakeCaramelPopcorn"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawSugar</li>
+			<li>VCE_AgaveNectar</li>
+			<li>VCE_InsectJellyPreserves</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakeCaramelPopcorn"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawSugar</li>
+			<li>VCE_AgaveNectar</li>
+			<li>VCE_InsectJellyPreserves</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="AC_MakeCaramelPopcorn"]/defaultIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>VCE_RawSugar</li>
+			<li>VCE_AgaveNectar</li>
+			<li>VCE_InsectJellyPreserves</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AC_Butter"]/thingCategories</xpath>
 		<value>
 			<li>VCE_Condiments</li>			

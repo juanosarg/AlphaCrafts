@@ -93,4 +93,175 @@
 		
 		
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>AC_MakePopcorn</defName>
+		<label>make popcorn</label>
+		<description>Use the frier accessory to make popcorn from corn and oil.</description>
+		<jobString>Making popcorn.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>250</workAmount>
+		<recipeUsers>
+			<li>AC_OilPressWorkshop</li>
+			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCorn</li>
+						
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AC_Oil</li>
+						
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				<li>AC_Oil</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+				<li>AC_Oil</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_Popcorn>50</AC_Popcorn>
+		</products>
+		
+		
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>AC_MakeButteredPopcorn</defName>
+		<label>make buttered popcorn</label>
+		<description>Use the frier accessory to apply melted butter to popcorn, making them more delicious.</description>
+		<jobString>Making buttered popcorn.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>AC_OilPressWorkshop</li>
+			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AC_Popcorn</li>
+						
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AC_Butter</li>
+						
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AC_Popcorn</li>
+				<li>AC_Butter</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>AC_Popcorn</li>
+				<li>AC_Butter</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_ButteredPopcorn>25</AC_ButteredPopcorn>
+		</products>
+		
+		
+	</RecipeDef>
+	<RecipeDef>
+		<defName>AC_MakeCaramelPopcorn</defName>
+		<label>make caramel popcorn</label>
+		<description>Use the frier accessory to caramelize natural sugars over buttered popcorn, glazing them and making them even more delicious.</description>
+		<jobString>Making caramel popcorn.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>1000</workAmount>
+		<recipeUsers>
+			<li>AC_OilPressWorkshop</li>
+			
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AC_ButteredPopcorn</li>
+						
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+						<li>InsectJelly</li>
+						
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AC_ButteredPopcorn</li>
+				<li>RawBerries</li>
+				<li>InsectJelly</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>AC_ButteredPopcorn</li>
+				<li>RawBerries</li>
+				<li>InsectJelly</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_CaramelPopcorn>25</AC_CaramelPopcorn>
+		</products>
+		<modExtensions>
+			<li Class="AlphaCrafts.VariableOutputByIngredient">
+				<baseline>RawBerries</baseline>
+				<exclusions>
+					<li>AC_ButteredPopcorn</li>
+				</exclusions>
+			</li>
+		</modExtensions>
+		
+	</RecipeDef>
 </Defs>
