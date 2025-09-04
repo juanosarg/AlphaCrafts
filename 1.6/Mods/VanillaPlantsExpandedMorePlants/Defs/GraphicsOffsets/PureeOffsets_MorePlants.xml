@@ -12,6 +12,10 @@
 				<key>VCE_RawChickpeas</key>
 				<value>2</value>
 			</li>
+			<li>
+				<key>VCE_RawOlives</key>
+				<value>5</value>
+			</li>
 		</ingredientsAndOffsetList>
 	</VEF.Graphics.GraphicOffsets>
 </Defs>

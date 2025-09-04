@@ -262,5 +262,17 @@
 			</li>
 		</stages>
 	</ThoughtDef>
-	
+	<ThoughtDef>
+		<defName>AC_ConsumedVegemite</defName>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AC_ConsumedVegemite</hediff>
+		<durationDays>0.5</durationDays>
+		<stages>
+			<li>
+				<label>consumed vegemite</label>
+				<description>I don't know exactly what that thing was, and I'm not sure if I like it...</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 </Defs>

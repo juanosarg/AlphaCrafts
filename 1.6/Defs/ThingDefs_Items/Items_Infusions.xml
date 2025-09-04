@@ -160,4 +160,50 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>AC_Vegemite</defName>
+		<label>vegemite</label>
+		<description>A savory, salty paste born from wort and vegetable puree. Rich in umami, it’s as polarizing as it is iconic.\n\n&lt;color=#E5E54C&gt;Trade considerations&lt;/color&gt;:\n\n&lt;color=#E5E54C&gt;Ingredients:&lt;/color&gt; Making 5 vegemite requires 20 wort plus 3 puree for a total of 80 value, and sells for 30, giving a &lt;color=#33CC33&gt;46.67%&lt;/color&gt; profit per unit.\n\n&lt;color=#E5E54C&gt;Fermentation time:&lt;/color&gt; 10 days.\n\n&lt;color=#E5E54C&gt;Caravan trading:&lt;/color&gt; Its weight is 0.3 Kg, for a value per Kg of &lt;color=#33CC33&gt;100&lt;/color&gt;.\n\n&lt;color=#E5E54C&gt;Profit per day:&lt;/color&gt; On average, assuming potatoes to create the puree plus wort, profit per day is &lt;color=#33CC33&gt;0.70&lt;/color&gt; (for reference Yayo is 0.35).</description>
+		<graphicData>
+			<texPath>Things/Item/AC_Vegemite</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>30</MarketValue>
+			<Nutrition>0.01</Nutrition>
+			<Flammability>1</Flammability>
+			<Mass>0.3</Mass>
+		</statBases>
+		<tradeability>Sellable</tradeability>
+		
+		<thingCategories>
+			<li>AC_ArtisanProducts</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<foodType>Processed</foodType>
+			<specialThoughtAsIngredient>AC_ConsumedVegemite</specialThoughtAsIngredient>
+		</ingestible>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>Condiments</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+		<modExtensions>
+			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
+				<statToAdd>
+					<li>AC_CondimentEffects</li>
+				</statToAdd>
+				<statValues>
+					<li>AC_CondimentEffectsTitle</li>
+				</statValues>
+				<statDescriptions>
+					<li>AC_CondimentEffectsVegemite</li>
+				</statDescriptions>
+			</li>
+		</modExtensions>
+		
+	</ThingDef>
 </Defs>

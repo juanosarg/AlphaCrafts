@@ -317,6 +317,7 @@
 		<value>
 			<li>VCE_RawAvocado</li>
 			<li>VCE_RawChickpeas</li>
+			<li>VCE_RawOlives</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -324,6 +325,7 @@
 		<value>
 			<li>VCE_RawAvocado</li>
 			<li>VCE_RawChickpeas</li>
+			<li>VCE_RawOlives</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -331,6 +333,7 @@
 		<value>
 			<li>VCE_RawAvocado</li>
 			<li>VCE_RawChickpeas</li>
+			<li>VCE_RawOlives</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -343,6 +346,10 @@
 			<li>
 				<key>VCE_RawChickpeas</key>
 				<value>Hummus</value>
+			</li>
+			<li>
+				<key>VCE_RawOlives</key>
+				<value>Tapenade</value>
 			</li>
 		</value>
 	</Operation>

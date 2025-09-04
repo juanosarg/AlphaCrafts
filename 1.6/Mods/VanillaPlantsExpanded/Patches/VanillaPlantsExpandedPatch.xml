@@ -92,18 +92,21 @@
 		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/ingredients/li/filter/thingDefs</xpath>
 		<value>
 			<li>VCE_RawApple</li>
+			<li>VCE_RawEggplant</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/fixedIngredientFilter/thingDefs</xpath>
 		<value>
 			<li>VCE_RawApple</li>
+			<li>VCE_RawEggplant</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RecipeDef[defName="AC_MakePuree"]/defaultIngredientFilter/thingDefs</xpath>
 		<value>
 			<li>VCE_RawApple</li>
+			<li>VCE_RawEggplant</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -112,6 +115,10 @@
 			<li>
 				<key>VCE_RawApple</key>
 				<value>Applesauce</value>
+			</li>
+			<li>
+				<key>VCE_RawEggplant</key>
+				<value>Baba ghanoush</value>
 			</li>
 		</value>
 	</Operation>

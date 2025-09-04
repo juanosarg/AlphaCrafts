@@ -530,4 +530,32 @@
 		</comps>
 	</HediffDef>
 	
+	<HediffDef>
+		<defName>AC_ConsumedVegemite</defName>
+		<label>consumed vegemite (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>A savory, salty paste born from wort and vegetable puree. Rich in umami, it’s as polarizing as it is iconic. Increases Global Work Speed by 10% for 12 hours.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VEF.Cooking.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AC_ConsumedVegemite</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				
+				<statOffsets>
+					<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
 </Defs>

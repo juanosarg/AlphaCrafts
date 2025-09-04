@@ -8,6 +8,10 @@
 				<key>VCE_RawApple</key>
 				<value>0</value>
 			</li>
+			<li>
+				<key>VCE_RawEggplant</key>
+				<value>4</value>
+			</li>
 		</ingredientsAndOffsetList>
 	</VEF.Graphics.GraphicOffsets>
 </Defs>

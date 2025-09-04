@@ -49,4 +49,46 @@
 		</products>
 	</RecipeDef>
 	
+	<RecipeDef>
+		<defName>AC_CraftSkySyrup</defName>
+		<label>craft sky syrup</label>
+		<description>Turn blue gel into a sweet syrup with strange qualities.</description>
+		<jobString>Crafting sky syrup.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>false</allowMixingIngredients>
+		<workAmount>325</workAmount>
+		<recipeUsers>
+			<li>AC_ArtisanWorkshop</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AA_BlueGel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AA_BlueGel</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>AA_BlueGel</li>
+				
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<products>
+			<AC_SkySyrup>25</AC_SkySyrup>
+		</products>
+	</RecipeDef>
+	
 </Defs>

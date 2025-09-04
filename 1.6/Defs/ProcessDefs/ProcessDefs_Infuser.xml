@@ -86,6 +86,34 @@
 		
 	</PipeSystem.ProcessDef>
 	
+	<PipeSystem.ProcessDef>
+		<defName>AC_PureeAndWortToVegemite</defName>
+		<label>Make vegemite from brewer’s yeast</label>
+		<description>Turns 20 wort and 3 vegetable puree into 5 vegemite.</description>
+		<useIngredients>true</useIngredients>
+		<spawnOnInteractionCell>true</spawnOnInteractionCell>
+		<labelOverride>Infuse 20 wort and 3 vegetable puree into 5 vegemite</labelOverride>
+		<priorityInBillList>50</priorityInBillList>
+		<ingredients>
+			<li>
+				<thing>Wort</thing>
+				<countNeeded>20</countNeeded>
+			</li>
+			<li>
+				<thing>AC_Puree</thing>
+				<countNeeded>3</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>600000</ticks>
+		<results>
+			<li>
+				<thing>AC_Vegemite</thing>
+				<count>5</count>
+			</li>
+		</results>
+		
+	</PipeSystem.ProcessDef>
+	
 	
 
 </Defs>

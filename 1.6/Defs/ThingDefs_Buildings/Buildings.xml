@@ -531,6 +531,7 @@
 					<li>AC_OilAndHerbalToInfusedOil</li>
 					<li>AC_VinegarAndBerriesToBalsamic</li>
 					<li>AC_OilAndFungusToTruffleOil</li>
+					<li>AC_PureeAndWortToVegemite</li>
 				</processes>
 				<progressBarOffset>(0,0,-1)</progressBarOffset>
 			</li>

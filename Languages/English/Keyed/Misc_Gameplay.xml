@@ -44,4 +44,5 @@
 	<AC_CondimentEffectsInfusedOil>Infused oil is crafted by steeping rich oil with herbal medicine or aromatic spices inside an infuser. Increases toxic environment resistance for 20% for 12 hours.</AC_CondimentEffectsInfusedOil>
 	<AC_CondimentEffectsBalsamicVinegar>By slowly infusing vinegar with fruit sugars, the mixture develops into a rich, dark balsamic vinegar. Boosts toxin resistance by 15% for 12 hours, aligning with its cleansing qualities.</AC_CondimentEffectsBalsamicVinegar>
 	<AC_CondimentEffectsSkySyrup>A rare, glimmering syrup distilled from aerofleet blue gel. Light as air yet richly sweet. Makes the colonist hover slightly over 12 hours, ignoring terrain movement costs.</AC_CondimentEffectsSkySyrup>
+	<AC_CondimentEffectsVegemite>A savory, salty paste born from wort and vegetable puree. Rich in umami, it’s as polarizing as it is iconic. Increases Global Work Speed by 10% for 12 hours.</AC_CondimentEffectsVegemite>
 </LanguageData>

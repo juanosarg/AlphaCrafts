@@ -204,7 +204,7 @@
 	<RecipeDef>
 		<defName>AC_MakeCaramelPopcorn</defName>
 		<label>make caramel popcorn</label>
-		<description>Use the frier accessory to caramelize natural sugars over buttered popcorn, glazing them and making them even more delicious.</description>
+		<description>Use the frier accessory to caramelize natural sugars over buttered popcorn, glazing them and making them even more delicious. Yield of the recipe will depend on the sweetener being used to get the caramel popcorn, with 25 berries producing 25 popcorn.</description>
 		<jobString>Making caramel popcorn.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
