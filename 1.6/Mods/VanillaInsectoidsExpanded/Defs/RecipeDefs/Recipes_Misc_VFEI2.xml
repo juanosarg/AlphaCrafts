@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<RecipeDef>
-		<defName>AC_CraftDesertSalve</defName>
-		<label>craft desert salve</label>
-		<description>Mix aloe vera salves with medicinal cactipine quills to concentrate their healing properties.</description>
-		<jobString>Crafting desert salve.</jobString>
+		<defName>AC_CraftRoyalSalve</defName>
+		<label>craft royal salve</label>
+		<description>Mix aloe vera salves with royal jelly to concentrate its healing properties.</description>
+		<jobString>Crafting royal salve.</jobString>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>false</allowMixingIngredients>
-		<workAmount>375</workAmount>
+		<workAmount>500</workAmount>
 		<recipeUsers>
 			<li>AC_ArtisanWorkshop</li>
 		</recipeUsers>
@@ -25,27 +25,27 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AA_CactipineQuill</li>
+						<li>VFEI2_RoyalInsectJelly</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>AC_AloeVeraSalve</li>
-				<li>AA_CactipineQuill</li>
+				<li>VFEI2_RoyalInsectJelly</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>AC_AloeVeraSalve</li>
-				<li>AA_CactipineQuill</li>
+				<li>VFEI2_RoyalInsectJelly</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<workSkill>Cooking</workSkill>
 		<products>
-			<AC_DesertSalve>10</AC_DesertSalve>
+			<AC_RoyalSalve>10</AC_RoyalSalve>
 		</products>
 	</RecipeDef>
 	
