@@ -153,6 +153,12 @@
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AC_Vegemite"]/thingCategories</xpath>
+		<value>
+			<li>VCE_Condiments</li>			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AC_VinegarCask"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
 		<value>
 			<li>AC_PorkToJamon</li>
