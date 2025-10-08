@@ -54,7 +54,15 @@
 			</value>
 		</match>
 	</Operation>
+	<Operation Class="AlphaCrafts.PatchOperation_Dropdown">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName= "AC_Infuser"]</xpath>
+			<value>
+				<designatorDropdown>AC_ArtisanMachines</designatorDropdown>
 	
+			</value>
+		</match>
+	</Operation>
 	
 	
 </Patch>
