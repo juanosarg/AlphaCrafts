@@ -1,10 +1,7 @@
 <loadFolders>
-
 	<v1.5>
 		<li>/</li>
 		<li>1.5</li>
-		
-		
 		<li IfModActive="VanillaExpanded.VPlantsEMore">1.5/Mods/VanillaPlantsExpandedMorePlants</li>
 		<li IfModActive="VanillaExpanded.VPlantsE">1.5/Mods/VanillaPlantsExpanded</li>
 		<li IfModActive="VanillaExpanded.VBrewECandT">1.5/Mods/VanillaBrewingExpandedCoffee</li>
@@ -14,15 +11,10 @@
 		<li IfModActive="VanillaExpanded.VCEF">1.5/Mods/VanillaFishingExpanded</li>
 		<li IfModActive="VanillaExpanded.VBrewE">1.5/Mods/VanillaBrewingExpanded</li>
 		<li IfModActive="Dubwise.DubsBadHygiene">1.5/Mods/DubsBadHygiene</li>
-	
-		
 	</v1.5>
-	
 	<v1.6>
 		<li>/</li>
 		<li>1.6</li>
-		
-		
 		<li IfModActive="VanillaExpanded.VPlantsEMore">1.6/Mods/VanillaPlantsExpandedMorePlants</li>
 		<li IfModActive="VanillaExpanded.VPlantsE">1.6/Mods/VanillaPlantsExpanded</li>
 		<li IfModActive="VanillaExpanded.VBrewECandT">1.6/Mods/VanillaBrewingExpandedCoffee</li>
@@ -41,6 +33,27 @@
 		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.6/Mods/VanillaInsectoidsExpanded</li>
 		<li IfModActive="sarg.rimbees">1.6/Mods/AlphaBees</li>
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="VanillaExpanded.VPlantsEMore">1.6/Mods/VanillaPlantsExpandedMorePlants</li>
+		<li IfModActive="VanillaExpanded.VPlantsE">1.6/Mods/VanillaPlantsExpanded</li>
+		<li IfModActive="VanillaExpanded.VBrewECandT">1.6/Mods/VanillaBrewingExpandedCoffee</li>
+		<li IfModActive="VanillaExpanded.VCookESushi">1.6/Mods/VanillaCookingExpandedSushi</li>
+		<li IfModActive="OskarPotocki.VFE.Medieval2">1.6/Mods/VanillaFactionsExpandedMedieval</li>
+		<li IfModActive="VanillaExpanded.VCookE">1.6/Mods/VanillaCookingExpanded</li>
+		<li IfModActive="VanillaExpanded.VCEF">1.6/Mods/VanillaFishingExpanded</li>
+		<li IfModActive="VanillaExpanded.VBrewE">1.6/Mods/VanillaBrewingExpanded</li>
+		<li IfModActive="Dubwise.DubsBadHygiene">1.6/Mods/DubsBadHygiene</li>
+		<li IfModActive="VanillaExpanded.VanillaFoodVarietyExpanded">1.6/Mods/VanillaFoodVarietyExpanded</li>
+		<li IfModActive="vanillaexpanded.skills">1.6/Mods/VanillaSkillsExpanded</li>
+		<li IfModActive="sarg.alphaanimals">1.6/Mods/AlphaAnimals</li>
+		<li IfModActive="sarg.alphabiomes">1.6/Mods/AlphaBiomes</li>
+		<li IfModActive="Ludeon.RimWorld.Anomaly">1.6/Mods/Anomaly</li>
+		<li IfModActive="Ludeon.RimWorld.Odyssey">1.6/Mods/Odyssey</li>
+		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.6/Mods/VanillaInsectoidsExpanded</li>
+		<li IfModActive="sarg.rimbees">1.6/Mods/AlphaBees</li>
+	</v1.7>
 </loadFolders>
 
 
